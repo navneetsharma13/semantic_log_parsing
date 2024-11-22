@@ -1,7 +1,7 @@
 # No Sync files
 
-NO_SYNC/config.ini
-
+private/config.ini
+src/config.ini
 
 
 # Byte-compiled / optimized / DLL files
