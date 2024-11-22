@@ -8,6 +8,7 @@ logger = logging.getLogger(__name__)
 
 class Format_output:
 
+    @staticmethod
     def format_response(response):
         reg = re.compile("`([^`]+)`")
         template = reg.findall(response)
@@ -20,21 +21,21 @@ class Format_output:
                 logger.warning("=" * 20)
             return response.strip() 
         
-    # save output in json format
+    @staticmethod
     def save_json_output(file_path, output):
         logger.info("output will be saved into " + str(file_path) + " in json format")
         with open(file_path, 'w') as file:
             json.dump(output, file)
-        logger.info("the ouput has been saved in json format!")
+        logger.info("the output has been saved in json format!")
 
-    # save raw output
+    @staticmethod
     def save_raw_output(file_path, output_list):
         logger.info("raw output will be saved into " + str(file_path))
         with open(file_path, 'w') as file:
             file.write('\n'.join(output_list))
         logger.info("raw output has been saved!")
 
-    # save prompt used to generate that results
+    @staticmethod
     def save_prompt(file_path, prompt):
         logger.info("the prompt: " + prompt)
         logger.info("will be saved into " + str(file_path))
@@ -42,37 +43,34 @@ class Format_output:
             file.write(prompt)
         logger.info("the prompt has been saved!")
 
-    # post-processing: change {} => <*>
-    # change regex with <[^>]*>* to convert <> => <*>
+    @staticmethod
     def format_string(unformatted):
         logger.info("the unformatted string: " + unformatted)
         formatted = re.sub(r'{[^}]*}*', '<*>', unformatted)
         logger.info("the formatted string: " + formatted)
         return formatted
 
-    # convert raw output into formatted csv file
+    @staticmethod
     def format_output_file_into_csv(raw_file_path, formatted_file_path):
         with open(raw_file_path, 'r') as raw_file:
-            with open(formatted_file_path, 'w', newline = '') as formatted_file:
+            with open(formatted_file_path, 'w', newline='') as formatted_file:
                 writer = csv.writer(formatted_file, delimiter=',', quoting=csv.QUOTE_MINIMAL)
                 header = ['LLM_output']
-                # write the header
                 writer.writerow(header)
-                # Writing each line from raw input file to formatted csv file after post-processing
                 for line in raw_file:
-                    formatted_log_line = format_string(line)
-                    formatted_file.write(str(formatted_log_line)) 
+                    formatted_log_line = Format_output.format_string(line)
+                    formatted_file.write(str(formatted_log_line))
         logger.info("the formatted csv file path: " + formatted_file_path)
-        logger.info("the output has been formatted!") 
+        logger.info("the output has been formatted!")
 
-    # add index as LineIds to formatted output file
+    @staticmethod
     def add_index(formatted_output_file_path):
         logger.info("add index as LineIDs to formatted output file...")
         df = pd.read_csv(formatted_output_file_path)
         df['Line_ID'] = df.index + 1
         df.to_csv(formatted_output_file_path, index=False)
 
-    # save int output
+    @staticmethod
     def save_int_output(file_path, output_list):
         logger.info("int output will be saved into " + str(file_path))
         with open(file_path, 'w') as file:
