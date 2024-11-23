@@ -63,12 +63,39 @@ class Format_output:
         logger.info("the formatted csv file path: " + formatted_file_path)
         logger.info("the output has been formatted!")
 
+    # @staticmethod
+    # def add_index(formatted_output_file_path):
+    #     logger.info("add index as LineIDs to formatted output file...")
+    #     df = pd.read_csv(formatted_output_file_path)
+    #     df['Line_ID'] = df.index + 1
+    #     df.to_csv(formatted_output_file_path, index=False)
+
     @staticmethod
     def add_index(formatted_output_file_path):
-        logger.info("add index as LineIDs to formatted output file...")
-        df = pd.read_csv(formatted_output_file_path)
-        df['Line_ID'] = df.index + 1
-        df.to_csv(formatted_output_file_path, index=False)
+        logger.info("Adding index as LineIDs to formatted output file...")
+
+        try:
+            # Reading the CSV with some error handling
+            df = pd.read_csv(
+                formatted_output_file_path,
+                sep=",",  # Adjust as needed based on your CSV format
+                quoting=csv.QUOTE_MINIMAL,
+                on_bad_lines='warn',  # Skip or warn about bad lines
+                error_bad_lines=False  # Ignore lines with too many/few columns
+            )
+            
+            # Adding an index column
+            df['Line_ID'] = df.index + 1
+
+            # Saving the updated CSV
+            df.to_csv(formatted_output_file_path, index=False)
+            logger.info("Successfully added index to the formatted output file.")
+            
+        except pd.errors.ParserError as e:
+            logger.error(f"Error parsing CSV file: {e}")
+        except Exception as e:
+            logger.error(f"An unexpected error occurred: {e}")
+
 
     @staticmethod
     def save_int_output(file_path, output_list):

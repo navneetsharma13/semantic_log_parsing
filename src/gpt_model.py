@@ -25,32 +25,32 @@ if openai_org_id:
 # openai.api_base = "https://api.openai.com/v1"
 
 # %%
-# Get completion from gpt-3.5-turbo model
 @retry(wait=wait_random_exponential(min=1, max=60), stop=stop_after_attempt(6), before_sleep=before_sleep_log(logging.getLogger(__name__), logging.DEBUG))
 def get_completion_from_gpt(prompt, model="gpt-3.5-turbo"):
     logging.info(f"Querying GPT with model = {model} and prompt = {prompt}")
     messages = [
-        {'role': 'system', 'content': 'You are a helpful assistant.'},
+        {"role": "system", "content": "You are a helpful assistant."},
         {"role": "user", "content": prompt}
     ]
-  
+
     try:
-        response = openai.ChatCompletion.create(
+        response = openai.chat.completions.create(
             model=model,
             messages=messages,
-            temperature=0.2  # Control the randomness of the model's output
+            temperature=0.2  # Adjust for the randomness of the output
         )
-        content = response['choices'][0]['message']["content"]
+        content = response.choices[0].message.content
         logging.info(content)
         return content
-    except Exception as e:
-        logging.error(f"Error occurred while querying OpenAI API: {e}")
-        raise e
+    except openai.error.OpenAIError as e:
+        logging.error(f"OpenAI API error: {e}")
+        raise e  # Retry via tenacity
 
 # %%
 def get_statistics_from_tenacity():
     logging.info("Retry statistics from Tenacity:")
     logging.info(get_completion_from_gpt.retry.statistics)
     print(get_completion_from_gpt.retry.statistics)
+
 
 # %%
