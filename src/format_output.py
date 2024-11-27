@@ -3,6 +3,7 @@ import json
 import re
 import pandas as pd
 import logging
+import os
 
 logger = logging.getLogger(__name__)
 
@@ -49,6 +50,27 @@ class Format_output:
         formatted = re.sub(r'{[^}]*}*', '<*>', unformatted)
         logger.info("the formatted string: " + formatted)
         return formatted
+
+    @staticmethod
+    def remove_TPL_from_output(raw_file_path, formatted_file_path):
+        # Define the file path
+        raw_output_file_path = raw_file_path  # Update to the correct path if needed
+        processed_output_file_path = formatted_file_path
+
+        # Ensure the directory for processed output exists
+        os.makedirs(os.path.dirname(processed_output_file_path), exist_ok=True)
+
+        # Read the raw output and remove the <TPL> tags
+        with open(raw_output_file_path, 'r') as raw_file:
+            raw_lines = raw_file.readlines()
+
+        processed_lines = [re.sub(r'</?TPL>', '', line).strip() for line in raw_lines]
+
+        # Write the processed output to a new file
+        with open(processed_output_file_path, 'w') as processed_file:
+            processed_file.writelines([line + '\n' for line in processed_lines])
+        print(f"Processed output saved to: {processed_output_file_path}")    
+
 
     @staticmethod
     def format_output_file_into_csv(raw_file_path, formatted_file_path):

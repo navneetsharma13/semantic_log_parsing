@@ -17,7 +17,9 @@ def load_files(ground_truth_file, parsed_log_file):
 
 # Step 2: Get Semantic Knowledge from LLM
 def get_semantic_prompt(parsed_log):
-    prompt = f"Given the following log entry: '{parsed_log}', provide the semantic understanding or context behind this log message. Include information that would help categorize and understand the reason and significance of the log."
+    prompt = f"Given the following log entry: '{parsed_log}', provide the semantic understanding
+      or context behind this log message. Include information that would help 
+    categorize and understand the reason and significance of the log."
     response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",  # Use your preferred model
         messages=[{"role": "user", "content": prompt}],
