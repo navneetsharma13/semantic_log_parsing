@@ -5,17 +5,17 @@ import pandas as pd
 base_path = 'data/loghug/2k_dataset'  # Replace with the actual path to your folders
 
 # Define the path where individual modified datasets should be saved
-output_individual_path = 'data/loghug/input_logs/'  # Directory for individual modified files
+output_individual_path = 'data/loghug/individual_logs/'  # Directory for individual modified files
 # Ensure the output directory for individual files exists
 os.makedirs(output_individual_path, exist_ok=True)
 
 # Define the path where the final combined dataset should be saved
-output_rawlogs_combined_path = 'data/loghug/input_logs/combined_raw_logs.txt'
+output_rawlogs_combined_path = 'data/loghug/combined_raw_logs.txt'
 # Ensure the output directory for the final dataset exists
 os.makedirs(os.path.dirname(output_rawlogs_combined_path), exist_ok=True)
 
 # Define the path where the ground truth template should be saved
-output_ground_truth_path = 'data/loghug/input_logs/ground_truth_template.csv'
+output_ground_truth_path = 'data/loghug/ground_truth_template.csv'
 # Ensure the output directory for the ground truth file exists
 os.makedirs(os.path.dirname(output_ground_truth_path), exist_ok=True)
 
@@ -56,9 +56,9 @@ for folder in folders:
     # Extract the LineId column to identify which raw log lines we need
     line_ids = unique_event_df['LineId']
 
-    # Read the raw log file into a list of lines
+    # Read the raw log file into a list of lines, ignoring any trailing empty lines
     with open(file_path_rawlogs, 'r') as raw_log_file:
-        raw_log_lines = raw_log_file.readlines()
+        raw_log_lines = [line.rstrip() for line in raw_log_file if line.strip()]
 
     # Select the raw log lines using the LineId values
     selected_raw_lines = []
@@ -72,7 +72,7 @@ for folder in folders:
     all_selected_raw_lines.extend(selected_raw_lines)
 
     # Extract the required columns: System, EventId, Content, EventTemplate
-    df_ground_truth = unique_event_df[['System', 'EventTemplate']].copy()
+    df_ground_truth = unique_event_df[['System','EventTemplate']].copy()
     # Append the rows to the ground truth data list
     ground_truth_data.append(df_ground_truth)
     
@@ -88,7 +88,8 @@ combined_ground_truth_df.to_csv(output_ground_truth_path, index=False)
 
 # Write all selected raw log lines to the output text file without any additional formatting
 with open(output_rawlogs_combined_path, 'w') as output_file:
-    output_file.writelines(all_selected_raw_lines)
+    # Add a newline after each raw log line to match original format
+    output_file.writelines([line + '\n' for line in all_selected_raw_lines])
 
 # Optional print statements to verify the number of lines written and consistency
 print(f"Total number of raw log lines written: {len(all_selected_raw_lines)}")
