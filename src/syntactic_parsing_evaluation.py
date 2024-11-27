@@ -4,8 +4,8 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 
 
 # File paths
-ground_truth_file_path = 'data/loghub_2k/sample_ground_truth_template.csv'  # Update the path if necessary
-processed_output_file_path = 'results/20241127210156/formatted_results/output_processed.txt'
+ground_truth_file_path = 'data/loghub_2k/ground_truth_template.csv'  # Update the path if necessary
+processed_output_file_path = 'results/20241127211340/formatted_results/output_processed.txt'
 
 
 # Load ground truth data
@@ -65,6 +65,7 @@ plt.show()
 metrics = ['Accuracy', 'Precision', 'Recall', 'F1 Score']
 values = [accuracy, precision, recall, f1]
 
+# Static visualization using Matplotlib
 plt.figure(figsize=(8, 5))
 plt.bar(metrics, values, color='lightgreen')
 plt.xlabel('Metrics')
@@ -72,4 +73,6 @@ plt.ylabel('Score')
 plt.title('Evaluation Metrics for Parsing')
 plt.ylim(0, 1)
 plt.tight_layout()
+plt.savefig('results/evaluation_metrics.png')
+plt.savefig('results/evaluation_metrics.pdf')
 plt.show()
