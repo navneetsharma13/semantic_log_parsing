@@ -40,8 +40,8 @@ for folder in folders:
     df = pd.read_csv(file_path_structured_corrected)
     
     # Select 5 random rows from the DataFrame
-    if len(df) >= 5:
-        sample_df = df.sample(n=5, random_state=42)
+    if len(df) >= 15:
+        sample_df = df.sample(n=15, random_state=42)
     else:
         sample_df = df  # If less than 5 rows, take all rows
     
