@@ -14,9 +14,7 @@ The repository contains several Python files and notebooks, each responsible for
 
 - **format_output.py**: This script formats the output from the language models. It includes functions for saving results in different formats (e.g., JSON, CSV) and formatting the strings to be more readable.
 
-- **log_parisng_evaluation.py**: This file implements the evaluation workflow for comparing ground-truth log entries with parsed outputs. It calculates accuracy, precision, recall, and F1-score to evaluate model performance.
-
-- **evaluation.ipynb & syntactic_log_parsing.ipynb**: These Jupyter notebooks provide an interactive environment for running evaluations and experiments on log parsing and model interactions.
+- **semantic_log_parsing.ipynb & syntactic_log_parsing.ipynb**: These Jupyter notebooks provide an interactive environment for running evaluations and experiments on log parsing and model interactions.
 
 - **ground_truth_corrected_by_Khan2022.txt & log_messages_corrected.txt**: These files contain ground truth and corrected log messages for evaluation purposes. The log entries serve as the benchmark for comparing the model's predictions.
 
