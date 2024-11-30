@@ -2,11 +2,8 @@ import os
 import pandas as pd
 import random
 
-# Define the base path where the folders are located
-base_path = 'data/loghub_2k/2k_dataset'  # Replace with the actual path to your folders
-
-# Define the path where individual modified datasets are saved
-modified_individual_path = 'data/loghub_2k/individual_logs/'  # Directory for individual modified files
+# Define the base path where the individual modified logs are located
+individual_logs_path = 'data/loghub_2k/individual_logs'  # Directory for individual modified files
 
 # Define the path where the sample combined raw logs should be saved
 sample_rawlogs_combined_path = 'data/loghub_2k/sample_combined_raw_logs.txt'
@@ -32,21 +29,23 @@ all_selected_raw_lines = []
 
 # Loop through each folder
 for folder in folders:
-    # Construct the file paths
-    file_path_structured_corrected = os.path.join(modified_individual_path, f"{folder}_modified_logs.csv")
-    file_path_rawlogs = os.path.join(base_path, folder, f"{folder}_2k.log")
+    # Construct the file path for the individual modified log CSV
+    individual_log_file = os.path.join(individual_logs_path, f"{folder}_modified_logs.csv")
     
-    # Load the structured CSV file into a pandas DataFrame
-    df = pd.read_csv(file_path_structured_corrected)
+    # Load the individual modified CSV file into a pandas DataFrame
+    df = pd.read_csv(individual_log_file)
     
-    # Select 5 random rows from the DataFrame
+    # Select 15 random rows from the DataFrame
     if len(df) >= 15:
         sample_df = df.sample(n=15, random_state=42)
     else:
-        sample_df = df  # If less than 5 rows, take all rows
-    
+        sample_df = df  # If less than 15 rows, take all rows
+
     # Extract the LineId column to identify which raw log lines we need
     line_ids = sample_df['LineId']
+
+    # Construct the file path for the raw log file
+    file_path_rawlogs = os.path.join('data/loghub_2k/2k_dataset', folder, f"{folder}_2k.log")
 
     # Read the raw log file into a list of lines, ignoring any trailing empty lines
     with open(file_path_rawlogs, 'r') as raw_log_file:
@@ -63,8 +62,8 @@ for folder in folders:
     # Append the selected raw lines to the combined list
     all_selected_raw_lines.extend(selected_raw_lines)
 
-    # Extract the required columns: System, EventId, Content, EventTemplate
-    df_ground_truth = sample_df[['System', 'EventTemplate']].copy()
+    # Extract the required columns: System, EventTemplate
+    df_ground_truth = sample_df[['System', 'EventTemplate', 'VariableTemplate']].copy()
     # Append the rows to the ground truth data list
     ground_truth_data.append(df_ground_truth)
 
