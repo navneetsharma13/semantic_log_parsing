@@ -63,7 +63,7 @@ for folder in folders:
     all_selected_raw_lines.extend(selected_raw_lines)
 
     # Extract the required columns: System, EventTemplate
-    df_ground_truth = sample_df[['System', 'EventTemplate', 'VariableTemplate']].copy()
+    df_ground_truth = sample_df[['System', 'EventTemplate', 'OID', 'LOI', 'OBN', 'TID', 'SID', 'TDA', 'CRS', 'OBA', 'STC', 'OTP']].copy()
     # Append the rows to the ground truth data list
     ground_truth_data.append(df_ground_truth)
 
