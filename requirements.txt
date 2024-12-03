@@ -19,3 +19,4 @@ matplotlib-3.9.2
 pillow-11.0.0
 pyparsing-3.2.0
 matplotlib-venn-1.1.1
+seaborn-0.13.2
