@@ -1,18 +1,19 @@
 import os
 import pandas as pd
+import random
 
 # Define the base path where the individual modified logs are located
 individual_logs_path = 'data/loghub_2k/individual_logs'  # Directory for individual modified files
 
-# Define the path where the final combined dataset should be saved
-output_rawlogs_combined_path = 'data/loghub_2k/combined_raw_logs.txt'
-# Ensure the output directory for the final dataset exists
-os.makedirs(os.path.dirname(output_rawlogs_combined_path), exist_ok=True)
+# Define the path where the combined raw logs should be saved
+rawlogs_combined_path = 'data/loghub_2k/combined_raw_logs.txt'
+# Ensure the output directory for the sample combined dataset exists
+os.makedirs(os.path.dirname(rawlogs_combined_path), exist_ok=True)
 
 # Define the path where the ground truth template should be saved
-output_ground_truth_path = 'data/loghub_2k/ground_truth_template.csv'
-# Ensure the output directory for the ground truth file exists
-os.makedirs(os.path.dirname(output_ground_truth_path), exist_ok=True)
+ground_truth_path = 'data/loghub_2k/ground_truth_template.csv'
+# Ensure the output directory for the sample ground truth file exists
+os.makedirs(os.path.dirname(ground_truth_path), exist_ok=True)
 
 # List of all folder names
 folders = [
@@ -33,10 +34,6 @@ for folder in folders:
     
     # Load the individual modified CSV file into a pandas DataFrame
     df = pd.read_csv(individual_log_file)
-
-    # Ensure no missing 'LineId' values before proceeding
-    df = df.dropna(subset=['LineId']).copy()
-    df['LineId'] = df['LineId'].astype(int)
 
     # Extract the LineId column to identify which raw log lines we need
     line_ids = df['LineId']
@@ -60,7 +57,7 @@ for folder in folders:
     all_selected_raw_lines.extend(selected_raw_lines)
 
     # Extract the required columns: System, EventTemplate
-    df_ground_truth = df[['System', 'EventTemplate', 'VariableTemplate']].copy()
+    df_ground_truth = df[['System', 'EventTemplate', 'OID', 'LOI', 'OBN', 'TID', 'SID', 'TDA', 'CRS', 'OBA', 'STC', 'OTP']].copy()
     # Append the rows to the ground truth data list
     ground_truth_data.append(df_ground_truth)
 
@@ -68,10 +65,10 @@ for folder in folders:
 combined_ground_truth_df = pd.concat(ground_truth_data, ignore_index=True)
 
 # Save the resulting ground truth DataFrame to a new CSV file
-combined_ground_truth_df.to_csv(output_ground_truth_path, index=False)
+combined_ground_truth_df.to_csv(ground_truth_path, index=False)
 
 # Write all selected raw log lines to the output text file without any additional formatting
-with open(output_rawlogs_combined_path, 'w') as output_file:
+with open(rawlogs_combined_path, 'w') as output_file:
     # Add a newline after each raw log line to match original format
     output_file.writelines([line + '\n' for line in all_selected_raw_lines])
 
