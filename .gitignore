@@ -4,8 +4,10 @@ private/config.ini
 src/config.ini
 results
 data
-
+private
 notes
+src/data_processing/old_version
+
 
 
 
