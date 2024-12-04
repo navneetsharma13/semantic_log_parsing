@@ -52,5 +52,3 @@ def get_statistics_from_tenacity():
     logging.info(get_completion_from_gpt.retry.statistics)
     print(get_completion_from_gpt.retry.statistics)
 
-
-# %%

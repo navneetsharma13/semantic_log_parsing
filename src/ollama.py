@@ -1,24 +1,39 @@
-import subprocess
-import os
+import sys
+import logging
+from openai import OpenAI
+from tenacity import retry, stop_after_attempt, wait_random_exponential, before_sleep_log
 
-def query_ollama(model_name, prompt):
-    # Add Ollama to PATH
-    ollama_path = "/usr/local/bin"  # Use the output from `which ollama`
-    os.environ["PATH"] += os.pathsep + ollama_path
+# Create client for local instance
+client = OpenAI(
+    base_url='http://localhost:11434/v1',
+    api_key='ollama',  # required, but unused in this context
+)
 
+
+# Model options - deepseek-v2:16b, codegemma:7b, qwen2.5-coder:3b, llama2:latest
+
+@retry(wait=wait_random_exponential(min=1, max=60), stop=stop_after_attempt(6), before_sleep=before_sleep_log(logging.getLogger(__name__), logging.DEBUG))
+def get_completion_from_ollama(prompt, model="deepseek-v2:16b"):
+    logging.info(f"Querying Qwen with model = {model} and prompt = {prompt}")
+    messages = [
+        {"role": "system", "content": "You are a helpful assistant."},
+        {"role": "user", "content": prompt}
+    ]
     try:
-        result = subprocess.run(
-            ["ollama", "run", model_name, prompt],
-            text=True,
-            capture_output=True,
-            check=True
+        response = client.chat.completions.create(
+            model=model,
+            messages=messages,
+            temperature=0.2  # Adjust for the randomness of the output
         )
-        return result.stdout.strip()
-    except subprocess.CalledProcessError as e:
-        print(f"Error calling Ollama model {model_name}: {e}")
-        return None
+        content = response.choices[0].message.content
+        logging.info(content)
+        return content
+    except Exception as e:
+        logging.error(f"Local API error: {e}")
+        raise e  # Retry via tenacity
 
-# # Example usage
-# prompt = "What is the capital of France?"
-# response = query_ollama("llama2", prompt)
-# print(response)
+if __name__ == "__main__":
+    logging.basicConfig(level=logging.INFO)
+    prompt = "Say hello to my friend next to me, she is little but super strong. her name is brittany and make a beautiful message to make her happy."
+    response = get_completion_from_ollama(prompt)
+    print(response)
