@@ -13,6 +13,21 @@ dataset_names = [
     'Spark', 'HDFS', 'OpenStack', 'Thunderbird'
 ]
 
+# Annotation Categories
+categories = {
+    'OID': 'Object ID',
+    'LOI': 'Location Indicator',
+    'OBN': 'Object Name',
+    'TID': 'Type Indicator',
+    'SID': 'Switch Indicator',
+    'TDA': 'Time or Duration of an Action',
+    'CRS': 'Computing Resources',
+    'OBA': 'Object Amount',
+    'STC': 'Status Code',
+    'OTP': 'Other Parameters'
+}
+
+
 total_found = 0
 # Iterate over each dataset
 for dataset_name in dataset_names:
@@ -69,10 +84,14 @@ for dataset_name in dataset_names:
     # Add the VariableTemplate column to the DataFrame
     unique_event_df['VariableTemplate'] = variable_templates
 
+    # Add columns for each category to count occurrences in VariableTemplate
+    for category in categories.keys():
+        unique_event_df[category] = unique_event_df['VariableTemplate'].apply(lambda x: x.split().count(category) if pd.notna(x) else 0)
+
     # Save the updated DataFrame to an individual CSV file
     unique_event_df.to_csv(modified_log_path, index=False)
     total_found = total_found+found
     print(f'Found: {found}')
 
 print("Processing complete.")
-print(f'Found: {total_found}')
+print(f'Total Found: {total_found}')
