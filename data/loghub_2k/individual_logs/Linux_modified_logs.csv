@@ -1,0 +1,119 @@
+LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate,System,VariableTemplate,OID,LOI,OBN,TID,SID,TDA,CRS,OBA,STC,OTP
+1,Jun,14,15:16:01,combo,sshd(pam_unix),19939.0,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.188.2.4,Linux_E16,authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*>,Linux,O O O O O O O LOI LOI O TDA TDA TDA TDA TDA,0,2,0,0,0,5,0,0,0,0
+2,Jun,14,15:16:02,combo,sshd(pam_unix),19937.0,check pass; user unknown,Linux_E27,check pass; user unknown,Linux,O O O O O O O LOI LOI O TDA TDA TDA TDA TDA,0,2,0,0,0,5,0,0,0,0
+4,Jun,15,02:04:59,combo,sshd(pam_unix),20882.0,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=220-135-151-1.hinet-ip.hinet.net  user=root,Linux_E18,authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*> user=<*>,Linux,O O O O O O O O O O O O LOI,0,1,0,0,0,0,0,0,0,0
+14,Jun,15,04:06:18,combo,su(pam_unix),21416.0,session opened for user cyrus by (uid=0),Linux_E102,session opened for user <*> by (uid=<*>),Linux,O O O O O O O LOI LOI O TDA TDA TDA TDA TDA,0,2,0,0,0,5,0,0,0,0
+15,Jun,15,04:06:19,combo,su(pam_unix),21416.0,session closed for user cyrus,Linux_E101,session closed for user <*>,Linux,O O O O O O O O O,0,0,0,0,0,0,0,0,0,0
+16,Jun,15,04:06:20,combo,logrotate,,ALERT exited abnormally with [1],Linux_E8,ALERT exited abnormally with [<*>],Linux,O O O O O O O LOI LOI O TDA TDA TDA TDA TDA,0,2,0,0,0,5,0,0,0,0
+83,Jun,17,07:07:00,combo,ftpd,29504.0,connection from 24.54.76.216 (24-54-76-216.bflony.adelphia.net) at Fri Jun 17 07:07:00 2005,Linux_E29,connection from <*> (<*>) at <*>:<*>:<*>,Linux,O O O O O LOI O,0,1,0,0,0,0,0,0,0,0
+91,Jun,17,19:43:13,combo,sshd(pam_unix),30565.0,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211.46.224.253  user=guest,Linux_E17,authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*> user=guest,Linux,O O O O O O O O O OBN,0,0,1,0,0,0,0,0,0,0
+136,Jun,18,02:23:10,combo,ftpd,31277.0,User unknown timed out after 900 seconds at Sat Jun 18 02:23:10 2005,Linux_E112,User unknown timed out after <*> seconds at <*>:<*>:<*> <*>,Linux,O O O O O O O O O O,0,0,0,0,0,0,0,0,0,0
+144,Jun,19,04:08:57,combo,cups,,cupsd shutdown succeeded,Linux_E37,cupsd shutdown succeeded,Linux,O O O O O O O LOI LOI O TDA TDA TDA TDA TDA,0,2,0,0,0,5,0,0,0,0
+145,Jun,19,04:09:02,combo,cups,,cupsd startup succeeded,Linux_E38,cupsd startup succeeded,Linux,O O O O O O O LOI LOI O TDA TDA TDA TDA TDA,0,2,0,0,0,5,0,0,0,0
+146,Jun,19,04:09:11,combo,syslogd 1.4.1,,restart.,Linux_E90,restart.,Linux,O O O O O O O O O O O O LOI O,0,1,0,0,0,0,0,0,0,0
+167,Jun,20,04:44:39,combo,snmpd,2318.0,Received SNMP packet(s) from 67.170.148.126,Linux_E88,Received SNMP packet(s) from <*>,Linux,O O O O O O O O O O O O LOI O,0,1,0,0,0,0,0,0,0,0
+539,Jun,30,20:53:04,combo,klogind,19272.0,Authentication failed from 163.27.187.39 (163.27.187.39): Permission denied in replay cache code,Linux_E13,Authentication failed from <*> (<*>): Permission denied in replay cache code,Linux,O O O O O O O O O O O O LOI O,0,1,0,0,0,0,0,0,0,0
+540,Jun,30,20:53:04,combo,klogind,19272.0,Kerberos authentication failed,Linux_E61,Kerberos authentication failed,Linux,O O O O O O O LOI LOI O TDA TDA TDA TDA TDA,0,2,0,0,0,5,0,0,0,0
+553,Jun,30,20:53:04,combo,klogind,19274.0,Authentication failed from 163.27.187.39 (163.27.187.39): Software caused connection abort,Linux_E14,Authentication failed from <*> (<*>): Software caused connection abort,Linux,O O O O O O O LOI LOI O TDA TDA TDA TDA TDA,0,2,0,0,0,5,0,0,0,0
+896,Jul,7,08:06:12,combo,gpm,2094.0,*** info [mice.c(1766)]:,Linux_E1,*** info [mice.c(<*>)]:,Linux,O O O O O O O LOI LOI O TDA TDA TDA TDA TDA,0,2,0,0,0,5,0,0,0,0
+897,Jul,7,08:06:12,combo,gpm,2094.0,imps2: Auto-detected intellimouse PS/2,Linux_E51,imps2: Auto-detected intellimouse PS/<*>,Linux,O O O O O O O LOI LOI O TDA TDA TDA TDA TDA,0,2,0,0,0,5,0,0,0,0
+898,Jul,7,08:06:15,combo,login(pam_unix),2421.0,session opened for user root by LOGIN(uid=0),Linux_E103,session opened for user <*> by LOGIN(uid=<*>),Linux,O O O O O O O O O O O O LOI O,0,1,0,0,0,0,0,0,0,0
+899,Jul,7,08:06:15,combo,-- root,2421.0,ROOT LOGIN ON tty2,Linux_E91,<*> LOGIN ON tty2,Linux,O O O O O O O LOI LOI O TDA TDA TDA TDA TDA,0,2,0,0,0,5,0,0,0,0
+901,Jul,7,08:09:11,combo,udev,12754.0,removing device node '/udev/vcsa2',Linux_E89,removing device node '<*>',Linux,O O O O O O O LOI LOI O TDA TDA TDA TDA TDA,0,2,0,0,0,5,0,0,0,0
+903,Jul,7,08:09:11,combo,udev,12777.0,creating device node '/udev/vcs2',Linux_E36,creating device node '<*>',Linux,O O O O O O O LOI LOI O TDA TDA TDA TDA TDA,0,2,0,0,0,5,0,0,0,0
+953,Jul,8,20:14:55,combo,sshd(pam_unix),20963.0,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=212.0.132.20  user=test,Linux_E19,authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*> user=test,Linux,O O O O O O O O O O O O LOI O,0,1,0,0,0,0,0,0,0,0
+1242,Jul,11,11:33:13,combo,gdm(pam_unix),2803.0,authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=,Linux_E15,authentication failure; logname= uid=<*> euid=<*> tty=:<*> ruser= rhost=,Linux,O O O O O O O LOI LOI O TDA TDA TDA TDA TDA,0,2,0,0,0,5,0,0,0,0
+1243,Jul,11,11:33:17,combo,gdm-binary,2803.0,Couldn't authenticate user,Linux_E31,Couldn't authenticate user,Linux,O O O O O O O LOI LOI O TDA TDA TDA TDA TDA,0,2,0,0,0,5,0,0,0,0
+1748,Jul,24,02:38:23,combo,ftpd,16781.0,"ANONYMOUS FTP LOGIN FROM 84.102.20.2,  (anonymous)",Linux_E9,"ANONYMOUS FTP LOGIN FROM <*>, (anonymous)",Linux,O O O O O O O O O O O O LOI O,0,1,0,0,0,0,0,0,0,0
+1810,Jul,25,12:09:06,combo,named,2306.0,notify question section contains no SOA,Linux_E75,notify question section contains no SOA,Linux,O O O O O O O O O CRS O O O CRS,0,0,0,0,0,0,2,0,0,0
+1826,Jul,25,23:23:13,combo,ftpd,26463.0,getpeername (ftpd): Transport endpoint is not connected,Linux_E47,getpeername (ftpd): Transport endpoint is not connected,Linux,O O O O O O O LOI LOI O TDA TDA TDA TDA TDA,0,2,0,0,0,5,0,0,0,0
+1828,Jul,25,23:23:13,combo,xinetd,26482.0,warning: can't get client address: Connection reset by peer,Linux_E116,warning: can't get client address: Connection reset by peer,Linux,O O O O O O O LOI LOI O TDA TDA TDA TDA TDA,0,2,0,0,0,5,0,0,0,0
+1909,Jul,27,14:41:57,combo,syslog,,syslogd startup succeeded,Linux_E106,syslogd startup succeeded,Linux,O O O O O O O O LOI LOI O O O O,0,2,0,0,0,0,0,0,0,0
+1910,Jul,27,14:41:57,combo,kernel,,"klogd 1.4.1, log source = /proc/kmsg started.",Linux_E64,"klogd <*>, log source = <*> started.",Linux,O O O O O O O LOI LOI O TDA TDA TDA TDA TDA,0,2,0,0,0,5,0,0,0,0
+1911,Jul,27,14:41:57,combo,kernel,,Linux version 2.6.5-1.358 (bhcompile@bugs.build.redhat.com) (gcc version 3.3.3 20040412 (Red Hat Linux 3.3.3-7)) #1 Sat May 8 09:04:50 EDT 2004,Linux_E68,Linux version <*> (bhcompile@bugs.build.redhat.com) (gcc version <*> (Red Hat Linux <*>)) #<*> <*>:<*>:<*> EDT <*>,Linux,O O O O O O O O O O O O LOI O,0,1,0,0,0,0,0,0,0,0
+1912,Jul,27,14:41:57,combo,kernel,,BIOS-provided physical RAM map:,Linux_E22,BIOS-provided physical RAM map:,Linux,O O O O O O O LOI LOI O TDA TDA TDA TDA TDA,0,2,0,0,0,5,0,0,0,0
+1913,Jul,27,14:41:57,combo,kernel,,BIOS-e820: 0000000000000000 - 00000000000a0000 (usable),Linux_E21,BIOS-e820: <*> - <*> (usable),Linux,O O O O O O O LOI LOI O TDA TDA TDA TDA TDA,0,2,0,0,0,5,0,0,0,0
+1914,Jul,27,14:41:57,combo,kernel,,BIOS-e820: 00000000000f0000 - 0000000000100000 (reserved),Linux_E20,BIOS-e820: <*> - <*> (reserved),Linux,O O O O O O O O O O,0,0,0,0,0,0,0,0,0,0
+1918,Jul,27,14:41:57,combo,kernel,,0MB HIGHMEM available.,Linux_E2,<*> HIGHMEM available.,Linux,O O O O O O O LOI LOI O TDA TDA TDA TDA TDA,0,2,0,0,0,5,0,0,0,0
+1919,Jul,27,14:41:57,combo,kernel,,126MB LOWMEM available.,Linux_E3,<*> LOWMEM available.,Linux,O O O O O O O O O O O O LOI O,0,1,0,0,0,0,0,0,0,0
+1920,Jul,27,14:41:57,combo,kernel,,zapping low mappings.,Linux_E118,zapping low mappings.,Linux,O O O O O O O O O,0,0,0,0,0,0,0,0,0,0
+1921,Jul,27,14:41:57,combo,syslog,,klogd startup succeeded,Linux_E65,klogd startup succeeded,Linux,O O O O O O O O O O,0,0,0,0,0,0,0,0,0,0
+1922,Jul,27,14:41:57,combo,kernel,,On node 0 totalpages: 32430,Linux_E76,On node <*> totalpages: <*>,Linux,O O O O O O O LOI LOI O TDA TDA TDA TDA TDA,0,2,0,0,0,5,0,0,0,0
+1923,Jul,27,14:41:57,combo,kernel,,"DMA zone: 4096 pages, LIFO batch:1",Linux_E41,"DMA zone: <*> pages, LIFO batch:<*>",Linux,O O O O O O O LOI LOI O TDA TDA TDA TDA TDA,0,2,0,0,0,5,0,0,0,0
+1924,Jul,27,14:41:57,combo,kernel,,"Normal zone: 28334 pages, LIFO batch:6",Linux_E74,"Normal zone: <*> pages, LIFO batch:<*>",Linux,O O O O O O O O,0,0,0,0,0,0,0,0,0,0
+1925,Jul,27,14:41:57,combo,irqbalance,,irqbalance startup succeeded,Linux_E58,irqbalance startup succeeded,Linux,O O O O O O O O O O O O LOI O,0,1,0,0,0,0,0,0,0,0
+1926,Jul,27,14:41:57,combo,kernel,,"HighMem zone: 0 pages, LIFO batch:1",Linux_E50,"HighMem zone: <*> pages, LIFO batch:<*>",Linux,O O O O O O O O O O O O LOI,0,1,0,0,0,0,0,0,0,0
+1927,Jul,27,14:41:57,combo,kernel,,DMI 2.3 present.,Linux_E42,DMI <*> present.,Linux,O O O O O O O LOI LOI O TDA TDA TDA TDA TDA,0,2,0,0,0,5,0,0,0,0
+1928,Jul,27,14:41:57,combo,kernel,,ACPI disabled because your bios is from 2000 and too old,Linux_E4,ACPI disabled because your bios is from <*> and too old,Linux,O O O O O O O O O O O O LOI O,0,1,0,0,0,0,0,0,0,0
+1929,Jul,27,14:41:57,combo,kernel,,You can enable it with acpi=force,Linux_E117,You can enable it with acpi=force,Linux,O O O O O O O LOI LOI O TDA TDA TDA TDA TDA,0,2,0,0,0,5,0,0,0,0
+1930,Jul,27,14:41:57,combo,kernel,,Built 1 zonelists,Linux_E24,Built <*> zonelists,Linux,O O O O O O O O O O O O LOI O,0,1,0,0,0,0,0,0,0,0
+1931,Jul,27,14:41:57,combo,kernel,,Kernel command line: ro root=LABEL=/ rhgb quiet,Linux_E62,Kernel command line: ro <*>=LABEL=/ rhgb quiet,Linux,O O O O O O O O O O O O LOI O,0,1,0,0,0,0,0,0,0,0
+1932,Jul,27,14:41:57,combo,kernel,,mapped 4G/4G trampoline to ffff3000.,Linux_E69,mapped 4G/4G trampoline to <*>.,Linux,O O O O O O O O O O O O LOI,0,1,0,0,0,0,0,0,0,0
+1933,Jul,27,14:41:57,combo,kernel,,Initializing CPU#0,Linux_E52,Initializing CPU#<*>,Linux,O O O O O O O LOI LOI O TDA TDA TDA TDA TDA,0,2,0,0,0,5,0,0,0,0
+1934,Jul,27,14:41:57,combo,kernel,,"CPU 0 irqstacks, hard=02345000 soft=02344000",Linux_E32,"CPU <*> irqstacks, hard=<*> soft=<*>",Linux,O O O O O O O LOI LOI O TDA TDA TDA TDA TDA,0,2,0,0,0,5,0,0,0,0
+1935,Jul,27,14:41:57,combo,portmap,,portmap startup succeeded,Linux_E85,portmap startup succeeded,Linux,O O O O O O O LOI LOI O TDA TDA TDA TDA TDA,0,2,0,0,0,5,0,0,0,0
+1936,Jul,27,14:41:57,combo,kernel,,PID hash table entries: 512 (order 9: 4096 bytes),Linux_E84,PID hash table entries: <*> (order <*>: <*> bytes),Linux,O O O O O O O O O OBN,0,0,1,0,0,0,0,0,0,0
+1937,Jul,27,14:41:57,combo,kernel,,Detected 731.219 MHz processor.,Linux_E40,Detected <*> MHz processor.,Linux,O O O O O O O OBN O,0,0,1,0,0,0,0,0,0,0
+1938,Jul,27,14:41:57,combo,rpc.statd,1618.0,Version 1.0.6 Starting,Linux_E114,Version <*> Starting,Linux,O O O O O O O O O OBN,0,0,1,0,0,0,0,0,0,0
+1939,Jul,27,14:41:57,combo,kernel,,Using tsc for high-res timesource,Linux_E113,Using tsc for high-res timesource,Linux,O O O O O O O LOI LOI O TDA TDA TDA TDA TDA,0,2,0,0,0,5,0,0,0,0
+1940,Jul,27,14:41:58,combo,nfslock,,rpc.statd startup succeeded,Linux_E93,rpc.statd startup succeeded,Linux,O O O O O O O O O,0,0,0,0,0,0,0,0,0,0
+1941,Jul,27,14:41:58,combo,kernel,,Console: colour VGA+ 80x25,Linux_E30,Console: colour VGA+ <*>,Linux,O O O O O O O O O OBN O OID,1,0,1,0,0,0,0,0,0,0
+1942,Jul,27,14:41:58,combo,kernel,,"Memory: 125312k/129720k available (1540k kernel code, 3860k reserved, 599k data, 144k init, 0k highmem)",Linux_E70,"Memory: <*> available (<*> kernel code, <*> reserved, <*> data, <*> init, <*> highmem)",Linux,O O O O O O O O O O O O LOI,0,1,0,0,0,0,0,0,0,0
+1943,Jul,27,14:41:58,combo,kernel,,Calibrating delay loop... 1445.88 BogoMIPS,Linux_E25,Calibrating delay loop... <*> BogoMIPS,Linux,O O O O O O O LOI LOI O TDA TDA TDA TDA TDA,0,2,0,0,0,5,0,0,0,0
+1944,Jul,27,14:41:58,combo,kernel,,Security Scaffold v1.0.0 initialized,Linux_E96,Security Scaffold <*> initialized,Linux,O O O O O O O O O O O,0,0,0,0,0,0,0,0,0,0
+1945,Jul,27,14:41:58,combo,kernel,,SELinux:  Initializing.,Linux_E97,SELinux: Initializing.,Linux,O O O O O O O LOI LOI O TDA TDA TDA TDA TDA,0,2,0,0,0,5,0,0,0,0
+1946,Jul,27,14:41:58,combo,kernel,,SELinux:  Starting in permissive mode,Linux_E99,SELinux: Starting in permissive mode,Linux,O O O O O O O LOI LOI O TDA TDA TDA TDA TDA,0,2,0,0,0,5,0,0,0,0
+1947,Jul,27,14:41:58,combo,kernel,,"There is already a security framework initialized, register_security failed.",Linux_E107,"There is already a security framework initialized, register_security failed.",Linux,O O O O O O O O O O O O LOI O,0,1,0,0,0,0,0,0,0,0
+1948,Jul,27,14:41:58,combo,kernel,,Failure registering capabilities with the kernel,Linux_E46,Failure registering capabilities with the kernel,Linux,O O O O O O O O O O O O LOI O,0,1,0,0,0,0,0,0,0,0
+1949,Jul,27,14:41:58,combo,kernel,,selinux_register_security:  Registering secondary module capability,Linux_E100,selinux_register_security: Registering secondary module capability,Linux,O O O O O O O LOI LOI O TDA TDA TDA TDA TDA,0,2,0,0,0,5,0,0,0,0
+1950,Jul,27,14:41:58,combo,kernel,,Capability LSM initialized,Linux_E26,Capability LSM initialized,Linux,O O O O O O O O O O O O LOI O,0,1,0,0,0,0,0,0,0,0
+1951,Jul,27,14:41:58,combo,rpcidmapd,,rpc.idmapd startup succeeded,Linux_E92,rpc.idmapd startup succeeded,Linux,O O O O O O O LOI LOI O TDA TDA TDA TDA TDA,0,2,0,0,0,5,0,0,0,0
+1952,Jul,27,14:41:58,combo,kernel,,"Dentry cache hash table entries: 16384 (order: 4, 65536 bytes)",Linux_E39,"Dentry cache hash table entries: <*> (order: <*>, <*> bytes)",Linux,O O O O O O O O,0,0,0,0,0,0,0,0,0,0
+1953,Jul,27,14:41:58,combo,kernel,,"Inode-cache hash table entries: 8192 (order: 3, 32768 bytes)",Linux_E55,"Inode-cache hash table entries: <*> (order: <*>, <*> bytes)",Linux,O O O O O O O O O,0,0,0,0,0,0,0,0,0,0
+1954,Jul,27,14:41:58,combo,kernel,,"Mount-cache hash table entries: 512 (order: 0, 4096 bytes)",Linux_E71,"Mount-cache hash table entries: <*> (order: <*>, <*> bytes)",Linux,O O O O O O O O O O O O LOI,0,1,0,0,0,0,0,0,0,0
+1955,Jul,27,14:41:58,combo,kernel,,"CPU: L1 I cache: 16K, L1 D cache: 16K",Linux_E34,"CPU: L1 I cache: <*>, L1 D cache: <*>",Linux,O O O O O O O O O,0,0,0,0,0,0,0,0,0,0
+1956,Jul,27,14:41:58,combo,kernel,,CPU: L2 cache: 256K,Linux_E35,CPU: L2 cache: <*>,Linux,O O O O O O O LOI LOI O TDA TDA TDA TDA TDA,0,2,0,0,0,5,0,0,0,0
+1957,Jul,27,14:41:58,combo,kernel,,Intel machine check architecture supported.,Linux_E56,Intel machine check architecture supported.,Linux,O O O O O O O O O O O O LOI O,0,1,0,0,0,0,0,0,0,0
+1958,Jul,27,14:41:58,combo,kernel,,Intel machine check reporting enabled on CPU#0.,Linux_E57,Intel machine check reporting enabled on CPU#<*>.,Linux,O O O O O O O O O OBN O OID,1,0,1,0,0,0,0,0,0,0
+1959,Jul,27,14:41:58,combo,kernel,,CPU: Intel Pentium III (Coppermine) stepping 06,Linux_E33,CPU: Intel Pentium III (Coppermine) stepping <*>,Linux,O O O O O O O LOI LOI O TDA TDA TDA TDA TDA,0,2,0,0,0,5,0,0,0,0
+1960,Jul,27,14:41:58,combo,kernel,,Enabling fast FPU save and restore... done.,Linux_E44,Enabling fast FPU save and restore... done.,Linux,O O O O O O O LOI LOI O TDA TDA TDA TDA TDA,0,2,0,0,0,5,0,0,0,0
+1961,Jul,27,14:41:58,combo,kernel,,Enabling unmasked SIMD FPU exception support... done.,Linux_E45,Enabling unmasked SIMD FPU exception support... done.,Linux,O O O O O O O O O,0,0,0,0,0,0,0,0,0,0
+1962,Jul,27,14:41:58,combo,kernel,,Checking 'hlt' instruction... OK.,Linux_E28,Checking 'hlt' instruction... OK.,Linux,O O O O O O O O O OBN O OID,1,0,1,0,0,0,0,0,0,0
+1963,Jul,27,14:41:58,combo,random,,Initializing random number generator:  succeeded,Linux_E54,Initializing random number generator: succeeded,Linux,O O O O O O O O O O O O LOI O,0,1,0,0,0,0,0,0,0,0
+1964,Jul,27,14:41:58,combo,kernel,,POSIX conformance testing by UNIFIX,Linux_E86,POSIX conformance testing by UNIFIX,Linux,O O O O O O O O O O O O LOI,0,1,0,0,0,0,0,0,0,0
+1965,Jul,27,14:41:58,combo,kernel,,NET: Registered protocol family 16,Linux_E73,NET: Registered protocol family <*>,Linux,O O O O O O O O O OBN O OID,1,0,1,0,0,0,0,0,0,0
+1966,Jul,27,14:41:58,combo,kernel,,"PCI: PCI BIOS revision 2.10 entry at 0xfc0ce, last bus=1",Linux_E78,"PCI: PCI BIOS revision <*> entry at <*>, last bus=<*>",Linux,O O O O O O O LOI LOI O TDA TDA TDA TDA TDA,0,2,0,0,0,5,0,0,0,0
+1967,Jul,27,14:41:58,combo,kernel,,PCI: Using configuration type 1,Linux_E81,PCI: Using configuration type <*>,Linux,O O O O O O O LOI LOI O TDA TDA TDA TDA TDA,0,2,0,0,0,5,0,0,0,0
+1968,Jul,27,14:41:58,combo,kernel,,mtrr: v2.0 (20020519),Linux_E72,mtrr: <*> (<*>),Linux,O O O O O O O LOI LOI O TDA TDA TDA TDA TDA,0,2,0,0,0,5,0,0,0,0
+1969,Jul,27,14:41:58,combo,kernel,,ACPI: Subsystem revision 20040326,Linux_E7,ACPI: Subsystem revision <*>,Linux,O O O O O O O O O O O O LOI O,0,1,0,0,0,0,0,0,0,0
+1970,Jul,27,14:41:58,combo,kernel,,ACPI: Interpreter disabled.,Linux_E6,ACPI: Interpreter disabled.,Linux,O O O O O O O O O O O O LOI O,0,1,0,0,0,0,0,0,0,0
+1971,Jul,27,14:41:58,combo,kernel,,Linux Plug and Play Support v0.97 (c) Adam Belay,Linux_E67,Linux Plug and Play Support <*> (c) Adam Belay,Linux,O O O O O O O O O,0,0,0,0,0,0,0,0,0,0
+1972,Jul,27,14:41:58,combo,rc,,Starting pcmcia:  succeeded,Linux_E105,Starting pcmcia: succeeded,Linux,O O O O O O O O O O O O LOI O,0,1,0,0,0,0,0,0,0,0
+1973,Jul,27,14:41:58,combo,kernel,,usbcore: registered new driver usbfs,Linux_E111,usbcore: registered new driver usbfs,Linux,O O O O O O O O O,0,0,0,0,0,0,0,0,0,0
+1974,Jul,27,14:41:58,combo,kernel,,usbcore: registered new driver hub,Linux_E110,usbcore: registered new driver hub,Linux,O O O O O O O LOI LOI O TDA TDA TDA TDA TDA,0,2,0,0,0,5,0,0,0,0
+1975,Jul,27,14:41:58,combo,kernel,,ACPI: ACPI tables contain no PCI IRQ routing entries,Linux_E5,ACPI: ACPI tables contain no PCI IRQ routing entries,Linux,O O O O O O O O O OBN O OID,1,0,1,0,0,0,0,0,0,0
+1976,Jul,27,14:41:59,combo,kernel,,PCI: Invalid ACPI-PCI IRQ routing table,Linux_E77,PCI: Invalid ACPI-PCI IRQ routing table,Linux,O O O O O O O LOI LOI O TDA TDA TDA TDA TDA,0,2,0,0,0,5,0,0,0,0
+1977,Jul,27,14:41:59,combo,kernel,,PCI: Probing PCI hardware,Linux_E79,PCI: Probing PCI hardware,Linux,O O O O O O O O O OBN,0,0,1,0,0,0,0,0,0,0
+1978,Jul,27,14:41:59,combo,kernel,,PCI: Probing PCI hardware (bus 00),Linux_E80,PCI: Probing PCI hardware (bus <*>),Linux,O O O O O O O LOI LOI O TDA TDA TDA TDA TDA,0,2,0,0,0,5,0,0,0,0
+1979,Jul,27,14:41:59,combo,kernel,,Transparent bridge - 0000:00:1e.0,Linux_E109,Transparent bridge - <*>,Linux,O O O O O O O LOI LOI O TDA TDA TDA TDA TDA,0,2,0,0,0,5,0,0,0,0
+1980,Jul,27,14:41:59,combo,kernel,,PCI: Using IRQ router PIIX/ICH [8086/2410] at 0000:00:1f.0,Linux_E82,PCI: Using IRQ router PIIX/ICH [<*>/<*>] at <*>,Linux,O O O O O O O O O O O O LOI O,0,1,0,0,0,0,0,0,0,0
+1981,Jul,27,14:41:59,combo,kernel,,apm: BIOS version 1.2 Flags 0x03 (Driver version 1.16ac),Linux_E10,apm: BIOS version <*> Flags <*> (Driver version <*>),Linux,O O O O O O O O O O O O LOI O,0,1,0,0,0,0,0,0,0,0
+1982,Jul,27,14:41:59,combo,kernel,,audit: initializing netlink socket (disabled),Linux_E12,audit: initializing netlink socket (disabled),Linux,O O O O O O O O O O O O LOI,0,1,0,0,0,0,0,0,0,0
+1983,Jul,27,14:41:54,combo,sysctl,,kernel.core_uses_pid = 1,Linux_E63,kernel.core_uses_pid = <*>,Linux,O O O O O O O LOI LOI O TDA TDA TDA TDA TDA,0,2,0,0,0,5,0,0,0,0
+1984,Jul,27,14:41:59,combo,hcid,1690.0,HCI daemon ver 2.4 started,Linux_E48,HCI daemon ver <*> started,Linux,O O O O O O O O O O O O LOI,0,1,0,0,0,0,0,0,0,0
+1985,Jul,27,14:41:59,combo,bluetooth,,hcid startup succeeded,Linux_E49,hcid startup succeeded,Linux,O O O O O O O LOI LOI O TDA TDA TDA TDA TDA,0,2,0,0,0,5,0,0,0,0
+1986,Jul,27,14:41:59,combo,kernel,,audit(1122475266.4294965305:0): initialized,Linux_E11,audit(<*>:<*>): initialized,Linux,O O O O O O O O O O O O LOI O,0,1,0,0,0,0,0,0,0,0
+1987,Jul,27,14:41:54,combo,network,,Setting network parameters:  succeeded,Linux_E104,Setting network parameters: succeeded,Linux,O O O O O O O LOI LOI O TDA TDA TDA TDA TDA,0,2,0,0,0,5,0,0,0,0
+1988,Jul,27,14:41:59,combo,bluetooth,,sdpd startup succeeded,Linux_E94,sdpd startup succeeded,Linux,O O O O O O O O O,0,0,0,0,0,0,0,0,0,0
+1989,Jul,27,14:41:59,combo,sdpd,1696.0,sdpd v1.5 started,Linux_E95,sdpd <*> started,Linux,O O O O O O O LOI LOI O TDA TDA TDA TDA TDA,0,2,0,0,0,5,0,0,0,0
+1990,Jul,27,14:41:59,combo,kernel,,"Total HugeTLB memory allocated, 0",Linux_E108,"Total HugeTLB memory allocated, <*>",Linux,O O O O O O O O O O O O LOI O,0,1,0,0,0,0,0,0,0,0
+1991,Jul,27,14:41:54,combo,network,,Bringing up loopback interface:  succeeded,Linux_E23,Bringing up loopback interface: succeeded,Linux,O O O O O O O O O OBN,0,0,1,0,0,0,0,0,0,0
+1992,Jul,27,14:41:59,combo,kernel,,VFS: Disk quotas dquot_6.5.1,Linux_E115,VFS: Disk quotas <*>,Linux,O O O O O O O LOI LOI O TDA TDA TDA TDA TDA,0,2,0,0,0,5,0,0,0,0
+1993,Jul,27,14:41:59,combo,kernel,,"Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)",Linux_E43,"Dquot-cache hash table entries: <*> (order <*>, <*> bytes)",Linux,O O O O O O O O O OBN O OID,1,0,1,0,0,0,0,0,0,0
+1994,Jul,27,14:41:59,combo,kernel,,SELinux:  Registering netfilter hooks,Linux_E98,SELinux: Registering netfilter hooks,Linux,O O O O O O O LOI LOI O TDA TDA TDA TDA TDA,0,2,0,0,0,5,0,0,0,0
+1995,Jul,27,14:41:59,combo,kernel,,Initializing Cryptographic API,Linux_E53,Initializing Cryptographic API,Linux,O O O O O O O LOI LOI O TDA TDA TDA TDA TDA,0,2,0,0,0,5,0,0,0,0
+1996,Jul,27,14:41:59,combo,kernel,,pci_hotplug: PCI Hot Plug PCI Core version: 0.5,Linux_E83,pci_hotplug: PCI Hot Plug PCI Core version: <*>,Linux,O O O O O O O O O,0,0,0,0,0,0,0,0,0,0
+1997,Jul,27,14:42:00,combo,kernel,,isapnp: Scanning for PnP cards...,Linux_E60,isapnp: Scanning for PnP cards...,Linux,O O O O O O O LOI LOI O TDA TDA TDA TDA TDA,0,2,0,0,0,5,0,0,0,0
+1998,Jul,27,14:42:00,combo,kernel,,isapnp: No Plug & Play device found,Linux_E59,isapnp: No Plug & Play device found,Linux,O O O O O O O O O OBN O OID,1,0,1,0,0,0,0,0,0,0
+1999,Jul,27,14:42:00,combo,kernel,,Real Time Clock Driver v1.12,Linux_E87,Real Time Clock Driver <*>,Linux,O O O O O O O O O O O O LOI O,0,1,0,0,0,0,0,0,0,0
+2000,Jul,27,14:42:00,combo,kernel,,Linux agpgart interface v0.100 (c) Dave Jones,Linux_E66,Linux agpgart interface <*> (c) Dave Jones,Linux,O O O O O O O LOI LOI O TDA TDA TDA TDA TDA,0,2,0,0,0,5,0,0,0,0

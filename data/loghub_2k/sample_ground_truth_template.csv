@@ -1,0 +1,111 @@
+System,EventTemplate,OID,LOI,OBN,TID,SID,TDA,CRS,OBA,STC,OTP
+Apache,workerEnv.init() ok <*>,0,1,0,0,0,0,0,0,0,0
+Apache,mod_jk child workerEnv in error state <*>,2,0,0,0,0,0,0,0,0,0
+Apache,jk2_init() Found child <*> in scoreboard slot <*>,0,0,0,0,0,0,0,0,1,0
+Apache,[client <*>] Directory index forbidden by rule: <*>,2,0,0,0,0,0,0,0,0,0
+Apache,jk2_init() Can't find child <*> in scoreboard,2,0,0,0,0,0,0,0,0,0
+Apache,mod_jk child init <*> <*>,0,1,0,0,0,0,0,0,0,0
+HPC,risBoot (command <*>) Error: Timed out while waiting for SRM prompt: <ABORT code completed>,0,0,0,0,0,0,0,0,0,0
+HPC,running,0,0,0,0,0,0,0,0,0,0
+HPC,blocked,0,0,0,0,0,0,0,0,0,0
+HPC,NIFF: node node-<*> has detected an available network connection on network <*> via interface alt0,0,0,0,0,0,0,0,0,0,0
+HPC,warning,0,0,0,0,0,0,0,0,0,0
+HPC,Failed subcommands <*>,0,0,0,0,0,0,0,0,0,0
+HPC,boot (command <*>),0,0,0,0,0,0,0,0,1,0
+HPC,ClusterFileSystem: There is no server for ServerFileSystem domain <*>,0,0,0,0,0,0,0,0,0,0
+Linux,Using tsc for high-res timesource,0,2,0,0,0,5,0,0,0,0
+Linux,Starting pcmcia: succeeded,0,1,0,0,0,0,0,0,0,0
+Linux,session closed for user <*>,0,0,0,0,0,0,0,0,0,0
+Linux,ACPI disabled because your bios is from <*> and too old,0,1,0,0,0,0,0,0,0,0
+Linux,notify question section contains no SOA,0,0,0,0,0,0,2,0,0,0
+Linux,Real Time Clock Driver <*>,0,1,0,0,0,0,0,0,0,0
+Linux,"Dentry cache hash table entries: <*> (order: <*>, <*> bytes)",0,0,0,0,0,0,0,0,0,0
+Linux,cupsd startup succeeded,0,2,0,0,0,5,0,0,0,0
+Proxifier,"<*> close, <*> <*>, <*> <*>, lifetime <*>",0,1,0,0,0,1,4,0,0,0
+Proxifier,"<*>:<*> error : Could not connect through proxy <*>:<*> - Proxy server cannot establish a connection with the target, status code <*>",0,1,0,0,0,1,4,0,0,0
+Proxifier,<*>:<*> open through proxy <*>:<*> HTTPS,0,1,0,0,0,1,4,0,0,0
+Proxifier,<*>:<*> error : Could not connect to proxy <*>:<*> - connection attempt failed with error <*>,0,1,0,0,0,1,4,0,0,0
+Proxifier,<*>:<*> open through proxy <*>:<*> SOCKS5,0,2,0,0,0,0,0,0,0,0
+Proxifier,<*>:<*> error : Could not connect through proxy <*>:<*> - Proxy closed the connection unexpectedly.,0,2,0,0,0,0,0,0,0,0
+Proxifier,<*>:<*> error : A connection request was canceled before the completion.,0,2,0,0,0,0,0,0,0,0
+Proxifier,<*>:<*> error : Could not connect to proxy <*>:<*> - Could not resolve <*> error <*>,0,2,0,0,0,0,0,0,0,0
+Zookeeper,Connection request from old client <*>:<*>; will be dropped if server is in r-o mode,0,0,0,0,0,0,0,0,0,0
+Zookeeper,Follower sid: <*> : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@<*>,0,0,0,0,0,0,0,0,0,0
+Zookeeper,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), LOOKING (my state)",0,0,0,0,0,1,0,0,0,0
+Zookeeper,Reading snapshot <*>,0,0,0,0,0,0,0,0,0,0
+Zookeeper,"Expiring session <*>, timeout of <*> exceeded",4,0,0,0,0,0,0,1,0,0
+Zookeeper,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), FOLLOWING (n.state), <*> (n.sid), <*> (n.peerEPoch), FOLLOWING (my state)",0,0,0,0,0,0,0,0,0,0
+Zookeeper,autopurge.snapRetainCount set to <*>,1,0,0,0,0,0,0,0,0,0
+Zookeeper,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LEADING (n.state), <*> (n.sid), <*> (n.peerEPoch), LOOKING (my state)",0,1,0,0,0,0,0,1,0,0
+BGL,rts internal error,2,0,0,0,0,0,0,0,0,0
+BGL,disable store gathering..................<*>,0,0,0,0,0,0,0,0,0,0
+BGL,generating core.<*>,2,0,0,0,0,0,0,0,0,0
+BGL,Can not get assembly information for node card,2,0,0,0,0,0,0,0,0,0
+BGL,auxiliary processor.........................<*>,1,0,0,0,0,0,0,0,0,0
+BGL,<*> floating point alignment exceptions,1,0,0,0,0,0,0,0,0,0
+BGL,<*> tree receiver <*> in re-synch state event(s) (dcr <*>) detected,0,0,0,0,0,0,0,0,0,0
+BGL,ciod: Message code <*> is not <*> or <*>,1,0,0,0,0,0,0,0,0,0
+Hadoop,Received completed container <*>,0,2,0,0,0,0,0,0,0,0
+Hadoop,OutputCommitter set in config <*>,1,0,0,0,0,0,0,0,0,0
+Hadoop,Connecting to ResourceManager at <*>/<*>:<*>,1,0,0,0,0,0,0,0,0,0
+Hadoop,Opening proxy : <*>:<*>,0,2,0,0,0,0,0,0,0,0
+Hadoop,Scheduled snapshot period at <*> second(s).,0,2,0,0,0,0,0,0,0,0
+Hadoop,<*> Transitioned from INITED to SETUP,0,2,0,0,0,0,0,0,0,0
+Hadoop,Shuffle port returned by ContainerManager for <*> : <*>,0,2,0,0,0,0,0,0,0,0
+Hadoop,<*> TaskAttempt Transitioned from UNASSIGNED to ASSIGNED,0,2,0,0,0,0,0,0,0,0
+Mac,"[QL] No sandbox token for request <QLThumbnailRequest vmware-usbarb-<*>.log>, it will probably fail",1,1,0,0,0,0,0,0,0,0
+Mac,"Path not allowed in target domain: type = pid, path = <*> error = <*>: The specified service did not ship in the requestor's bundle, origin = <*>",0,1,0,0,0,0,0,0,0,0
+Mac,<*>-<*>-<*> <*>:<*>:<*> GoogleSoftwareUpdateAgent[<*>/<*>] [lvl=<*>] -[KSOutOfProcessFetcher(PrivateMethods) launchedHelperTaskForToolPath:error:] KSOutOfProcessFetcher launched '<*>' with process id: <*>,0,0,1,0,0,0,0,0,0,0
+Mac,"CCFile::captureLog Received Capture notice id: <*>, reason = AuthFail:sts:<NUM>_rsn:<NUM>",0,0,0,0,0,0,0,0,0,0
+Mac,"PBRequester failed with Error Error Domain=NSURLErrorDomain Code=<*> ""The request timed out."" UserInfo={NSUnderlyingError=<*> {Error Domain=kCFErrorDomainCFNetwork Code=<*> ""The request timed out."" UserInfo={NSErrorFailingURLStringKey=<*>, NSErrorFailingURLKey=<*>, _kCFStreamErrorCodeKey=<*>, _kCFStreamErrorDomainKey=<*>, NSLocalizedDescription=The request timed out.}}, NSErrorFailingURLStringKey=<*>, NSErrorFailingURLKey=<*>, _kCFStreamErrorDomainKey=<*>, _kCFStreamErrorCodeKey=<*>, NSLocalizedDescription=The request timed out.}",0,0,0,0,0,0,0,0,0,0
+Mac,Peripheral manager is not powered on,0,0,0,0,0,0,0,0,0,0
+Mac,"hibernate_machine_init pagesDone <*> sum2 <*>, time: <*> ms, disk(<*>) <*> Mb/s, comp bytes: <*> time: <*> ms <*> Mb/s, crypt bytes: <*> time: <*> ms <*> Mb/s",0,0,0,1,0,0,0,0,0,0
+Mac,"[CardDAVPlugin-ERROR] -getPrincipalInfo:[_controller supportsRequestCompressionAtURL:<*>] Error Domain=NSURLErrorDomain Code=<*> ""The request timed out."" UserInfo={NSUnderlyingError=<*> {Error Domain=kCFErrorDomainCFNetwork Code=<*> ""The request timed out."" UserInfo={NSErrorFailingURLStringKey=<*>, NSErrorFailingURLKey=<*>, _kCFStreamErrorCodeKey=<*>, _kCFStreamErrorDomainKey=<*>, NSLocalizedDescription=The request timed out.}}, NSErrorFailingURLStringKey=<*>, NSErrorFailingURLKey=<*>, _kCFStreamErrorDomainKey=<*>, _kCFStreamErrorCodeKey=<*>, NSLocalizedDescription=The request timed out.}",0,1,0,0,0,1,0,0,0,0
+HealthApp,flush sensor data,0,0,0,0,0,0,0,1,0,0
+HealthApp,getTodayBasicStandardSteps= <*>##<*>##<*>,1,0,0,0,0,0,0,0,0,0
+HealthApp,onReceive action: android.intent.action.SCREEN_OFF,0,0,0,0,0,0,0,4,0,0
+HealthApp,onStandStepChanged <*>,0,0,0,0,0,0,0,1,0,0
+HealthApp,"startInsertSportSync start auto sync,app is <*>",0,0,0,0,0,0,0,3,0,0
+HealthApp,registersensorsuccess: <*>,0,0,0,0,0,0,0,0,1,0
+HealthApp,"insertHiHealthData() bulkSaveDetailHiHealthData fail errorCode = <*>,errorMessage = ERR_DATA_INSERT",0,0,0,0,0,0,0,1,0,0
+HealthApp,"screen status unknown,think screen on",0,0,0,0,0,0,0,1,0,0
+OpenSSH,pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*> user=<*>,0,0,1,0,0,0,0,0,0,0
+OpenSSH,Received disconnect from <*>: <*>: Closed due to user request. [preauth],0,1,1,0,0,0,0,0,0,0
+OpenSSH,reverse mapping checking getaddrinfo for <*> [<*>] failed - POSSIBLE BREAK-IN ATTEMPT!,0,2,0,0,0,0,0,0,0,0
+OpenSSH,pam_unix(sshd:session): session closed for user <*>,2,1,0,0,0,0,0,0,0,0
+OpenSSH,Disconnecting: Too many authentication failures for <*> [preauth],0,2,1,0,0,0,0,0,0,0
+OpenSSH,Failed password for <*> from <*> port <*> ssh2,0,2,1,0,0,0,0,0,0,0
+OpenSSH,PAM service(sshd) ignoring max retries; <*> > <*>,0,2,0,0,0,0,0,0,0,0
+OpenSSH,Invalid user <*> from <*>,0,2,0,0,0,0,0,0,0,0
+Spark,<*>: Committed,1,0,0,0,0,0,0,0,0,0
+Spark,Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port <*>.,0,1,0,0,0,0,0,0,0,0
+Spark,"mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id",0,0,0,0,0,4,0,0,0,0
+Spark,"Times: total = <*>, boot = <*>, init = <*>, finish = <*>",1,0,0,0,0,0,0,0,0,0
+Spark,Registered BlockManager,1,0,0,0,0,0,2,0,0,0
+Spark,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,1,0,0,0,0,0,0,2,0,0
+Spark,Reading broadcast variable <*> took <*> ms,0,0,0,0,0,4,0,0,0,0
+Spark,Starting executor ID <*> on host <*>,1,0,0,0,0,0,0,0,0,0
+HDFS,BLOCK* NameSystem.delete: <*> is added to invalidSet of <*>:<*>,2,0,0,0,0,0,0,0,0,0
+HDFS,BLOCK* ask <*>:<*> to delete <*>,1,1,0,0,0,0,1,0,0,0
+HDFS,PacketResponder <*> for block <*> terminating,1,1,0,0,0,0,0,0,0,0
+HDFS,Received block <*> src: <*>:<*> dest: <*>:<*> of size <*>,1,1,0,0,0,0,1,0,0,0
+HDFS,Verification succeeded for <*>,1,1,0,0,0,0,1,0,0,0
+HDFS,<*>:<*>:Got exception while serving <*> to <*>:,1,1,0,0,0,0,1,0,0,0
+HDFS,Received block <*> of size <*> from <*>,1,1,0,0,0,0,1,0,0,0
+HDFS,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*>:<*> is added to <*> size <*>,1,1,0,0,0,0,1,0,0,0
+OpenStack,[instance: <*>] VM Stopped (Lifecycle Event),1,0,0,0,0,0,0,0,0,0
+OpenStack,Unknown base file: <*>,0,1,0,0,0,0,0,0,0,0
+OpenStack,Removable base files: <*>,0,2,1,0,0,1,0,1,1,0
+OpenStack,[instance: <*>] Creating image,0,2,1,0,0,1,0,1,1,0
+OpenStack,"[instance: <*>] vcpu limit not specified, defaulting to unlimited",0,2,1,0,0,1,0,1,1,0
+OpenStack,Running instance usage audit for host <*> from <*>-<*>-<*> <*>:<*>:<*> to <*>-<*>-<*> <*>:<*>:<*>. <*> instances.,0,1,0,0,0,0,0,0,0,0
+OpenStack,image <*> at (<*>): checking,0,2,1,0,0,1,0,1,1,0
+OpenStack,[instance: <*>] Took <*> seconds to build instance.,0,2,1,0,0,1,0,1,1,0
+Thunderbird,Unregistering netfilter hooks,1,0,0,0,0,0,0,0,0,0
+Thunderbird,START: tftp pid=<*> from=<*>,0,1,0,0,0,0,0,1,0,0
+Thunderbird,"<*> AUX port at <*>,<*> irq <*>",0,1,0,0,0,0,0,1,0,0
+Thunderbird,Mounted <*> (ext2 filesystem).,1,0,0,0,0,0,0,0,0,0
+Thunderbird,Processor ANSI SCSI revision: <*>,0,1,0,0,0,0,0,0,0,0
+Thunderbird,INT_SRC_OVR (bus <*> bus_irq <*> global_irq <*> dfl dfl),0,0,0,0,0,0,0,0,0,0
+Thunderbird,Transparent bridge - <*>,0,1,0,0,0,0,0,1,0,0
+Thunderbird,error: Bind to port <*> on <*> failed: Address already in use.,0,1,0,0,0,0,0,2,0,0

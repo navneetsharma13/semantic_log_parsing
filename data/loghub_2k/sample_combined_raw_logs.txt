@@ -1,0 +1,110 @@
+[Sun Dec 04 04:47:44 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Sun Dec 04 04:47:44 2005] [error] mod_jk child workerEnv in error state 6
+[Sun Dec 04 04:51:08 2005] [notice] jk2_init() Found child 6725 in scoreboard slot 10
+[Sun Dec 04 05:15:09 2005] [error] [client 222.166.160.184] Directory index forbidden by rule: /var/www/html/
+[Sun Dec 04 17:43:08 2005] [error] jk2_init() Can't find child 1566 in scoreboard
+[Sun Dec 04 17:43:12 2005] [error] mod_jk child init 1 -2
+2570021 node-5 action error 1074121927 1 risBoot (command 1903) Error: Timed out while waiting for SRM prompt: <ABORT code completed>
+2286759 full partition status 1061219795 -1 running
+2561542 full partition status 1073427660 1 blocked
+2573624 node-148 unix.hw net.niff.up 1074131743 1 NIFF: node node-148 has detected an available network connection on network 5.5.226.0 via interface alt0
+2556843 gige5 gige temperature 1072878243 1 warning
+72725 3398 boot_cmd error 1108648264 1 Failed subcommands 3406
+2575909 node-162 action start 1074178193 1 boot  (command 1911)
+2594656 node-D0 clusterfilesystem clusterfilesystem.no_server 1074279038 1 ClusterFileSystem: There is no server for ServerFileSystem domain storage234
+Jul 27 14:41:57 combo kernel: Using tsc for high-res timesource
+Jul 27 14:41:58 combo rc: Starting pcmcia:  succeeded
+Jun 15 04:06:19 combo su(pam_unix)[21416]: session closed for user cyrus
+Jul 27 14:41:57 combo kernel: ACPI disabled because your bios is from 2000 and too old
+Jul 25 12:09:06 combo named[2306]: notify question section contains no SOA
+Jul 27 14:42:00 combo kernel: Real Time Clock Driver v1.12
+Jul 27 14:41:58 combo kernel: Dentry cache hash table entries: 16384 (order: 4, 65536 bytes)
+Jun 19 04:09:02 combo cups: cupsd startup succeeded
+[10.30 16:49:07] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime 00:01
+[10.30 18:00:12] FlashPlayerPlugin_18_0_0_209.exe - formi.baidu.com:843 error : Could not connect through proxy proxy.cse.cuhk.edu.hk:5070 - Proxy server cannot establish a connection with the target, status code 403
+[10.30 16:49:06] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.27 05:05:50] chrome.exe *64 - qa.sockets.stackexchange.com:443 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - connection attempt failed with error 10061
+[10.30 17:02:17] putty.exe - 183.62.156.108:22 open through proxy socks.cse.cuhk.edu.hk:5070 SOCKS5
+[10.30 17:16:10] QQ.exe - tcpconn4.tencent.com:80 error : Could not connect through proxy proxy.cse.cuhk.edu.hk:5070 - Proxy closed the connection unexpectedly.
+[10.30 17:15:42] QQ.exe - tcpconn6.tencent.com:443 error : A connection request was canceled before the completion.
+[07.26 17:23:51] WeChat.exe - 223.167.104.147:80 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001
+2015-07-30 16:12:01,554 - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@793] - Connection request from old client /10.10.34.19:33442; will be dropped if server is in r-o mode
+2015-07-31 15:36:24,570 - INFO  [LearnerHandler-/10.10.34.13:59348:LearnerHandler@263] - Follower sid: 3 : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@33557fe4
+2015-08-20 17:14:12,326 - INFO  [WorkerReceiver[myid=1]:FastLeaderElection@542] - Notification: 2 (n.leader), 0xb00000084 (n.zxid), 0x2 (n.round), LOOKING (n.state), 1 (n.sid), 0xb (n.peerEPoch), LOOKING (my state)
+2015-08-25 11:14:51,662 - INFO  [main:FileSnap@83] - Reading snapshot /var/lib/zookeeper/version-2/snapshot.b00000084
+2015-07-30 20:06:34,001 - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x24ede63a01b003b, timeout of 10000ms exceeded
+2015-07-30 17:57:38,440 - INFO  [WorkerReceiver[myid=3]:FastLeaderElection@542] - Notification: 3 (n.leader), 0x100001564 (n.zxid), 0x3 (n.round), FOLLOWING (n.state), 3 (n.sid), 0x2 (n.peerEPoch), FOLLOWING (my state)
+2015-08-10 18:23:49,901 - INFO  [main:DatadirCleanupManager@78] - autopurge.snapRetainCount set to 3
+2015-08-07 07:27:47,425 - INFO  [WorkerReceiver[myid=1]:FastLeaderElection@542] - Notification: 3 (n.leader), 0x700000197 (n.zxid), 0x1 (n.round), LEADING (n.state), 3 (n.sid), 0x7 (n.peerEPoch), LOOKING (my state)
+- 1118772927 2005.06.14 R27-M0-N6-C:J02-U11 2005-06-14-11.15.27.823191 R27-M0-N6-C:J02-U11 RAS KERNEL FATAL rts internal error
+- 1118773941 2005.06.14 R20-M1-NA-C:J04-U01 2005-06-14-11.32.21.174785 R20-M1-NA-C:J04-U01 RAS KERNEL FATAL disable store gathering..................0
+- 1117955341 2005.06.05 R25-M0-N7-C:J02-U01 2005-06-05-00.09.01.903373 R25-M0-N7-C:J02-U01 RAS KERNEL INFO generating core.2275
+- 1120241131 2005.07.01 R37-M1-N4 2005-07-01-11.05.31.120732 R37-M1-N4 NULL DISCOVERY SEVERE Can not get assembly information for node card
+- 1118771075 2005.06.14 R24-M0-NF-C:J09-U01 2005-06-14-10.44.35.353282 R24-M0-NF-C:J09-U01 RAS KERNEL FATAL auxiliary processor.........................0
+- 1121900469 2005.07.20 R33-M1-N3-C:J02-U01 2005-07-20-16.01.09.861175 R33-M1-N3-C:J02-U01 RAS KERNEL INFO 8 floating point alignment exceptions
+- 1123652286 2005.08.09 R15-M0-NC-C:J04-U11 2005-08-09-22.38.06.850691 R15-M0-NC-C:J04-U11 RAS KERNEL INFO 1 tree receiver 2 in re-synch state event(s) (dcr 0x019a) detected
+- 1118699850 2005.06.13 R22-M0-NC-I:J18-U01 2005-06-13-14.57.30.126106 R22-M0-NC-I:J18-U01 RAS KERNEL INFO ciod: Message code 0 is not 51 or 4294967295
+2015-10-18 18:04:11,034 INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: Received completed container container_1445144423722_0020_01_000012
+2015-10-18 18:01:50,353 INFO [main] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: OutputCommitter set in config null
+2015-10-18 18:01:53,557 INFO [main] org.apache.hadoop.yarn.client.RMProxy: Connecting to ResourceManager at msra-sa-41/10.190.173.170:8030
+2015-10-18 18:01:57,291 INFO [ContainerLauncher #0] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : 04DN8IQ.fareast.corp.microsoft.com:54883
+2015-10-18 18:01:51,306 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2015-10-18 18:01:53,744 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.JobImpl: job_1445144423722_0020Job Transitioned from INITED to SETUP
+2015-10-18 18:01:57,447 INFO [ContainerLauncher #0] org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncherImpl: Shuffle port returned by ContainerManager for attempt_1445144423722_0020_m_000000_0 : 13562
+2015-10-18 18:01:57,260 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: attempt_1445144423722_0020_m_000000_0 TaskAttempt Transitioned from UNASSIGNED to ASSIGNED
+Jul  7 20:43:37 calvisitor-10-105-160-85 QuickLookSatellite[38624]: [QL] No sandbox token for request <QLThumbnailRequest vmware-usbarb-25037.log>, it will probably fail
+Jul  2 16:55:53 calvisitor-10-105-163-202 com.apple.xpc.launchd[1] (com.apple.xpc.launchd.domain.pid.WebContent.32502): Path not allowed in target domain: type = pid, path = /System/Library/StagedFrameworks/Safari/SafariShared.framework/Versions/A/XPCServices/com.apple.Safari.SearchHelper.xpc/Contents/MacOS/com.apple.Safari.SearchHelper error = 147: The specified service did not ship in the requestor's bundle, origin = /System/Library/StagedFrameworks/Safari/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc
+Jul  2 15:46:40 calvisitor-10-105-163-202 GoogleSoftwareUpdateAgent[32432]: 2017-07-02 15:46:40.516 GoogleSoftwareUpdateAgent[32432/0x7000002a0000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) launchedHelperTaskForToolPath:error:] KSOutOfProcessFetcher launched '/Users/xpc/Library/Google/GoogleSoftwareUpdate/GoogleSoftwareUpdate.bundle/Contents/MacOS/ksfetch' with process id: 32433
+Jul  1 10:08:21 authorMacBook-Pro corecaptured[31313]: CCFile::captureLog Received Capture notice id: 1498928900.759059, reason = AuthFail:sts:5_rsn:0
+Jul  2 19:34:33 calvisitor-10-105-163-202 com.apple.geod[30311]: PBRequester failed with Error Error Domain=NSURLErrorDomain Code=-1001 "The request timed out." UserInfo={NSUnderlyingError=0x7fe133460660 {Error Domain=kCFErrorDomainCFNetwork Code=-1001 "The request timed out." UserInfo={NSErrorFailingURLStringKey=https://gsp-ssl.ls.apple.com/dispatcher.arpc, NSErrorFailingURLKey=https://gsp-ssl.ls.apple.com/dispatcher.arpc, _kCFStreamErrorCodeKey=-2102, _kCFStreamErrorDomainKey=4, NSLocalizedDescription=The request timed out.}}, NSErrorFailingURLStringKey=https://gsp-ssl.ls.apple.com/dispatcher.arpc, NSErrorFailingURLKey=https://gsp-ssl.ls.apple.com/dispatcher.arpc, _kCFStreamErrorDomainKey=4, _kCFStreamErrorCodeKey=-2102, NSLocalizedDescription=The request timed out.}
+Jul  4 19:43:32 calvisitor-10-105-162-105 wirelessproxd[75]: Peripheral manager is not powered on
+Jul  3 17:10:11 calvisitor-10-105-160-184 kernel[0]: hibernate_machine_init pagesDone 455920 sum2 81cafc41, time: 185 ms, disk(0x20000) 847 Mb/s, comp bytes: 47288320 time: 32 ms 1369 Mb/s, crypt bytes: 158441472 time: 38 ms 3973 Mb/s
+Jul  3 16:36:40 calvisitor-10-105-160-184 AddressBookSourceSync[33594]: [CardDAVPlugin-ERROR] -getPrincipalInfo:[_controller supportsRequestCompressionAtURL:https://13957525385%40163.com@p28-contacts.icloud.com/874161398/principal/] Error Domain=NSURLErrorDomain Code=-1001 "The request timed out." UserInfo={NSUnderlyingError=0x7f9af3646900 {Error Domain=kCFErrorDomainCFNetwork Code=-1001 "The request timed out." UserInfo={NSErrorFailingURLStringKey=https://13957525385%40163.com@p28-contacts.icloud.com/874161398/principal/, NSErrorFailingURLKey=https://13957525385%40163.com@p28-contacts.icloud.com/874161398/principal/, _kCFStreamErrorCodeKey=-2102, _kCFStreamErrorDomainKey=4, NSLocalizedDescription=The request timed out.}}, NSErrorFailingURLStringKey=https://13957525385%40163.com@p28-contacts.icloud.com/874161398/principal/, NSErrorFailingURLKey=https://13957525385%40163.com@p28-contacts.icloud.com/874161398/principal/, _kCFStreamErrorDomainKey=4, _kCFStreamErrorCodeKey=-2102, NSLocalizedDescription=The request timed out.}
+20171223-22:15:29:635|Step_StandStepCounter|30002312|flush sensor data
+20171224-0:0:0:228|Step_SPUtils|30002312| getTodayBasicStandardSteps= 1514018661124##0##3428
+20171223-22:15:34:723|Step_StandReportReceiver|30002312|onReceive action: android.intent.action.SCREEN_OFF
+20171223-22:15:29:606|Step_LSC|30002312|onStandStepChanged 3579
+20171223-22:19:58:416|HiH_HiSyncControl|30002312|startInsertSportSync start auto sync,app is 1
+20171224-0:0:0:226|Step_StandStepCounter|30002312|registersensorsuccess: true
+20171223-22:19:58:411|HiH_HiHealthBinder|30002312|insertHiHealthData() bulkSaveDetailHiHealthData fail errorCode = 4,errorMessage = ERR_DATA_INSERT
+20171223-22:15:35:23|Step_StandReportReceiver|30002312|screen status unknown,think screen on
+Dec 10 07:13:31 LabSZ sshd[24227]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=5.36.59.76.dynamic-dsl-ip.omantel.net.om  user=root
+Dec 10 07:56:15 LabSZ sshd[24334]: Received disconnect from 103.207.39.165: 11: Closed due to user request. [preauth]
+Dec 10 06:55:46 LabSZ sshd[24200]: reverse mapping checking getaddrinfo for ns.marryaldkfaczcz.com [173.234.31.186] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 10 09:45:06 LabSZ sshd[24680]: pam_unix(sshd:session): session closed for user fztu
+Dec 10 07:13:56 LabSZ sshd[24227]: Disconnecting: Too many authentication failures for root [preauth]
+Dec 10 07:13:43 LabSZ sshd[24227]: Failed password for root from 5.36.59.76 port 42393 ssh2
+Dec 10 07:13:56 LabSZ sshd[24227]: PAM service(sshd) ignoring max retries; 6 > 3
+Dec 10 06:55:46 LabSZ sshd[24200]: Invalid user webmaster from 173.234.31.186
+17/06/09 20:10:57 INFO mapred.SparkHadoopMapRedUtil: attempt_201706092018_0024_m_000004_1026: Committed
+17/06/09 20:10:42 INFO util.Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 40984.
+17/06/09 20:10:47 INFO Configuration.deprecation: mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id
+17/06/09 20:10:48 INFO python.PythonRunner: Times: total = 1072, boot = 856, init = 210, finish = 6
+17/06/09 20:10:42 INFO storage.BlockManagerMaster: Registered BlockManager
+17/06/09 20:10:48 INFO executor.Executor: Finished task 3.0 in stage 0.0 (TID 3). 2703 bytes result sent to driver
+17/06/09 20:10:45 INFO broadcast.TorrentBroadcast: Reading broadcast variable 9 took 160 ms
+17/06/09 20:10:42 INFO executor.Executor: Starting executor ID 5 on host mesos-slave-07
+081110 020724 29 INFO dfs.FSNamesystem: BLOCK* NameSystem.delete: blk_2568309208894455676 is added to invalidSet of 10.251.31.160:50010
+081110 212510 19 INFO dfs.FSNamesystem: BLOCK* ask 10.250.18.114:50010 to delete  blk_-5140072410813878235
+081109 203615 148 INFO dfs.DataNode$PacketResponder: PacketResponder 1 for block blk_38865049064139660 terminating
+081111 050334 20441 INFO dfs.DataNode$DataXceiver: Received block blk_-4411589101766563890 src: /10.250.14.38:37362 dest: /10.250.14.38:50010 of size 67108864
+081109 205931 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_-4980916519894289629
+081109 214043 2561 WARN dfs.DataNode$DataXceiver: 10.251.30.85:50010:Got exception while serving blk_-2918118818249673980 to /10.251.90.64:
+081109 204655 556 INFO dfs.DataNode$PacketResponder: Received block blk_3587508140051953248 of size 67108864 from /10.251.42.84
+081109 204005 35 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.251.73.220:50010 is added to blk_7128370237687728475 size 67108864
+nova-compute.log.1.2017-05-16_13:55:31 2017-05-16 00:00:32.974 2931 INFO nova.compute.manager [-] [instance: b9000564-fe1a-409b-b8cc-1e88b294cd1d] VM Stopped (Lifecycle Event)
+nova-compute.log.1.2017-05-16_13:55:31 2017-05-16 00:00:20.345 2931 WARNING nova.virt.libvirt.imagecache [req-addc1839-2ed5-4778-b57e-5854eb7b8b09 - - - - -] Unknown base file: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742
+nova-compute.log.1.2017-05-16_13:55:31 2017-05-16 00:00:20.346 2931 INFO nova.virt.libvirt.imagecache [req-addc1839-2ed5-4778-b57e-5854eb7b8b09 - - - - -] Removable base files: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742
+nova-compute.log.1.2017-05-16_13:55:31 2017-05-16 00:00:31.699 2931 INFO nova.virt.libvirt.driver [req-6a763803-4838-49c7-814e-eaefbaddee9d 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] [instance: 96abccce-8d1f-4e07-b6d1-4b2ab87e23b4] Creating image
+nova-compute.log.1.2017-05-16_13:55:31 2017-05-16 00:00:31.095 2931 INFO nova.compute.claims [req-6a763803-4838-49c7-814e-eaefbaddee9d 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] [instance: 96abccce-8d1f-4e07-b6d1-4b2ab87e23b4] vcpu limit not specified, defaulting to unlimited
+nova-compute.log.1.2017-05-16_13:55:31 2017-05-16 00:00:59.733 2931 INFO nova.compute.manager [req-addc1839-2ed5-4778-b57e-5854eb7b8b09 - - - - -] Running instance usage audit for host cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us from 2017-05-16 05:00:00 to 2017-05-16 06:00:00. 87 instances.
+nova-compute.log.1.2017-05-16_13:55:31 2017-05-16 00:00:05.185 2931 INFO nova.virt.libvirt.imagecache [req-addc1839-2ed5-4778-b57e-5854eb7b8b09 - - - - -] image 0673dd71-34c5-4fbb-86c4-40623fbe45b4 at (/var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742): checking
+nova-compute.log.1.2017-05-16_13:55:31 2017-05-16 00:00:10.470 2931 INFO nova.compute.manager [req-8e64797b-fb99-4c8a-87e5-9a8de673412f 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] [instance: b9000564-fe1a-409b-b8cc-1e88b294cd1d] Took 19.84 seconds to build instance.
+- 1131567043 2005.11.09 tbird-admin1 Nov 9 12:10:43 local@tbird-admin1 SELinux: Unregistering netfilter hooks
+- 1131566503 2005.11.09 aadmin1 Nov 9 12:01:43 src@aadmin1 xinetd[18274]: START: tftp pid=16563 from=10.100.4.251
+- 1131567043 2005.11.09 tbird-admin1 Nov 9 12:10:43 local@tbird-admin1 serio: i8042 AUX port at 0x60,0x64 irq 12
+- 1131567043 2005.11.09 tbird-admin1 Nov 9 12:10:43 local@tbird-admin1 VFS: Mounted root (ext2 filesystem).
+- 1131567043 2005.11.09 tbird-admin1 Nov 9 12:10:43 local@tbird-admin1 Type: Processor ANSI SCSI revision: 02
+- 1131567043 2005.11.09 tbird-admin1 Nov 9 12:10:43 local@tbird-admin1 ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+- 1131567043 2005.11.09 tbird-admin1 Nov 9 12:10:43 local@tbird-admin1 PCI: Transparent bridge - 0000:00:1e.0
+- 1131567055 2005.11.09 tbird-admin1 Nov 9 12:10:55 local@tbird-admin1 sshd[1761]: error: Bind to port 22 on 0.0.0.0 failed: Address already in use.

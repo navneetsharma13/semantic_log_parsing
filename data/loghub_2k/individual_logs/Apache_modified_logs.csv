@@ -1,0 +1,7 @@
+LineId,Time,Level,Content,EventId,EventTemplate,System,VariableTemplate,OID,LOI,OBN,TID,SID,TDA,CRS,OBA,STC,OTP
+1,Sun Dec 04 04:47:44 2005,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,Apache_E2,workerEnv.init() ok <*>,Apache,O O O O O O O O LOI,0,1,0,0,0,0,0,0,0,0
+2,Sun Dec 04 04:47:44 2005,error,mod_jk child workerEnv in error state 6,Apache_E3,mod_jk child workerEnv in error state <*>,Apache,O O O O O O O O O OID O O O OID,2,0,0,0,0,0,0,0,0,0
+3,Sun Dec 04 04:51:08 2005,notice,jk2_init() Found child 6725 in scoreboard slot 10,Apache_E1,jk2_init() Found child <*> in scoreboard slot <*>,Apache,O O O O O O O O O O O O STC,0,0,0,0,0,0,0,0,1,0
+132,Sun Dec 04 05:15:09 2005,error,[client 222.166.160.184] Directory index forbidden by rule: /var/www/html/,Apache_E4,[client <*>] Directory index forbidden by rule: <*>,Apache,O O O O O O O O O OID O O O OID,2,0,0,0,0,0,0,0,0,0
+785,Sun Dec 04 17:43:08 2005,error,jk2_init() Can't find child 1566 in scoreboard,Apache_E5,jk2_init() Can't find child <*> in scoreboard,Apache,O O O O O O O O O OID O O O OID,2,0,0,0,0,0,0,0,0,0
+796,Sun Dec 04 17:43:12 2005,error,mod_jk child init 1 -2,Apache_E6,mod_jk child init <*> <*>,Apache,O O O O O O O O LOI,0,1,0,0,0,0,0,0,0,0

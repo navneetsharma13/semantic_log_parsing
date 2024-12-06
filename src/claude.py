@@ -1,14 +1,11 @@
-# %%
 import sys
 import logging
 from pathlib import Path
 from config import config
 from anthropic import Anthropic, HUMAN_PROMPT, AI_PROMPT
 
-# %%
 logger = logging.getLogger(__name__)
 
-# %%
 # Extract API key
 claude_api_key = config['CLAUDE']['token']
 if not len(claude_api_key):
@@ -20,7 +17,6 @@ anthropic = Anthropic(
     api_key=claude_api_key,
 )
 
-# %%
 #@retry(wait=wait_random_exponential(min=1, max=60), stop=stop_after_attempt(6), before_sleep=before_sleep_log(logging.getLogger(__name__), logging.DEBUG))
 def get_completion_from_claude(prompt, model="claude-2.0"):
     logging.info(f"Querying Claude with the prompt = " + str(prompt))
@@ -34,4 +30,8 @@ def get_completion_from_claude(prompt, model="claude-2.0"):
     logging.info(completion.completion)
     return completion.completion
 
-# %%
+if __name__ == "__main__":
+    logging.basicConfig(level=logging.INFO)
+    prompt = "Say hello!"
+    response = get_completion_from_claude(prompt)
+    print(response)

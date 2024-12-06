@@ -1,4 +1,3 @@
-# %%
 import openai
 import sys
 import logging
@@ -6,7 +5,6 @@ from config import config
 from tenacity import retry, stop_after_attempt
 from tenacity import wait_random_exponential, before_sleep_log
 
-# %%
 # Extract API keys
 openai_api_key = config['OPENAI']['token']
 openai_org_id = config['OPENAI']['org_id']
@@ -24,7 +22,6 @@ if openai_org_id:
 # You might want to comment out this line unless you're explicitly using a custom endpoint
 # openai.api_base = "https://api.openai.com/v1"
 
-# %%
 @retry(wait=wait_random_exponential(min=1, max=60), stop=stop_after_attempt(6), before_sleep=before_sleep_log(logging.getLogger(__name__), logging.DEBUG))
 def get_completion_from_gpt(prompt, model="gpt-3.5-turbo"):
     logging.info(f"Querying GPT with model = {model} and prompt = {prompt}")
@@ -46,9 +43,14 @@ def get_completion_from_gpt(prompt, model="gpt-3.5-turbo"):
         logging.error(f"OpenAI API error: {e}")
         raise e  # Retry via tenacity
 
-# %%
 def get_statistics_from_tenacity():
     logging.info("Retry statistics from Tenacity:")
     logging.info(get_completion_from_gpt.retry.statistics)
     print(get_completion_from_gpt.retry.statistics)
+    
+if __name__ == "__main__":
+    logging.basicConfig(level=logging.INFO)
+    prompt = "Say hello!"
+    response = get_completion_from_gpt(prompt)
+    print(response)
 

@@ -34,6 +34,6 @@ def get_completion_from_ollama(prompt, model="qwen2.5-coder:7b"):
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
-    prompt = "Say hello to my friend next to me, she is little but super strong. her name is brittany and make a beautiful message to make her happy."
+    prompt = "Say hello!"
     response = get_completion_from_ollama(prompt)
     print(response)
