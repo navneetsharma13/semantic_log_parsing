@@ -36,8 +36,8 @@ for folder in folders:
     df = pd.read_csv(individual_log_file)
     
     # Select 15 random rows from the DataFrame
-    if len(df) >= 15:
-        sample_df = df.sample(n=15, random_state=42)
+    if len(df) >= 8:
+        sample_df = df.sample(n=8, random_state=42)
     else:
         sample_df = df  # If less than 15 rows, take all rows
 

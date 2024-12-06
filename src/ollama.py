@@ -10,7 +10,7 @@ client = OpenAI(
 )
 
 
-# Model options - deepseek-v2:16b, codegemma:7b, qwen2.5-coder:7b, llama2:latest
+# Model options - deepseek-coder-v2, deepseek-v2:16b, codegemma:7b, qwen2.5-coder:7b, llama3.1
 
 @retry(wait=wait_random_exponential(min=1, max=60), stop=stop_after_attempt(6), before_sleep=before_sleep_log(logging.getLogger(__name__), logging.DEBUG))
 def get_completion_from_ollama(prompt, model="qwen2.5-coder:7b"):
