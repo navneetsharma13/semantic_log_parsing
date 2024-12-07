@@ -4,7 +4,8 @@ private/config.ini
 src/config.ini
 data/loghub_2k/2k_dataset
 data/logs_and_annotations
-results
+data/NeuralLog
+results/z_old_results
 private
 notes
 src/data_processing/old_version
