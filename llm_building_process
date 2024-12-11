@@ -1,0 +1,59 @@
+// How LLMs Are Built
+digraph {
+	rankdir=TB size="10,15"
+	node [color=lightgrey fontname=Helvetica shape=rectangle style="rounded,filled"]
+	"Data Cleaning" [label="Data Cleaning
+• Removing Noise
+• Handling Outliers
+• Addressing Imbalances
+• Text Preprocessing
+• Deduplication"]
+	Tokenization [label="Tokenization
+• BytePairEncoding
+• WordPieceEncoding
+• SentencePieceEncoding"]
+	"Positional Encoding" [label="Positional Encoding
+• Absolute Positional Embeddings
+• Relative Positional Embeddings
+• Rotary Position Embeddings
+• Relative Positional Bias"]
+	"LLM Architectures" [label="LLM Architectures
+• Encoder-Only
+• Decoder-Only
+• Encoder-Decoder
+..."]
+	"Model Pre-training" [label="Model Pre-training
+• Masked Language Modeling
+• Causal Language Modeling
+• Next Sentence Prediction
+• Mixture of Experts"]
+	"Fine-tuning and Instruction Tuning" [label="Fine-tuning and Instruction Tuning
+• Supervised Fine-tuning
+• General Fine-tuning
+• Multi-turn Instructions
+• Instruction Following"]
+	Alignment [label="Alignment
+• Supervised learning
+• Reinforcement Learning from Human Feedback
+• Direct Preference Optimization
+• Kahneman-Tversky Optimization"]
+	"Decoding Strategies" [label="Decoding Strategies
+• Greedy Search
+• Beam Search
+• Top-K Sampling
+• Top-P Sampling"]
+	"Cost-Effective Training/Inference, Adaptation & Compression" [label="Cost-Effective Training/Inference, Adaptation & Compression
+• Zero Redundancy Optimizer
+• Recurrence Weighted Key Value
+• Low-Rank Adaptation
+• Knowledge Distillation
+• Quantization"]
+	"Data Cleaning" -> Tokenization
+	Tokenization -> "Positional Encoding"
+	"Positional Encoding" -> "LLM Architectures"
+	"LLM Architectures" -> "Model Pre-training"
+	"Model Pre-training" -> "Fine-tuning and Instruction Tuning"
+	"Fine-tuning and Instruction Tuning" -> Alignment
+	Alignment -> "Decoding Strategies"
+	"Decoding Strategies" -> "Cost-Effective Training/Inference, Adaptation & Compression"
+}

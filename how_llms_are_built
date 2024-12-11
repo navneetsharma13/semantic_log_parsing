@@ -1,0 +1,74 @@
+digraph How_LLMs_Are_Built {
+	graph [fontname=Arial fontsize=12 labeljust=c labelloc=t]
+	node [color="#FDB813" fillcolor="#FFECCD" fontname=Arial fontsize=10 penwidth=1 shape=box style=filled]
+	edge [arrowhead=normal color=black]
+	charset="UTF-8" rankdir=TB splines=ortho
+	title [label="How LLMs Are Built?" color=black fillcolor="#FFFFFF" fontname=Arial fontsize=14 penwidth=1 shape=box3d style=filled]
+	data_cleaning [label="Data Cleaning"]
+	data_cleaning_box [label="• Data Filtering
+   - Removing Noise
+   - Handling Outliers
+   - Addressing Imbalances
+   - Text Preprocessing
+• Deduplication" color="#B2E8C9" fillcolor="#E0F7EE" fontname=Arial fontsize=10 margin=0.2 shape=note]
+	tokenization [label=Tokenizations]
+	tokenization_box [label="• BytePairEncoding
+• WordPieceEncoding
+• SentencePieceEncoding" color="#B2E8C9" fillcolor="#E0F7EE" shape=note]
+	pos_enc [label="Positional Encoding"]
+	pos_enc_box [label="• Absolute Positional Embeddings
+• Relative Positional Embeddings
+• Rotary Position Embeddings
+• Relative Positional Bias" color="#B2E8C9" fillcolor="#E0F7EE" shape=note]
+	arch [label="LLM Architectures"]
+	arch_box [label="• Encoder-Only
+• Decoder-Only
+• Encoder-Decoder
+• ..." color="#B2E8C9" fillcolor="#E0F7EE" shape=note]
+	pretrain [label="Model Pre-training"]
+	pretrain_box [label="• Masked Language Modeling
+• Causal Language Modeling
+• Next Sentence Prediction
+• Mixture of Experts" color="#B2E8C9" fillcolor="#E0F7EE" shape=note]
+	finetune [label="Fine-tuning and Instruction Tuning"]
+	finetune_box [label="• Supervised Fine-Tuning
+• General Fine-tuning
+• Multi-turn Instructions
+• Instruction Following" color="#B2E8C9" fillcolor="#E0F7EE" shape=note]
+	align [label=Alignment]
+	align_box [label="• Supervised Learning
+• Reinforcement Learning from Human Feedback
+• Direct Preference Optimization
+• Kahneman-Tversky Optimization" color="#B2E8C9" fillcolor="#E0F7EE" shape=note]
+	decode [label="Decoding Strategies"]
+	decode_box [label="• Greedy Search
+• Beam Search
+• Top-K Sampling
+• Top-P Sampling" color="#B2E8C9" fillcolor="#E0F7EE" shape=note]
+	optimize [label="Cost-Effective Training/Inference,
+Adaptation & Compression"]
+	optimize_box [label="• Optimized Training
+   - Zero Redundancy Optimizer
+   - Receptance Weighted Key Value
+• Low-Rank Adaption
+• Knowledge Distillation
+• Quantization" color="#B2E8C9" fillcolor="#E0F7EE" shape=note]
+	title -> data_cleaning
+	data_cleaning -> tokenization
+	tokenization -> pos_enc
+	pos_enc -> arch
+	arch -> pretrain
+	pretrain -> finetune
+	finetune -> align
+	align -> decode
+	decode -> optimize
+	data_cleaning -> data_cleaning_box [style=dashed]
+	tokenization -> tokenization_box [style=dashed]
+	pos_enc -> pos_enc_box [style=dashed]
+	arch -> arch_box [style=dashed]
+	pretrain -> pretrain_box [style=dashed]
+	finetune -> finetune_box [style=dashed]
+	align -> align_box [style=dashed]
+	decode -> decode_box [style=dashed]
+	optimize -> optimize_box [style=dashed]
+}

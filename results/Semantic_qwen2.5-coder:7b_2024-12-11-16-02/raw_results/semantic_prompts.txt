@@ -1,0 +1,1175 @@
+The Apache JServ Protocol (JK2) failed to find a child process with PID 5622 in its scoreboard.
+Error during initialization of mod_jk child process.
+The server denied directory access for the client at 61.220.139.68 due to a rule violation.
+The server has initialized a child process with PID 6790, occupying slot 7 in the scoreboard.
+The worker environment initialization was successful using the configuration file /etc/httpd/conf/workers2.properties.
+The Apache mod_jk module encountered an error with its child worker environment, specifically in state 6.
+The component "alt0" with HWID 2608 has changed to an unavailable state.
+Node 124 is starting an action to add a member to cluster at time 1074123150 with command 1900.
+Node 28 started action with command 1903.
+Node 147 started action with ID 2992 at timestamp 1085979758.
+Node 147 halted action with ID 2992 at timestamp 1085979758.
+Node 129 started an action with ID 1142537875, booting Genvmunix using command 4185.
+A node (node-181) has started an action with ID 4223 at timestamp 1145552039, booting up.
+Node 116 started action with ID 1145552379, waiting for command 4219.
+The command has completed successfully.
+The system is initiating a boot command targeting specific nodes.
+The system is initiating a boot command targeting domains node-D2 and node-84.
+A PSU failure occurred on node-118 with ambient temperature at 31 degrees Celsius.
+The Interconnect-0N00 switch module temperature (41C) has exceeded the warning threshold.
+ClusterFileSystem: No server available for ServerFileSystem domain storage321.
+Node node-162 detected a failed network connection on network 5.5.224.0 via interface alt0.
+A ServerFileSystem domain panic has occurred on storage442.
+The Interconnect-0N00 switch_module fan has speeds of 3534, 3534, 3375, 4115, 3497, and 3479.
+The Interconnect-0N00 switch_module fan 1143979502 has speeds of 3534, 3534, 3375, and ****.
+The command has been aborted.
+The Interconnect-0N02 switch_module encountered a power/control problem.
+Link error detected on broadcast tree Interconnect-1T00.
+The ServerFileSystem domain root22_local is full.
+The ClusterFileSystem serverFileSystem domain root28_domain is no longer served by node node-219.
+The node tc6 tserver is not responding.
+The system is starting up with partition status 1112346856.
+The partition is closing due to reaching its maximum capacity.
+The node-44 is active with status 1131527920.
+The system has detected 1 inconsistent node set among multiple nodes.
+The system is experiencing a full partition status with 1145174910 blocks, and 1 block is currently blocked.
+Node node-208 is not responding.
+Node-108 is configured with 1 out of 2 nodes.
+The node-164 is currently running with status code 1145554526.
+The temperature of gige3 is 1144667241 degrees Celsius, which is normal.
+The node-94 temperature is 34 degrees Celsius.
+The temperature of gige7 interface is critical at 1146100398.
+The temperature of gige4 interface is 1146058156 and it is a warning.
+Error 1073119551 indicates a link error on Interconnect-1T02 switch_module.
+The Interconnect-1N01 switch_module encountered an error with code 1073246148, but the link status is OK.
+The Interconnect-1N01 switch module encountered an error with code 1073911806, indicating that a link is in reset.
+Error occurred during risBoot command execution due to timeout waiting for SRM prompt.
+Error: HALT asserted, cannot continue.
+Failed to execute boot command with error code 1108648264.
+The Interconnect-1N00 switch_module encountered an error 1114545444 due to a Linkerror event interval expiring.
+The Interconnect-1T02 switch module has 1 link error that remains unresolved.
+Node node-144 has detected an available network connection on network 10.96.0.0 via interface scip0.
+Node node-73 has detected an available network connection on network 0.0.0.0 via interface alt0.
+Node node-171 has detected an available network connection on network 10.128.0.0 via interface ee0.
+User unknown timed out after 900 seconds.
+The system received SNMP packets from an external IP address.
+User 'guest' attempted authentication from IP address 209.152.168.249 but failed.
+Authentication attempt failed due to permission issues.
+Authentication failed due to software causing connection abort.
+Kerberos authentication failed.
+No mice detected.
+The system has automatically detected an Intellimouse PS/2 device.
+User root has opened a session.
+A user has logged into the system via the terminal.
+The system is removing a device node.
+The system is creating a device node for vcsa2.
+User test attempted authentication from IP 212.0.132.20 but failed.
+User attempted to authenticate but failed.
+User authentication failed.
+User 'combo' attempted to authenticate via SSH but was denied because the user does not exist.
+User attempted to authenticate via SSH but failed.
+An anonymous user logged into the FTP server from IP address 84.102.20.2.
+CUPS daemon successfully shut down.
+CUPS daemon started successfully.
+The DNS server named received a query without an SOA record in the question section.
+The server was unable to retrieve the client's IP address because the connection was reset by the peer.
+The FTP server encountered an error while trying to get information about the client's connection status.
+Failed SSH login attempt for root user from IP 207.243.167.114.
+The system encountered an error while attempting to execute the logrotate process.
+A user session was opened for 'news' by root (uid=0).
+User news logged out.
+A user connected to the FTP server.
+The syslogd service on combo has been restarted.
+The syslog daemon has successfully started.
+klogd started with version 1.4.1, logging source set to /proc/kmsg.
+The system is running Linux version 2.6.5-1.358 with GCC version 3.3.3.
+The system is reporting the BIOS-provided physical RAM map.
+The system has identified a usable memory region ranging from 0x100000 to 0x7eae000 as reported by the BIOS.
+The BIOS has marked a specific memory range as reserved.
+No high memory available.
+126MB of low memory available.
+The system is performing a memory cleanup operation, specifically targeting low-level memory mappings.
+klogd service started successfully.
+The system reports that on node 0, there are a total of 32430 pages available.
+The system has allocated 4096 pages for the DMA zone with a LIFO batch size of 1.
+The kernel reports that the Normal zone has 28334 pages, with a LIFO batch size of 6.
+The irqbalance service started successfully.
+The HighMem zone has 0 pages available, with a LIFO batch size of 1.
+The system is running on DMI version 2.3.
+The system has disabled ACPI due to an outdated BIOS.
+You can enable ACPI support with the 'acpi=force' parameter.
+The system has successfully built 1 zonelists.
+The system is booting with the root filesystem labeled as "/" and using graphical boot messages with minimal verbosity.
+The kernel has mapped 4GB of trampoline memory to the address range ffff3000.
+The system is initializing CPU number zero.
+The system is reporting the memory addresses for hard and soft interrupt stacks on CPU 0.
+Portmap service started successfully.
+The kernel is initializing the PID hash table with 512 entries, each occupying 4096 bytes.
+The system has detected a processor running at 731.219 MHz.
+The RPC statd service version 1.0.6 has started.
+The system is using the Time Stamp Counter (TSC) for high-resolution timekeeping.
+The NFS lock service (rpc.statd) has successfully started.
+The system console is set to use color VGA with a resolution of 80x25.
+The system has 125312k of available memory out of a total of 129720k, with specific breakdowns for kernel code, reserved space, data, and initialization.
+The system is calibrating its delay loop, resulting in a BogoMIPS value of 1445.88.
+The Security Scaffold v1.0.0 has been initialized.
+<SPL>SELinux is initializing.</SPL>
+<SPL>SELinux is starting in permissive mode.</SPL>
+The security framework is already initialized, preventing further registration.
+The system failed to register capabilities with the kernel.
+The SELinux kernel module is registering a secondary security capability.
+The Linux Security Module (LSM) capability has been initialized.
+The rpc.idmapd service has successfully started.
+The kernel has initialized the dentry cache hash table with 16384 entries, which requires an order of 4 and occupies 65536 bytes.
+The kernel has initialized an inode-cache hash table with 8192 entries, using 32768 bytes of memory.
+The kernel has initialized a mount-cache hash table with 512 entries, using 4096 bytes of memory.
+The system reports the cache sizes for CPU L1 instruction and data caches.
+The system reports that the L2 cache size is 256K.
+The system supports Intel's Machine Check Architecture.
+Intel machine check reporting enabled on CPU#0.
+The system is running on an Intel Pentium III processor with a Coppermine microarchitecture and stepping 06.
+The system is enabling fast FPU save and restore functionality.
+The system is enabling support for unmasked SIMD FPU exceptions.
+The kernel is verifying the 'hlt' instruction, and it has successfully passed this check.
+The random number generator has been successfully initialized.
+UNIFIX is performing POSIX conformance testing.
+The kernel has registered protocol family 16.
+The system has detected a PCI BIOS revision 2.10 entry at address 0xfc0ce, with the last bus being 1.
+The system is using PCI configuration type 1.
+MTRR version 2.0 (20020519) loaded.
+The system's ACPI subsystem has been initialized with revision 20040326.
+The ACPI interpreter has been disabled.
+The Linux kernel is starting up and initializing support for Plug and Play devices.
+The system has successfully started the pcmcia service.
+The USB file system driver has been registered.
+A new USB hub driver has been registered.
+The system's ACPI tables lack PCI IRQ routing entries.
+The system detected an invalid ACPI-PCI IRQ routing table.
+The system is beginning to scan for and identify PCI hardware components.
+The system is probing for PCI hardware on bus 00.
+The system has detected a transparent bridge at PCI address 0000:00:1e.0.
+The system is using an IRQ router PIIX/ICH at PCI address 0000:00:1f.0.
+The system is using BIOS version 1.2 with driver version 1.16ac.
+The system is initializing a netlink socket, but it is disabled.
+The system has enabled core dumps to include the process ID.
+HCI daemon version 2.4 has started.
+The Bluetooth service on the device successfully started.
+The system has been successfully initialized.
+The network parameters were successfully set.
+The Bluetooth service has successfully started.
+sdpd version 1.5 has been initiated.
+No HugeTLB memory is allocated.
+The loopback interface was successfully brought up.
+Disk quotas version 6.5.1 is being loaded.
+The kernel is reporting that the Dquot-cache hash table has 1024 entries, with each entry occupying 4096 bytes of memory.
+<SPL>SELinux is registering netfilter hooks.</SPL>
+The system is initializing the Cryptographic API.
+The system has detected and initialized the PCI Hot Plug PCI Core, version 0.5.
+The system is scanning for Plug-and-Play (PnP) cards.
+No Plug & Play device found.
+The Real Time Clock Driver version 1.12 has been loaded.
+The Linux agpgart interface version 0.100 was initialized by Dave Jones.
+MobaXterm.exe connected to 183.62.156.108:22 via proxy socks.cse.cuhk.edu.hk:5070 using SOCKS5 protocol.
+SGTool.exe failed to connect through proxy due to unexpected closure.
+Failed to connect to proxy server due to DNS resolution error.
+A connection request was canceled before it could be completed.
+Dropbox failed to connect to the proxy server.
+The QQProtectUpd.exe application attempted to connect through a proxy server but failed due to a 403 Forbidden status code.
+User opened a webpage through a proxy server.
+The Chrome browser instance connected to t12.baidu.com on port 80 closed after 17 seconds with no data sent or received.
+An unexpected exception occurred.
+The ZooKeeper server is configured to listen for election connections on all network interfaces at port 3888.
+The server with identifier 2 is dropping its connection to the server with identifier 1 because it has a smaller server identifier.
+A new election has started. The current node's ID is 1, and it has proposed a zxid of 0x700000000.
+The system has received a notification about the leader election, indicating that node 3 is now the leader with zxid 0x700000197 and round 0x1.
+The ZooKeeper server with ID 1 is currently following the leader after an election that took 238 milliseconds.
+The autopurge.snapRetainCount is set to 3.
+The system is currently in the LOOKING state, indicating it is searching for a leader.
+The tickTime for the QuorumPeer is set to 2000 milliseconds.
+The system experienced a notification timeout of 60000 milliseconds.
+A client has disconnected.
+An unexpected exception occurred, causing the system to shut down while a socket was still open.
+The system encountered an error while trying to create a node at "/home/curi/.zookeeper" because the node already exists.
+The system is initiating the startup of a quorum peer.
+The ZooKeeper server is taking a snapshot of its data, with the version number 0x50000062e, to the specified directory.
+The ZooKeeper server received an update from Follower with session ID 3.
+The ZooKeeper server is revalidating a client connection.
+The maximum session timeout is set to an invalid value (-1).
+The ZooKeeper server is currently in the FOLLOWING state, indicating it is not the leader but is part of a quorum.
+A client is attempting to renew an existing session.
+The system has achieved quorum, is starting up, and setting the last processed zxid to 0xb00000000.
+The system received a notification about the leader election, indicating that it has transitioned to the FOLLOWING state.
+The request processor has completed its shutdown.
+The ZooKeeper server encountered an IOException because it was not running, causing session 0x0 to close.
+The system is encountering an issue with the first element being 0x0.
+The system is currently in the LOOKING state, attempting to elect a new leader.
+The autopurge.purgeInterval is set to 0, indicating that no automatic cleanup will be performed.
+The system is reading a snapshot file located at /var/lib/zookeeper/version-2/snapshot.b00000084.
+The system is sending a DIFF.
+The system is unable to establish a connection with node 2 at the specified election address.
+The send worker thread is terminating.
+The system encountered an interruption while waiting for a message on the queue.
+The SendWorker is being interrupted.
+A client connection was closed without establishing a session.
+The connection with ID 1 was broken, while my ID is 3.
+The ZooKeeper server is currently looking for a leader.
+The system has received a notification about the leader election process, indicating that node 3 is now following the leader.
+The server encountered an end of stream exception.
+A warning message indicating that a connection request from an old client will be dropped if the server is in read-only mode.
+A client attempted to connect to the server at IP address 10.10.34.11 on port 53230.
+The minimum session timeout is set to an invalid value of -1.
+The server's Java home directory is set to /usr/lib/jvm/java-7-openjdk-amd64/jre.
+The system is attempting to retrieve a snapshot from the leader.
+A socket connection was accepted from IP address 10.10.34.23 on port 51828.
+A ZooKeeper server established a session with client IP 10.10.34.42 at port 37429, negotiated timeout of 10000 milliseconds.
+The system is currently in the LOOKING state, indicating it is searching for a leader.
+A client is attempting to establish a new session with the ZooKeeper server.
+A client with session ID 0x34f0557885e0002 disconnected.
+The ZooKeeper server is expiring session 0x14f05578bd8000f due to exceeding its timeout of 10000ms.
+A session with ID 0x24f0557806a0010 has been terminated.
+The CPU at tree address 438 sent an unrecognized message.
+A fatal data TLB error interrupt occurred in the RAS KERNEL.
+The system encountered an unexpected message code that is neither 51 nor 4294967295.
+Data storage interrupt occurred on 2005-06-14 at 10:17:24.504094.
+A fatal error occurred in the RAS KERNEL with data address 0x00000002.
+A fatal machine check occurred during an instruction fetch operation.
+A fatal error occurred in the RAS KERNEL due to an interrupt caused by a trap instruction.
+Fatal error occurred during store operation.
+The system experienced a fatal machine check error, indicating an issue with the RAS (Reliability, Availability, Serviceability) kernel.
+<RAS KERNEL FATAL debug interrupt enable............0.> The RAS kernel has enabled a fatal debug interrupt, which is set to 0.
+A fatal byte ordering exception occurred in the RAS KERNEL.
+A fatal error occurred in the RAS KERNEL due to an interrupt, specifically related to updating the floating-point control register.
+A fatal error occurred due to an instruction cache block touch.
+A fatal error occurred in the RAS KERNEL due to an issue with the data cache block touch.
+A fatal error occurred in the RAS KERNEL due to an interrupt with a specific field value.
+The system experienced a fatal error related to force load/store alignment.
+The RAS KERNEL FATAL error indicates an issue with the instruction cache prefetch depth being set to 0.
+The RAS KERNEL FATAL error indicates an issue with the icache prefetch threshold.
+The system experienced a fatal error in the RAS KERNEL, indicating an issue with the machine state register.
+The system has encountered a fatal error related to wait state enable.
+The system encountered a critical input interrupt enable event.
+<RAS KERNEL FATAL problem state (0=sup,1=usr).......0.>
+Floating point instruction enabled on RAS KERNEL.
+A fatal error occurred in the RAS KERNEL related to special purpose registers.
+Fatal error occurred in RAS KERNEL with specific registers.
+<RAS KERNEL FATAL rts internal error. </RAS KERNEL FATAL rts internal error.
+Floating point exception mode 1 enabled.
+Fatal error occurred in RAS KERNEL with instruction address space at 0.
+Fatal error occurred in RAS KERNEL with data address space issue.
+The system experienced a fatal error in the RAS KERNEL, indicating an issue with the core configuration register at address 0x00002000.
+The RAS KERNEL FATAL error indicates that store gathering has been disabled.
+The application encountered a fatal error while attempting to read a message prefix on the control stream.
+Error creating node map due to lack of child processes.
+Data store interrupt caused by ICBI.
+The system encountered an unimplemented operation during a program interrupt.
+The system encountered an imprecise exception during a program interrupt.
+The system has received an interrupt from the RAS KERNEL.
+The system logged an informational message about an instruction address.
+The system encountered an exception with syndrome register value 0x08000000.
+The system encountered an illegal instruction during a program interrupt.
+Data store interrupt caused by dcbf command.
+The auxiliary processor is functioning normally.
+Error creating node map from file due to bad file descriptor.
+Duplicate mapping found between canonical-rank 31 and logical-rank 0.
+Error creating node map due to missing block device.
+The system encountered a fatal error (RTS panic) and has stopped execution.
+Error creating node map due to permission denied.
+The Z coordinate exceeds its physical dimension.
+The kernel terminated due to an invalid CPU type in the message header.
+The RAS KERNEL FATAL debug wait enable status is 0.
+The system is generating a core dump.
+The NodeCard is experiencing hardware issues and is not fully functional.
+Node card status indicates active alerts.
+Clock mode is set to Low.
+Clock select is configured for Midplane.
+Phy JTAG Reset is asserted.
+ASIC JTAG Reset is not asserted.
+Temperature Mask is inactive.
+No temperature error detected.
+Temperature Limit Error Latch is clear.
+PGOOD is asserted, indicating power good status.
+PGOOD error latch is clear.
+MPGOOD is OK, indicating multi-processor power good status.
+MPGOOD error latch is clear.
+The 2.5 volt rail is functioning normally.
+The 1.5 volt rail is functioning normally.
+A new IDO chip with MAC address FF:F2:9F:16:C4:C2:00:0D:60:E9:3B:3D and IP address 10.2.1.37 has been inserted into the database.
+HARDWARE WARNING: NodeCard is shutting down as part of Service Action 310.
+Failed to retrieve assembly information for node card.
+The RAS KERNEL encountered a fatal error during rts tree/torus link training, expecting B C X+ X- Y+ Y- Z+ Z-, but received B C X- Y- Z+ Z-.
+The system encountered an error while processing a node map file, specifically missing or invalid fields on line 1.
+There were 32888202 double-hummer alignment exceptions.
+NFS mount failed on bglio91, retrying.
+Torus receiver x+ input pipe error(s) detected and corrected.
+The system received a packet from node 91.0 with an unexpected message code.
+Torus receiver y+ input pipe error(s) detected and corrected.
+Lustre mount failed due to bglio388 error on point /p/gb1.
+The Ido chip status changed for device with MAC address FF:F2:9F:15:7B:E0 at IP 10.7.0.130 to M on Sat Sep 17 07:49:04 PDT 2005.
+Node card status: no ALERTs are active.
+Clock Mode is Low.
+Clock Select is Midplane.
+Phy JTAG Reset is asserted.
+ASIC JTAG Reset is asserted.
+Temperature Mask is not active.
+No temperature error.
+Temperature Limit Error Latch is clear.
+PGOOD IS NOT ASSERTED.
+PGOOD ERROR LATCH IS ACTIVE.
+MPGOOD IS NOT OK.
+MPGOOD ERROR LATCH IS ACTIVE.
+The 2.5 volt rail is OK.
+The 1.5 volt rail is OK.
+The system encountered an ASSERT condition in the IdoTransportMgr::SendPacket function, indicating a potential error or unexpected behavior.
+The system encountered a fatal error due to an unexpected message header type.
+Warning: Critical input interrupt detected on torus y+ wire.
+The system is suppressing further interrupts of the same type due to an RAS KERNEL INFO event.
+Error occurred while reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116:47696 due to link severance.
+Data cache search parity error detected. Attempting to correct.
+The system has completed its shutdown process.
+Error loading RAPTOR trace file due to invalid or missing program image.
+The system detected and corrected 1 DDR error.
+A critical input interrupt occurred on unit 0x0b, bit 0x0b, related to a warning for the torus z-wire.
+16 tree receiver 2 in re-synch state event(s) detected.
+A fatal error occurred due to an attempt to execute a privileged instruction.
+Torus receiver z+ input pipe error(s) detected and corrected.
+EDRAM error(s) detected and corrected.
+The RAS KERNEL INFO indicates that an informational message has been logged related to the iar 00106298 process.
+Floating point alignment exceptions occurred.
+DDR errors detected and corrected on rank 0, symbol 8, bit 7.
+The kernel terminated due to reason 1004.
+Error receiving packet on tree network, expecting type 57 instead of type 3.
+Torus sender detected and corrected retransmission errors over 268 seconds.
+MACHINE CHECK DCR read timeout occurred.
+Error occurred while reading message prefix on CioStream socket to 172.16.96.116:41060, connection timed out.
+Error occurred while reading message prefix on CioStream socket to 172.16.96.116:41587, connection was reset by peer.
+Fatal error occurred in RAS KERNEL with dbcr0, dbsr, and ccr0 values.
+Fatal error occurred in RAS KERNEL with specific register values.
+The U01 node in processor card slot J05 does not match the expected VPD information.
+The system received an interrupt signal 15.
+The application failed to change directory to /g/g0/spelce1/Linpack_SWL due to it not existing.
+No microseconds spent in the rbs signal handler during 0 calls.
+Maximum time for a single instance of a correctable ddr is 0 microseconds.
+The system experienced 720 total interrupts, with no critical input interrupts.
+HARDWARE WARNING: Node card is shutting down as part of Service Action 648.
+A tree receiver 1 in re-synch state event detected over 244 seconds.
+The RAS kernel logged an informational message about a specific system event, indicating that a symbol with ID 29 was encountered at memory address 0x0ea9fd60 with a mask of 0x40.
+Fatal error occurred with normalized number 0.
+Lustre mount failed due to bglio617 error.
+Fraction rounded to zero
+The node card is not fully functional.
+A critical input interrupt occurred on unit 0x0b, bit 0x17 for tree C1 wire, suppressing further interrupts of the same type.
+The system encountered a fatal error related to the size of the scratchpad portion of L3, indicating it is 0M.
+The system detected 3486044 integer alignment exceptions.
+Error loading program image: file not found.
+The application failed to change directory due to an input/output error.
+Error loading SPaSM.baseline: invalid or missing program image, Permission denied.
+A critical input interrupt occurred on unit 0x0b, bit 0x0a for the torus z+ wire, and further interrupts of the same type are being suppressed.
+DDR error(s) detected and corrected on rank 0, symbol 28 over 2946 seconds.
+Error occurred while reading message prefix on CioStream socket to 172.16.96.116:50288, link severed.
+EDRAM error(s) detected and corrected over 282 seconds.
+The system detected and corrected 3 DDR errors over 8732 seconds.
+The debugger process has terminated unexpectedly.
+Error loading executable file due to size exceeding limit.
+Fatal error occurred in RAS KERNEL with fpr29 register values indicating potential hardware issue.
+A fatal error occurred in the RAS KERNEL, indicating an issue with the Machine State Register.
+The RAS kernel corrected an instruction cache parity error.
+The system generated 128 core files for the program /g/g24/germann2/SPaSM_mini/MEAM/r13.
+The MapReduce Application Master (MRAppMaster) has been created for application appattempt_1445144423722_0020_000001.
+The MapReduce Application Master is executing with tokens.
+The YARN Application Master (AM) is requesting an RM token for the specified application attempt.
+The MapReduce application master is using the new API committer.
+The OutputCommitter is not set in the configuration.
+The MapReduce application master is using the FileOutputCommitter for output management.
+The default file system for Hadoop is set to hdfs://msra-sa-41:9000.
+Emitting job history data to the timeline server is not enabled.
+The system is registering an event handler for job finish events.
+Hadoop metrics configuration loaded successfully.
+The system has scheduled a snapshot period every 10 seconds.
+The MapReduce Application Master metrics system has started.
+The system is adding a job token for a specific job to the jobTokenSecretManager.
+The job was not uberized due to being disabled, having too many maps, and requiring too much input.
+The job job_1445144423722_0020 processed an input size of 1.2565GB with 10 splits.
+The job job_1445144423722_0020 has 1 reduce task.
+The job transitioned from NEW to INITED.
+The MapReduce Application Master is starting a normal, non-uberized, multi-container job.
+The system is adding a protocol for MapReduce client interaction to the server.
+The MRClientService was instantiated at IP address 10.86.169.121 on port 62260.
+The system is logging using Log4jLoggerAdapter.
+The HTTP request log for mapreduce is not configured.
+The system added a global filter named 'safety' to enhance security.
+The Hadoop HTTP server added an AM_PROXY_FILTER to the context mapreduce.
+The Apache Hadoop HTTP server added an AM_PROXY_FILTER to the static context.
+The system is adding a path specification for web services.
+The system has successfully bound to port 62267 using Jetty.
+Jetty server version 6.1.26 is being initialized.
+The system is extracting the contents of a JAR file to a temporary directory for web application deployment.
+The HTTP server has been successfully started on port 62267.
+The MapReduce web application started at port 62267.
+Hadoop YARN web application registered Guice modules.
+The system is using a LinkedBlockingQueue for managing call queues.
+A job named "job_1445144423722_0020" was created.
+The system has node blacklisting enabled.
+The maximum number of task failures allowed per node is set to 3.
+The percentage of blacklisted resources is set to 33.
+The system is starting a Socket Reader for port 62270.
+The IPC server on port 62270 is starting.
+The IPC Server Responder is starting.
+The system is attempting to establish a connection with the ResourceManager at the specified IP address and port.
+The maximum container capability is set to 8192 MB of memory and 32 virtual cores.
+The system is logging information about a container allocation in the default queue.
+The system has set an upper limit of 500 threads for the thread pool.
+The maximum number of cached NodeManager proxies is set to 0.
+The job transitioned from INITED to SETUP.
+The system is processing a JOB_SETUP event.
+The job transitioned from setup to running.
+A task transitioned from NEW to SCHEDULED.
+The system is requesting resources for a map task, specifically 1024 MB of memory and 1 virtual core.
+The JobHistoryEventHandler is setting up an event writer for job_1445144423722_0020, writing to hdfs://msra-sa-41:9000/tmp/hadoop-yarn/staging/msrabi/.staging/job_1445144423722_0020/job_1445144423722_0020_1.jhist.
+The system is requesting resources for reduce tasks, specifically 1024 MB of memory and 1 virtual core.
+The job-jar file for the specified job is located at hdfs://msra-sa-41:9000/tmp/hadoop-yarn/staging/msrabi/.staging/job_1445144423722_0020/job.jar.
+The job configuration file is located at /tmp/hadoop-yarn/staging/msrabi/.staging/job_1445144423722_0020/job.xml.
+The system is adding tokens and secret keys for use by the NodeManager when launching a container.
+The size of container tokens for a specific task attempt is 1.
+The system is putting a shuffle token into service data.
+The container_1445144423722_0020_01_000011 was assigned to the attempt_1445144423722_0020_m_000009_0.
+The task attempt transitioned from UNASSIGNED to ASSIGNED.
+The system is attempting to launch a container for a map task.
+The Hadoop MapReduce job has received shuffle port 13562 from the ContainerManager.
+A MapReduce task attempt is using a specific container on a node manager.
+The task attempt transitioned from ASSIGNED to RUNNING.
+A task started.
+The task transitioned from scheduled to running.
+The ResourceManager's container allocator received 1 new allocated container.
+The Hadoop MapReduce framework is unable to assign a container for a map task because either the container's memory is less than required or there are no pending map tasks.
+Error occurred while processing container complete event for unknown container id.
+The reduce task did not meet the slow start threshold, as it has completed 1 map.
+The authentication for job_1445144423722_0020 was successful using the SIMPLE method.
+A JVM with ID jvm_1445144423722_0020_m_000011 requested a task.
+A JVM with ID jvm_1445144423722_0020_m_000011 has been assigned task attempt_1445144423722_0020_m_000009_0.
+Acknowledgment received for task attempt 1445144423722_0020_m_000003_0.
+The MapReduce task attempt transitioned from running to success during container cleanup.
+The TaskAttempt transitioned from SUCCESS_CONTAINER_CLEANUP to SUCCEEDED.
+The MapReduce task attempt_1445144423722_0020_m_000003_0 succeeded.
+The task task_1445144423722_0020_m_000003 has successfully transitioned from the RUNNING state to the SUCCEEDED state.
+The job has completed 1 task.
+The system is recalculating its schedule due to insufficient headroom, specifically because of negative vCores.
+The reduce tasks have started scheduling due to reaching the slow start threshold.
+All maps have been assigned, and the system is now ramping up all remaining reduces.
+The system is speculating on task_1445144423722_0020_m_000000.
+The system launched 1 speculation and will sleep for 15000 milliseconds.
+The system is scheduling an additional attempt for task task_1445144423722_0020_m_000000.
+The ResourceManager is requesting resources for application_1445144423722_0020, asking for 5 containers, releasing none, and finishing one container. The resource limit is set to zero memory and negative vCores, with 4 known NodeManagers.
+The system has received information about a completed container.
+The ResourceManager's container allocator has scheduled 1 map and 1 reduce task, assigned 9 containers, and completed 1 map.
+The container for task attempt_1445144423722_0020_m_000003_0 was terminated by the ApplicationMaster.
+The ReadProcessor took longer than expected to read fields, indicating potential performance issues.
+A warning occurred while processing a response for a specific block in HDFS.
+The HDFS client encountered an error while recovering a block due to a bad datanode.
+DataStreamer encountered an exception while processing a block for the specified file.
+Error occurred while writing History Event for TaskAttemptUnsuccessfulCompletionEvent.
+The eventHandlingThread encountered an exception.
+The MapReduce task attempt progress is 0.37551183.
+The task attempt failed due to a network issue where there was no route to the specified host.
+Error occurred during task attempt due to network issue preventing connection to specified host.
+The MapReduce task attempt transitioned from running to fail container cleanup.
+The system is processing a remote cleanup event for a specific container and task attempt.
+The system is attempting to kill a container for a specific map task.
+The system is attempting to open a proxy connection to the specified host and port.
+The task attempt transitioned from failing container cleanup to failing task cleanup.
+The system is processing an event of type TASK_ABORT.
+Task cleanup failed for attempt_1445144423722_0020_m_000001_0.
+The MapReduce task attempt transitioned from the FAIL_TASK_CLEANUP state to the FAILED state.
+The system resolved the hostname MSRA-SA-41.fareast.corp.microsoft.com to the rack /default-rack.
+The task attempt has transitioned from the NEW state to the UNASSIGNED state.
+2 failures occurred on node MININT-FNANLI5.fareast.corp.microsoft.com.
+The map attempt_1445144423722_0020_m_000001_1 has been added to the list of failed maps.
+The ResourceManager is preparing to schedule tasks, with no pending red tasks, 3 scheduled map tasks, 1 scheduled reduce task, 9 assigned map tasks, 0 assigned reduce tasks, 1 completed map task, and 0 completed reduce tasks. There are currently 11 container allocations, 1 container release, 7 host-local containers, and 3 rack-local containers.
+The system failed to renew a lease for a DFSClient and will retry shortly.
+The system is attempting to connect to a server at msra-sa-41:8030, but it has not been successful yet. It will retry up to 10 times with a 1-second delay between each attempt.
+Error occurred while contacting ResourceManager.
+The system detected an address change for the client, transitioning from msra-sa-41/10.190.173.170:9000 to msra-sa-41:9000.
+The network has become unreachable, causing netbiosd to shut down.
+The mDNSResponder service is deregistering an interface due to frequent transitions.
+A Bluetooth Low Energy (BLE) device with a specific hash was discovered.
+The system has completed generating hashes.
+The Bluetooth HID device controller has disconnected an event service.
+Hibernate read operation took 197 milliseconds.
+The system attempted to start a camera but failed.
+The WindowServer is reordering authentication windows due to system sleep.
+The GoogleSoftwareUpdateAgent is checking with the local engine for updates.
+Type1 font data is not formatted correctly according to Adobe Type 1 Font Format specification.
+The system has received a notification about a Bluetooth Controller registering a service.
+The GoogleSoftwareUpdateAgent is checking for updates for the "com.google.Keystone" product using the KSUpdateEngine.
+The mDNSResponder service is experiencing frequent interface transitions for the awdl0 interface with the specified IP address.
+The GoogleSoftwareUpdateAgent launched a helper task for a tool at '/Users/xpc/Library/Google/GoogleSoftwareUpdate/GoogleSoftwareUpdate.bundle/Contents/MacOS/ksfetch' with process ID 32433.
+The host connection from process ID 30298 has been invalidated.
+Error occurred during drag-and-drop operation.
+The system has registered for a notification callback related to stream events.
+The system is attempting to call MTActuatorOpen() outside of the MTTrackpadHIDManager context.
+BTLE scanning has been stopped.
+Discoverable mode turned off.
+The system is enabling PID 30298 for the Weather app plugin.
+The GoogleSoftwareUpdateAgent is checking for self-update with the specified engine.
+The GoogleSoftwareUpdateAgent has successfully passed CUP validation for an update response.
+The system is rejecting a report that a layer has been serviced because IQ has not yet begun to update.
+The WebKit WebContent process encountered an error while trying to copy a property, with the error code -12785 indicating that the object has been invalidated.
+The system encountered an error while trying to set a property asynchronously, indicating that the object has been invalidated.
+The system has adjusted its wake time by -0.855670 seconds.
+The internal name could not be resolved to an internal address.
+The WebKit Networking service exited with an abnormal code, indicating an error.
+The central manager is not powered on.
+DND (Do Not Disturb) is enabled.
+The network configuration on interface en0 has changed, with new IPv4 address 10.105.160.237 and IPv6 address 2607:f140:6000:8:f1dc:a608:863:19ad, and DNS Proxy SMB is active.
+The system was awakened for an unknown reason.
+The application attempted to establish a TCP connection to 203.205.147.206 on port 8080 but failed due to a network connectivity issue.
+The request to get principal information timed out.
+The system has freed up 3349 wired pages using the buffer_cache_gc process.
+The system has successfully connected to a Bluetooth transport.
+The Bluetooth controller is online, but there are no HID devices connected.
+The mDNSResponder service on interface en0 at IP address 10.105.162.32 is experiencing frequent transitions.
+The system is entering Standby mode with no external power connected, and it has 578 seconds of battery remaining.
+The AppleActuatorHIDEventDriver service has stopped running.
+Byte flume reports host unavailable.
+The system received a capture notice with ID 1499133420.914478 due to a Deauthentication indication with status code 0 and reason code 7.
+The kernel received a payload with data 07 00.
+The AppleDeviceManagementHIDEventService encountered an error while attempting to create a string from a connection notification key.
+The system is performing hibernate teardown with specific memory page statistics.
+The system is attempting to register a Bluetooth service.
+The kernel has completed rebuilding page map structures, with the last valid compact index being 285862.
+The system is exiting due to Diskarb.
+The GoogleSoftwareUpdateAgent is starting an update check for a specific ticket.
+Error 60 occurred during TLS session handling.
+The system is checking the iCDP status for DSID 874161398.
+The system was awakened due to a TCP timeout.
+The network configuration on the device has changed, specifically affecting DNS settings.
+The GoogleSoftwareUpdateAgent is verifying code signing for the GoogleSoftwareUpdateDaemon application.
+The ksfetch process completed fetching data.
+The network configuration on v4(en0) has changed to 10.105.162.105 with DNS, Proxy, and SMB enabled.
+The WorldClock extension has been deactivated.
+A session was created with ID 101921.
+The kernel took 6 milliseconds to open a file for direct I/O.
+AirDrop server is starting for user 501 upon waking up.
+The PM response took 113 ms for WeChat.
+Cocoa scripting error occurred due to an invalid four-character code length.
+The Microsoft Word application encountered a warning regarding an invalid type name '4023' for an argument in the command 'can continue previous list' within the suite 'Microsoft Word Suite'.
+The system is encountering a conflict between two versions of the TSUAtomicLRUCache class, with one version located at /Library/QuickLook/iWork.qlgenerator/Contents/MacOS/iWork and another at /System/Library/PrivateFrameworks/OfficeImport.framework/Versions/A/OfficeImport. The specific version that will be used is undefined.
+The system is invalidating a watch set.
+The system is encountering a conflict between two versions of the TSUCustomFormatData class, with one version being used and the other undefined.
+The system has started generating hashes.
+BTLE scanning started.
+The system logged a ByteStream read operation of 21335 bytes, which took 0.501237 seconds to complete, with 16 reads being slower than 0.5 seconds.
+AirPort has established a link on interface en0.
+The system encountered an unrecognized attribute value "t:AbchPersonItemType" while processing.
+-_continuousScroll is deprecated for NSScrollWheel. Please use -hasPreciseScrollingDeltas.
+-deviceDeltaY is deprecated for NSScrollWheel. Please use -scrollingDeltaY.
+WebKit WebContent process encountered an error with code -12871.
+The application encountered a timeout while waiting for a resource, specifically crabsWaitForLoad.
+The ASL Module "com.apple.corecdp.osx.asl" is claiming selected messages, which may prevent those messages from appearing in standard system log files or the ASL database.
+The request to https://gs-loc.apple.com/clls/wloc timed out.
+The wireless scan failed because the central device is not powered on.
+The WindowServer generated a desktop screenshot with authentication window ID 2000 and shield window ID 2001.
+The system was awakened due to the SleepTimer event.
+The system initialized hibernation with 451,550 pages, completed in 197 ms. Disk read speed was 799 Mb/s, compression took 27 ms at 1412 Mb/s, and encryption took 39 ms at 3904 Mb/s.
+The system is starting a warmup process for the vm_compressor_fastwake.
+The kernel has exited from the BuildActDeviceEntry function.
+The system is updating its enabled status for various topics related to iCloud pairing, Continuity features, and other Apple services.
+The ksfetch application received a request to fetch data from Google's update service.
+No updates available for prefetching.
+The FaceTime do-not-disturb notification was received.
+The CCProfileMonitor has completed freeing its resources.
+DND (Do Not Disturb) is disabled.
+The daemon connection has been invalidated.
+The system is initializing hibernate with state 2, image pages 446175, sum d4e6c0b2, and conflict count 5848.
+The system completed the hibernate rebuild process, taking 10042450943433 milliseconds.
+The AppleActuatorDevice has initiated its stop process.
+The AppleActuatorDevice has started.
+The system encountered a high page count of 488653 while setting all pages for hibernation.
+The AppleMultitouchDevice is about to terminate.
+The system received a capture notice with ID 1499295963.492254 due to a RoamFail error.
+Manual intervention required for network interface en0.
+The GoogleSoftwareUpdateAgent is fetching an update from a specified URL.
+The IO80211AWDLPeerManager profile was removed by the com.apple.iokit.IO80211Family owner.
+The IMMacNotificationCenterManager is updating its enabled status to NO, with no topics specified.
+The WindowServer generated a lock screen screenshot.
+The wireless network interface wl0 has set up a keepalive mechanism with the local IP address 10.142.108.38.
+The wireless network interface wl0 received an IPv4 address of 10.142.108.38 via mDNS.
+Byte flume reports host available again.
+Unexpected payload found for message 9, dataLen 0.
+The ARP client failed to transmit on interface en0 because the network is down.
+The Wi-Fi interface en0 has its country code set to 'X3'.
+The system booted up with various components starting at different times.
+The device "calvisitor-10-105-160-210" has 1 paired device with MAC address "84-41-67-32-db-e1".
+The system attempted to enter hibernate mode but encountered an issue with IOPolledFilePollersOpen() and ml_get_interrupts_enabled being 0.
+The Bluetooth HID device controller has connected to an event service.
+The kernel is discarding inactive memory pages.
+The system is writing 485676 pages to memory starting at address 0x97144 with bitmap size 0x7f0fc and preview size 0x4028.
+The system is delaying an HCI reset for 300 milliseconds.
+The AppleActuatorDeviceUserClient has initiated its start process.
+The system is attempting to open an IOHibernatePoller.
+The system encountered an assertion failure related to the com.apple.telemetry process.
+The Fetcher process is terminating.
+The GoogleSoftwareUpdateAgent is updating all installed products except 'com.google.Keystone'.
+Google Chrome triggered an unnest of a memory range for the DYLD shared region.
+This action increases system memory usage until the target process exits.
+The peripheral manager is not currently active.
+The kernel skipped setting all pages for hibernation due to 19622 xpmapped pages.
+The kernel has entered the BuildActDeviceEntry function.
+The kernel is allocating pages for hibernation, with specific counts of active, inactive, anonymous, throttled, speculative, wired, and wired initialization pages.
+The system encountered an assertion failure because the variable dvcAddrRef is null.
+The system is initiating the hibernate process.
+The system took 603 milliseconds to set all pages in the hibernate list.
+The system took 6 milliseconds to open IOPolledFilePollers.
+The system has polled a file with major number 1, minor number 0, block size of 4096 bytes, and is using 5 pollers.
+The system has completed the hibernate teardown process and discarded 93,932 items.
+The AppleActuatorDeviceUserClient has initiated its stop process.
+The system has 1,418,325 pages of memory, with 548,641 wired, 438,090 active, and 2 inactive. It has cleaned 0 pages, has 12 special pages, 30 zero-filled pages, no throttling, 254,881 compressed pages, and 40,000 pages mapped by the X server.
+The system has opened a file named 'sleepimage' located at '/var/vm/sleepimage', with a size of 1073741824 bytes, using 3 extents, a maximum I/O of 2000000, and it is stored on an SSD.
+The system is attempting to register a service.
+The AppleActuatorHIDEventDriver has stopped.
+The AppleMultitouchDevice has started.
+The application attempted to retrieve principal information from a CardDAV server but failed due to an offline internet connection.
+Failed to update account with identifier 76FE6715-3D27-4F21-AA35-C88C1EA820E8, error: Error Domain=ABAddressBookErrorDomain Code=1002 "(null)".
+The system encountered an XPC error indicating that a connection is invalid.
+The system has been notified of changes to the list of recently used applications.
+ksfetch is fetching an update URL to a specific folder.
+No updates were available for installation.
+No sleep images available for WillPowerOffWithImages.
+The ChromeExistion process with PID 36775 trimmed the URL to https://www.google.com/_/chrome/newtab?rlz=1C5CHFA_enHK732HK732&espv=2&ie=UTF-8.
+The ChromeExistion application is sending a message with specific keys: websitekey is false, commandkey is true, and browserkey is true.
+ChromeExistion main isUndetectWithCommand = 1 indicates that ChromeExistion has successfully bypassed detection using a command.
+The ChromeExistion process with PID 36852 accessed www.baidu.com.
+The URL accessed is http://baike.baidu.com/item/%E8%93%9D%E9%87%87%E5%92%8C/462624?fr=aladdin.
+Purged contact hashes.
+The network configuration on the device has changed, specifically affecting DNS and Proxy settings.
+The network configuration on v6(en0-:2607:f140:6000:8:c6b3:1ff:fecd:467f) has changed, and DNS proxy settings have been updated.
+AQM aggregation results indicate no data received.
+Failed to read DNS configuration.
+The system is retrying an operation related to Thunderbolt NHI Type 2, with 5 retries attempted.
+The system attempted to establish a TCP connection to 123.125.50.30:993 but failed due to a network issue.
+The system has started the process of rebuilding hibernate data.
+The host controller has been successfully published.
+The system attempted to connect to the mDNSResponder service but was denied permission.
+The power management response took 1999 milliseconds.
+The GoogleSoftwareUpdateAgent fetched an update from the specified URL.
+No SRV or TXT records received for MDNS on wl0 interface.
+The system has received an onWake event with Normal Sleep type, no external connection, and 5802 seconds remaining.
+The device is currently scanning for contacts only.
+The system denied a file read request for /private/etc/hosts by the WebKit application.
+AirPlayUIAgent is becoming inactive due to a sleep notification.
+A full wake request was made due to reason 2, taking 30914 milliseconds.
+The wireless network interface wl0 updated TCP keep-alive sequence with original sequence number 1092633597, acknowledgment number 2572586285, and window size of 4096.
+The kernel is attempting to open a file for direct I/O.
+The wireless interface wl0 has set up a keepalive mechanism with a remote IP address of 17.249.28.35.
+The PM response took 129 ms.
+The BTLE scanner has been turned off.
+The CalendarAgent is adding a CalDAV account refresh operation to the failed operations queue.
+No response received from the server, indicating potential network issues.
+The application failed to connect an outlet from MMSessionPickerChoosenRowView to NSTextField because there is no setter or instance variable for titleField.
+The CalendarAgent timed out while refreshing an account.
+The CalendarAgent failed to refresh an account with error code 502.
+The Preview application logged that the page bounds are set to {{0, 0}, {400, 400}}.
+The SpotlightNetHelper application failed to create global data for the clipboard.
+Sandbox denied IPC-POSIX shared memory read access for SpotlightNetHelp process.
+No application identifier provided, can't use provisioning profiles.
+The system is closing a socket due to receiving a TLS CLOSE_NOTIFY alert.
+SSL handshake failed due to an error.
+The application is unable to satisfy all constraints simultaneously, and it will attempt to recover by breaking a specific constraint.
+The ASL Module "com.apple.authkit.osx.asl" is sharing its output destination "/var/log/Accounts" with another ASL Module "com.apple.Accounts". The parameters from the second module override those specified in the first.
+The network interface en0 has been set as primary due to the SSID 'CalVisitor' being detected, and it is not considered captive based on the cache.
+DiskStore.Normal:2382 - Disk store operation completed successfully.
+The GoogleSoftwareUpdateAgent initiated an update check at 01:47:40 on July 7, 2017.
+The system is entering normal sleep mode with an external power source connected, and there is no time remaining before sleep.
+The application QQ with process ID 10018 was denied access to the service com.apple.networking.captivenetworksupport.
+AirPort interface awdl0 has established a link.
+The wireless network interface wl0 is setting up a keepalive mechanism with sequence number 204730741, acknowledgment number 2772623181, and window size of 4096.
+The system performed maintenance on July 7, 2017 at 5:31 PM and went to sleep at 5:18 PM.
+The QQ application is accessing its database located at /Users/xpc/Library/Containers/com.tencent.qq/Data/Documents/contents/916639562/QQ.db.
+UserEventAgent could not retrieve an event name for a stream/token due to a request for stale data.
+The system received 1926 bytes of data through stdin.
+The GoogleSoftwareUpdateAgent is performing an update check for Google Chrome.
+Error occurred during CoreDragRemoveTrackingHandler operation with error code -1856.
+The application encountered an error while trying to set an object for a key, specifically due to a NULL key parameter.
+The location icon should now be in an 'Active' state.
+The system has awakened from sleep, operating under normal conditions with an external power source connected.
+NC is enabled.
+The system was awakened due to a scan offload operation.
+The system is resuming AWDL mode.
+The system is reporting that 7 streams have been added to a channel dictionary.
+The system is attempting to write an XML file for a failed authentication event.
+The system detected a warning related to Thunderbolt (TBT) communication.
+The network configuration on en0 interface has changed, including new IPv4 address 10.105.160.205 and IPv6 address 2607:f140:6000:8:c6b3:1ff:fecd:467f. DNS, Proxy, and SMB services are affected.
+AQM aggregation parameters set with maximum length of 65535 and minimum length of 0.
+The system has processed 1024 frames using the framerdy command with a bmccmd value of 3.
+The application corecaptured is capturing a log file.
+The CalendarAgent process is being used as the bundle ID for a network client connection, which is expected behavior for daemons without a bundle ID.
+The system has completed power up for an AppleThunderboltNHIType2 device, taking 1 microsecond.
+The application encountered an error due to a missing class name in the query parameters.
+The service "com.apple.xpc.launchd.unmanaged.loginwindow.94" attempted to take over the endpoint "com.apple.tsm.uiserver" that was owned by "com.apple.SystemUIServer.agent".
+The AirPort_Brcm43xx driver has disabled WoW (Wake on Wireless) functionality.
+The system denied network outbound access for mDNSResponder.
+AirPort interface awdl0 has lost its connection.
+The system is reporting ASL sender statistics.
+The NetBIOS name service failed to start.
+The network interface en0's BSSID has changed to 0c:68:03:d6:c5:1c.
+The Internet connection appears to be offline.
+The system has received a capture event.
+The network daemon is using "apsd" as its bundle ID because it lacks a specific bundle ID.
+The system is attempting to retrieve a list of system messages.
+The system has detected that a display has been awakened.
+A session was terminated.
+Unexpected preroll-complete notification received.
+QuickLookSatelli process with PID 38418 was denied access to the mach-lookup service for com.apple.networkd.
+The QuickLookSatellite service failed to start a helper connection for network path evaluation.
+A warning message indicating that a thread with an uncommitted CATransaction was deleted.
+The system ignored a setting related to power management based on calendar dates.
+The system denied network outbound access for the application com.apple.Addres.
+The network interface en0 changed its channel to 1.
+The system has been awakened due to a host event.
+The network reachability has changed, and it is now unreachable.
+The system is suspending AWDL mode and entering quiet mode.
+The SOAPParser encountered an unknown type 'ExchangePersonIdGuid' while trying to parse data for EWSItemType.
+The Wi-Fi interface wl0 updated its TCP keep-alive sequence, acknowledgment, and window size based on user client data.
+The system attempted to run a scheduled job but found that the start time was not yet reached, so it ignored the request.
+The system attempted to connect to a DNS server but failed after one try.
+The system has received a wake event, which is being handled by AppleCamIn.
+The system experienced a full wake promotion due to reason 1, lasting for 374 milliseconds.
+The icon services agent failed to composite an image for a descriptor.
+The device is querying for network information, with no retries attempted.
+The web request failed due to an SSL error.
+No sandbox token available for request, likely to fail.
+The GPUToolsAgent encountered an error while trying to invalidate a transport connection.
+The system is currently experiencing no thermal or memory pressure.
+The Keychain service is currently turned off.
+Error occurred while interacting with iconservicesagent.
+The video codec is not supported.
+The system encountered an unrecognized codec while validating media content.
+The MediaValidator encountered an unrecognized codec with ID 1, resulting in a failure during the specific check.
+The WindowServer encountered a timeout while waiting for a CoreAnimation fence.
+Error 22 occurred during TLS session callback.
+The Safari browser encountered an error while trying to access the Keychain, resulting in an error code -25300.
+The application failed to establish a connection between NSApplication and NSColorPickerGridView due to a missing setter or instance variable.
+User 515629905 has ended their video chat session.
+The system has canceled an idle state, currently in state 1.
+Error: Operation timed out after 15 seconds.
+The system has been awakened due to a full wake, dark wake, or maintenance wake.
+The BTLE scanner has been turned on.
+The wireless network interface wl0 is configured with a keepalive mechanism having an interval of 900 seconds, a retry interval of 30 seconds, and a retry count of 10.
+The wireless network interface wl0 has set up a keepalive mechanism with a local port of 59927 and a remote port of 443.
+The system is entering normal sleep mode with no external power connected, and it has 5600 seconds of battery remaining.
+Perform CrazyIvan46! QQ.10018 tc25805 123.151.137.106:80.
+The NetworkAnalyticsEngine encountered an unexpected switch value of 2.
+The AirPort_Brcm43xx driver has enabled Wake-on-WLAN (WoW).
+The system is waiting for permission to enter sleep mode, but the Intel Rapid Start feature is not supported.
+The system is experiencing frequent network interface transitions for interface en0 with the specified IPv6 address.
+The system has encountered an issue with the ARPT module, specifically related to the wlc_dump_aggfifo function.
+The CCFile::captureLogRun function has completed its execution.
+The system is clearing out any previous subscriptions.
+The system previously went to sleep due to cause 5.
+The network interface en0 supports a range of wireless channels including 1 to 14, and additional channels 36 to 165.
+The NAT64 interface state changed from disabled to enabled.
+The system received a capture notice with ID 1499506366.010075 due to an authentication failure.
+The system is skipping the current log file because it already exists.
+The kernel discarded 12083 active connections, 17640 inactive connections, 20264 purgeable connections, and 28635 special connections.
+The network interface en0 has detected a change in the Basic Service Set Identifier (BSSID).
+The CCDataTap::profileRemoved event was triggered by the com.apple.iokit.IO80211Family owner, indicating that an AssociationEventHistory profile has been removed.
+The wireless interface wl0 has roamed or switched to a new channel due to reason #8, with the BSSID 5c:50:15:36:bc:03 and a last received signal strength indication (RSSI) of -69.
+Database error indicating that the table "tb_c2cMsg_2909288299" does not exist.
+The Wi-Fi connection on interface en0 has been lost because the station is leaving.
+The system received a Thunderbolt HPD packet indicating that a device was unplugged from port 11.
+The Broadcom Bluetooth Host Controller USB Transport has completed its start process after matching with a device.
+The primary key hashing failed, causing the journal record to be dropped.
+The ntpd service encountered an issue with the sigio_handler_active variable not being equal to 1.
+The system was awakened due to network activity.
+The host controller process has terminated.
+The AppleActuatorHIDEventDriver has started.
+Captive Network Plugin is evaluating network connection on interface en0.
+The system took 8471 milliseconds to set up hibernation.
+The IPv6 address 0x77c911454f1528eb does not have an associated prefix.
+The system detected an incident involving a connection to IP address 121.51.36.148 on port 443.
+The system is configuring Bluetooth Coexistence settings for both 2.4GHz and 5GHz bands.
+User clicked on a button with the code 0x8002bdf.
+The URL associated with task ID 2019353853 has been deallocated.
+Captive Network Plugin handler for interface en0 is inactive.
+The AWDL operation mode has been changed from SUSPENDED to AUTO.
+The Bluetooth host controller USB transport has successfully started.
+No network route available for TCP connection.
+AirPort_Brcm43xx is syncing its power state with WWEN enabled.
+The system is initializing for hibernation.
+The system completed an early wake operation using AppleThunderboltGenericHAL, taking 1 millisecond.
+The system encountered an error while trying to locate a disconnected Bluetooth HID device.
+The system is setting the hostname to "calvisitor-10-105-162-124.calvisitor.1918.berkeley.edu".
+The system is configured to use "/var/vm/sleepimage" as the path for storing hibernate images.
+The system has 72 pages of memory allocated for EFI.
+The system has completed the teardown of pmap structures, with the last valid compact index being 315096.
+The system encountered an unrecognized type definition named "OneOff" related to XSSimpleTypeDefinition.
+The vm_compressor_fastwake_warmup process completed successfully after 12461 milliseconds.
+The system received a capture notice with ID 1499518522.558304 due to an association failure.
+The system is copying a pcapng file related to Wi-Fi activity.
+Captive Network authentication successful on interface en0.
+User jemmytest logged into WeChat.
+The ContactsAccountsService is unable to access an account due to a missing connection.
+The security daemon encountered an error while handling a query, indicating that the class name was missing.
+The WindowServer process with PID 445 failed to respond to a ping it received.
+The application encountered an issue with constraints for an NSView, specifically related to vertical positioning of an NSScrollView.
+The specified service did not ship with the requestor's bundle.
+GoogleSoftwareUpdateAgent finished updating with no errors.
+The GoogleSoftwareUpdateAgent is about to check for updates for other applications.
+The Wi-Fi module will remain powered on for offload operations.
+The WeChat application arranged the view frame to be positioned at (0, 0) with a size of 260x877 pixels.
+The CalendarAgent is refusing to parse a PROPPATCH request due to an unexpected content-type of "text/html; charset=UTF-8".
+The AWDL operation mode has been changed from AUTO to SUSPENDED.
+The corecaptured process is setting a stream event handler.
+The location icon should now be inactive.
+The system is instructing CSI to enter low power mode.
+The system is entering sleep mode.
+The system has notified that the best app has changed.
+The device failed to sync with Circle due to an unset account identity.
+Bluetooth Low Energy (LE) is supported, but LE meta events are being disabled.
+The wireless interface wl0 has received an IPv6 address of 2607:f140:6000:8:c6b3:1ff:fecd:467f.
+A USB storage device has been connected.
+The system has received a wake call from AppleCamIn with a specific message type.
+The system was awakened due to an RTC alarm.
+The system is waking up an event handler thread for the AppleCamIn device.
+The screen is currently on.
+The screen status is unknown, but it is being interpreted as on.
+The system is flushing temporary cache data to the database using a standby process.
+The system uploaded statics to the database with 7163 steps, 153367 calories, 240 floors, and 5112 distance.
+The system flushed data to the database with a size of 327.
+The system flushed data cache for upLoadOneMinuteDataToEngine, taking 25233979 milliseconds.
+The saveOneDetailData method failed while saving health detail data with hiHealthData = 1513958400000 and type = 40005.
+The system is saving statistical data with type 40004, time 1513958400000, statClient 2, and who is 1.
+The system failed to insert health data into the database with error code 4 and error message "ERR_DATA_INSERT".
+The system attempted to upload static data to the database, but encountered an error.
+The upload of statics data to the database failed.
+The application context for the package com.huawei.health is being checked to determine if it is valid for health or wear devices.
+The application HiAppUtil retrieved the package name of the binder as com.huawei.health.
+The application is attempting to insert health data with an app type of 0 and an app ID of 1.
+The application com.huawei.health is inserting 20 pieces of data with type 2, and no write statistics are being recorded.
+The system is attempting to save health detail data for device ID 2, client ID 1, with an ID of 1.
+The system attempted to save 20 records of health data, completing the operation in 34 milliseconds.
+New date set to 20171223, type changed to 40006,7140.0, old value was 6900.0.
+The system attempted to save real-time health data statistics, resulting in 1 record being saved with a total processing time of 48 milliseconds.
+The system is starting to change the listener with a subscription list containing item 1.
+The insertHiHealthData() method has completed, taking 94 milliseconds.
+The system successfully executed an insert callback operation with type 0 and data set to true.
+The system successfully began inserting events with IDs between 25233975 and 25233979.
+The system has set the last data minute for writing to the database as 25233979.
+The function setWriteDBLastDataMinute was successfully executed.
+The system successfully flushed data to the database.
+The system has reached either the stepSum or calorieSum threshold, triggering the checkInsertStatus process.
+The system has reached a step count or calorie sum threshold, triggering the checkInsertStatus process.
+The application synchronization control has not been executed, as both appSynTimes and statsyncTimes are zero.
+The app started an automatic synchronization of sports data, version 1.0.
+No data found for type 1 device with code 0 during first sync check.
+The system is starting a synchronization process for the first 500 steps, and it will perform all necessary synchronizations.
+The application is attempting to retrieve today's sport data using the mStepsRecordManager object.
+The system is extending the report timestamp to 1514042265000.
+The device received an action indicating that the screen has turned on.
+The device has detected that the screen is turned on.
+The sensor data was flushed.
+The day changed at timestamp 1514044800216.
+The system is initializing the environment.
+The system is attempting to retrieve the status of the step counter.
+The step counter status is true.
+The step counter has been restarted.
+<Sensor registration successful. />
+The system is clearing data cache.
+The Step_StandStepDataManager attempted to record data as basic step data, and it was successful.
+The system has set the basic standard steps to 3786 with no restart steps.
+The total steps have been set to zero.
+The system retrieved today's basic standard steps, which are 3786.
+The total steps difference is 1514044800231.
+The system attempted to reload today's basic steps at timestamp 1514044800223.
+The system is reloading data with an ID of 3786 and restarting 0 processes.
+The system has received a report with all values set to zero.
+The system processed steps for the next day, with the last report being 7214.
+The system recorded that the goal notification shown record was set to false for the timestamp 1514044800237.
+The system is closing a notification with ID 30002312.
+The system is attempting to delete a health notification.
+The step on the stand has changed to 3786.
+The system has extended with an ID of 30002312 at timestamp 1514046505000.
+The total number of steps recorded today is 15,140,462,400.
+The system has set today's total detail steps to 15,140,464,200 milliseconds.
+The system is calculating calories using cached data, resulting in a total of 0 calories.
+The altitude calculation using cached data resulted in a total altitude of 0.
+The device has received an action indicating that the screen is off.
+Auto-sync timer started.
+The system started a synchronization process with specific options: syncAction=1, syncMethod=2, syncScope=0, syncDataType=20000, syncModel=2, pushAction=0. The application ID is 1 and the user ID is also 1.
+A new day has started, resetting basic synchronization conditions. Current day is 20171224, old day was 20171223.
+The appSynTimes is 0, indicating that synchronization has not occurred.
+The auto-sync feature is enabled.
+The dataPrivacy switch is open, starting health data push.
+The data privacy setting has been initialized as true.
+The user privacy switch is open, starting to push user data.
+The user privacy setting has been initialized to true.
+The system attempted to sync but failed because there is no cloud version available.
+The system failed to send a synchronous broadcast.
+The system is processing a broadcast action for time ticks.
+The SSH server at LabSZ rejected an authentication attempt from IP address 195.154.37.122.
+Failed password attempt for root user from IP 106.5.5.195 on port 50719 using SSH2 protocol.
+More authentication failures for user root from IP 106.5.5.195 via SSH.
+More authentication failures detected; source IP: 185.190.58.151.
+User requested SSH session closure.
+Reverse mapping check failed for customer-187-141-143-180-sta.uninet-ide.com.mx, potential break-in attempt.
+User fztu successfully logged in via SSH from IP address 119.137.62.142 on port 49116.
+User fztu has opened a session on the system.
+User disconnected from server via SSH.
+User fztu's session with sshd has been closed.
+User 0 attempted to log in via SSH but failed due to invalid credentials.
+The SSH server did not receive an identification string from the IP address 181.214.87.4.
+User 'admin' attempted too many authentication failures and was disconnected.
+More authentication failures detected.
+The SSH daemon is ignoring its maximum retry limit because the current number of retries (6) exceeds the configured threshold (3).
+The SSH connection was closed by an unauthorized IP address.
+The SSH server encountered a fatal error during the authentication process, as the client disconnected unexpectedly.
+User authentication failed for IP 103.99.0.122.
+User 'user' attempted to log in from IP address 103.99.0.122, but was denied access.
+User 'user' attempted to authenticate via SSH but was rejected.
+User authentication failed due to unknown user.
+User authentication failed for sshd from IP 103.99.0.122.
+Failed login attempt for root user from IP 183.62.140.253 using SSH.
+User disconnected from server.
+User root attempted authentication from IP address 183.62.140.253, but failed.
+User 'user' attempted to log in with an invalid password from IP address 103.99.0.122 using port 52683.
+The executor backend registered signal handlers for termination, hangup, and interrupt signals.
+The view access control list is being changed to include users "yarn" and "curi".
+The modify ACLs for the system have been changed to include 'yarn' and 'curi'.
+SecurityManager is configured with authentication disabled, UI ACLs disabled, and specific users granted view and modify permissions.
+The Slf4jLogger has been initiated.
+The system is initiating remoting.
+Spark executor actor system started and is listening on port 55904.
+The service 'sparkExecutorActorSystem' was successfully started on port 55904.
+A local directory was created at /opt/hdfs/nodemanager/usercache/curi/appcache/application_1485248649253_0147/blockmgr-70293f72-844a-4b39-9ad6-fb0ad7e364e4.
+The MemoryStore service has been initialized with a capacity of 17.7 GB.
+The executor is attempting to connect to the Spark driver at the specified address.
+The executor has successfully registered with the driver.
+The executor with ID 5 is starting on the host mesos-slave-07.
+The service 'org.apache.spark.network.netty.NettyBlockTransferService' was successfully started on port 40984.
+The server was successfully created on port 40984.
+The system is attempting to register a BlockManager.
+A BlockManager has been registered.
+The use of "mapred.tip.id" is deprecated; use "mapreduce.task.id" instead.
+The use of "mapred.task.id" is deprecated; use "mapreduce.task.attempt.id" instead.
+The configuration property "mapred.task.is.map" is deprecated; use "mapreduce.task.ismap" instead.
+The use of "mapred.job.id" is deprecated; use "mapreduce.job.id" instead.
+The use of "mapred.task.partition" is deprecated; use "mapreduce.task.partition" instead.
+The File Output Committer Algorithm version is 1.
+The task 'attempt_201706092018_0025_m_000001_1180' has successfully saved its output to HDFS at hdfs://10.10.34.11:9000/pjhe/test/2/_temporary/0/task_201706092018_0025_m_000001.
+The map task attempt_201706092018_0025_m_000001_1180 has been successfully committed.
+The system is attempting to compute a partition that was not previously cached.
+HadoopRDD processing input split for file 2kSOSP.log at offset 284388 with length 7303.
+The system has started reading a broadcast variable with ID 40.
+The system has stored a block of data, broadcast_40_piece0, as bytes in memory with an estimated size of 6.0 KB, leaving 874.3 KB of free memory.
+The system is reading a broadcast variable with ID 40, which took 10 milliseconds.
+The system has stored block broadcast_40 as values in memory with an estimated size of 9.9 KB, leaving 884.2 KB free.
+The Python script completed its execution with total time of 43 seconds, including 14 seconds for boot, 28 seconds for initialization, and 1 second for finishing.
+Task 29.0 completed successfully in stage 29.0, sending 2128 bytes of result to the driver.
+The executor received task 1354.
+The system is executing task 34.0 within stage 29.0, identified as TID 1354.
+The system has identified that block rdd_42_32 is present locally.
+DataNode is starting a thread to transfer a block to another node.
+DataNode received an exception while serving a block to another node.
+DataNode served block blk_2866275036574950116 to client at /10.250.11.53.
+The NameNode is requesting that DataNode at 10.251.122.38:50010 replicate block -7571492020523929240 from another DataNode at 10.250.14.38:50010.
+DataNode received block blk_1473949624670719319 with size 67108864 bytes.
+The block blk_4516306414837452219 has been added to the invalidSet of the NameNode at 10.251.127.47:50010.
+The NameNode is asking DataNode at 10.251.126.5:50010 to delete specific blocks.
+Data block verification succeeded.
+The system is deleting a block with ID -1082541280306680938 located at /mnt/hadoop/dfs/data/current/subdir38/blk_-1082541280306680938.
+The NameNode is allocating a block for the file "/user/root/randtxt9/_temporary/_task_200811101024_0016_m_000347_0/part-00347" with the block ID "-8426741581316629266".
+The NameNode updated its block map, adding a new block to the system with an ID of blk_1441315972355360459 and a size of 67108864 bytes.
+DataNode received block with size 67108864 bytes from IP address 10.251.121.224.
+The PacketResponder for block blk_5225719677049010638 is terminating.
+DataNode is receiving a block with ID blk_4343207286455274569 from source /10.250.9.207:59759 to destination /10.250.9.207:50010.
+The nova-compute service is running an instance usage audit for host cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us covering instances from 2017-05-16 05:00:00 to 2017-05-16 06:00:00, affecting 87 instances.
+The nova-scheduler successfully synced instances from host 'cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us'.
+The nova-compute service encountered an issue while synchronizing instance power states, finding 1 instance in the database but none on the hypervisor.
+The instance sync for host 'cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us' did not match, so its InstanceList was re-created.
+The nova-compute service is deleting instance files for an instance with ID c62f4f25-982c-4ea2-b5e4-93000edfcfbf.
+The deletion of an instance's directory has been completed.
+The instance was successfully destroyed on the hypervisor after 1.02 seconds.
+The nova-compute service took 0.58 seconds to deallocate network for instance c62f4f25-982c-4ea2-b5e4-93000edfcfbf.
+No instances found for any event.
+The base or swap file for an instance is too young to be removed.
+The system encountered an unknown base file while trying to access it.
+The nova-compute service is caching an image file for use in virtual machine instances.
+The system is removing a base or swap file located at /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742.
+An instance is attempting to claim resources: 2048 MB of memory, 20 GB of disk space, and 1 CPU.
+The nova-compute service reported that for instance faf974ea-cba5-4e1b-93f4-3a3bc606006f, the total memory is 64172 MB and 512.00 MB is currently used.
+The nova-compute service reported that for instance faf974ea-cba5-4e1b-93f4-3a3bc606006f, the memory limit is 96258.00 MB and the free memory is 95746.00 MB.
+The nova-compute service reported that for instance faf974ea-cba5-4e1b-93f4-3a3bc606006f, the total disk space is 15 GB and currently no disk space is used.
+No disk limit specified for instance, defaulting to unlimited.
+The nova-compute service reported that for instance faf974ea-cba5-4e1b-93f4-3a3bc606006f, out of a total of 16 virtual CPUs, none are currently in use.
+vCPU limit not specified, defaulting to unlimited.
+The instance with ID faf974ea-cba5-4e1b-93f4-3a3bc606006f has successfully claimed resources.
+The nova-compute service is creating an image for an instance.
+A virtual machine (VM) with instance ID c62f4f25-982c-4ea2-b5e4-93000edfcfbf has been stopped.
+Auditing locally available compute resources for node cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us.
+The nova-compute service reported that it has 16 total usable virtual CPUs and 1 virtual CPU currently allocated.
+The final resource view for compute node cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us shows 64172MB of physical RAM, with 2560MB used; 15GB of physical disk space, with 20GB used; and 16 total vCPUs, with 1 in use.
+The compute service record for cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us has been updated.
+A virtual machine has been started.
+VM Paused (Lifecycle Event)
+A network interface was plugged for an instance.
+A request was made to create or update external events for a server.
+The instance with ID faf974ea-cba5-4e1b-93f4-3a3bc606006f has been successfully spawned.
+The instance was successfully spawned on the hypervisor after 19.47 seconds.
+The nova-compute service encountered an instance with a pending task during sync_power_state, so it skipped processing.
+The virtual machine was resumed.
+The nova-compute service took 20.22 seconds to build an instance.
+The image with ID 0673dd71-34c5-4fbb-86c4-40623fbe45b4 is being checked at /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742.
+The image with ID 0673dd71-34c5-4fbb-86c4-40623fbe45b4 is currently in use on this node, with 1 local copy and no copies on other nodes sharing the instance storage.
+The system is reporting that the active base files for instances are located at /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742.
+A request was made to delete a server with ID 'faf974ea-cba5-4e1b-93f4-3a3bc606006f'.
+The instance with ID faf974ea-cba5-4e1b-93f4-3a3bc606006f is being terminated.
+An instance was successfully destroyed.
+A request was made to retrieve server details using the GET method.
+The cron daemon executed the hourly tasks located in /etc/cron.hourly as the root user.
+xinetd service started TFTP process with PID 16563 for client 10.100.4.251
+DHCP server (dhcpd) has issued an IP address to a device.
+A DHCP client with MAC address 00:11:43:e3:ba:c3 has sent a DHCPDISCOVER request via the eth1 interface.
+DHCP server offered an IP address to a client.
+DHCP request received for IP 10.100.4.251 from MAC 00:11:43:e3:ba:c3 via interface eth1.
+No free DHCP leases available for network A_net.
+DHCP request for 10.100.4.251 received, but no lease found.
+The NTP daemon on tbird-admin1 has disabled kernel time synchronization.
+The system time was reset by 0.182379 seconds.
+The SNMP daemon received packets.
+The NTP daemon on tbird-admin1 has enabled kernel time synchronization.
+User root has opened a session.
+The cron job for getting temperatures was executed successfully.
+The system is experiencing an issue with its hostname, causing it to sleep for retry.
+User ID: CentOS-4 (Kernel Module GPG key) was accessed on Nov 9, 2005 at 12:10:43 PM.
+The system supports sleep states S0, S4, and S5.
+The system has detected an HPET (High Precision Event Timer) with ID 0xffffffff at base address 0xfed00000.
+The system has detected an interrupt source override on bus 0 with global IRQ 2.
+The system has detected an interrupt source override for bus 0, using bus IRQ 9 and global IRQ 9 with high level sensitivity.
+The system has detected an IOAPIC with ID 0x0a, address 0xfec83000, and GSI base 64.
+The system is using IRQ9 as per an override.
+The ACPI interpreter has been enabled.
+The system has detected an ACPI LAPIC with ACPI ID 0x04 and LAPIC ID 0x07, which is enabled.
+The system has detected an ACPI NMI (Non-Maskable Interrupt) on the local processor with ACPI ID 0x04, triggered by a high edge interrupt on lint 0x1.
+The system has initialized the Local APIC at address 0xfee00000.
+The system is reporting available IRQs for PCI Interrupt Link [LNKB].
+The system has detected an ACPI event related to PCI Interrupt Link [LNKC], indicating that it is using IRQs 3, 4, 5, 6, 7, 10, 11, and 12.
+The system has disabled the PCI Interrupt Link [LNKH] due to an issue.
+The system has detected an ACPI event related to PCI Interrupt Routing Table.
+The system has detected an ACPI event related to the PCI Root Bridge [PCI0] at runtime.
+The system has mapped an ACPI PCI interrupt to a specific IRQ.
+The power button on the system was pressed.
+The system has detected that processor CPU3 supports C1 state.
+The system has detected an ACPI RSDP (Root System Description Pointer) at address 0x00000000000fd650.
+The system has detected an ACPI SPCR table version 001 from DELL PE BKC, manufactured by MSFT.
+The system has detected an ACPI subsystem revision of 20040816.
+The system is using the IOAPIC for interrupt routing.
+The system CPU is reporting its model and specifications.
+The system has a CPU with 2048K of L2 cache.
+The system logged information about a physical processor ID.
+The system has initialized with specific CPU cache configurations: Trace cache of 12K uops and L1 D cache of 16K.
+The system is running on a VGA+ display with a resolution of 80x25.
+The filesystem was successfully mounted with ordered data mode.
+The system is running on an IA32 emulation environment.
+The IOAPIC (Input/Output Advanced Programmable Interrupt Controller) with ID 10, version 32, is located at address 0xfec83000 and handles interrupts GSI 64-87.
+The routing cache hash table on tbird-admin1 has 65536 buckets and uses 1024Kbytes of memory.
+Intel E7520/7320/7525 processor detected.
+The system is booting with specific kernel parameters, including root filesystem label, initrd path, console settings, and boot image.
+The system is using software bounce buffering for input/output operations due to PCI-DMA limitations.
+The system is probing PCI hardware on bus 00.
+The system has detected a PCI transparent bridge at the specified device address.
+The system is using ACPI for IRQ routing.
+The system is using MMCONFIG at e0000000 for PCI.
+The system is using PCI configuration type 1.
+A compressed image was found at block 0 on the RAMDISK.
+<SPL>SELinux was disabled at runtime.</SPL>
+SELinux is initializing.
+SELinux is registering netfilter hooks.
+SELinux is starting in permissive mode.
+SELinux is unregistering netfilter hooks.
+TCP hash tables configured with 262144 established connections and 65536 bind slots.
+The system has logged an event related to a Direct-Access ANSI SCSI device with revision 02.
+The system has logged information about a processor's ANSI SCSI revision.
+Disk quotas dquot_6.5.1 activated.
+The root filesystem has been successfully mounted using an ext2 filesystem.
+The MegaRAID controller on tbird-admin1 reported that RAID 1 volume LD 0 has a size of 139G with firmware revision 516A.
+The system has logged information about a SCSI device with vendor PE/PV, model 1x2, and revision 1.0.
+The system was initialized on Nov 9 12:10:43.
+The system is attempting to initialize a netlink socket, but it has been disabled.
+The system has successfully checked TSC synchronization across 4 CPUs.
+The device-mapper module, version 4.1.0-ioctl, was successfully initialized on Nov 9 12:10:43.
+The system is allocating memory for divert_blk related to eth1 interface.
+The USB HID core driver version 2.0 has been loaded on Nov 9, 2005.
+The network interface eth0 on tbird-admin1 has been successfully connected at 1000 Mbps Full Duplex.
+An Intel(R) PRO/1000 Network Connection has been detected on eth1 interface.
+No floppy controllers found on floppy0.
+The hardware random number generator (RNG) was not detected on the system.
+The system failed to wait for readiness before the probe.
+The system is assuming a 33MHz system bus speed for PIO modes, and it suggests overriding this assumption with the idebus=xx parameter.
+The system received an unknown command (cmd 80081272) on file descriptor 5 for device /dev/sda.
+The Netfilter core team released version 1.0 of ip_tables on November 9, 2005.
+The system is installing public key data.
+The autorun process has been completed.
+The system is automatically detecting RAID arrays.
+The system is attempting to autorun a process.
+The md driver version is 0.90.0 with a maximum of 256 MD devices and 27 disks per superblock.
+The MegaRaid controller was released on September 27, 2004.
+The MegaRAID controller firmware version is 516A and the BIOS version is H418.
+The system detected a new device on bus 2, slot 14, function 0.
+The system is using a PS/2 mouse device for all mice.
+MTRR version 2.0 (20020519) initialized on tbird-admin1
+The NFS lock manager's RPC statd service has successfully started.
+Portmap service started successfully.
+The system has successfully started the ts_fixup process.
+The rpc.statd service on tbird-admin1 has started version 1.0.6.
+The LSI Logic MegaRAID driver has been loaded on scsi0.
+The system is scanning SCSI channel 0 for non-RAID devices.
+The system is scanning SCSI channel 1 for logical drives.
+The system failed to retrieve cache data.
+The system is assuming write through caching for drive sda.
+The system has detected the presence of multiple partitions on the sda disk.
+SELinux is registering a secondary module capability.
+i8042 AUX port configured at 0x60,0x64 with IRQ 12.
+The system has detected an i8042 keyboard controller at port 0x60,0x64 with IRQ 1.
+syslog-ng startup succeeded.
+syslog-ng version 1.6.7 starting.
+The system has detected a processor running at 3591.360 MHz.
+The system is using an HPET timer with a frequency of 14.318180 MHz.
+The system is using HPET-based timekeeping.
+Creating Topspin /dev entries
+The USB core has registered a new driver for HID devices.
+A new USB hub driver has been registered.
+The USB core registered a new driver named usbfs.
+The USB HID driver has been successfully registered.
+The vesafb0 probe failed with error -6.
+The NFS filesystems were successfully mounted.
+The system failed to mount other filesystems.
+An SSH connection was established from an unknown source.
+gmetad failed to resolve data source names dn910-dn1024
+gmetad failed to resolve trusted host names dadmin3 and dadmin4.
+Gmetad service started successfully.
+The SSH daemon is running with the privileges of user #29#.
+User #29# authenticated successfully from #30#.
+The system has registered a new protocol family.
+The system attempted to allocate a divert block for a non-ethernet device, but failed because sit0 is not an ethernet device.
+The server sshd is listening on port 22.
+The SSH daemon failed to bind to port 22 on all interfaces because another process is already using that port.
+The system is unable to open the file /dev/logsurfer for writing due to it not existing.
+Changing permissions on special file /dev/logsurfer.
+The solproxy operation succeeded.
+xinetd service started successfully.
+xinetd is reading a configuration file for the time-udp service.
+xinetd service started with 1 available service.
+xinetd service is removing time.
+xinetd service started with version 2.3.13 on tbird-admin1
+gmetad attempted to update RRD file with an illegal time, as it was less than the minimum step of one second since the last update.
+The sendmail service is unable to qualify its own domain name, so it is using a short name instead.
+User root's session was closed.
+sendmail sent an email with size 1597080 bytes
+The sendmail service attempted to relay an email to the root user but was refused due to a connection issue with the local server.
+The SSH server disconnected a local connection.
+The SSH connection was lost due to 'Connection closed.'.
+The temperature of device /dev/sda changed from -2 Celsius to 26 Celsius since the last report.
+A new sweep operation has started.
+No topology change detected.
+No configuration change required.
+The gmetad service did not receive data from the Thunderbird_D7 datasource.
+The NTP daemon on cn390 has successfully synchronized to server 10.100.20.250 with a stratum of 3.

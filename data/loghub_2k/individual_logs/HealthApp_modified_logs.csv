@@ -1,60 +1,41 @@
 LineId,Time,Component,Pid,Content,EventId,EventTemplate,System,VariableTemplate,OID,LOI,OBN,TID,SID,TDA,CRS,OBA,STC,OTP
-1,20171223-22:15:29:606,Step_LSC,30002312,onStandStepChanged 3579,HealthApp_E42,onStandStepChanged <*>,HealthApp,O OBA,0,0,0,0,0,0,0,1,0,0
-2,20171223-22:15:29:615,Step_LSC,30002312,onExtend:1514038530000 14 0 4,HealthApp_E39,onExtend:<*> <*> <*> <*>,HealthApp,O OBA,0,0,0,0,0,0,0,1,0,0
-3,20171223-22:15:29:633,Step_StandReportReceiver,30002312,onReceive action: android.intent.action.SCREEN_ON,HealthApp_E41,onReceive action: android.intent.action.SCREEN_ON,HealthApp,O OBN,0,0,1,0,0,0,0,0,0,0
-4,20171223-22:15:29:635,Step_LSC,30002312,processHandleBroadcastAction action:android.intent.action.SCREEN_ON,HealthApp_E43,processHandleBroadcastAction action:android.intent.action.SCREEN_ON,HealthApp,OID,1,0,0,0,0,0,0,0,0,0
-5,20171223-22:15:29:635,Step_StandStepCounter,30002312,flush sensor data,HealthApp_E12,flush sensor data,HealthApp,O OBA,0,0,0,0,0,0,0,1,0,0
-6,20171223-22:15:29:635,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038440000##6993##548365##8661##12266##27164404,HealthApp_E22,getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*>,HealthApp,O O OBA OBA OBA OBA,0,0,0,0,0,0,0,4,0,0
-7,20171223-22:15:29:636,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038440000##7007##548365##8661##12361##27173954,HealthApp_E58,setTodayTotalDetailSteps=<*>,HealthApp,O OBA,0,0,0,0,0,0,0,1,0,0
-9,20171223-22:15:29:645,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=126775,HealthApp_E4,calculateCaloriesWithCache totalCalories=<*>,HealthApp,O OBA,0,0,0,0,0,0,0,1,0,0
-10,20171223-22:15:29:648,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,HealthApp_E3,calculateAltitudeWithCache totalAltitude=<*>,HealthApp,O OBA,0,0,0,0,0,0,0,1,0,0
-11,20171223-22:15:29:649,Step_StandReportReceiver,30002312,REPORT : 7007 5002 150089 240,HealthApp_E47,REPORT : <*> <*> <*> <*>,HealthApp,OID,1,0,0,0,0,0,0,0,0,0
-65,20171223-22:15:34:723,Step_StandReportReceiver,30002312,onReceive action: android.intent.action.SCREEN_OFF,HealthApp_E40,onReceive action: android.intent.action.SCREEN_OFF,HealthApp,O O OBA OBA OBA OBA,0,0,0,0,0,0,0,4,0,0
 72,20171223-22:15:35:23,Step_ScreenUtil,30002312,isScreenOn true,HealthApp_E35,isScreenOn <*>,HealthApp,O O O OBN,0,0,1,0,0,0,0,0,0,0
 73,20171223-22:15:35:23,Step_StandReportReceiver,30002312,"screen status unknown,think screen on",HealthApp_E53,"screen status unknown,think screen on",HealthApp,O OBA,0,0,0,0,0,0,0,1,0,0
-312,20171223-22:16:0:119,Step_LSC,30002312,processHandleBroadcastAction action:android.intent.action.TIME_TICK,HealthApp_E44,processHandleBroadcastAction action:android.intent.action.TIME_TICK,HealthApp,O O O OBN,0,0,1,0,0,0,0,0,0,0
 701,20171223-22:19:58:363,Step_LSC,30002312,flushTempCacheToDB by stand,HealthApp_E14,flushTempCacheToDB by stand,HealthApp,O OID,1,0,0,0,0,0,0,0,0,0
 702,20171223-22:19:58:366,Step_LSC,30002312,Alarm uploadStaticsToDB totalSteps=7163Calories:153367Floor:240Distance:5112,HealthApp_E1,Alarm uploadStaticsToDB totalSteps=<*>:<*>:<*>:<*>,HealthApp,OID,1,0,0,0,0,0,0,0,0,0
 703,20171223-22:19:58:366,Step_FlushableStepDataCache,30002312,writeDataToDB size 327,HealthApp_E75,writeDataToDB size <*>,HealthApp,O STC,0,0,0,0,0,0,0,0,1,0
-704,20171223-22:19:58:366,Step_FlushableStepDataCache,30002312,"upLoadOneMinuteDataToEngine time=25233975,0,93,0,20002",HealthApp_E72,"upLoadOneMinuteDataToEngine time=<*>,<*>,<*>,<*>,<*>",HealthApp,O OBA OBA OBA,0,0,0,0,0,0,0,3,0,0
-709,20171223-22:19:58:369,HiH_HiAppUtil,30002312,getBinderPackageName packageName = com.huawei.health,HealthApp_E16,getBinderPackageName packageName = com.huawei.health,HealthApp,OID,1,0,0,0,0,0,0,0,0,0
-711,20171223-22:19:58:371,HiH_HiHealthBinder,30002312,"getAppContext() isAppValid health or wear, packageName = com.huawei.health",HealthApp_E15,"getAppContext() isAppValid health or wear, packageName = <*>",HealthApp,O OBA OBA OBA,0,0,0,0,0,0,0,3,0,0
-715,20171223-22:19:58:375,HiH_HiHealthBinder,30002312,insertHiHealthData() checkAppType  0 appID = 1,HealthApp_E32,insertHiHealthData() checkAppType <*> appID = <*>,HealthApp,O OBA,0,0,0,0,0,0,0,1,0,0
-716,20171223-22:19:58:376,HiH_HiHealthBinder,30002312,"insertHiHealthData() size = 4,app = 1,One Data Type = 40002,packageName = com.huawei.health,writeStatType = 0",HealthApp_E34,"insertHiHealthData() size = <*>,app = <*>,One Data Type = <*>,packageName = <*>,writeStatType = <*>",HealthApp,O O,0,0,0,0,0,0,0,0,0,0
-717,20171223-22:19:58:377,HiH_HiHealthDataInsertStore,30002312,"saveHealthDetailData() deviceID = 2,clientID=1,id=1",HealthApp_E49,"saveHealthDetailData() deviceID = <*>,clientID=<*>,id=<*>",HealthApp,O O O OID OID OID OID OID OID O OID O O OID,8,0,0,0,0,0,0,0,0,0
-718,20171223-22:19:58:378,HiH_HiHealthDataInsertStore,30002312,"saveStatData() type =40002,time = 1513958400000,statClient = 2,who is 1",HealthApp_E52,"saveStatData() type =<*>,time = <*>,statClient = <*>,who is <*>",HealthApp,O OBA,0,0,0,0,0,0,0,1,0,0
-719,20171223-22:19:58:378,HiH_DataStatManager,30002312,"new date =20171223, type=40002,7163.0,old=6983.0",HealthApp_E37,"new date =<*>, type=<*>,<*>,old=<*>",HealthApp,O O O,0,0,0,0,0,0,0,0,0,0
-722,20171223-22:19:58:380,HiH_HiHealthDataInsertStore,30002312,"saveHealthDetailData() saveOneDetailData fail hiHealthData = 1513958400000,type = 40003",HealthApp_E50,"saveHealthDetailData() saveOneDetailData fail hiHealthData = <*>,type = <*>",HealthApp,O OBA,0,0,0,0,0,0,0,1,0,0
-728,20171223-22:19:58:406,HiH_HiHealthDataInsertStore,30002312,"bulkSaveDetailHiHealthData() size = 4,totalTime = 30",HealthApp_E2,"bulkSaveDetailHiHealthData() size = <*>,totalTime = <*>",HealthApp,O OBA OBA OBA,0,0,0,0,0,0,0,3,0,0
-729,20171223-22:19:58:407,HiH_ListenerManager,30002312,startListenerChange subscribeList = [1],HealthApp_E63,startListenerChange subscribeList = [<*>],HealthApp,O OBA OBA OBA,0,0,0,0,0,0,0,3,0,0
+708,20171223-22:19:58:367,Step_FlushableStepDataCache,30002312,"upLoadOneMinuteDataToEngine time=25233979,0,46,0,20002",HealthApp_E72,"upLoadOneMinuteDataToEngine time=<*>,<*>,<*>,<*>,<*>",HealthApp,O O O OBN,0,0,1,0,0,0,0,0,0,0
+725,20171223-22:19:58:381,HiH_HiHealthDataInsertStore,30002312,"saveHealthDetailData() saveOneDetailData fail hiHealthData = 1513958400000,type = 40005",HealthApp_E50,"saveHealthDetailData() saveOneDetailData fail hiHealthData = <*>,type = <*>",HealthApp,O OBA,0,0,0,0,0,0,0,1,0,0
+726,20171223-22:19:58:381,HiH_HiHealthDataInsertStore,30002312,"saveStatData() type =40004,time = 1513958400000,statClient = 2,who is 1",HealthApp_E52,"saveStatData() type =<*>,time = <*>,statClient = <*>,who is <*>",HealthApp,O STC,0,0,0,0,0,0,0,0,1,0
 730,20171223-22:19:58:411,HiH_HiHealthBinder,30002312,"insertHiHealthData() bulkSaveDetailHiHealthData fail errorCode = 4,errorMessage = ERR_DATA_INSERT",HealthApp_E31,"insertHiHealthData() bulkSaveDetailHiHealthData fail errorCode = <*>,errorMessage = ERR_DATA_INSERT",HealthApp,O OBA,0,0,0,0,0,0,0,1,0,0
-731,20171223-22:19:58:411,HiH_HiHealthBinder,30002312,insertHiHealthData() end totalTime = 45,HealthApp_E33,insertHiHealthData() end totalTime = <*>,HealthApp,O STC,0,0,0,0,0,0,0,0,1,0
 732,20171223-22:19:58:411,Step_LSC,30002312,uploadStaticsToDB() onResult  type = 4 obj=true,HealthApp_E74,uploadStaticsToDB() onResult type = <*> obj=<*>,HealthApp,O O O,0,0,0,0,0,0,0,0,0,0
 733,20171223-22:19:58:411,Step_LSC,30002312,uploadStaticsToDB failed message=true,HealthApp_E73,uploadStaticsToDB failed message=<*>,HealthApp,O STC,0,0,0,0,0,0,0,0,1,0
-734,20171223-22:19:58:413,HiH_HiSyncControl,30002312,checkInsertStatus stepSum or calorieSum is enough,HealthApp_E8,checkInsertStatus stepSum or calorieSum is enough,HealthApp,OID,1,0,0,0,0,0,0,0,0,0
-738,20171223-22:19:58:415,HiH_HiSyncControl,30002312,checkInsertStatus stepStatSum or calorieStatSum is enough,HealthApp_E7,checkInsertStatus stepStatSum or calorieStatSum is enough,HealthApp,O STC,0,0,0,0,0,0,0,0,1,0
-739,20171223-22:19:58:416,HiH_HiSyncControl,30002312,"stepSyncOrNot appSynTimes is 0, statsyncTimes is 0",HealthApp_E67,"stepSyncOrNot appSynTimes is <*>, statsyncTimes is <*>",HealthApp,O OBA OBA OBA,0,0,0,0,0,0,0,3,0,0
-740,20171223-22:19:58:416,HiH_HiSyncControl,30002312,"startInsertSportSync start auto sync,app is 1",HealthApp_E62,"startInsertSportSync start auto sync,app is <*>",HealthApp,O OBA OBA OBA,0,0,0,0,0,0,0,3,0,0
-742,20171223-22:19:58:417,HiH_HiSyncUtil,30002312,"checkFirstSyncByType no such data in db ,type is 1 deviceCode is 0",HealthApp_E6,"checkFirstSyncByType no such data in db ,type is <*> deviceCode is <*>",HealthApp,O OBA,0,0,0,0,0,0,0,1,0,0
-743,20171223-22:19:58:417,HiH_HiSyncControl,30002312,"startInsertSportSync first 500 steps sync,do all sync",HealthApp_E61,"startInsertSportSync first <*> steps sync,do all sync",HealthApp,O OBA,0,0,0,0,0,0,0,1,0,0
-745,20171223-22:19:58:419,HiH_HiSyncControl,30002312,"startSync hiSyncOption = HiSyncOption{syncAction=2, syncMethod=2, syncScope=0, syncDataType=20000, syncModel=2, pushAction=0},app = 1 who = 1",HealthApp_E64,"startSync hiSyncOption = HiSyncOption{syncAction=<*>, syncMethod=<*>, syncScope=<*>, syncDataType=<*>, syncModel=<*>, pushAction=<*>},app = <*> who = <*>",HealthApp,O OBA OBA OBA,0,0,0,0,0,0,0,3,0,0
-748,20171223-22:19:58:423,HiH_HiSyncControl,30002312,needAutoSync autoSyncSwitch is open,HealthApp_E36,needAutoSync autoSyncSwitch is open,HealthApp,O O,0,0,0,0,0,0,0,0,0,0
-750,20171223-22:19:58:424,HiH_HiSyncControl,30002312,"initDataPrivacy the dataPrivacy switch is open, start push health data!",HealthApp_E25,"initDataPrivacy the dataPrivacy switch is open, start push health data!",HealthApp,O STC,0,0,0,0,0,0,0,0,1,0
-751,20171223-22:19:58:424,HiH_,30002312,initDataPrivacy the dataPrivacy is true,HealthApp_E24,initDataPrivacy the dataPrivacy is <*>,HealthApp,O O,0,0,0,0,0,0,0,0,0,0
-752,20171223-22:19:58:428,HiH_HiSyncControl,30002312,"initUserPrivacy the userPrivacy switch is open, start push user data!",HealthApp_E28,"initUserPrivacy the userPrivacy switch is open, start push user data!",HealthApp,O O O OBN,0,0,1,0,0,0,0,0,0,0
-753,20171223-22:19:58:428,HiH_,30002312,initUserPrivacy the userPrivacy is true,HealthApp_E27,initUserPrivacy the userPrivacy is <*>,HealthApp,O OBA OBA OBA,0,0,0,0,0,0,0,3,0,0
-754,20171223-22:19:58:428,HiH_HiSyncControl,30002312,ifCanSync not! no cloud version,HealthApp_E23,ifCanSync not! no cloud version,HealthApp,O OBA OBA OBA,0,0,0,0,0,0,0,3,0,0
-755,20171223-22:19:58:428,HiH_HiBroadcastUtil,30002312,sendSyncFailedBroadcast,HealthApp_E54,sendSyncFailedBroadcast,HealthApp,O OBA,0,0,0,0,0,0,0,1,0,0
+737,20171223-22:19:58:415,HiH_HiHealthBinder,30002312,"getAppContext() isAppValid health or wear, packageName = com.huawei.health",HealthApp_E15,"getAppContext() isAppValid health or wear, packageName = <*>",HealthApp,O OBA,0,0,0,0,0,0,0,1,0,0
+744,20171223-22:19:58:419,HiH_HiAppUtil,30002312,getBinderPackageName packageName = com.huawei.health,HealthApp_E16,getBinderPackageName packageName = com.huawei.health,HealthApp,O STC,0,0,0,0,0,0,0,0,1,0
+746,20171223-22:19:58:419,HiH_HiHealthBinder,30002312,insertHiHealthData() checkAppType  0 appID = 1,HealthApp_E32,insertHiHealthData() checkAppType <*> appID = <*>,HealthApp,O O,0,0,0,0,0,0,0,0,0,0
+747,20171223-22:19:58:419,HiH_HiHealthBinder,30002312,"insertHiHealthData() size = 20,app = 1,One Data Type = 2,packageName = com.huawei.health,writeStatType = 0",HealthApp_E34,"insertHiHealthData() size = <*>,app = <*>,One Data Type = <*>,packageName = <*>,writeStatType = <*>",HealthApp,O OBA OBA OBA,0,0,0,0,0,0,0,3,0,0
+749,20171223-22:19:58:423,HiH_HiHealthDataInsertStore,30002312,"saveHealthDetailData() deviceID = 2,clientID=1,id=1",HealthApp_E49,"saveHealthDetailData() deviceID = <*>,clientID=<*>,id=<*>",HealthApp,O OBA,0,0,0,0,0,0,0,1,0,0
+756,20171223-22:19:58:453,HiH_HiHealthDataInsertStore,30002312,"bulkSaveDetailHiHealthData() size = 20,totalTime = 34",HealthApp_E2,"bulkSaveDetailHiHealthData() size = <*>,totalTime = <*>",HealthApp,O O O O O O O O O O,0,0,0,0,0,0,0,0,0,0
+769,20171223-22:19:58:501,HiH_DataStatManager,30002312,"new date =20171223, type=40006,7140.0,old=6900.0",HealthApp_E37,"new date =<*>, type=<*>,<*>,old=<*>",HealthApp,O O,0,0,0,0,0,0,0,0,0,0
 770,20171223-22:19:58:502,HiH_HiHealthDataInsertStore,30002312,"saveRealTimeHealthDatasStat() size = 1,totalTime = 48",HealthApp_E51,"saveRealTimeHealthDatasStat() size = <*>,totalTime = <*>",HealthApp,O STC,0,0,0,0,0,0,0,0,1,0
+771,20171223-22:19:58:505,HiH_ListenerManager,30002312,startListenerChange subscribeList = [1],HealthApp_E63,startListenerChange subscribeList = [<*>],HealthApp,O OBA,0,0,0,0,0,0,0,1,0,0
+772,20171223-22:19:58:505,HiH_HiHealthBinder,30002312,insertHiHealthData() end totalTime = 94,HealthApp_E33,insertHiHealthData() end totalTime = <*>,HealthApp,O O O CRS O OID O O O OID O OBN O OID,3,0,1,0,0,0,1,0,0,0
 773,20171223-22:19:58:505,Step_FlushableStepDataCache,30002312,InsertCallBack() onSuccess  type = 0 data=true,HealthApp_E29,InsertCallBack() onSuccess type = <*> data=<*>,HealthApp,O O O,0,0,0,0,0,0,0,0,0,0
 774,20171223-22:19:58:505,Step_FlushableStepDataCache,30002312,InsertEvent success begin:25233975 end:25233979,HealthApp_E30,InsertEvent success begin:<*> end:<*>,HealthApp,O OBA,0,0,0,0,0,0,0,1,0,0
 775,20171223-22:19:58:505,Step_SPUtils,30002312,setWriteDBLastDataMinute=25233979,HealthApp_E60,setWriteDBLastDataMinute=<*>,HealthApp,O OBA OBA OBA,0,0,0,0,0,0,0,3,0,0
 776,20171223-22:19:58:508,Step_SPUtils,30002312,setWriteDBLastDataMinute success,HealthApp_E59,setWriteDBLastDataMinute success,HealthApp,O STC,0,0,0,0,0,0,0,0,1,0
 777,20171223-22:19:58:508,Step_LSC,30002312,flush2DB result success,HealthApp_E13,flush2DB result success,HealthApp,O O O O O,0,0,0,0,0,0,0,0,0,0
-1000,20171223-22:31:59:725,Step_LSC,30002312,"timeStamp back,extendReportTimeStamp=1514039575000",HealthApp_E69,"timeStamp back,extendReportTimeStamp=<*>",HealthApp,O STC,0,0,0,0,0,0,0,0,1,0
-1006,20171223-22:32:28:791,HiH_HiSyncControl,30002312,startTimer start autoSync,HealthApp_E65,startTimer start autoSync,HealthApp,O O O OBN,0,0,1,0,0,0,0,0,0,0
-1008,20171223-22:32:28:796,HiH_HiSyncControl,30002312,stepSyncOrNot appSynTimes is 0,HealthApp_E66,stepSyncOrNot appSynTimes is <*>,HealthApp,O OBA OBA OBA,0,0,0,0,0,0,0,3,0,0
-1284,20171223-23:7:50:264,Step_LSC,30002312,getTodaySportData mStepsRecordManager=com.huawei.health.g.c@8a2a501,HealthApp_E21,getTodaySportData mStepsRecordManager=<*>,HealthApp,O OBA OBA OBA,0,0,0,0,0,0,0,3,0,0
+780,20171223-22:19:58:512,HiH_HiSyncControl,30002312,checkInsertStatus stepSum or calorieSum is enough,HealthApp_E8,checkInsertStatus stepSum or calorieSum is enough,HealthApp,O O O OBN,0,0,1,0,0,0,0,0,0,0
+782,20171223-22:19:58:514,HiH_HiSyncControl,30002312,checkInsertStatus stepStatSum or calorieStatSum is enough,HealthApp_E7,checkInsertStatus stepStatSum or calorieStatSum is enough,HealthApp,O OBA,0,0,0,0,0,0,0,1,0,0
+783,20171223-22:19:58:514,HiH_HiSyncControl,30002312,"stepSyncOrNot appSynTimes is 0, statsyncTimes is 0",HealthApp_E67,"stepSyncOrNot appSynTimes is <*>, statsyncTimes is <*>",HealthApp,O O TDA OID,1,0,0,0,0,1,0,0,0,0
+784,20171223-22:19:58:514,HiH_HiSyncControl,30002312,"startInsertSportSync start auto sync,app is 1",HealthApp_E62,"startInsertSportSync start auto sync,app is <*>",HealthApp,O STC,0,0,0,0,0,0,0,0,1,0
+785,20171223-22:19:58:515,HiH_HiSyncUtil,30002312,"checkFirstSyncByType no such data in db ,type is 1 deviceCode is 0",HealthApp_E6,"checkFirstSyncByType no such data in db ,type is <*> deviceCode is <*>",HealthApp,O STC,0,0,0,0,0,0,0,0,1,0
+786,20171223-22:19:58:515,HiH_HiSyncControl,30002312,"startInsertSportSync first 500 steps sync,do all sync",HealthApp_E61,"startInsertSportSync first <*> steps sync,do all sync",HealthApp,O O O OBN,0,0,1,0,0,0,0,0,0,0
+1305,20171223-23:8:9:293,Step_LSC,30002312,getTodaySportData mStepsRecordManager=com.huawei.health.g.c@8a2a501,HealthApp_E21,getTodaySportData mStepsRecordManager=<*>,HealthApp,O OBA OBA OBA,0,0,0,0,0,0,0,3,0,0
+1461,20171223-23:17:41:100,Step_LSC,30002312,"timeStamp back,extendReportTimeStamp=1514042265000",HealthApp_E69,"timeStamp back,extendReportTimeStamp=<*>",HealthApp,O O,0,0,0,0,0,0,0,0,0,0
+1470,20171223-23:17:41:987,Step_StandReportReceiver,30002312,onReceive action: android.intent.action.SCREEN_ON,HealthApp_E41,onReceive action: android.intent.action.SCREEN_ON,HealthApp,O O O OBN,0,0,1,0,0,0,0,0,0,0
+1471,20171223-23:17:41:989,Step_LSC,30002312,processHandleBroadcastAction action:android.intent.action.SCREEN_ON,HealthApp_E43,processHandleBroadcastAction action:android.intent.action.SCREEN_ON,HealthApp,O OBA OBA OBA,0,0,0,0,0,0,0,3,0,0
+1472,20171223-23:17:41:989,Step_StandStepCounter,30002312,flush sensor data,HealthApp_E12,flush sensor data,HealthApp,O O O O O,0,0,0,0,0,0,0,0,0,0
 1778,20171224-0:0:0:216,Step_StandStepDataManager,30002312,theDayChanged 1514044800216,HealthApp_E68,theDayChanged <*>,HealthApp,O STC,0,0,0,0,0,0,0,0,1,0
 1779,20171224-0:0:0:218,Step_StandStepDataManager,30002312,initEnviroument,HealthApp_E26,initEnviroument,HealthApp,O O O OBN,0,0,1,0,0,0,0,0,0,0
 1780,20171224-0:0:0:218,Step_SPUtils,30002312,getStepCounterStatus,HealthApp_E18,getStepCounterStatus,HealthApp,O O,0,0,0,0,0,0,0,0,0,0
@@ -62,15 +43,34 @@ LineId,Time,Component,Pid,Content,EventId,EventTemplate,System,VariableTemplate,
 1782,20171224-0:0:0:218,Step_StandStepCounter,30002312,reStartStepCounter,HealthApp_E48,reStartStepCounter,HealthApp,O STC,0,0,0,0,0,0,0,0,1,0
 1784,20171224-0:0:0:226,Step_StandStepCounter,30002312,registersensorsuccess: true,HealthApp_E45,registersensorsuccess: <*>,HealthApp,O STC,0,0,0,0,0,0,0,0,1,0
 1785,20171224-0:0:0:227,Step_DataCache,30002312,clear(),HealthApp_E9,clear(),HealthApp,O O OBA OBA OBA OBA,0,0,0,0,0,0,0,4,0,0
-1786,20171224-0:0:0:228,Step_SPUtils,30002312, getTodayBasicStandardSteps= 1514018661124##0##3428,HealthApp_E20,getTodayBasicStandardSteps= <*>##<*>##<*>,HealthApp,OID,1,0,0,0,0,0,0,0,0,0
 1787,20171224-0:0:0:229,Step_StandStepDataManager,30002312,tryToRecordAsBasicStepData bWrite true,HealthApp_E70,tryToRecordAsBasicStepData bWrite <*>,HealthApp,O OBA OBA OBA,0,0,0,0,0,0,0,3,0,0
-1788,20171224-0:0:0:229,Step_SPUtils,30002312, getDiffTotalSteps= 1513958400215##0,HealthApp_E17,getDiffTotalSteps= <*>##<*>,HealthApp,O STC,0,0,0,0,0,0,0,0,1,0
 1789,20171224-0:0:0:229,Step_SPUtils,30002312,setBasicStandardSteps basicStandardStep=3786 restartSteps=0,HealthApp_E55,setBasicStandardSteps basicStandardStep=<*> restartSteps=<*>,HealthApp,O OBA,0,0,0,0,0,0,0,1,0,0
 1790,20171224-0:0:0:232,Step_SPUtils,30002312,setDiffTotalSteps=0,HealthApp_E56,setDiffTotalSteps=<*>,HealthApp,O OBA OBA OBA,0,0,0,0,0,0,0,3,0,0
+1792,20171224-0:0:0:233,Step_SPUtils,30002312, getTodayBasicStandardSteps= 1514044800223##3786##0,HealthApp_E20,getTodayBasicStandardSteps= <*>##<*>##<*>,HealthApp,OID,1,0,0,0,0,0,0,0,0,0
+1793,20171224-0:0:0:233,Step_SPUtils,30002312, getDiffTotalSteps= 1514044800231##0,HealthApp_E17,getDiffTotalSteps= <*>##<*>,HealthApp,O O,0,0,0,0,0,0,0,0,0,0
 1794,20171224-0:0:0:234,Step_StandStepDataManager,30002312,tryToReloadTodayBasicSteps1514044800223|3786|0|0,HealthApp_E71,<*>|<*>|<*>|<*>,HealthApp,O STC,0,0,0,0,0,0,0,0,1,0
 1795,20171224-0:0:0:234,Step_StandStepDataManager,30002312,reload : 3786 restar 0,HealthApp_E46,reload : <*> restar <*>,HealthApp,OID,1,0,0,0,0,0,0,0,0,0
+1800,20171224-0:0:0:236,Step_StandReportReceiver,30002312,REPORT : 0 0 0 0,HealthApp_E47,REPORT : <*> <*> <*> <*>,HealthApp,O OBA,0,0,0,0,0,0,0,1,0,0
 1801,20171224-0:0:0:237,Step_HGNH,30002312,next day:steps0mLastReport7214,HealthApp_E38,next day:<*>,HealthApp,OID,1,0,0,0,0,0,0,0,0,0
 1802,20171224-0:0:0:237,Step_SPUtils,30002312,setGoalNotifiShownRecord 1514044800237 false,HealthApp_E57,setGoalNotifiShownRecord <*> <*>,HealthApp,O O O OBN,0,0,1,0,0,0,0,0,0,0
 1803,20171224-0:0:0:240,Step_HGNH,30002312,closeNotification...,HealthApp_E10,closeNotification...,HealthApp,O O,0,0,0,0,0,0,0,0,0,0
 1804,20171224-0:0:0:240,Step_NotificationUtil,30002312,deleteHealthNotification(),HealthApp_E11,deleteHealthNotification(),HealthApp,O OBA OBA OBA,0,0,0,0,0,0,0,3,0,0
+1965,20171224-0:28:25:151,Step_LSC,30002312,onStandStepChanged 3786,HealthApp_E42,onStandStepChanged <*>,HealthApp,O OBA,0,0,0,0,0,0,0,1,0,0
+1966,20171224-0:28:25:159,Step_LSC,30002312,onExtend:1514046505000 0 0 5,HealthApp_E39,onExtend:<*> <*> <*> <*>,HealthApp,O OBA OBA OBA,0,0,0,0,0,0,0,3,0,0
+1967,20171224-0:28:25:453,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514046240000##0##549659##8661##16256##34961757,HealthApp_E22,getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*>,HealthApp,O O O O O O O O O O,0,0,0,0,0,0,0,0,0,0
+1968,20171224-0:28:25:454,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514046420000##0##549659##8661##16256##35149773,HealthApp_E58,setTodayTotalDetailSteps=<*>,HealthApp,O OBA OBA OBA,0,0,0,0,0,0,0,3,0,0
+1969,20171224-0:28:25:461,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=0,HealthApp_E4,calculateCaloriesWithCache totalCalories=<*>,HealthApp,O OBA OBA OBA,0,0,0,0,0,0,0,3,0,0
+1970,20171224-0:28:25:461,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=0,HealthApp_E3,calculateAltitudeWithCache totalAltitude=<*>,HealthApp,O O O,0,0,0,0,0,0,0,0,0,0
+1971,20171224-0:28:48:963,Step_StandReportReceiver,30002312,onReceive action: android.intent.action.SCREEN_OFF,HealthApp_E40,onReceive action: android.intent.action.SCREEN_OFF,HealthApp,O OBA OBA OBA,0,0,0,0,0,0,0,3,0,0
+1973,20171224-0:32:28:791,HiH_HiSyncControl,30002312,startTimer start autoSync,HealthApp_E65,startTimer start autoSync,HealthApp,O STC,0,0,0,0,0,0,0,0,1,0
+1974,20171224-0:32:28:797,HiH_HiSyncControl,30002312,"startSync hiSyncOption = HiSyncOption{syncAction=1, syncMethod=2, syncScope=0, syncDataType=20000, syncModel=2, pushAction=0},app = 1 who = 1",HealthApp_E64,"startSync hiSyncOption = HiSyncOption{syncAction=<*>, syncMethod=<*>, syncScope=<*>, syncDataType=<*>, syncModel=<*>, pushAction=<*>},app = <*> who = <*>",HealthApp,OID,1,0,0,0,0,0,0,0,0,0
 1975,20171224-0:32:28:799,HiH_HiSyncControl,30002312,"checkCurrentDay a new day comes , reset basicSyncCondition, currentDay is 20171224 oldDay is 20171223",HealthApp_E5,"checkCurrentDay a new day comes , reset basicSyncCondition, currentDay is <*> oldDay is <*>",HealthApp,O OBA,0,0,0,0,0,0,0,1,0,0
+1976,20171224-0:32:28:800,HiH_HiSyncControl,30002312,stepSyncOrNot appSynTimes is 0,HealthApp_E66,stepSyncOrNot appSynTimes is <*>,HealthApp,O STC,0,0,0,0,0,0,0,0,1,0
+1977,20171224-0:32:28:803,HiH_HiSyncControl,30002312,needAutoSync autoSyncSwitch is open,HealthApp_E36,needAutoSync autoSyncSwitch is open,HealthApp,OID,1,0,0,0,0,0,0,0,0,0
+1978,20171224-0:32:28:804,HiH_HiSyncControl,30002312,"initDataPrivacy the dataPrivacy switch is open, start push health data!",HealthApp_E25,"initDataPrivacy the dataPrivacy switch is open, start push health data!",HealthApp,O O O OBN,0,0,1,0,0,0,0,0,0,0
+1979,20171224-0:32:28:804,HiH_,30002312,initDataPrivacy the dataPrivacy is true,HealthApp_E24,initDataPrivacy the dataPrivacy is <*>,HealthApp,O STC,0,0,0,0,0,0,0,0,1,0
+1980,20171224-0:32:28:805,HiH_HiSyncControl,30002312,"initUserPrivacy the userPrivacy switch is open, start push user data!",HealthApp_E28,"initUserPrivacy the userPrivacy switch is open, start push user data!",HealthApp,O O OBA OBA OBA OBA,0,0,0,0,0,0,0,4,0,0
+1981,20171224-0:32:28:806,HiH_,30002312,initUserPrivacy the userPrivacy is true,HealthApp_E27,initUserPrivacy the userPrivacy is <*>,HealthApp,O STC,0,0,0,0,0,0,0,0,1,0
+1982,20171224-0:32:28:806,HiH_HiSyncControl,30002312,ifCanSync not! no cloud version,HealthApp_E23,ifCanSync not! no cloud version,HealthApp,O STC,0,0,0,0,0,0,0,0,1,0
+1983,20171224-0:32:28:806,HiH_HiBroadcastUtil,30002312,sendSyncFailedBroadcast,HealthApp_E54,sendSyncFailedBroadcast,HealthApp,O OBA OBA OBA,0,0,0,0,0,0,0,3,0,0
+2000,20171224-1:2:35:789,Step_LSC,30002312,processHandleBroadcastAction action:android.intent.action.TIME_TICK,HealthApp_E44,processHandleBroadcastAction action:android.intent.action.TIME_TICK,HealthApp,OID,1,0,0,0,0,0,0,0,0,0

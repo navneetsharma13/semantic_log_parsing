@@ -46,8 +46,8 @@ for dataset_name in dataset_names:
     # Add a new column indicating the system (folder name)
     df['System'] = dataset_name
 
-    # Drop duplicates based on the 'EventId' column, keeping the first occurrence
-    unique_event_df = df.drop_duplicates(subset='EventId', keep='first')
+    # Drop duplicates based on the 'EventId' column, keeping the last occurrence
+    unique_event_df = df.drop_duplicates(subset='EventId', keep='last')
 
     # Ensure no missing 'LineId' values before proceeding
     unique_event_df = unique_event_df.dropna(subset=['LineId']).copy()

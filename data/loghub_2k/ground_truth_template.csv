@@ -1,91 +1,91 @@
 System,EventTemplate,OID,LOI,OBN,TID,SID,TDA,CRS,OBA,STC,OTP
-Apache,workerEnv.init() ok <*>,0,1,0,0,0,0,0,0,0,0
-Apache,mod_jk child workerEnv in error state <*>,2,0,0,0,0,0,0,0,0,0
-Apache,jk2_init() Found child <*> in scoreboard slot <*>,0,0,0,0,0,0,0,0,1,0
-Apache,[client <*>] Directory index forbidden by rule: <*>,2,0,0,0,0,0,0,0,0,0
 Apache,jk2_init() Can't find child <*> in scoreboard,2,0,0,0,0,0,0,0,0,0
 Apache,mod_jk child init <*> <*>,0,1,0,0,0,0,0,0,0,0
+Apache,[client <*>] Directory index forbidden by rule: <*>,0,0,0,0,0,0,0,0,1,0
+Apache,jk2_init() Found child <*> in scoreboard slot <*>,0,0,0,0,0,0,0,0,1,0
+Apache,workerEnv.init() ok <*>,2,0,0,0,0,0,0,0,0,0
+Apache,mod_jk child workerEnv in error state <*>,2,0,0,0,0,0,0,0,0,0
 HPC,Component State Change: Component <*> is in the unavailable state (HWID=<*>),0,0,0,0,0,0,0,0,0,0
 HPC,clusterAddMember (command <*>),0,0,0,0,0,0,0,0,0,0
 HPC,risBoot (command <*>),0,0,0,0,0,0,0,0,1,0
-HPC,bootGenvmunix (command <*>),0,0,0,0,0,0,0,0,0,0
-HPC,boot (command <*>),0,0,0,0,0,0,0,0,1,0
-HPC,wait (command <*>),0,0,0,0,0,0,0,0,0,0
 HPC,halt (command <*>),0,0,0,0,0,0,0,0,0,0
+HPC,bootGenvmunix (command <*>),0,0,0,0,0,0,0,0,0,0
+HPC,boot (command <*>),0,0,0,0,0,0,5,0,0,0
+HPC,wait (command <*>),0,0,0,0,0,0,0,1,0,0
 HPC,Command has completed successfully,0,0,0,0,0,0,0,0,0,0
 HPC,Targeting domains:node-<*> and nodes:node-[<*>-<*>] child of command <*>,0,0,0,0,0,0,0,0,0,0
-HPC,Targeting domains:node-<*> nodes:node-<*>,0,0,0,0,0,0,5,0,0,0
-HPC,psu failure\ ambient=<*>,0,0,1,0,0,0,0,0,0,0
-HPC,Temperature (<*>) exceeds warning threshold,0,0,0,0,0,0,0,1,0,0
+HPC,Targeting domains:node-<*> nodes:node-<*>,0,0,0,0,0,0,0,0,0,0
+HPC,psu failure\ ambient=<*>,0,0,0,0,0,0,0,0,0,0
+HPC,Temperature (<*>) exceeds warning threshold,0,0,0,0,0,0,0,0,0,0
 HPC,ClusterFileSystem: There is no server for ServerFileSystem domain <*>,0,0,0,0,0,0,0,0,0,0
 HPC,NIFF: node node-<*> detected a failed network connection on network <*> via interface alt0,0,0,0,0,0,0,0,0,0,0
 HPC,ServerFileSystem: An ServerFileSystem domain panic has occurred on <*>,0,0,1,0,0,0,0,0,0,0
+HPC,Fan speeds ( <*> <*> <*> <*> <*> <*> ),0,0,0,0,0,0,0,0,0,0
 HPC,Fan speeds ( <*> <*> <*> **** <*> <*> ),0,0,0,0,0,0,0,1,0,0
-HPC,Fan speeds ( <*> <*> <*> <*> <*> <*> ),0,0,0,0,0,0,0,1,0,0
 HPC,Command has been aborted,0,0,0,0,0,0,0,0,0,0
 HPC,power/control problem,0,0,0,0,0,0,0,1,0,0
-HPC,Link error,0,0,0,0,0,0,0,0,0,0
-HPC,Link in reset,0,0,0,0,0,0,0,0,1,0
-HPC,Link ok,0,0,0,0,0,0,0,0,0,0
-HPC,Link error on broadcast tree Interconnect-<*>:<*>:<*>:<*>,0,0,0,0,0,0,5,0,0,0
-HPC,ServerFileSystem: ServerFileSystem domain <*> is full,0,0,0,0,0,0,0,1,0,0
+HPC,Link error on broadcast tree Interconnect-<*>:<*>:<*>:<*>,0,1,1,0,0,0,0,0,0,0
+HPC,ServerFileSystem: ServerFileSystem domain <*> is full,0,0,0,0,0,0,0,0,0,0
 HPC,ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-<*>,0,0,0,0,0,0,0,0,0,0
-HPC,running,0,0,0,0,0,0,0,0,0,0
-HPC,blocked,0,0,0,0,0,0,0,0,0,0
-HPC,not responding,0,0,0,0,0,0,0,0,0,0
-HPC,configured out,0,0,0,0,0,0,0,0,0,0
-HPC,inconsistent nodesets node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <*>,0,0,0,0,0,0,0,0,0,0
-HPC,active,0,0,0,0,0,0,0,0,0,0
 HPC,not-responding,0,0,0,0,0,0,0,0,1,0
 HPC,starting,0,0,0,0,0,0,0,0,0,0
 HPC,closing,0,0,0,0,0,0,0,0,0,0
-HPC,normal,0,0,0,0,0,0,0,1,0,0
-HPC,warning,0,0,0,0,0,0,0,0,0,0
+HPC,active,0,0,0,0,0,0,0,0,0,0
+HPC,inconsistent nodesets node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <*>,0,0,0,0,0,0,0,0,0,0
+HPC,blocked,0,0,0,0,0,0,0,0,0,0
+HPC,not responding,0,0,0,0,0,0,0,0,0,0
+HPC,configured out,0,0,0,0,0,0,0,1,0,0
+HPC,running,0,0,0,0,0,0,0,0,0,0
+HPC,normal,0,0,2,0,0,0,0,0,0,0
 HPC,ambient=<*>,0,0,0,0,0,0,0,0,0,0
 HPC,critical,0,0,0,0,0,0,0,0,0,0
-HPC,Linkerror event interval expired,0,0,0,0,0,0,0,0,1,0
+HPC,warning,0,0,0,0,0,0,0,0,0,0
+HPC,Link error,0,0,0,0,0,0,0,0,0,0
+HPC,Link ok,0,0,0,0,0,0,0,0,0,0
+HPC,Link in reset,0,0,0,0,0,0,0,0,0,0
 HPC,risBoot (command <*>) Error: Timed out while waiting for SRM prompt: <ABORT code completed>,0,0,0,0,0,0,0,0,0,0
 HPC,boot (command <*>) Error: HALT asserted\ cannot continue,0,0,0,0,0,0,0,0,0,0
 HPC,Failed subcommands <*>,0,0,0,0,0,0,0,0,0,0
+HPC,Linkerror event interval expired,0,0,0,0,0,0,0,0,0,0
 HPC,link errors remain current,0,0,0,0,0,0,0,0,0,0
-HPC,NIFF: node node-<*> has detected an available network connection on network <*> via interface ee0,0,0,0,0,0,0,5,0,0,0
-HPC,NIFF: node node-<*> has detected an available network connection on network <*> via interface alt0,0,0,0,0,0,0,0,0,0,0
-HPC,NIFF: node node-<*> has detected an available network connection on network <*> via interface scip0,0,0,0,0,0,0,0,0,1,0
-Linux,authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*>,0,2,0,0,0,5,0,0,0,0
-Linux,check pass; user unknown,0,2,0,0,0,5,0,0,0,0
-Linux,authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*> user=<*>,0,1,0,0,0,0,0,0,0,0
-Linux,session opened for user <*> by (uid=<*>),0,2,0,0,0,5,0,0,0,0
-Linux,session closed for user <*>,0,0,0,0,0,0,0,0,0,0
-Linux,ALERT exited abnormally with [<*>],0,2,0,0,0,5,0,0,0,0
-Linux,connection from <*> (<*>) at <*>:<*>:<*>,0,1,0,0,0,0,0,0,0,0
-Linux,authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*> user=guest,0,0,1,0,0,0,0,0,0,0
+HPC,NIFF: node node-<*> has detected an available network connection on network <*> via interface scip0,0,0,1,0,0,0,0,0,0,0
+HPC,NIFF: node node-<*> has detected an available network connection on network <*> via interface alt0,0,0,1,0,0,0,0,0,0,0
+HPC,NIFF: node node-<*> has detected an available network connection on network <*> via interface ee0,0,0,0,0,0,0,0,0,0,0
 Linux,User unknown timed out after <*> seconds at <*>:<*>:<*> <*>,0,0,0,0,0,0,0,0,0,0
-Linux,cupsd shutdown succeeded,0,2,0,0,0,5,0,0,0,0
-Linux,cupsd startup succeeded,0,2,0,0,0,5,0,0,0,0
-Linux,restart.,0,1,0,0,0,0,0,0,0,0
 Linux,Received SNMP packet(s) from <*>,0,1,0,0,0,0,0,0,0,0
-Linux,Authentication failed from <*> (<*>): Permission denied in replay cache code,0,1,0,0,0,0,0,0,0,0
-Linux,Kerberos authentication failed,0,2,0,0,0,5,0,0,0,0
-Linux,Authentication failed from <*> (<*>): Software caused connection abort,0,2,0,0,0,5,0,0,0,0
+Linux,authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*> user=guest,0,1,0,0,0,0,0,0,0,0
+Linux,Authentication failed from <*> (<*>): Permission denied in replay cache code,0,2,0,0,0,5,0,0,0,0
+Linux,Authentication failed from <*> (<*>): Software caused connection abort,0,0,0,0,0,0,0,0,0,0
+Linux,Kerberos authentication failed,0,1,0,0,0,0,0,0,0,0
 Linux,*** info [mice.c(<*>)]:,0,2,0,0,0,5,0,0,0,0
 Linux,imps2: Auto-detected intellimouse PS/<*>,0,2,0,0,0,5,0,0,0,0
 Linux,session opened for user <*> by LOGIN(uid=<*>),0,1,0,0,0,0,0,0,0,0
 Linux,<*> LOGIN ON tty2,0,2,0,0,0,5,0,0,0,0
-Linux,removing device node '<*>',0,2,0,0,0,5,0,0,0,0
-Linux,creating device node '<*>',0,2,0,0,0,5,0,0,0,0
-Linux,authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*> user=test,0,1,0,0,0,0,0,0,0,0
+Linux,removing device node '<*>',0,1,0,0,0,0,0,0,0,0
+Linux,creating device node '<*>',1,0,1,0,0,0,0,0,0,0
+Linux,authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*> user=test,0,2,0,0,0,5,0,0,0,0
 Linux,authentication failure; logname= uid=<*> euid=<*> tty=:<*> ruser= rhost=,0,2,0,0,0,5,0,0,0,0
 Linux,Couldn't authenticate user,0,2,0,0,0,5,0,0,0,0
+Linux,check pass; user unknown,0,2,0,0,0,5,0,0,0,0
+Linux,authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*>,0,1,0,0,0,0,0,0,0,0
 Linux,"ANONYMOUS FTP LOGIN FROM <*>, (anonymous)",0,1,0,0,0,0,0,0,0,0
-Linux,notify question section contains no SOA,0,0,0,0,0,0,2,0,0,0
+Linux,cupsd shutdown succeeded,0,1,0,0,0,0,0,0,0,0
+Linux,cupsd startup succeeded,0,0,0,0,0,0,0,0,0,0
+Linux,notify question section contains no SOA,0,1,0,0,0,0,0,0,0,0
+Linux,warning: can't get client address: Connection reset by peer,0,1,0,0,0,0,0,0,0,0
 Linux,getpeername (ftpd): Transport endpoint is not connected,0,2,0,0,0,5,0,0,0,0
-Linux,warning: can't get client address: Connection reset by peer,0,2,0,0,0,5,0,0,0,0
+Linux,authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*> user=<*>,0,1,0,0,0,0,0,0,0,0
+Linux,ALERT exited abnormally with [<*>],0,0,1,0,0,0,0,0,0,0
+Linux,session opened for user <*> by (uid=<*>),0,2,0,0,0,5,0,0,0,0
+Linux,session closed for user <*>,0,2,0,0,0,5,0,0,0,0
+Linux,connection from <*> (<*>) at <*>:<*>:<*>,1,0,1,0,0,0,0,0,0,0
+Linux,restart.,0,0,1,0,0,0,0,0,0,0
 Linux,syslogd startup succeeded,0,2,0,0,0,0,0,0,0,0
 Linux,"klogd <*>, log source = <*> started.",0,2,0,0,0,5,0,0,0,0
 Linux,Linux version <*> (bhcompile@bugs.build.redhat.com) (gcc version <*> (Red Hat Linux <*>)) #<*> <*>:<*>:<*> EDT <*>,0,1,0,0,0,0,0,0,0,0
 Linux,BIOS-provided physical RAM map:,0,2,0,0,0,5,0,0,0,0
 Linux,BIOS-e820: <*> - <*> (usable),0,2,0,0,0,5,0,0,0,0
-Linux,BIOS-e820: <*> - <*> (reserved),0,0,0,0,0,0,0,0,0,0
+Linux,BIOS-e820: <*> - <*> (reserved),0,1,0,0,0,0,0,0,0,0
 Linux,<*> HIGHMEM available.,0,2,0,0,0,5,0,0,0,0
 Linux,<*> LOWMEM available.,0,1,0,0,0,0,0,0,0,0
 Linux,zapping low mappings.,0,0,0,0,0,0,0,0,0,0
@@ -169,193 +169,193 @@ Linux,isapnp: Scanning for PnP cards...,0,2,0,0,0,5,0,0,0,0
 Linux,isapnp: No Plug & Play device found,1,0,1,0,0,0,0,0,0,0
 Linux,Real Time Clock Driver <*>,0,1,0,0,0,0,0,0,0,0
 Linux,Linux agpgart interface <*> (c) Dave Jones,0,2,0,0,0,5,0,0,0,0
-Proxifier,<*>:<*> open through proxy <*>:<*> HTTPS,0,1,0,0,0,1,4,0,0,0
-Proxifier,"<*> close, <*> <*>, <*> <*>, lifetime <*>",0,1,0,0,0,1,4,0,0,0
-Proxifier,<*>:<*> open through proxy <*>:<*> SOCKS5,0,2,0,0,0,0,0,0,0,0
+Proxifier,<*>:<*> open through proxy <*>:<*> SOCKS5,0,1,0,0,0,1,4,0,0,0
+Proxifier,<*>:<*> error : Could not connect through proxy <*>:<*> - Proxy closed the connection unexpectedly.,0,1,0,0,0,1,4,0,0,0
+Proxifier,<*>:<*> error : Could not connect to proxy <*>:<*> - Could not resolve <*> error <*>,0,1,0,0,0,1,4,0,0,0
 Proxifier,<*>:<*> error : A connection request was canceled before the completion.,0,2,0,0,0,0,0,0,0,0
-Proxifier,<*>:<*> error : Could not connect through proxy <*>:<*> - Proxy closed the connection unexpectedly.,0,2,0,0,0,0,0,0,0,0
-Proxifier,"<*>:<*> error : Could not connect through proxy <*>:<*> - Proxy server cannot establish a connection with the target, status code <*>",0,1,0,0,0,1,4,0,0,0
-Proxifier,<*>:<*> error : Could not connect to proxy <*>:<*> - Could not resolve <*> error <*>,0,2,0,0,0,0,0,0,0,0
 Proxifier,<*>:<*> error : Could not connect to proxy <*>:<*> - connection attempt failed with error <*>,0,1,0,0,0,1,4,0,0,0
-Zookeeper,Notification time out: <*>,0,0,0,0,0,0,0,0,0,0
-Zookeeper,Received connection request <*>:<*>,0,0,0,0,0,0,0,0,0,0
-Zookeeper,Send worker leaving thread,1,0,0,0,0,0,0,0,0,0
-Zookeeper,Interrupted while waiting for message on queue,2,0,0,0,0,0,0,0,0,0
-Zookeeper,"Connection broken for id <*>, my id = <*>, error =",2,0,0,0,0,0,0,0,0,0
-Zookeeper,Interrupting SendWorker,0,0,0,0,0,0,0,0,0,0
-Zookeeper,Closed socket connection for client <*>:<*> which had sessionid <*>,2,0,0,0,0,0,0,0,0,0
-Zookeeper,caught end of stream exception,1,0,0,0,0,0,0,0,0,0
-Zookeeper,Client attempting to renew session <*> at <*>:<*>,0,0,0,0,0,0,0,0,0,0
-Zookeeper,Client attempting to establish new session at <*>:<*>,0,0,0,0,0,0,0,0,0,0
-Zookeeper,Established session <*> with negotiated timeout <*> for client <*>:<*>,0,0,0,0,0,0,0,0,0,0
-Zookeeper,Accepted socket connection from <*>:<*>,1,0,0,0,0,0,0,0,0,0
+Proxifier,"<*>:<*> error : Could not connect through proxy <*>:<*> - Proxy server cannot establish a connection with the target, status code <*>",0,1,0,0,0,1,4,0,0,0
+Proxifier,<*>:<*> open through proxy <*>:<*> HTTPS,0,2,0,0,0,0,0,0,0,0
+Proxifier,"<*> close, <*> <*>, <*> <*>, lifetime <*>",0,1,0,0,0,1,4,0,0,0
 Zookeeper,Unexpected Exception:,0,0,0,0,0,0,0,0,0,0
-Zookeeper,Connection request from old client <*>:<*>; will be dropped if server is in r-o mode,0,0,0,0,0,0,0,0,0,0
-Zookeeper,Server environment:<*>,0,0,0,0,0,0,0,0,0,0
-Zookeeper,Cannot open channel to <*> at election address <*>:<*>,0,0,0,0,0,0,0,0,0,0
-Zookeeper,Processed session termination for sessionid: <*>,0,1,0,0,0,0,0,0,0,0
-Zookeeper,"Expiring session <*>, timeout of <*> exceeded",4,0,0,0,0,0,0,1,0,0
-Zookeeper,******* GOODBYE <*>:<*> ********,0,1,0,0,0,0,0,0,0,0
-Zookeeper,LOOKING,0,0,0,0,0,0,0,0,0,0
 Zookeeper,My election bind port: <*>/<*>:<*>,0,1,0,0,0,0,0,0,0,0
 Zookeeper,"Have smaller server identifier, so dropping the connection: (<*>, <*>)",0,1,0,0,0,0,0,0,0,0
-Zookeeper,FOLLOWING,0,0,0,0,0,0,0,0,0,0
 Zookeeper,"New election. My id = <*>, proposed zxid=<*>",0,1,0,0,0,0,0,0,0,0
-Zookeeper,FOLLOWING - LEADER ELECTION TOOK - <*>,1,0,0,0,0,1,0,0,0,0
 Zookeeper,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LEADING (n.state), <*> (n.sid), <*> (n.peerEPoch), LOOKING (my state)",0,1,0,0,0,0,0,1,0,0
+Zookeeper,FOLLOWING - LEADER ELECTION TOOK - <*>,1,0,0,0,0,0,0,0,0,0
 Zookeeper,autopurge.snapRetainCount set to <*>,1,0,0,0,0,0,0,0,0,0
-Zookeeper,Revalidating client: <*>,0,0,0,0,0,1,0,0,0,0
-Zookeeper,Closed socket connection for client <*>:<*> (no session established for client),0,0,0,0,0,0,0,0,0,0
-Zookeeper,Exception causing close of session <*> due to java.io.IOException: ZooKeeperServer not running,0,0,0,0,0,0,0,0,0,0
-Zookeeper,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), LOOKING (my state)",0,0,0,0,0,1,0,0,0,0
 Zookeeper,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), FOLLOWING (my state)",0,1,0,0,0,0,0,0,0,0
 Zookeeper,tickTime set to <*>,0,0,0,0,0,0,0,0,0,0
-Zookeeper,Unexpected exception causing shutdown while sock still open,2,0,0,0,0,0,0,0,0,0
+Zookeeper,Notification time out: <*>,2,0,0,0,0,0,0,0,0,0
+Zookeeper,******* GOODBYE <*>:<*> ********,0,0,0,0,0,1,0,0,0,0
+Zookeeper,Unexpected exception causing shutdown while sock still open,0,0,0,0,0,0,0,0,0,0
 Zookeeper,Got user-level KeeperException when processing sessionid:<*> type:create cxid:<*> zxid:<*> txntype:<*> reqpath:<*> Error Path:<*> Error:KeeperErrorCode = NodeExists for <*>,0,0,0,0,0,0,0,0,0,0
-Zookeeper,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), LEADING (my state)",0,0,0,0,0,0,0,0,0,0
 Zookeeper,Starting quorum peer,0,1,0,0,0,0,0,0,0,0
-Zookeeper,Snapshotting: <*> to <*>,0,0,0,0,0,0,0,0,0,0
-Zookeeper,autopurge.purgeInterval set to <*>,0,0,0,0,0,0,0,0,0,0
+Zookeeper,Snapshotting: <*> to <*>,2,0,0,0,0,0,0,0,0,0
 Zookeeper,Follower sid: <*> : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@<*>,0,0,0,0,0,0,0,0,0,0
+Zookeeper,Revalidating client: <*>,0,0,0,0,0,0,0,0,0,0
 Zookeeper,maxSessionTimeout set to <*>,0,0,0,0,0,0,0,0,0,0
+Zookeeper,FOLLOWING,0,0,0,0,0,0,0,0,0,0
+Zookeeper,Client attempting to renew session <*> at <*>:<*>,1,0,0,0,0,0,0,0,0,0
 Zookeeper,Have quorum of supporters; starting up and setting last processed zxid: <*>,0,0,0,0,0,0,0,0,0,0
 Zookeeper,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), FOLLOWING (n.state), <*> (n.sid), <*> (n.peerEPoch), LEADING (my state)",0,0,0,0,0,0,0,0,0,0
 Zookeeper,shutdown of request processor complete,0,0,0,0,0,0,0,0,0,0
+Zookeeper,Exception causing close of session <*> due to java.io.IOException: ZooKeeperServer not running,0,0,0,0,0,0,0,0,0,0
 Zookeeper,First is <*>,2,0,0,0,0,0,0,0,0,0
+Zookeeper,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), LEADING (my state)",0,1,0,0,0,0,0,0,0,0
+Zookeeper,autopurge.purgeInterval set to <*>,0,0,0,0,0,0,0,0,0,0
 Zookeeper,Reading snapshot <*>,0,0,0,0,0,0,0,0,0,0
 Zookeeper,Sending DIFF,0,0,0,0,0,0,0,0,0,0
-Zookeeper,Getting a snapshot from leader,0,0,0,0,0,0,0,0,0,0
+Zookeeper,Cannot open channel to <*> at election address <*>:<*>,2,0,0,0,0,0,0,0,0,0
+Zookeeper,Send worker leaving thread,0,0,0,0,0,0,0,0,0,0
+Zookeeper,Interrupted while waiting for message on queue,0,0,0,0,0,0,0,0,0,0
+Zookeeper,Interrupting SendWorker,0,0,0,0,0,0,0,0,0,0
+Zookeeper,Closed socket connection for client <*>:<*> (no session established for client),0,1,0,0,0,0,0,0,0,0
+Zookeeper,"Connection broken for id <*>, my id = <*>, error =",2,0,0,0,0,0,0,0,0,0
+Zookeeper,LOOKING,2,0,0,0,0,0,0,0,0,0
 Zookeeper,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), FOLLOWING (n.state), <*> (n.sid), <*> (n.peerEPoch), FOLLOWING (my state)",0,0,0,0,0,0,0,0,0,0
-Zookeeper,minSessionTimeout set to <*>,1,1,0,0,0,1,0,0,0,0
-BGL,instruction cache parity error corrected,0,0,0,0,0,0,0,1,0,0
-BGL,<*> double-hummer alignment exceptions,0,0,0,0,0,0,0,1,0,0
-BGL,"CE sym <*>, at <*>, mask <*>",0,0,0,0,0,0,0,0,0,0
-BGL,ciod: failed to read message prefix on control stream (CioStream socket to <*>:<*>,0,0,0,0,0,0,0,0,0,0
-BGL,generating core.<*>,2,0,0,0,0,0,0,0,0,0
-BGL,force load/store alignment...............<*>,0,0,0,0,0,0,0,1,0,0
+Zookeeper,caught end of stream exception,0,1,0,0,0,0,0,0,0,0
+Zookeeper,Connection request from old client <*>:<*>; will be dropped if server is in r-o mode,1,1,0,0,0,1,0,0,0,0
+Zookeeper,Received connection request <*>:<*>,2,0,0,0,0,0,0,0,0,0
+Zookeeper,minSessionTimeout set to <*>,2,0,0,0,0,0,0,0,0,0
+Zookeeper,Server environment:<*>,2,0,0,0,0,0,0,0,0,0
+Zookeeper,Getting a snapshot from leader,2,0,0,0,0,0,0,0,0,0
+Zookeeper,Accepted socket connection from <*>:<*>,0,0,0,0,0,0,0,0,0,0
+Zookeeper,Established session <*> with negotiated timeout <*> for client <*>:<*>,0,0,0,0,0,0,0,0,0,0
+Zookeeper,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), LOOKING (my state)",2,0,0,0,0,0,0,0,0,0
+Zookeeper,Client attempting to establish new session at <*>:<*>,0,0,0,0,0,0,0,0,0,0
+Zookeeper,Closed socket connection for client <*>:<*> which had sessionid <*>,0,1,0,0,0,0,0,0,0,0
+Zookeeper,"Expiring session <*>, timeout of <*> exceeded",0,1,0,0,0,0,0,0,0,0
+Zookeeper,Processed session termination for sessionid: <*>,0,0,0,0,0,0,0,0,0,0
 BGL,ciod: cpu <*> at treeaddr <*> sent unrecognized message <*>,0,0,0,0,0,0,0,1,0,0
-BGL,ciod: LOGIN chdir(<*>) failed: No such file or directory,0,0,0,0,0,2,0,1,0,0
-BGL,"<*> ddr errors(s) detected and corrected on rank <*>, symbol <*>, bit <*>",0,0,0,0,0,0,0,0,0,0
-BGL,data TLB error interrupt,1,0,0,0,0,0,0,0,0,0
+BGL,data TLB error interrupt,0,1,0,0,0,0,0,1,0,0
 BGL,ciod: Message code <*> is not <*> or <*>,1,0,0,0,0,0,0,0,0,0
-BGL,data storage interrupt,1,0,0,0,0,0,0,0,0,0
-BGL,instruction address: <*>,0,0,0,0,0,0,0,1,0,0
-BGL,data address: <*>,2,0,0,0,0,0,0,0,0,0
-BGL,machine check: i-fetch......................<*>,1,0,0,0,0,0,0,0,0,0
-BGL,program interrupt: illegal instruction......<*>,0,0,0,0,0,0,0,1,0,0
-BGL,exception syndrome register: <*>,0,0,0,0,0,0,0,1,0,0
-BGL,data store interrupt caused by dcbf.........<*>,0,0,0,0,0,0,0,1,0,0
-BGL,program interrupt: privileged instruction...<*>,0,0,0,0,0,0,0,1,0,0
+BGL,data storage interrupt,2,0,0,0,0,0,0,2,0,0
+BGL,data address: <*>,0,1,0,0,0,0,0,3,0,0
+BGL,machine check: i-fetch......................<*>,0,0,0,0,0,0,0,1,0,0
 BGL,program interrupt: trap instruction.........<*>,0,0,0,0,0,0,0,1,0,0
-BGL,program interrupt: imprecise exception......<*>,1,0,0,0,0,0,0,0,0,0
-BGL,store operation.............................<*>,1,0,0,0,0,0,0,0,0,0
-BGL,machine state register: <*>,1,0,0,0,0,0,0,0,0,0
-BGL,data store interrupt caused by icbi.........<*>,0,0,0,0,0,0,0,1,0,0
-BGL,"problem state (<*>=sup,<*>=usr).......<*>",0,1,0,0,0,0,0,0,0,0
-BGL,floating point instr. enabled.....<*>,0,0,0,0,0,0,0,1,0,0
-BGL,auxiliary processor.........................<*>,1,0,0,0,0,0,0,0,0,0
-BGL,machine check enable..............<*>,1,0,0,0,0,0,0,0,0,0
-BGL,floating pt ex mode <*> enable......<*>,0,0,0,0,0,0,0,1,0,0
-BGL,program interrupt: unimplemented operation..<*>,2,0,0,0,0,0,0,0,0,0
+BGL,store operation.............................<*>,0,0,0,0,0,0,0,1,0,0
+BGL,machine check enable..............<*>,0,0,0,0,0,0,0,1,0,0
 BGL,debug interrupt enable............<*>,0,1,0,0,0,0,0,1,0,0
-BGL,byte ordering exception.....................<*>,0,1,0,0,0,0,0,0,0,0
-BGL,data address space................<*>,0,1,0,0,0,0,0,0,0,0
-BGL,core configuration register: <*>,0,0,0,0,0,0,0,1,0,0
+BGL,byte ordering exception.....................<*>,0,0,0,0,0,0,0,1,0,0
 BGL,program interrupt: fp cr update.............<*>,0,0,0,0,0,0,0,1,0,0
 BGL,guaranteed instruction cache block touch.<*>,1,0,0,0,0,0,0,0,0,0
-BGL,program interrupt: fp cr field .............<*>,1,0,0,0,0,0,0,0,0,0
 BGL,guaranteed data cache block touch........<*>,0,0,0,0,0,0,0,1,0,0
+BGL,program interrupt: fp cr field .............<*>,2,0,0,0,0,0,0,0,0,0
+BGL,force load/store alignment...............<*>,0,1,0,0,0,0,0,0,0,0
 BGL,icache prefetch depth....................<*>,0,0,0,0,0,0,0,1,0,0
-BGL,icache prefetch threshold................<*>,0,0,0,0,0,0,0,1,0,0
+BGL,icache prefetch threshold................<*>,0,0,0,0,0,2,0,1,0,0
+BGL,machine state register: <*>,1,0,0,0,0,0,0,0,0,0
 BGL,wait state enable.................<*>,1,0,0,0,0,0,0,0,0,0
 BGL,critical input interrupt enable...<*>,0,1,0,0,0,0,0,0,0,0
+BGL,"problem state (<*>=sup,<*>=usr).......<*>",0,1,0,0,0,0,0,1,0,0
+BGL,floating point instr. enabled.....<*>,0,0,0,0,0,0,0,1,0,0
 BGL,special purpose registers:,1,0,0,0,0,0,0,0,0,0
 BGL,lr:<*> cr:<*> xer:<*> ctr:<*>,1,0,0,0,0,0,0,0,0,0
 BGL,rts internal error,2,0,0,0,0,0,0,0,0,0
-BGL,debug wait enable.................<*>,2,0,0,0,0,0,0,0,0,0
+BGL,floating pt ex mode <*> enable......<*>,0,0,0,0,0,0,0,0,0,0
 BGL,instruction address space.........<*>,2,0,0,0,0,0,0,0,0,0
-BGL,disable store gathering..................<*>,0,0,0,0,0,0,0,0,0,0
-BGL,total of <*> ddr error(s) detected and corrected,8,0,0,0,0,0,0,0,2,0
-BGL,"ciod: Error loading <*>: invalid or missing program image, No such file or directory",1,0,0,0,0,0,0,0,0,0
+BGL,data address space................<*>,1,0,0,0,0,0,0,0,0,0
+BGL,core configuration register: <*>,3,0,0,0,0,0,0,0,0,0
+BGL,disable store gathering..................<*>,2,0,0,0,0,0,0,0,0,0
+BGL,ciod: failed to read message prefix on control stream (CioStream socket to <*>:<*>,0,0,0,0,0,0,0,1,0,0
 BGL,ciod: Error creating node map from file <*>: No child processes,0,0,0,0,0,0,0,1,0,0
+BGL,data store interrupt caused by icbi.........<*>,0,0,0,0,0,2,0,1,0,0
+BGL,program interrupt: unimplemented operation..<*>,2,0,0,0,0,0,0,0,0,0
+BGL,program interrupt: imprecise exception......<*>,0,0,0,0,0,0,0,1,0,0
 BGL,program interrupt,0,0,0,0,0,0,0,1,0,0
-BGL,Node card is not fully functional,3,0,0,0,0,0,0,0,0,0
+BGL,instruction address: <*>,0,0,0,0,0,0,0,0,0,0
+BGL,exception syndrome register: <*>,0,0,0,0,0,0,0,0,0,0
+BGL,program interrupt: illegal instruction......<*>,0,0,0,0,0,2,0,1,0,0
+BGL,data store interrupt caused by dcbf.........<*>,0,0,0,0,0,0,0,1,0,0
+BGL,auxiliary processor.........................<*>,0,0,0,0,0,0,0,1,0,0
 BGL,ciod: Error creating node map from file <*>: Bad file descriptor,0,0,0,0,0,2,0,1,0,0
-BGL,Ido chip status changed: <*> ip=<*> v=<*> t=<*> status=M <*>,0,1,0,0,0,0,0,3,0,0
-BGL,Can not get assembly information for node card,2,0,0,0,0,0,0,0,0,0
-BGL,ciod: Missing or invalid fields on line <*> of node map file <*>,3,0,0,0,0,0,0,0,0,0
-BGL,<*> torus receiver z+ input pipe error(s) (dcr <*>) detected and corrected,0,0,0,0,0,0,0,1,0,0
 BGL,ciod: duplicate canonical-rank <*> to logical-rank <*> mapping at line <*> of node map file <*>,0,0,0,0,0,2,0,1,0,0
 BGL,ciod: Error creating node map from file <*>: Block device required,0,1,0,0,0,0,0,0,0,0
-BGL,rts panic! - stopping execution,1,0,0,0,0,0,0,0,0,0
+BGL,rts panic! - stopping execution,0,1,0,0,0,0,0,0,0,0
 BGL,ciod: Error creating node map from file <*>: Permission denied,0,0,0,0,0,0,0,1,0,0
 BGL,ciod: Z coordinate <*> exceeds physical dimension <*> at line <*> of node map file <*>,0,0,0,0,0,0,0,1,0,0
 BGL,"rts: kernel terminated for reason <*>: bad message header: invalid cpu, type=<*>, cpu=<*>, index=<*>, total=<*>",0,0,0,0,0,0,0,1,0,0
-BGL,<*> floating point alignment exceptions,1,0,0,0,0,0,0,0,0,0
-BGL,New ido chip inserted into the database: <*> ip=<*> v=<*> t=<*>,0,0,0,0,0,0,0,1,0,0
+BGL,debug wait enable.................<*>,0,1,0,0,0,0,0,0,0,0
+BGL,generating core.<*>,0,1,0,0,0,0,0,0,0,0
 BGL,NodeCard is not fully functional,0,0,0,0,0,0,0,1,0,0
 BGL,"Node card status: ALERT <*>, ALERT <*>, ALERT <*>, ALERT <*> is (are) active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is not asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD is asserted. PGOOD error latch is clear. MPGOOD is OK. MPGOOD error latch is clear. The <*> volt rail is OK. The <*> volt rail is OK.",0,1,0,0,0,0,0,1,0,0
-BGL,"Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*>, found <*>",1,0,0,0,0,0,0,0,0,0
-BGL,"idoproxydb hit ASSERT condition: ASSERT expression=<*> Source file=idotransportmgr.cpp Source line=<*> Function=int IdoTransportMgr::SendPacket(IdoUdpMgr*, BglCtlPavTrace*)",0,0,0,0,0,0,0,1,0,0
-BGL,Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The <*> volt rail is OK. The <*> volt rail is OK.,0,0,0,0,0,0,0,1,0,0
+BGL,New ido chip inserted into the database: <*> ip=<*> v=<*> t=<*>,0,0,0,0,0,0,0,1,0,0
 BGL,"PrepareForService shutting down NodeCard(mLctn(<*>), mCardSernum(<*>), mLp(<*>), mIp(<*>), mType(<*>)) as part of Service Action <*>",0,0,0,0,0,0,0,1,0,0
+BGL,Can not get assembly information for node card,2,0,0,0,0,0,0,0,0,0
 BGL,rts tree/torus link training failed: wanted: <*> got: <*>,2,0,0,0,0,0,0,0,0,0
-BGL,<*> tree receiver <*> in re-synch state event(s) (dcr <*>) detected,0,0,0,0,0,0,0,0,0,0
-BGL,"ciod: Error loading <*>: invalid or missing program image, Exec format error",0,0,0,0,0,0,0,1,0,0
-BGL,ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to <*>:<*>: Link has been severed,0,0,0,0,0,0,0,1,0,0
-BGL,rts: kernel terminated for reason <*>,0,0,0,0,0,0,0,1,0,0
-BGL,ciod: generated <*> core files for program <*>,0,0,0,0,0,0,0,1,0,0
-BGL,iar <*> dear <*>,2,0,0,0,0,0,0,0,0,0
-BGL,"NFS Mount failed on <*>, slept <*> seconds, retrying (<*>)",0,1,0,0,0,0,0,0,0,0
-BGL,Lustre mount FAILED : <*> : point <*>,0,1,0,0,0,0,0,0,0,0
+BGL,ciod: Missing or invalid fields on line <*> of node map file <*>,0,0,0,0,0,2,0,1,0,0
+BGL,<*> double-hummer alignment exceptions,0,0,0,0,0,0,0,1,0,0
+BGL,"NFS Mount failed on <*>, slept <*> seconds, retrying (<*>)",0,0,0,0,0,0,0,1,0,0
 BGL,<*> torus receiver x+ input pipe error(s) (dcr <*>) detected and corrected,0,0,0,0,0,0,0,1,0,0
-BGL,ciod: pollControlDescriptors: Detected the debugger died.,0,0,0,0,0,0,0,1,0,0
 BGL,"ciod: In packet from node <*> (<*>), message code <*> is not <*> or <*> (softheader=<*> <*> <*> <*>)",0,0,0,0,0,0,0,1,0,0
 BGL,<*> torus receiver y+ input pipe error(s) (dcr <*>) detected and corrected,1,0,0,0,0,0,0,0,0,0
-BGL,suppressing further interrupts of same type,0,0,0,0,0,0,0,0,0,0
+BGL,Lustre mount FAILED : <*> : point <*>,0,0,0,0,0,0,0,1,0,0
+BGL,Ido chip status changed: <*> ip=<*> v=<*> t=<*> status=M <*>,0,0,0,0,0,0,0,1,0,0
+BGL,Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The <*> volt rail is OK. The <*> volt rail is OK.,1,0,0,0,0,0,0,0,0,0
+BGL,"idoproxydb hit ASSERT condition: ASSERT expression=<*> Source file=idotransportmgr.cpp Source line=<*> Function=int IdoTransportMgr::SendPacket(IdoUdpMgr*, BglCtlPavTrace*)",0,0,0,0,0,0,0,1,0,0
 BGL,rts: bad message header: expecting type <*> instead of type <*> (softheader=<*> <*> <*> <*>) PSR0=<*> PSR1=<*> PRXF=<*> PIXF=<*>,0,0,0,0,0,0,0,1,0,0
 BGL,critical input interrupt (unit=<*> bit=<*>): warning for torus y+ wire,0,0,0,0,0,0,0,1,0,0
-BGL,"ciod: Error loading <*>: invalid or missing program image, Permission denied",0,1,0,0,0,0,0,0,0,0
-BGL,data cache search parity error detected. attempting to correct,0,1,0,0,0,0,0,0,0,0
+BGL,suppressing further interrupts of same type,0,0,0,0,0,0,0,1,0,0
+BGL,ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to <*>:<*>: Link has been severed,0,0,0,0,0,0,0,1,0,0
+BGL,data cache search parity error detected. attempting to correct,0,0,0,0,0,0,0,1,0,0
 BGL,shutdown complete,1,0,0,0,0,0,0,0,0,0
+BGL,"ciod: Error loading <*>: invalid or missing program image, Exec format error",0,0,0,0,0,0,0,1,0,0
+BGL,total of <*> ddr error(s) detected and corrected,0,0,0,0,0,0,0,1,0,0
 BGL,critical input interrupt (unit=<*> bit=<*>): warning for torus z- wire,0,0,0,0,0,0,0,1,0,0
-BGL,"Error receiving packet on tree network, expecting type <*> instead of type <*> (softheader=<*> <*> <*> <*>) PSR0=<*> PSR1=<*> PRXF=<*> PIXF=<*>",0,1,0,0,0,0,0,3,0,0
+BGL,<*> tree receiver <*> in re-synch state event(s) (dcr <*>) detected,0,0,0,0,0,0,0,1,0,0
+BGL,program interrupt: privileged instruction...<*>,0,0,0,0,0,0,0,1,0,0
+BGL,<*> torus receiver z+ input pipe error(s) (dcr <*>) detected and corrected,2,0,0,0,0,0,0,0,0,0
 BGL,<*> L3 EDRAM error(s) (dcr <*>) detected and corrected,0,0,0,0,0,2,0,1,0,0
-BGL,"critical input interrupt (unit=<*> bit=<*>): warning for torus z+ wire, suppressing further interrupts of same type",0,0,0,0,0,0,0,1,0,0
-BGL,<*> torus sender z- retransmission error(s) (dcr <*>) detected and corrected over <*> seconds,2,0,0,0,0,0,0,0,0,0
-BGL,"ciod: Received signal <*>, code=<*>, errno=<*>, address=<*>",0,0,0,0,0,0,0,1,0,0
-BGL,Lustre mount FAILED : <*> : block_id : location,2,0,0,0,0,0,0,0,0,0
-BGL,MACHINE CHECK DCR read timeout (mc=<*> iar <*> lr <*>),2,0,0,0,0,0,0,0,0,0
+BGL,iar <*> dear <*>,0,0,0,0,0,2,0,1,0,0
+BGL,<*> floating point alignment exceptions,0,0,0,0,0,0,0,1,0,0
+BGL,"<*> ddr errors(s) detected and corrected on rank <*>, symbol <*>, bit <*>",0,0,0,0,0,2,0,1,0,0
+BGL,rts: kernel terminated for reason <*>,0,0,0,0,0,0,0,1,0,0
+BGL,"Error receiving packet on tree network, expecting type <*> instead of type <*> (softheader=<*> <*> <*> <*>) PSR0=<*> PSR1=<*> PRXF=<*> PIXF=<*>",0,1,0,0,0,0,0,0,0,0
+BGL,<*> torus sender z- retransmission error(s) (dcr <*>) detected and corrected over <*> seconds,0,0,0,0,0,0,0,1,0,0
+BGL,MACHINE CHECK DCR read timeout (mc=<*> iar <*> lr <*>),0,0,0,0,0,0,0,1,0,0
 BGL,"ciod: Error reading message prefix on CioStream socket to <*>:<*>, Connection timed out",0,0,0,0,0,0,0,0,0,0
-BGL,"ciod: Error reading message prefix on CioStream socket to <*>:<*>, Connection reset by peer",3,0,0,0,0,0,0,0,0,0
+BGL,"ciod: Error reading message prefix on CioStream socket to <*>:<*>, Connection reset by peer",0,0,0,0,0,0,0,1,0,0
 BGL,dbcr0=<*> dbsr=<*> ccr0=<*>,0,0,0,0,0,0,0,1,0,0
-BGL,"ciod: Error reading message prefix on CioStream socket to <*>:<*>, Link has been severed",2,0,0,0,0,0,0,0,0,0
 BGL,r24=<*> r25=<*> r26=<*> r27=<*>,0,0,0,0,0,0,0,1,0,0
-BGL,<*> tree receiver <*> in re-synch state event(s) (dcr <*>) detected over <*> seconds,1,0,0,0,0,0,0,0,0,0
-BGL,<*> microseconds spent in the rbs signal handler during <*> calls. <*> microseconds was the maximum time for a single instance of a correctable ddr.,1,0,0,0,0,0,0,0,0,0
-BGL,"<*> total interrupts. <*> critical input interrupts. <*> microseconds total spent on critical input interrupts, <*> microseconds max time in a critical input interrupt.",9,16,0,0,0,0,0,0,0,0
-BGL,"<*> ddr error(s) detected and corrected on rank <*>, symbol <*> over <*> seconds",0,0,0,0,0,0,2,0,0,0
+BGL,"Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*>, found <*>",1,0,0,0,0,0,0,0,0,0
+BGL,"ciod: Received signal <*>, code=<*>, errno=<*>, address=<*>",1,0,0,0,0,0,0,0,0,0
+BGL,ciod: LOGIN chdir(<*>) failed: No such file or directory,0,0,0,0,0,0,0,1,0,0
+BGL,<*> microseconds spent in the rbs signal handler during <*> calls. <*> microseconds was the maximum time for a single instance of a correctable ddr.,0,0,0,0,0,0,0,1,0,0
+BGL,"<*> total interrupts. <*> critical input interrupts. <*> microseconds total spent on critical input interrupts, <*> microseconds max time in a critical input interrupt.",1,0,0,0,0,0,0,0,0,0
 BGL,"PrepareForService shutting down Node card(mLctn(<*>), mCardSernum(<*>), mLp(<*>), mIp(<*>), mType(<*>)) as part of Service Action <*>",0,1,0,0,0,0,0,1,0,0
-BGL,"Kernel detected <*> integer alignment exceptions (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*>",1,0,0,0,0,0,0,0,0,0
-BGL,total of <*> ddr error(s) detected and corrected over <*> seconds,0,0,0,0,0,0,0,1,0,0
+BGL,<*> tree receiver <*> in re-synch state event(s) (dcr <*>) detected over <*> seconds,0,0,0,0,0,0,0,1,0,0
+BGL,"CE sym <*>, at <*>, mask <*>",0,0,0,0,0,2,0,1,0,0
 BGL,minus normalized number..................<*>,3,0,0,0,0,0,0,0,0,0
+BGL,Lustre mount FAILED : <*> : block_id : location,1,0,0,0,0,0,0,0,0,0
 BGL,fraction rounded.........................<*>,2,0,0,0,0,0,0,0,0,0
+BGL,Node card is not fully functional,0,0,0,0,0,0,0,1,0,0
 BGL,"critical input interrupt (unit=<*> bit=<*>): warning for tree C1 wire, suppressing further interrupts of same type",1,0,0,0,0,0,0,0,0,0
 BGL,size of scratchpad portion of L3.........<*> (<*>),0,0,0,0,0,0,0,1,0,0
+BGL,"Kernel detected <*> integer alignment exceptions (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*>",0,0,0,0,0,0,0,1,0,0
+BGL,"ciod: Error loading <*>: invalid or missing program image, No such file or directory",1,0,0,0,0,0,0,0,0,0
 BGL,ciod: LOGIN chdir(<*>) failed: Input/output error,2,0,0,0,0,0,0,0,0,0
+BGL,"ciod: Error loading <*>: invalid or missing program image, Permission denied",0,0,0,0,0,0,0,1,0,0
+BGL,"critical input interrupt (unit=<*> bit=<*>): warning for torus z+ wire, suppressing further interrupts of same type",0,0,0,0,0,0,0,1,0,0
+BGL,"<*> ddr error(s) detected and corrected on rank <*>, symbol <*> over <*> seconds",0,1,0,0,0,0,0,0,0,0
+BGL,"ciod: Error reading message prefix on CioStream socket to <*>:<*>, Link has been severed",0,0,0,0,0,0,0,1,0,0
 BGL,<*> L3 EDRAM error(s) (dcr <*>) detected and corrected over <*> seconds,2,0,0,0,0,0,0,0,0,0
+BGL,total of <*> ddr error(s) detected and corrected over <*> seconds,0,0,0,0,0,0,0,1,0,0
+BGL,ciod: pollControlDescriptors: Detected the debugger died.,0,0,0,0,0,0,0,1,0,0
 BGL,"ciod: Error loading <*>: program image too big, <*> > <*>",3,0,0,0,0,0,0,0,0,0
 BGL,fpr29=<*>,0,0,0,0,0,0,0,1,0,0
 BGL,Machine State Register: <*>,1,0,0,0,0,0,0,0,0,0
+BGL,instruction cache parity error corrected,0,1,0,0,0,0,0,0,0,0
+BGL,ciod: generated <*> core files for program <*>,0,0,0,0,0,0,0,1,0,0
 Hadoop,Created MRAppMaster for application <*>,0,0,0,0,0,0,0,0,0,0
 Hadoop,Executing with tokens:,0,1,0,0,0,1,0,2,0,0
 Hadoop,"Kind: YARN_AM_RM_TOKEN, Service: , Ident: (appAttemptId { application_id { id: <*> cluster_timestamp: <*> } attemptId: <*> } keyId: <*>)",0,0,0,0,0,0,0,0,0,0
 Hadoop,Using mapred newApiCommitter.,1,0,0,0,0,0,0,0,0,0
 Hadoop,OutputCommitter set in config <*>,1,0,0,0,0,0,0,0,0,0
 Hadoop,OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter,0,0,0,0,0,1,0,0,0,0
-Hadoop,Registering class org.apache.hadoop.mapreduce.<*> for class org.apache.hadoop.mapreduce.<*>,0,2,0,0,0,0,0,0,0,0
 Hadoop,Default file system [hdfs://<*>:<*>],0,1,0,0,0,0,0,0,0,0
 Hadoop,Emitting job history data to the timeline server is not enabled,1,0,0,0,0,1,0,0,0,0
+Hadoop,Registering class org.apache.hadoop.mapreduce.<*> for class org.apache.hadoop.mapreduce.<*>,1,0,0,0,0,1,0,0,0,0
 Hadoop,loaded properties from hadoop-metrics2.properties,1,0,0,0,0,0,0,0,0,0
 Hadoop,Scheduled snapshot period at <*> second(s).,0,2,0,0,0,0,0,0,0,0
 Hadoop,MRAppMaster metrics system started,0,0,0,0,0,0,0,1,0,0
@@ -365,28 +365,28 @@ Hadoop,Input size for job <*> = <*>. Number of splits = <*>,0,0,0,0,0,0,0,0,0,0
 Hadoop,Number of reduces for job <*> = <*>,0,1,0,0,0,0,0,0,0,0
 Hadoop,<*> Transitioned from NEW to INITED,0,0,0,0,0,1,0,0,0,0
 Hadoop,"MRAppMaster launching normal, non-uberized, multi-container job <*>.",0,2,0,0,0,0,0,0,0,0
-Hadoop,Using callQueue class java.util.concurrent.LinkedBlockingQueue,0,2,0,0,0,0,0,0,0,0
-Hadoop,Starting Socket Reader #<*> for port <*>,1,0,0,0,0,0,0,0,0,0
 Hadoop,Adding protocol org.apache.hadoop.mapreduce.v2.api.MRClientProtocolPB to the server,1,0,0,0,0,1,0,0,0,0
 Hadoop,Instantiated MRClientService at MININT-<*>/<*>:<*>,0,2,0,0,0,0,0,0,0,0
-Hadoop,IPC Server Responder: starting,1,0,0,0,0,0,0,0,0,0
-Hadoop,IPC Server listener on <*>: starting,1,0,0,0,0,1,0,0,0,0
 Hadoop,Logging to <*>(org.mortbay.log) via <*>,1,0,0,0,0,1,0,0,0,0
 Hadoop,Http request log for http.requests.mapreduce is not defined,1,0,0,0,0,1,0,0,0,0
 Hadoop,Added global filter 'safety' (class=org.apache.hadoop.http.HttpServer2$QuotingInputFilter),1,0,0,0,0,1,0,0,0,0
 Hadoop,Added filter AM_PROXY_FILTER (class=org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter) to context mapreduce,0,1,0,0,0,1,0,2,0,0
 Hadoop,Added filter AM_PROXY_FILTER (class=org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter) to context static,0,2,0,0,0,0,0,0,0,0
-Hadoop,adding path spec: <*>,0,2,0,0,0,0,0,0,0,0
+Hadoop,adding path spec: <*>,0,0,0,0,0,0,0,1,0,0
 Hadoop,Jetty bound to port <*>,0,2,0,0,0,0,0,0,0,0
 Hadoop,jetty-<*>,1,0,0,0,0,0,0,0,0,0
 Hadoop,Extract jar:file:<*> to <*>,0,2,0,0,0,0,0,0,0,0
 Hadoop,Started HttpServer2$SelectChannelConnectorWithSafeStartup@<*>:<*>,0,0,0,0,0,1,0,0,0,0
 Hadoop,Web app <*> started at <*>,0,0,0,0,0,1,0,0,0,0
 Hadoop,Registered webapp guice modules,0,0,0,0,0,1,0,0,0,0
+Hadoop,Using callQueue class java.util.concurrent.LinkedBlockingQueue,0,2,0,0,0,0,0,0,0,0
 Hadoop,JOB_CREATE <*>,1,0,0,0,0,1,0,0,0,0
 Hadoop,nodeBlacklistingEnabled:<*>,0,0,0,0,0,0,0,0,0,0
 Hadoop,maxTaskFailuresPerNode is <*>,0,1,0,0,0,1,0,2,0,0
 Hadoop,blacklistDisablePercent is <*>,0,0,0,0,0,0,0,1,0,0
+Hadoop,Starting Socket Reader #<*> for port <*>,0,0,0,0,0,0,2,0,0,0
+Hadoop,IPC Server listener on <*>: starting,0,2,0,0,0,0,0,0,0,0
+Hadoop,IPC Server Responder: starting,0,2,0,0,0,0,0,0,0,0
 Hadoop,Connecting to ResourceManager at <*>/<*>:<*>,1,0,0,0,0,0,0,0,0,0
 Hadoop,"maxContainerCapability: <memory:<*>, vCores:<*>",1,0,0,0,0,1,0,0,0,0
 Hadoop,queue: default,1,0,0,0,0,0,0,0,0,0
@@ -395,469 +395,450 @@ Hadoop,yarn.client.max-cached-nodemanagers-proxies : <*>,0,0,0,0,0,0,0,11,0,0
 Hadoop,<*> Transitioned from INITED to SETUP,0,2,0,0,0,0,0,0,0,0
 Hadoop,Processing the event EventType: JOB_SETUP,0,2,0,0,0,0,0,0,0,0
 Hadoop,<*> Transitioned from SETUP to RUNNING,1,0,0,0,0,0,0,0,0,0
-Hadoop,Resolved <*> to <*>,0,2,0,0,0,0,0,0,0,0
-Hadoop,<*> Task Transitioned from NEW to SCHEDULED,0,0,0,0,0,1,0,0,0,0
-Hadoop,<*> TaskAttempt Transitioned from NEW to UNASSIGNED,1,0,0,0,0,0,0,0,0,0
+Hadoop,<*> Task Transitioned from NEW to SCHEDULED,0,0,0,0,0,0,0,0,0,0
 Hadoop,"mapResourceRequest:<memory:<*>, vCores:<*>",0,1,0,0,0,1,0,2,0,0
 Hadoop,"Event Writer setup for JobId: <*>, File: hdfs://<*>",0,0,0,0,0,0,0,1,0,0
 Hadoop,"reduceResourceRequest:<memory:<*>, vCores:<*>",1,0,0,0,0,1,0,0,0,0
-Hadoop,Before Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>,0,2,0,0,0,0,0,0,0,0
-Hadoop,"getResources() for <*>: ask=<*> release= <*> newContainers=<*> finishedContainers=<*> resourcelimit=<memory:<*>, vCores:<*> knownNMs=<*>",0,0,0,0,0,0,0,1,0,0
-Hadoop,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>",0,2,0,0,0,0,0,0,0,0
-Hadoop,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,0,2,0,0,0,0,0,0,0,0
-Hadoop,Got allocated containers <*>,0,0,0,0,0,1,0,0,0,0
-Hadoop,Assigned container <*> to <*>,0,0,0,0,0,0,0,1,0,0
-Hadoop,After Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>,1,0,0,0,0,1,0,0,0,0
 Hadoop,The job-jar file on the remote FS is hdfs://<*>,0,0,0,0,0,0,2,0,0,0
 Hadoop,The job-conf file on the remote FS is <*>,0,0,0,0,0,0,0,1,0,0
 Hadoop,Adding #<*> tokens and #<*> secret keys for NM use for launching container,0,2,0,0,0,0,0,0,0,0
 Hadoop,Size of containertokens_dob is <*>,0,1,0,0,0,1,0,2,0,0
 Hadoop,Putting shuffle token in serviceData,1,0,0,0,0,0,2,5,0,0
+Hadoop,Assigned container <*> to <*>,0,2,0,0,0,0,0,0,0,0
 Hadoop,<*> TaskAttempt Transitioned from UNASSIGNED to ASSIGNED,0,2,0,0,0,0,0,0,0,0
-Hadoop,Processing the event EventType: <*> for container <*> taskAttempt <*>,0,0,0,0,0,1,0,0,0,0
-Hadoop,Launching <*>,0,0,0,0,0,0,2,0,0,0
-Hadoop,Opening proxy : <*>:<*>,0,2,0,0,0,0,0,0,0,0
-Hadoop,Shuffle port returned by ContainerManager for <*> : <*>,0,2,0,0,0,0,0,0,0,0
-Hadoop,TaskAttempt: [<*>] using containerId: [<*> on NM: [<*>:<*>],0,0,0,0,0,0,0,1,0,0
+Hadoop,Launching <*>,0,0,0,0,0,0,0,0,0,0
+Hadoop,Shuffle port returned by ContainerManager for <*> : <*>,0,0,0,0,0,1,0,0,0,0
+Hadoop,TaskAttempt: [<*>] using containerId: [<*> on NM: [<*>:<*>],0,0,0,0,0,0,0,0,0,0
 Hadoop,<*> TaskAttempt Transitioned from ASSIGNED to RUNNING,0,0,0,0,0,1,0,0,0,0
-Hadoop,ATTEMPT_START <*>,1,0,0,0,0,1,0,0,0,0
-Hadoop,<*> Task Transitioned from SCHEDULED to RUNNING,0,2,0,0,0,0,0,0,0,0
+Hadoop,ATTEMPT_START <*>,0,2,0,0,0,0,0,0,0,0
+Hadoop,<*> Task Transitioned from SCHEDULED to RUNNING,0,0,0,0,0,0,2,0,0,0
+Hadoop,Got allocated containers <*>,0,2,0,0,0,0,0,0,0,0
+Hadoop,"Cannot assign container Container: [ContainerId: <*>, NodeId: <*>:<*>, NodeHttpAddress: <*>:<*>, Resource: <memory:<*>, vCores:<*>, Priority: <*>, Token: Token { kind: ContainerToken, service: <*>:<*> }, ] for a map as either container memory less than required <memory:<*>, vCores:<*> or no pending map tasks - maps.isEmpty=<*>",0,2,0,0,0,0,0,0,0,0
+Hadoop,Container complete event for unknown container id <*>,0,2,0,0,0,0,0,0,0,0
+Hadoop,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,0,1,0,0,0,0,0,0,0,0
 Hadoop,Auth successful for <*> (auth:SIMPLE),0,2,0,0,0,0,0,0,0,0
 Hadoop,JVM with ID : <*> asked for a task,1,0,0,0,0,1,0,0,0,0
-Hadoop,JVM with ID: <*> given task: <*>,0,0,0,0,0,0,0,0,0,0
-Hadoop,Progress of TaskAttempt <*> is : <*>,0,2,0,0,0,0,0,0,0,0
-Hadoop,"Cannot assign container Container: [ContainerId: <*>, NodeId: <*>:<*>, NodeHttpAddress: <*>:<*>, Resource: <memory:<*>, vCores:<*>, Priority: <*>, Token: Token { kind: ContainerToken, service: <*>:<*> }, ] for a map as either container memory less than required <memory:<*>, vCores:<*> or no pending map tasks - maps.isEmpty=<*>",0,2,0,0,0,0,0,0,0,0
-Hadoop,Received completed container <*>,0,2,0,0,0,0,0,0,0,0
-Hadoop,Container complete event for unknown container id <*>,0,2,0,0,0,0,0,0,0,0
+Hadoop,JVM with ID: <*> given task: <*>,1,0,0,0,0,1,0,0,0,0
 Hadoop,Done acknowledgement from <*>,1,0,0,0,0,1,0,0,0,0
 Hadoop,<*> TaskAttempt Transitioned from RUNNING to SUCCESS_CONTAINER_CLEANUP,0,2,0,0,0,0,0,0,0,0
-Hadoop,KILLING <*>,1,0,0,0,0,1,0,0,0,0
 Hadoop,<*> TaskAttempt Transitioned from SUCCESS_CONTAINER_CLEANUP to SUCCEEDED,0,0,0,0,0,0,0,0,0,0
 Hadoop,Task succeeded with attempt <*>,0,0,0,0,0,1,0,0,0,0
 Hadoop,<*> Task Transitioned from RUNNING to SUCCEEDED,0,0,0,0,0,0,0,0,0,0
 Hadoop,Num completed Tasks: <*>,0,1,0,0,0,1,0,2,0,0
+Hadoop,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>",0,0,0,0,0,0,0,1,0,0
 Hadoop,Reduce slow start threshold reached. Scheduling reduces.,0,0,0,0,0,0,0,0,0,0
 Hadoop,All maps assigned. Ramping up all remaining reduces:<*>,0,0,0,0,0,0,0,11,0,0
 Hadoop,DefaultSpeculator.addSpeculativeAttempt -- we are speculating <*>,1,0,0,0,0,1,0,0,0,0
 Hadoop,We launched <*> speculations. Sleeping <*> milliseconds.,2,0,0,0,0,0,0,0,0,0
 Hadoop,Scheduling a redundant attempt for task <*>,0,2,0,0,0,0,0,0,0,0
+Hadoop,"getResources() for <*>: ask=<*> release= <*> newContainers=<*> finishedContainers=<*> resourcelimit=<memory:<*>, vCores:<*> knownNMs=<*>",1,0,0,0,0,1,0,0,0,0
+Hadoop,Received completed container <*>,0,0,0,0,0,0,0,0,0,0
+Hadoop,After Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>,0,2,0,0,0,0,0,0,0,0
 Hadoop,Diagnostics report from <*>: Container killed by the ApplicationMaster.,1,0,0,0,0,1,0,0,0,0
-Hadoop,Address change detected. Old: <*>/<*>:<*> New: <*>:<*>,0,0,0,0,0,1,0,0,0,0
-Hadoop,Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ...,0,0,0,0,0,0,0,1,0,0
 Hadoop,"Slow ReadProcessor read fields took <*> (threshold=<*>); ack: seqno: <*> status: SUCCESS status: ERROR downstreamAckTimeNanos: <*>, targets: [<*>:<*>, <*>:<*>]",1,0,0,0,0,1,0,0,0,0
 Hadoop,DFSOutputStream ResponseProcessor exception for block BP-<*>:<*>,0,0,0,0,0,0,2,0,0,0
 Hadoop,"Error Recovery for block BP-<*>:<*> in pipeline <*>:<*>, <*>:<*>: bad datanode <*>:<*>",0,0,0,0,0,0,0,1,0,0
 Hadoop,DataStreamer Exception,1,0,0,0,0,1,0,0,0,0
-Hadoop,ERROR IN CONTACTING RM.,2,1,0,0,0,0,0,0,0,0
-Hadoop,"Retrying connect to server: <*>:<*>. Already tried <*> time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=<*>, sleepTime=<*> MILLISECONDS)",0,2,0,0,0,0,0,0,0,0
-Hadoop,Task: <*> - exited : java.net.NoRouteToHostException: No Route to Host from MININT-<*>/<*> to <*>:<*> failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see: http://wiki.apache.org/hadoop/NoRouteToHost,0,2,0,0,0,0,0,0,0,0
-Hadoop,Diagnostics report from <*>: Error: java.net.NoRouteToHostException: No Route to Host from MININT-<*>/<*> to <*>:<*> failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see: http://wiki.apache.org/hadoop/NoRouteToHost,1,0,0,0,0,0,0,0,0,0
-Hadoop,<*> TaskAttempt Transitioned from RUNNING to FAIL_CONTAINER_CLEANUP,0,0,0,0,0,1,0,0,0,0
-Hadoop,<*> TaskAttempt Transitioned from FAIL_CONTAINER_CLEANUP to FAIL_TASK_CLEANUP,0,2,0,0,0,0,0,0,0,0
-Hadoop,Processing the event EventType: TASK_ABORT,0,0,0,0,0,0,0,1,0,0
-Hadoop,Task cleanup failed for attempt <*>,0,0,0,0,0,0,0,0,0,0
-Hadoop,<*> TaskAttempt Transitioned from FAIL_TASK_CLEANUP to FAILED,0,1,0,0,0,1,0,2,0,0
 Hadoop,Error writing History Event: org.apache.hadoop.mapreduce.jobhistory.TaskAttemptUnsuccessfulCompletionEvent@<*>,0,1,0,0,0,1,0,2,0,0
 Hadoop,"Thread Thread[eventHandlingThread,<*>,main] threw an Exception.",0,2,0,0,0,0,0,0,0,0
-Hadoop,<*> failures on node MININT-<*>,0,0,0,0,0,1,0,0,0,0
-Hadoop,Added <*> to list of failed maps,0,0,0,0,0,1,0,0,0,0
-Mac,<*>(<*>)::listenerCallback - Thunderbolt HPD packet for route = <*> port = <*> unplug = <*>,0,0,0,0,0,0,0,0,2,0
-Mac,Thermal pressure state: <*> Memory pressure state: <*>,1,0,0,0,0,0,0,3,0,0
-Mac,FA||Url||taskID[<*>] dealloc,0,2,0,0,0,0,0,0,0,0
-Mac,ARPT: <*>: <*>::syncPowerState: WWEN[enabled],0,1,0,0,0,0,0,2,0,0
-Mac,ARPT: <*>: <*>::platformWoWEnable: WWEN[disable],0,3,0,0,0,0,0,0,0,0
-Mac,mDNS_DeregisterInterface: Frequent transitions for interface awdl0 (<*>),1,0,0,0,0,0,0,0,1,0
-Mac,"ARPT: <*>: IOPMPowerSource Information: onSleep, SleepType: Normal Sleep, 'ExternalConnected': Yes, 'TimeRemaining': <*>,",0,0,0,0,0,0,0,0,1,0
-Mac,"ARPT: <*>: wl0: wl_update_tcpkeep_seq: Original Seq: <*>, Ack: <*>, Win size: <*>",1,0,0,0,0,0,0,2,0,0
-Mac,ARPT: <*>: ARPT: Wake Reason: Wake on Scan offload,0,1,0,0,0,1,0,0,0,0
-Mac,<*>-[NetworkAnalyticsEngine observeValueForKeyPath:ofObject:change:context:]_block_invoke unexpected switch value <*>,0,2,0,0,0,0,0,0,0,0
-Mac,<*>::setAwdlAutoMode Resuming AWDL,0,1,0,0,0,0,0,0,0,0
-Mac,"ARPT: <*>: wl0: MDNS: <*> SRV Recs, <*> TXT Recs",0,0,0,0,0,0,0,0,0,0
-Mac,AppleCamIn::systemWakeCall - messageType = <*>,1,0,0,0,1,0,0,0,0,0
-Mac,"setting hostname to ""<*>""",0,1,0,0,0,1,0,0,0,0
-Mac,"com.apple.<*>: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for <*> seconds. Ignoring.",0,1,0,0,0,1,0,0,0,0
-Mac,CCIOReporterFormatter::addRegistryChildToChannelDictionary streams <*>,0,1,0,0,0,1,0,0,0,0
-Mac,[<*>:<*>:<*>] <<<< CRABS >>>> crabsFlumeHostAvailable: [<*>] Byte flume reports host available again.,0,3,0,0,0,0,0,0,1,0
-Mac,AirPort: Link Down on awdl0. Reason <*> (Unspecified).,0,0,0,0,0,0,0,0,2,0
-Mac,"PM response took <*> ms (<*>, powerd)",0,0,0,0,0,1,0,0,0,0
-Mac,"ARPT: <*>: wl0: Roamed or switched channel, reason #<*>, bssid <*>:<*>:<*>:<*>, last RSSI <*>",0,0,0,0,0,0,0,0,0,0
-Mac,<*> successfully changed NAT64 ifstate from <*> to <*>,0,0,0,0,0,0,0,1,0,0
-Mac,"<*>::setAwdlSuspendedMode() Suspending AWDL, enterQuietMode(<*>)",0,0,0,0,0,0,0,0,0,0
+Hadoop,Progress of TaskAttempt <*> is : <*>,0,2,0,0,0,0,0,0,0,0
+Hadoop,Task: <*> - exited : java.net.NoRouteToHostException: No Route to Host from MININT-<*>/<*> to <*>:<*> failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see: http://wiki.apache.org/hadoop/NoRouteToHost,0,0,0,0,0,1,0,0,0,0
+Hadoop,Diagnostics report from <*>: Error: java.net.NoRouteToHostException: No Route to Host from MININT-<*>/<*> to <*>:<*> failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see: http://wiki.apache.org/hadoop/NoRouteToHost,2,1,0,0,0,0,0,0,0,0
+Hadoop,<*> TaskAttempt Transitioned from RUNNING to FAIL_CONTAINER_CLEANUP,0,2,0,0,0,0,0,0,0,0
+Hadoop,Processing the event EventType: <*> for container <*> taskAttempt <*>,0,0,0,0,0,0,0,0,0,0
+Hadoop,KILLING <*>,0,0,0,0,0,0,2,0,0,0
+Hadoop,Opening proxy : <*>:<*>,0,0,0,0,0,1,0,0,0,0
+Hadoop,<*> TaskAttempt Transitioned from FAIL_CONTAINER_CLEANUP to FAIL_TASK_CLEANUP,0,1,0,0,0,1,0,2,0,0
+Hadoop,Processing the event EventType: TASK_ABORT,0,0,0,0,0,0,0,1,0,0
+Hadoop,Task cleanup failed for attempt <*>,0,1,0,0,0,1,0,2,0,0
+Hadoop,<*> TaskAttempt Transitioned from FAIL_TASK_CLEANUP to FAILED,0,2,0,0,0,0,0,0,0,0
+Hadoop,Resolved <*> to <*>,0,0,0,0,0,1,0,0,0,0
+Hadoop,<*> TaskAttempt Transitioned from NEW to UNASSIGNED,0,0,0,0,0,0,0,11,0,0
+Hadoop,<*> failures on node MININT-<*>,0,2,0,0,0,0,0,0,0,0
+Hadoop,Added <*> to list of failed maps,1,0,0,0,0,1,0,0,0,0
+Hadoop,Before Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>,0,0,0,0,0,0,0,11,0,0
+Hadoop,Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ...,0,0,0,0,0,0,0,0,0,0
+Hadoop,"Retrying connect to server: <*>:<*>. Already tried <*> time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=<*>, sleepTime=<*> MILLISECONDS)",0,2,0,0,0,0,0,0,0,0
+Hadoop,ERROR IN CONTACTING RM.,0,0,0,0,0,0,0,1,0,0
+Hadoop,Address change detected. Old: <*>/<*>:<*> New: <*>:<*>,0,2,0,0,0,0,0,0,0,0
 Mac,"network_reachability_changed : network is not reachable, netbiosd is shutting down",1,0,0,0,0,0,0,2,0,0
-Mac,CCFile::captureLogRun() Exiting CCFile::captureLogRun,1,0,0,0,0,1,0,0,0,0
-Mac,<*>(<*>) deny network-outbound <*>,0,0,0,0,0,0,0,0,2,0
-Mac,ARPT: <*>: wl0: MDNS: IPV6 Addr: <*>,1,0,0,0,0,0,0,0,0,0
-Mac,AirPort: Link Up on en0,1,0,0,0,0,0,0,0,0,0
-Mac,Sandbox: <*>(<*>) deny(<*>) network-outbound <*>,0,0,0,0,0,0,0,0,1,0
-Mac,ARPT: <*>: <*>::platformWoWEnable: WWEN[enable],1,2,0,0,0,0,0,0,0,0
-Mac,AirPort: Link Up on awdl0,1,0,0,0,0,0,0,0,0,0
-Mac,AppleThunderboltGenericHAL::earlyWake - complete - took <*> milliseconds,0,0,0,0,0,0,0,0,0,0
-Mac,mDNS_DeregisterInterface: Frequent transitions for interface en0 (<*>),1,1,1,0,0,0,0,0,0,0
-Mac,<*>::<*> - retries = <*>,1,0,0,0,0,0,0,0,0,0
-Mac,"ARPT: <*>: wl0: wl_update_tcpkeep_seq: Updated seq/ack/win from UserClient Seq <*>, Ack <*>, Win size <*>",0,0,0,0,0,0,0,0,0,0
-Mac,<*>::<*>::postMessage bssid changed,1,0,0,0,0,0,0,0,0,0
-Mac,<*>::<*> - intel_rp = <*> dlla_reporting_supported = <*>,0,0,0,0,0,0,0,1,0,0
-Mac,mDNS_RegisterInterface: Frequent transitions for interface en0 (<*>),0,1,0,0,0,0,0,0,0,0
-Mac,AppleCamIn::wakeEventHandlerThread,0,0,0,0,0,0,0,0,0,0
-Mac,"ARPT: <*>: wl0: setup_keepalive: Local port: <*>, Remote port: <*>",0,0,0,0,0,0,0,1,0,0
-Mac,-[UABestAppSuggestionManager notifyBestAppChanged:type:options:bundleIdentifier:activityType:dynamicIdentifier:when:confidence:deviceName:deviceIdentifier:deviceType:] (<*>) UASuggestedActionType=<*> (<*>)/(<*>) opts=(<*>) when=<*>,0,0,0,1,0,0,0,0,0,0
-Mac,en0: channel changed to <*>,1,0,0,0,0,0,0,0,0,0
-Mac,ARPT: <*>: AQM agg results <*> len hi/lo: <*> <*> BAbitmap(<*>-<*>) <*>,2,0,0,0,0,0,0,0,0,0
-Mac,"CCFile::captureLog Received Capture notice id: <*>, reason = AuthFail:sts:<NUM>_rsn:<NUM>",0,0,0,0,0,0,0,0,0,0
-Mac,<*>::setAwdlOperatingMode Setting the AWDL operation mode from AUTO to SUSPENDED,0,0,0,0,0,0,0,0,0,0
-Mac,Unrecognized attribute value: t:AbchPersonItemType,0,0,0,0,0,0,0,0,0,0
-Mac,"SOSAccountThisDeviceCanSyncWithCircle sync with device failure: Error Domain=com.apple.security.sos.error Code=<*> ""Account identity not set"" UserInfo={NSDescription=Account identity not set}",0,0,0,0,0,0,0,0,0,0
-Mac,"CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data",0,1,0,0,0,1,0,1,1,0
-Mac,<*>:<*>:<*> : BTLE scanner Powered On,0,0,0,0,1,0,0,0,0,0
-Mac,button report: <*>,0,0,0,0,0,0,0,0,0,0
+Mac,mDNS_DeregisterInterface: Frequent transitions for interface awdl0 (<*>),0,2,0,0,0,0,0,0,0,0
 Mac,<*>:<*>:<*> : BTLE discovered device with hash <*> <*> <*>,0,0,0,0,0,0,0,1,0,0
-Mac,"securityd_xpc_dictionary_handler cloudd[<*>] copy_matching Error Domain=NSOSStatusErrorDomain Code=<*> ""query missing class name"" (paramErr: error in user parameter list) UserInfo={NSDescription=query missing class name}",0,0,0,0,0,0,0,0,0,0
-Mac,Location icon should now be in state 'Inactive',0,0,0,0,0,0,0,0,2,0
-Mac,"ARPT: <*>: wl0: setup_keepalive: interval <*>, retry_interval <*>, retry_count <*>",0,0,0,0,0,0,0,0,0,0
-Mac,ARPT: <*>: wl0: MDNS: IPV4 Addr: <*>,1,1,0,0,0,0,0,0,0,0
-Mac,<*>-[NETClientConnection <*>]_block_invoke CI46 - Hit by torpedo! <*> <*> <*>:<*>,0,1,0,0,0,0,0,1,0,0
-Mac,"Setting BTCoex Config: <*>:<*>, <*>:<*>, <*>:<*>, <*>:<*>",1,1,0,0,0,0,0,0,2,0
-Mac,Captive: [CNInfoNetworkActive:<*>] en0: SSID 'CalVisitor' making interface primary (cache indicates network not captive),0,2,0,0,1,0,0,0,0,0
-Mac,<*>::setAwdlOperatingMode Setting the AWDL operation mode from SUSPENDED to AUTO,0,0,0,0,0,0,0,0,0,0
-Mac,-[NetworkAnalyticsEngine _writeJournalRecord:fromCellFingerprint:key:atLOI:ofKind:lqm:isFaulty:] Hashing of the primary key failed. Dropping the journal record.,0,0,0,1,0,0,0,0,0,0
 Mac,<*>:<*>:<*> : Finished generating hashes,1,0,0,0,0,1,0,0,0,0
-Mac,Captive: CNPluginHandler en0: Evaluating,1,0,0,0,0,0,0,1,0,0
-Mac,tcp_connection_destination_perform_socket_connect <*> connectx to <*>:<*>@<*> failed: [<*>] Network is down,0,1,0,0,0,0,0,0,0,0
-Mac,AirPort: Link Down on en0. Reason <*> (Disassociated because station leaving).,0,0,0,0,0,0,0,0,1,0
-Mac,USBMSC Identifier (non-unique): <*>,0,2,0,0,0,0,0,0,0,0
-Mac,CCXPCService::setStreamEventHandler Registered for notification callback.,2,0,0,0,0,0,0,0,0,0
-Mac,[<*>/<*>:WARNING:dns_config_service_posix.cc(<*>)] Failed to read DnsConfig.,0,0,0,0,0,0,0,0,0,0
-Mac,Saw change in network reachability (isReachable=<*>),0,0,0,0,0,0,0,0,0,0
-Mac,[HID] [ATC] AppleDeviceManagementHIDEventService::processWakeReason Wake reason: Host (<*>),0,3,0,0,0,0,0,0,1,0
-Mac,en0: BSSID changed to <*>,0,1,0,0,0,0,0,0,0,0
-Mac,dnssd_clientstub ConnectToServer: connect()-> No of tries: <*>,0,0,0,0,0,0,0,0,0,0
-Mac,-[NETClientConnection effectiveBundleID] using process name apsd as bundle ID (this is expected for daemons without bundle ID,2,0,0,0,0,0,0,0,0,0
-Mac,"RTC: Maintenance <*>/<*>/<*> <*>:<*>:<*>, sleep <*>/<*>/<*> <*>:<*>:<*>",0,0,0,0,0,0,0,0,0,0
-Mac,RTC: PowerByCalendarDate setting ignored,0,0,0,0,0,0,0,0,1,0
-Mac,Location icon should now be in state 'Active',0,0,0,0,0,0,0,0,0,0
-Mac,en0: <*> country code set to '<*>'.,0,1,0,0,0,0,0,0,0,0
-Mac,"ARPT: <*>: wl0: setup_keepalive: Seq: <*>, Ack: <*>, Win size: <*>",0,0,0,0,0,1,0,1,0,0
-Mac,<*>(<*>) deny mach-lookup com.apple.networking.captivenetworksupport,1,0,0,0,0,0,0,0,0,0
-Mac,[HID] [MT] AppleMultitouchDevice::willTerminate entered,0,0,0,0,0,0,0,0,0,0
 Mac,[BluetoothHIDDeviceController] EventServiceDisconnectedCallback,0,1,0,0,0,1,0,0,0,0
 Mac,PMStats: Hibernate read took <*> ms,0,1,0,0,0,1,0,0,0,0
-Mac,dnssd_clientstub ConnectToServer: connect() failed path:<*> Socket:<*> Err:<*> Errno:<*> Operation not permitted,1,0,0,0,0,0,0,0,0,0
-Mac,"pages <*>, wire <*>, act <*>, inact <*>, cleaned <*> spec <*>, zf <*>, throt <*>, compr <*>, xpmapped <*>",1,1,0,0,0,0,0,0,0,0
 Mac,"VDCAssistant: Found a camera (<*>) , but was not able to start it up (<*> -- (os/kern) successful)",0,0,0,0,0,0,0,0,0,0
 Mac,handle_will_sleep_auth_and_shield_windows: Reordering authw <*>(<*>) (lock state: <*>),0,0,0,0,0,0,0,0,0,0
 Mac,"<*>-<*>-<*> <*>:<*>:<*> GoogleSoftwareUpdateAgent[<*>/<*>] [lvl=<*>] -[KSAgentApp(KeystoneThread) runKeystonesInThreadWithArg:] Checking with local engine: <KSUpdateEngine:<*> ticketStore=<KSPersistentTicketStore:<*> store=<KSKeyedPersistentStore:<*> path=""<*>"" lockFile=<KSLockFile:<*> path=""<*>"" locked=NO > >> processor=<KSActionProcessor:<*> delegate=<KSUpdateEngine:<*> isProcessing=NO actionsCompleted=<*> progress=<*> errors=<*> currentActionErrors=<*> events=<*> currentActionEvents=<*> actionQueue=( ) > delegate=(<*>) serverInfoStore=<KSServerPrivateInfoStore:<*> path=<*> errors=<*> >",1,0,0,0,0,0,0,0,1,0
-Mac,-[ISGenerateImageOp generateImageWithCompletion:] Failed to composit image for descriptor <ISBindingImageDescriptor: <*>.,1,1,0,0,0,0,0,0,0,0
-Mac,Error returned from iconservicesagent: (<*>),0,0,0,0,0,0,0,0,0,0
-Mac,tcp_connection_tls_session_error_callback_imp <*> __tcp_connection_tls_session_callback_write_block_invoke.<*> error <*>,0,0,0,0,0,0,0,0,0,0
-Mac,"SecOSStatusWith error:[<*>] Error Domain=NSOSStatusErrorDomain Code=<*> ""query missing class name"" (paramErr: error in user parameter list) UserInfo={NSDescription=query missing class name}",0,0,0,0,0,0,0,0,0,0
-Mac,send_datagram_available_ping: pid <*> failed to act on a ping it dequeued before timing out.,0,0,0,0,0,0,0,0,0,0
 Mac,WARNING: Type1 font data isn't in the correct format required by the Adobe Type <*> Font Format specification.,0,1,0,0,0,1,0,0,0,0
-Mac,"device_generate_desktop_screenshot: authw <*>(<*>), shield <*>(<*>)",4,0,0,0,0,0,0,1,0,0
-Mac,[com.apple.calendar.store.log.caldav.coredav] [Refusing to parse response to PROPPATCH because of content-type: [text/html; charset=UTF-<*>].],1,0,0,0,0,0,0,3,0,0
-Mac,"NETWORK: requery, <*>, <*>, <*>, <*>, <*>, items, fQueryRetries, <*>, fLastRetryTimestamp, <*>",0,0,0,0,0,0,0,0,0,0
-Mac,Previous sleep cause: <*>,0,0,0,0,0,0,0,0,0,0
-Mac,Wake reason: RTC (Alarm),0,1,0,0,0,0,0,1,0,0
-Mac,<*>::prePCIWake - power up complete - took <*> us,1,0,0,0,0,0,0,0,0,0
-Mac,network changed: <*>(<*>:<*>) <*>(<*>) DNS! Proxy SMB,0,0,0,0,1,0,0,0,0,0
-Mac,hibernate_page_list_setall found pageCount <*>,1,1,0,0,0,0,0,0,0,0
-Mac,[HID] [ATC] [Error] AppleDeviceManagementHIDEventService::start Could not make a string from out connection notification key,1,1,0,0,0,0,0,0,0,0
 Mac,[IOBluetoothFamily][staticBluetoothTransportShowsUp] -- Received Bluetooth Controller register service notification -- <*>,0,1,0,0,0,1,0,0,0,0
 Mac,"<*>-<*>-<*> <*>:<*>:<*> GoogleSoftwareUpdateAgent[<*>/<*>] [lvl=<*>] -[KSAgentApp updateProductWithProductID:usingEngine:] Checking for updates for ""com.google.Keystone"" using engine <KSUpdateEngine:<*> ticketStore=<KSPersistentTicketStore:<*> store=<KSKeyedPersistentStore:<*> path=""<*>"" lockFile=<KSLockFile:<*> path=""<*>"" locked=NO > >> processor=<KSActionProcessor:<*> delegate=<KSUpdateEngine:<*> isProcessing=NO actionsCompleted=<*> progress=<*> errors=<*> currentActionErrors=<*> events=<*> currentActionEvents=<*> actionQueue=( ) > delegate=(<*>) serverInfoStore=<KSServerPrivateInfoStore:<*> path=""<*>""> errors=<*> >",1,0,0,0,0,1,0,0,0,0
-Mac,<*>/<*>/<*> <*>:<*>:<*> | I | VoipWrapper | DAVEngineImpl.cpp:<*>:Close | close video chat. llFriendUIN = <*>.,2,1,2,0,0,0,0,0,0,0
-Mac,"ARPT: <*>: IOPMPowerSource Information: onSleep, SleepType: Normal Sleep, 'ExternalConnected': No, 'TimeRemaining': <*>,",1,0,0,0,0,0,1,0,0,2
-Mac,Bluetooth -- LE is supported - Disable LE meta event,0,0,0,0,0,0,0,0,0,0
-Mac,<*>:<*>:<*> : Discoverable mode changed to Off,0,0,0,0,0,0,0,0,0,0
-Mac,tcp_connection_handle_connect_conditions_bad <*> failed: <*> - No network route,0,0,0,0,0,0,0,0,0,0
-Mac,Captive: CNPluginHandler en0: Authenticated,0,0,0,0,0,0,0,0,0,0
-Mac,ARPT: <*>: wl0: setup_keepalive: Local IP: <*>,0,3,0,0,0,0,0,0,0,0
-Mac,TBT W (<*>): <*> [x],1,1,0,0,0,0,0,0,0,0
-Mac,network changed: DNS* Proxy,1,0,0,0,0,0,0,0,0,0
 Mac,mDNS_RegisterInterface: Frequent transitions for interface awdl0 (<*>),0,1,0,0,0,0,0,0,2,0
-Mac,ASL Sender Statistics,0,0,0,0,0,1,0,6,0,0
 Mac,<*>-<*>-<*> <*>:<*>:<*> GoogleSoftwareUpdateAgent[<*>/<*>] [lvl=<*>] -[KSOutOfProcessFetcher(PrivateMethods) launchedHelperTaskForToolPath:error:] KSOutOfProcessFetcher launched '<*>' with process id: <*>,0,0,1,0,0,0,0,0,0,0
-Mac,"<*>-<*>-<*> <*>:<*>:<*> GoogleSoftwareUpdateAgent[<*>/<*>] [lvl=<*>] -[KSUpdateEngine updateAllExceptProduct:] KSUpdateEngine updating all installed products, except:'com.google.Keystone'.",0,0,0,0,0,0,0,0,0,0
-Mac,<*>-<*>-<*> <*>:<*>:<*> ksfetch[<*>/<*>] [lvl=<*>] main() ksfetch fetching URL (<NSMutableURLRequest: <*> { URL: <*> }) to folder:<*>,1,0,0,0,0,0,0,0,0,0
-Mac,"Path not allowed in target domain: type = pid, path = <*> error = <*>: The specified service did not ship in the requestor's bundle, origin = <*>",0,1,0,0,0,0,0,0,0,0
-Mac,[<*>:<*>:<*>] <<<< IQ-CA >>>> piqca_setUsePreQueue: (<*>) rejecting report of layer being serviced - IQ has not yet begun to update,0,0,0,1,0,0,0,0,0,0
-Mac,[<*>:<*>:<*>] itemasync_SetProperty signalled err=<*> (kFigBaseObjectError_Invalidated) (invalidated) at <*> line <*>,0,0,0,0,0,0,0,0,0,0
-Mac,KeychainGetICDPStatus: keychain: <*>,0,0,0,0,0,1,0,0,0,0
 Mac,host connection <NSXPCConnection: <*> connection from pid <*> invalidated,0,0,0,0,0,0,0,0,0,0
 Mac,Error in CoreDragRemoveReceiveHandler: <*>,0,0,0,0,0,0,0,0,0,0
-Mac,ARPT: <*>: wl0: leaveModulePoweredForOffloads: Wi-Fi will stay on.,0,0,0,0,0,1,0,0,0,0
-Mac,"ARPT: <*>: IOPMPowerSource Information: onWake, SleepType: Normal Sleep, 'ExternalConnected': Yes, 'TimeRemaining': <*>,",2,1,0,0,0,0,0,0,0,0
-Mac,Captive: CNPluginHandler en0: Inactive,1,1,0,0,0,0,0,0,1,0
-Mac,<*>: IPv6 address <*> has no prefix,1,0,0,0,0,0,0,0,0,0
-Mac,"PBRequester failed with Error Error Domain=NSURLErrorDomain Code=<*> ""The request timed out."" UserInfo={NSUnderlyingError=<*> {Error Domain=kCFErrorDomainCFNetwork Code=<*> ""The request timed out."" UserInfo={NSErrorFailingURLStringKey=<*>, NSErrorFailingURLKey=<*>, _kCFStreamErrorCodeKey=<*>, _kCFStreamErrorDomainKey=<*>, NSLocalizedDescription=The request timed out.}}, NSErrorFailingURLStringKey=<*>, NSErrorFailingURLKey=<*>, _kCFStreamErrorDomainKey=<*>, _kCFStreamErrorCodeKey=<*>, NSLocalizedDescription=The request timed out.}",0,0,0,0,0,0,0,0,0,0
-Mac,"device_generate_lock_screen_screenshot: authw <*>(<*>)[<*>, <*>, <*>, <*>] shield <*>(<*>), dev [<*>,<*>]",0,0,0,0,0,0,0,0,0,0
-Mac,<*>-<*>-<*> <*>:<*>:<*> ksfetch[<*>/<*>] [lvl=<*>] KSHelperReceiveAllData() KSHelperTool read <*> bytes from stdin.,0,1,0,0,0,0,2,2,0,0
-Mac,[<*>:<*>:<*>] FigAgglomeratorSetObjectForKey signalled err=<*> (kFigStringConformerError_ParamErr) (<*> key) at <*> line <*>,0,0,0,0,0,0,0,0,2,0
-Mac,<*>:<*>:<*> : BTLE scanner Powered Off,0,0,0,0,0,0,0,0,0,0
-Mac,"PBRequester failed with Error Error Domain=NSURLErrorDomain Code=<*> ""The Internet connection appears to be offline."" UserInfo={NSUnderlyingError=<*> {Error Domain=kCFErrorDomainCFNetwork Code=<*> ""The Internet connection appears to be offline."" UserInfo={NSErrorFailingURLStringKey=<*>, NSErrorFailingURLKey=<*>, _kCFStreamErrorCodeKey=<*>, _kCFStreamErrorDomainKey=<*>, NSLocalizedDescription=The Internet connection appears to be offline.}}, NSErrorFailingURLStringKey=<*>, NSErrorFailingURLKey=<*>, _kCFStreamErrorDomainKey=<*>, _kCFStreamErrorCodeKey=<*>, NSLocalizedDescription=The Internet connection appears to be offline.}",0,1,0,0,0,1,0,0,0,0
-Mac,ARPT: <*>: AQM agg params <*> maxlen hi/lo <*> <*> minlen <*> adjlen <*>,1,1,0,0,0,0,0,0,0,0
-Mac,Received Capture Event,0,0,0,0,0,0,0,1,0,0
-Mac,Sandbox: <*>(<*>) deny(<*>) mach-lookup <*>,0,0,0,0,0,0,0,0,0,0
-Mac,[<*>:<*>:<*>] <<<< Boss >>>> figPlaybackBossPrerollCompleted: unexpected preroll-complete notification,0,0,0,0,0,0,0,0,0,0
-Mac,sigio_handler: sigio_handler_active != <*>,2,0,0,0,0,0,0,0,0,0
-Mac,############################## _getSysMsgList,0,0,0,0,0,0,0,0,0,0
-Mac,"Configuration Notice: ASL Module ""<*>"" claims selected messages. Those messages may not appear in standard system log files or in the ASL database.",0,1,0,0,0,1,0,0,0,0
-Mac,Wake reason: ?,0,0,0,0,0,0,0,1,0,0
-Mac,<*>:<*>:<*> : Scanning mode Contacts Only,0,0,0,0,0,0,0,0,0,0
-Mac,<*>:<*>:<*> : BTLE scanning stopped,0,0,0,0,0,0,0,0,0,0
-Mac,wake time set <*> s,1,1,0,0,0,0,0,0,0,0
+Mac,CCXPCService::setStreamEventHandler Registered for notification callback.,1,0,0,0,0,1,0,0,0,0
 Mac,[HID] [MT] MTActuatorManagement::getActuatorRef Calling MTActuatorOpen() outside of MTTrackpadHIDManager.,1,0,0,0,0,0,0,0,1,0
-Mac,AppleCamIn::handleWakeEvent_gated,0,2,0,0,0,0,0,0,0,0
-Mac,<*>:<*>:<*> : Purged contact hashes,1,0,0,0,0,0,0,0,0,0
-Mac,<*>:<*>:<*> : BTLE scanning started,0,0,0,0,0,0,0,0,0,0
-Mac,"IOPMrootDomain: idle cancel, state <*>",0,0,0,0,0,0,0,0,0,0
-Mac,ARPT: <*>: ARPT: Wake Reason: Wake on TCP Timeout,0,1,0,0,0,1,0,0,0,0
-Mac,"hibernate_alloc_pages act <*>, inact <*>, anon <*>, throt <*>, spec <*>, wire <*>, wireinit <*>",0,1,0,0,0,0,0,0,0,0
-Mac,hibernate_teardown_pmap_structs done: last_valid_compact_indx <*>,0,0,0,0,0,0,0,0,0,0
+Mac,<*>:<*>:<*> : BTLE scanning stopped,1,0,0,0,0,0,0,0,0,0
+Mac,<*>:<*>:<*> : Discoverable mode changed to Off,1,1,0,0,0,0,0,0,0,0
 Mac,enabling pid=<*> for plug-in com.apple.ncplugin.weather(<*>) <*>-<*>-<*>-<*>-<*> <*>,0,1,0,0,0,0,0,0,0,0
 Mac,<*>-<*>-<*> <*>:<*>:<*> GoogleSoftwareUpdateAgent[<*>/<*>] [lvl=<*>] -[KSAgentApp performSelfUpdateWithEngine:] Checking for self update with Engine: <KSUpdateEngine:<*> ticketStore=<KSPersistentTicketStore:<*> store=<KSKeyedPersistentStore:<*> path=<*> lockFile=<KSLockFile:<*> path=<*> locked=NO > >> processor=<KSActionProcessor:<*> delegate=<KSUpdateEngine:<*> isProcessing=NO actionsCompleted=<*> progress=<*> errors=<*> currentActionErrors=<*> events=<*> currentActionEvents=<*> actionQueue=( ) > delegate=(<*>) serverInfoStore=<KSServerPrivateInfoStore:<*> path=<*> errors=<*> >,0,0,0,0,0,0,0,1,0,0
 Mac,<*>-<*>-<*> <*>:<*>:<*> GoogleSoftwareUpdateAgent[<*>/<*>] [lvl=<*>] -[KSOmahaServer updateInfosForUpdateResponse:updateRequest:infoStore:upToDateTickets:updatedTickets:events:errors:] Response passed CUP validation.,0,0,0,0,0,0,0,0,0,0
-Mac,[<*>:<*>:<*>] itemasync_CopyProperty signalled err=<*> (kFigBaseObjectError_Invalidated) (invalidated) at <*> line <*>,0,1,0,0,0,0,0,0,0,0
-Mac,"Opened file <*>, size <*>, extents <*>, maxio <*> ssd <*>",0,1,0,0,0,1,0,0,0,0
-Mac,"NETWORK: no response from server, reachability, <*>, queryRetries, <*>",0,3,0,0,0,0,0,0,1,0
-Mac,"Unexpected payload found for message <*>, dataLen <*>",0,0,0,0,0,0,0,0,0,0
-Mac,CCFile::captureLog,0,1,0,0,0,1,0,0,0,0
-Mac,en0: Supported channels <*>,0,1,0,0,0,0,0,0,0,0
-Mac,ARPT: <*>: <*>::powerChange: System Wake - Full Wake/ Dark Wake / Maintenance wake,0,0,0,0,0,0,0,0,1,0
+Mac,[<*>:<*>:<*>] <<<< IQ-CA >>>> piqca_setUsePreQueue: (<*>) rejecting report of layer being serviced - IQ has not yet begun to update,0,0,0,0,0,0,0,0,0,0
+Mac,[<*>:<*>:<*>] itemasync_CopyProperty signalled err=<*> (kFigBaseObjectError_Invalidated) (invalidated) at <*> line <*>,2,0,0,0,0,0,0,0,0,0
+Mac,[<*>:<*>:<*>] itemasync_SetProperty signalled err=<*> (kFigBaseObjectError_Invalidated) (invalidated) at <*> line <*>,0,1,0,0,0,1,0,0,0,0
+Mac,wake time set <*> s,0,0,0,0,0,0,0,0,1,0
 Mac,Internal name did not resolve to internal address!,0,0,0,0,0,0,0,0,0,0
 Mac,Service exited with abnormal code: <*>,0,1,0,0,0,1,0,0,0,0
 Mac,Central manager is not powered on,0,1,0,0,0,1,0,0,0,0
-Mac,"CCFile::captureLogRun Skipping current file Dir file [<*>-<*>-<*>,<*>,<*>]-<*>, Current File [<*>-<*>-<*>,<*>,<*>]-<*>",0,1,0,0,0,1,0,0,0,0
-Mac,"CCFile::copyFile fileName is [<*>-<*>-<*>,<*>,<*>]-<*>, source path:<*>, dest path:<*>",1,0,0,0,0,0,0,0,1,0
-Mac,ARPT: <*>: framerdy <*> bmccmd <*> framecnt <*>,0,0,0,0,0,0,0,0,1,0
 Mac,<IMMacNotificationCenterManager: <*>: DND Enabled: YES,1,1,0,0,0,0,0,0,0,0
-Mac,<*>:<*>:<*> : Starting AirDrop server for user <*> on wake,1,1,0,0,0,0,0,0,0,0
-Mac,ARPT: <*>: wl0: setup_keepalive: Remote IP: <*>,0,0,0,0,0,0,0,0,1,0
-Mac,"<<<< FigByteStream >>>> FigByteStreamStatsLogOneRead: ByteStream read of <*> bytes @ <*> took <*> <*> to complete, <*> reads >= <*> sec.",1,0,0,0,0,0,0,0,0,0
 Mac,network changed: <*>(<*>:<*>) <*>(<*>) DNS Proxy SMB,0,0,0,0,0,0,0,0,0,0
-Mac,CCIOReporterFormatter::refreshSubscriptionsFromStreamRegistry clearing out any previous subscriptions,0,1,0,0,0,1,0,0,0,0
-Mac,"CCLogTap::profileRemoved, Owner: com.apple.iokit.<*>, Name: <*>",1,0,0,0,0,0,0,0,0,0
-Mac,network changed: <*>(<*>) DNS- Proxy-,0,1,0,0,0,0,0,0,0,0
-Mac,ARPT: <*>: wlc_dump_aggfifo:,0,0,0,0,0,0,0,0,0,0
-Mac,[<*>:<*>:<*>] <<<< CRABS >>>> crabsFlumeHostUnavailable: [<*>] Byte flume reports host unavailable.,0,0,0,0,0,0,0,0,0,0
-Mac,doSaveChannels@<*>: Will write to: <*>,1,0,0,0,0,0,0,0,0,0
+Mac,Wake reason: ?,1,0,0,0,0,1,0,0,0,0
 Mac,tcp_connection_destination_perform_socket_connect <*> connectx to <*>:<*>@<*> failed: [<*>] Network is unreachable,0,1,0,0,0,0,0,1,0,0
 Mac,"[CardDAVPlugin-ERROR] -getPrincipalInfo:[_controller supportsRequestCompressionAtURL:<*>] Error Domain=NSURLErrorDomain Code=<*> ""The request timed out."" UserInfo={NSUnderlyingError=<*> {Error Domain=kCFErrorDomainCFNetwork Code=<*> ""The request timed out."" UserInfo={NSErrorFailingURLStringKey=<*>, NSErrorFailingURLKey=<*>, _kCFStreamErrorCodeKey=<*>, _kCFStreamErrorDomainKey=<*>, NSLocalizedDescription=The request timed out.}}, NSErrorFailingURLStringKey=<*>, NSErrorFailingURLKey=<*>, _kCFStreamErrorDomainKey=<*>, _kCFStreamErrorCodeKey=<*>, NSLocalizedDescription=The request timed out.}",0,1,0,0,0,1,0,0,0,0
-Mac,hibernate image path: <*>,0,0,0,0,0,0,0,0,0,0
-Mac,hibernate_flush_memory: buffer_cache_gc freed up <*> wired pages,2,0,0,0,0,0,0,0,0,0
-Mac,"hibernate_machine_init pagesDone <*> sum2 <*>, time: <*> ms, disk(<*>) <*> Mb/s, comp bytes: <*> time: <*> ms <*> Mb/s, crypt bytes: <*> time: <*> ms <*> Mb/s",0,0,0,1,0,0,0,0,0,0
-Mac,ASSERTION FAILED: dvcAddrRef != ((void *)<*>) -[DriverServices getDeviceAddress:] line: <*>,0,0,0,0,0,0,0,0,0,0
-Mac,hibernate_machine_init reading,0,1,0,0,0,1,0,0,0,0
-Mac,assertion failed: <*> [<*>-<*>-<*>-<*>-<*>]: <*>,1,2,0,0,0,0,0,0,0,0
-Mac,jemmytest,0,1,0,0,0,0,0,0,2,0
-Mac,hibernate_setup(<*>) took <*> ms,1,0,0,0,0,0,0,0,0,0
-Mac,**** [IOBluetoothFamily][ProcessBluetoothTransportShowsUpActionWL] -- calling IOBluetoothFamily's registerService() -- <*> -- <*> -- <*> ****,0,0,0,0,0,1,0,0,0,0
+Mac,hibernate_flush_memory: buffer_cache_gc freed up <*> wired pages,1,0,0,0,0,0,0,0,0,0
 Mac,**** [IOBluetoothFamily][ProcessBluetoothTransportShowsUpActionWL] -- Connected to the transport successfully -- <*> -- <*> -- <*> ****,1,0,0,0,0,0,0,0,0,0
 Mac,hciControllerOnline; HID devices? <*>,0,1,0,0,0,1,0,0,0,0
-Mac,INIT -- Host controller is published,0,0,0,0,0,0,0,0,1,0
-Mac,"polled file major <*>, minor <*>, blocksize <*>, pollers <*>",0,0,0,0,0,0,0,0,1,0
-Mac,BuildActDeviceEntry exit,0,0,0,0,0,0,0,0,0,0
+Mac,mDNS_DeregisterInterface: Frequent transitions for interface en0 (<*>),0,0,0,0,0,0,0,0,0,0
 Mac,"ARPT: <*>: IOPMPowerSource Information: onSleep, SleepType: Standby, 'ExternalConnected': No, 'TimeRemaining': <*>,",1,0,0,0,0,0,0,3,0,0
-Mac,Wake reason: ARPT (Network),1,0,0,0,0,0,0,0,0,0
 Mac,AppleActuatorHIDEventDriver: message service is terminated,0,1,0,0,0,0,0,0,2,0
+Mac,[<*>:<*>:<*>] <<<< CRABS >>>> crabsFlumeHostUnavailable: [<*>] Byte flume reports host unavailable.,0,0,0,0,0,1,0,0,0,0
 Mac,"CCFile::captureLog Received Capture notice id: <*>, reason = DeauthInd:sts:<NUM>_rsn:<NUM>",1,0,0,0,0,0,0,0,0,0
 Mac,payload Data <*> <*>,0,3,0,0,0,0,0,0,0,0
-Mac,WARNING: hibernate_page_list_setall skipped <*> xpmapped pages,1,0,0,0,0,0,0,0,0,0
+Mac,[HID] [ATC] [Error] AppleDeviceManagementHIDEventService::start Could not make a string from out connection notification key,0,1,0,0,0,1,0,0,0,0
 Mac,"hibernate_teardown: wired_pages <*>, free_pages <*>, active_pages <*>, inactive_pages <*>, speculative_pages <*>, cleaned_pages <*>, compressor_pages <*>",0,0,0,0,0,0,0,0,0,0
-Mac,[BluetoothHIDDeviceController] EventServiceConnectedCallback,0,0,0,0,0,0,0,0,0,0
+Mac,**** [IOBluetoothFamily][ProcessBluetoothTransportShowsUpActionWL] -- calling IOBluetoothFamily's registerService() -- <*> -- <*> -- <*> ****,0,1,0,0,0,1,0,0,0,0
 Mac,hibernate_rebuild_pmap_structs done: last_valid_compact_indx <*>,0,2,0,0,0,0,0,0,1,0
-Mac,BuildActDeviceEntry enter,0,0,0,0,0,1,0,0,0,0
 Mac,(ImportBailout.Error:<*>) Asked to exit for Diskarb,0,0,0,1,0,0,0,0,0,0
 Mac,<*>-<*>-<*> <*>:<*>:<*> GoogleSoftwareUpdateAgent[<*>/<*>] [lvl=<*>] -[KSUpdateCheckAction performAction] KSUpdateCheckAction starting update check for ticket(s): {( <KSTicket:<*> productID=<*> version=<*> xc=<KSPathExistenceChecker:<*> path=<*> url=<*> creationDate=<*>-<*>-<*> <*>:<*>:<*> ticketVersion=<*> > )} Using server: <KSOmahaServer:<*> engine=<KSUpdateEngine:<*> >,0,1,0,0,0,1,0,0,0,0
-Mac,KeychainGetICDPStatus: status: off,0,2,0,0,0,0,0,0,0,0
-Mac,ARPT: <*>: <*>::powerChange: System Sleep,2,0,0,0,0,0,0,0,0,0
 Mac,tcp_connection_tls_session_error_callback_imp <*> tcp_connection_tls_session_handle_read_error.<*> error <*>,0,0,0,1,0,0,0,0,0,0
 Mac,Checking iCDP status for DSID <*> (checkWithServer=<*>),1,0,0,0,0,0,0,2,0,0
+Mac,ARPT: <*>: ARPT: Wake Reason: Wake on TCP Timeout,0,0,0,0,0,0,0,0,0,0
 Mac,network changed: DNS*,0,0,0,0,0,0,0,0,0,0
 Mac,"<*>-<*>-<*> <*>:<*>:<*> GoogleSoftwareUpdateAgent[<*>/<*>] [lvl=<*>] +[KSCodeSigningVerification verifyBundle:applicationId:error:] KSCodeSigningVerification verifying code signing for '<*>' with the requirement 'anchor apple generic and certificate <*>[field.<*>] exists and certificate leaf[field.<*>] exists and certificate leaf[subject.OU]=""<*>"" and (identifier=""com.google.Keystone"")'",0,0,0,0,0,0,0,0,0,0
 Mac,<*>-<*>-<*> <*>:<*>:<*> ksfetch[<*>/<*>] [lvl=<*>] main() ksfetch done fetching.,0,1,0,0,0,0,0,0,0,0
 Mac,network changed: <*>(<*>!:<*>) DNS+ Proxy+ SMB,1,0,0,0,0,0,0,0,0,0
-Mac,-[SOAPParser:<*> parser:didStartElement:namespaceURI:qualifiedName:attributes:] Type not found in EWSItemType for ExchangePersonIdGuid (t:ExchangePersonIdGuid),0,0,0,0,0,0,0,0,0,0
-Mac,"CCFile::captureLog Received Capture notice id: <*>, reason = AssocFail:sts:<NUM>_rsn:<NUM>",0,0,0,0,0,0,0,0,0,0
 Mac,extension com.apple.ncplugin.WorldClock -> (<*>),0,1,0,0,0,0,0,0,2,0
-Mac,"[Accounts] Current connection, <NSXPCConnection: <*> connection from pid <*>, doesn't have account access.",0,1,0,0,0,1,0,0,0,0
-Mac,"[Accounts] Failed to update account with identifier <*>-<*>-<*>-<*>-<*>, error: Error Domain=ABAddressBookErrorDomain Code=<*> ""(<*>)""",0,0,0,0,0,1,0,1,0,0
 Mac,Session <*> created,0,0,0,0,0,0,0,0,0,0
-Mac,"<*>-<*>-<*> <*>:<*>:<*> GoogleSoftwareUpdateAgent[<*>/<*>] [lvl=<*>] -[KSOutOfProcessFetcher(PrivateMethods) helperDidTerminate:] KSOutOfProcessFetcher fetch ended for URL: ""<*>""",0,1,0,0,0,1,0,0,0,0
 Mac,kern_open_file_for_direct_io took <*> ms,0,2,0,0,1,0,0,0,0,0
-Mac,CGXDisplayDidWakeNotification [<*>]: posting kCGSDisplayDidWake,1,0,0,0,0,1,0,0,0,0
-Mac,Peripheral manager is not powered on,0,0,0,0,0,0,0,0,0,0
+Mac,<*>:<*>:<*> : Starting AirDrop server for user <*> on wake,0,2,0,0,0,0,0,0,0,0
 Mac,"PM response took <*> ms (<*>, WeChat)",0,0,0,0,0,0,0,0,0,0
-Mac,Cocoa scripting error for '<*>': four character codes must be four characters long.,1,0,0,0,0,0,0,0,0,0
+Mac,Cocoa scripting error for '<*>': four character codes must be four characters long.,1,1,0,0,0,0,0,0,0,0
 Mac,.sdef warning for argument '' of command 'can continue previous list' in suite 'Microsoft Word Suite': '<*>' is not a valid type name.,0,0,0,0,0,0,0,0,0,0
 Mac,objc[<*>]: Class TSUAtomicLRUCache is implemented in both <*> and <*> One of the two will be used. Which one is undefined.,2,0,0,0,0,0,0,0,0,0
 Mac,Invalidating watch set.,0,1,0,0,0,1,0,0,0,0
 Mac,objc[<*>]: Class TSUCustomFormatData is implemented in both <*> and <*> One of the two will be used. Which one is undefined.,1,0,0,0,0,0,0,0,1,0
 Mac,<*>:<*>:<*> : Started generating hashes,1,0,0,1,0,3,0,1,0,0
+Mac,<*>:<*>:<*> : BTLE scanning started,0,2,0,0,0,0,0,0,0,0
+Mac,"<<<< FigByteStream >>>> FigByteStreamStatsLogOneRead: ByteStream read of <*> bytes @ <*> took <*> <*> to complete, <*> reads >= <*> sec.",0,0,0,1,0,0,0,0,0,0
+Mac,AirPort: Link Up on en0,0,1,0,0,0,0,0,2,0,0
+Mac,Unrecognized attribute value: t:AbchPersonItemType,0,0,0,0,0,0,0,0,0,0
 Mac,<*>-_continuousScroll is deprecated for NSScrollWheel. Please use -hasPreciseScrollingDeltas.,0,0,0,0,0,0,0,0,0,0
 Mac,<*>-deviceDeltaY is deprecated for NSScrollWheel. Please use -scrollingDeltaY.,0,0,0,0,0,0,0,0,0,0
 Mac,[<*>:<*>:<*>] (Fig) signalled err=<*>,0,1,0,0,0,1,0,0,0,0
 Mac,[<*>:<*>:<*>] <<<< CRABS >>>> crabsWaitForLoad: [<*>] Wait time out - <*> (msRequestTimeout <*>),1,2,0,0,0,0,0,0,0,0
+Mac,"Configuration Notice: ASL Module ""<*>"" claims selected messages. Those messages may not appear in standard system log files or in the ASL database.",2,0,0,0,0,0,0,0,0,2
+Mac,"PBRequester failed with Error Error Domain=NSURLErrorDomain Code=<*> ""The request timed out."" UserInfo={NSUnderlyingError=<*> {Error Domain=kCFErrorDomainCFNetwork Code=<*> ""The request timed out."" UserInfo={NSErrorFailingURLStringKey=<*>, NSErrorFailingURLKey=<*>, _kCFStreamErrorCodeKey=<*>, _kCFStreamErrorDomainKey=<*>, NSLocalizedDescription=The request timed out.}}, NSErrorFailingURLStringKey=<*>, NSErrorFailingURLKey=<*>, _kCFStreamErrorDomainKey=<*>, _kCFStreamErrorCodeKey=<*>, NSLocalizedDescription=The request timed out.}",0,2,0,0,1,0,0,0,0,0
 Mac,Failed to stop a scan - central is not powered on: <*>,0,0,0,0,0,0,0,0,2,0
+Mac,"device_generate_desktop_screenshot: authw <*>(<*>), shield <*>(<*>)",1,1,0,0,0,0,0,0,0,0
 Mac,Wake reason: EC.SleepTimer (SleepTimer),0,0,0,0,0,0,0,0,0,0
-Mac,**** [BroadcomBluetoothHostControllerUSBTransport][start] -- Completed (matched on Device) -- <*> ****,1,0,0,0,0,0,0,0,0,0
-Mac,"hibernate_newruntime_map time: <*> ms, IOPolledFilePollersOpen(), ml_get_interrupts_enabled <*>",0,0,0,1,0,0,0,0,0,0
+Mac,"hibernate_machine_init pagesDone <*> sum2 <*>, time: <*> ms, disk(<*>) <*> Mb/s, comp bytes: <*> time: <*> ms <*> Mb/s, crypt bytes: <*> time: <*> ms <*> Mb/s",0,1,0,0,0,1,0,0,0,0
 Mac,vm_compressor_fastwake_warmup (<*> - <*>) - starting,0,1,0,0,0,1,0,0,0,0
+Mac,BuildActDeviceEntry exit,1,0,0,0,0,0,0,0,0,0
 Mac,<IMMacNotificationCenterManager: <*>: Updating enabled: YES (Topics: (<*>)),0,2,0,0,0,0,0,0,0,0
 Mac,<*>-<*>-<*> <*>:<*>:<*> ksfetch[<*>/<*>] [lvl=<*>] main() Fetcher received a request: <NSMutableURLRequest: <*> { URL: <*> },1,1,0,0,0,0,0,0,0,0
 Mac,<*>-<*>-<*> <*>:<*>:<*> GoogleSoftwareUpdateAgent[<*>/<*>] [lvl=<*>] -[KSPrefetchAction performAction] KSPrefetchAction no updates to prefetch.,0,1,0,0,0,0,0,0,0,0
 Mac,<IMMacNotificationCenterManager: <*>: notification observer: com.apple.FaceTime notification: __CFNotification <*> {name = _NSDoNotDisturbEnabledNotification},2,0,0,0,0,0,0,0,0,0
 Mac,CCProfileMonitor::freeResources done,0,0,0,0,0,0,0,0,1,0
-Mac,<IMMacNotificationCenterManager: <*>: NC Disabled: NO,0,2,0,0,0,0,0,0,0,0
-Mac,<IMMacNotificationCenterManager: <*>: DND Enabled: NO,0,1,0,0,0,1,0,0,0,0
+Mac,<IMMacNotificationCenterManager: <*>: DND Enabled: NO,0,2,0,0,1,0,0,0,0,0
 Mac,Daemon connection invalidated!,0,0,0,0,0,1,0,1,0,0
-Mac,"ARPT: <*>: IOPMPowerSource Information: onWake, SleepType: Normal Sleep, 'ExternalConnected': No, 'TimeRemaining': <*>,",0,1,0,0,0,1,0,0,0,0
-Mac,IOHibernatePollerOpen(<*>),0,0,0,0,0,0,0,0,0,0
 Mac,"hibernate_machine_init: state <*>, image pages <*>, sum was <*>, imageSize <*>, image1Size <*>, conflictCount <*>, nextFree <*>",0,0,0,0,0,0,0,0,0,0
 Mac,hibernate_rebuild completed - took <*> msecs,0,0,0,0,0,0,0,0,0,0
 Mac,AppleActuatorDevice::stop Entered,1,1,0,0,0,0,0,0,0,0
 Mac,AppleActuatorDevice::start Entered,0,0,0,0,0,0,0,0,2,0
-Mac,"bitmap_size <*>, previewSize <*>, writing <*> pages @ <*>",1,1,0,0,0,0,0,0,0,0
+Mac,hibernate_page_list_setall found pageCount <*>,0,3,0,0,0,0,0,0,1,0
+Mac,[HID] [MT] AppleMultitouchDevice::willTerminate entered,0,1,0,0,0,0,0,2,0,0
 Mac,"CCFile::captureLog Received Capture notice id: <*>, reason = RoamFail:sts:<NUM>_rsn:<NUM>",1,0,0,0,0,0,0,0,0,0
 Mac,en0: manual intervention required!,0,0,0,0,0,1,0,0,0,0
-Mac,"DB Error: <*> ""no such table: <*>""",0,1,0,0,0,1,0,0,0,0
 Mac,"<*>-<*>-<*> <*>:<*>:<*> GoogleSoftwareUpdateAgent[<*>/<*>] [lvl=<*>] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher fetching from URL: ""<*>""",0,0,0,0,0,0,0,0,0,0
+Mac,"CCLogTap::profileRemoved, Owner: com.apple.iokit.<*>, Name: <*>",0,1,0,0,0,0,0,0,0,0
 Mac,<IMMacNotificationCenterManager: <*>: Updating enabled: NO (Topics: ( )),1,0,0,0,0,1,0,0,0,0
+Mac,"device_generate_lock_screen_screenshot: authw <*>(<*>)[<*>, <*>, <*>, <*>] shield <*>(<*>), dev [<*>,<*>]",0,0,0,0,0,0,0,0,1,0
+Mac,ARPT: <*>: wl0: setup_keepalive: Local IP: <*>,4,0,0,0,0,0,0,1,0,0
+Mac,ARPT: <*>: wl0: MDNS: IPV4 Addr: <*>,0,1,0,0,0,0,0,0,0,0
+Mac,[<*>:<*>:<*>] <<<< CRABS >>>> crabsFlumeHostAvailable: [<*>] Byte flume reports host available again.,0,0,0,0,0,0,0,0,0,0
+Mac,"Unexpected payload found for message <*>, dataLen <*>",1,0,0,0,0,0,0,3,0,0
 Mac,"arp_client_transmit(<*>) failed, Network is down (<*>)",1,0,0,0,0,0,0,0,0,0
-Mac,-[NETClientConnection evaluateCrazyIvan46] CI46 - Perform CrazyIvan46! <*> <*> <*>:<*>,0,0,0,0,0,1,0,1,0,0
-Mac,-[NETClientConnection effectiveBundleID] using process name CalendarAgent as bundle ID (this is expected for daemons without bundle ID,0,1,0,0,0,0,0,0,0,0
-Mac,could discard act <*> inact <*> purgeable <*> spec <*> cleaned <*>,1,1,0,0,0,0,0,0,0,0
+Mac,en0: <*> country code set to '<*>'.,1,0,0,0,0,0,0,1,0,0
 Mac,"booter start at <*> ms smc <*> ms, [<*>, <*>, <*>] total <*> ms, dsply <*>, <*> ms, tramp <*> ms",1,0,0,0,0,0,0,0,0,0
 Mac,"hostControllerOnline - Number of Paired devices = <*>, List of Paired devices = ( ""<*>-<*>-<*>-<*>-<*>-<*>"" )",0,0,0,0,0,0,0,0,0,0
+Mac,"hibernate_newruntime_map time: <*> ms, IOPolledFilePollersOpen(), ml_get_interrupts_enabled <*>",1,0,0,0,0,0,0,0,0,0
+Mac,[BluetoothHIDDeviceController] EventServiceConnectedCallback,0,0,0,0,0,0,0,0,0,0
+Mac,could discard act <*> inact <*> purgeable <*> spec <*> cleaned <*>,0,0,0,0,0,0,0,0,0,0
+Mac,"bitmap_size <*>, previewSize <*>, writing <*> pages @ <*>",0,1,0,0,0,0,0,0,0,0
 Mac,**** [BroadcomBluetoothHostController][SetupController] -- Delay HCI Reset by <*> ****,0,1,0,0,0,0,0,0,0,0
-Mac,AppleActuatorHIDEventDriver: stop,0,0,0,0,0,0,0,0,0,0
-Mac,**** [IOBluetoothHostControllerUSBTransport][start] -- completed -- result = <*> -- <*> ****,0,1,0,0,0,0,0,0,0,0
 Mac,AppleActuatorDeviceUserClient::start Entered,0,0,0,0,0,0,0,0,0,0
+Mac,IOHibernatePollerOpen(<*>),1,0,0,0,0,0,0,0,0,0
+Mac,assertion failed: <*> [<*>-<*>-<*>-<*>-<*>]: <*>,0,1,0,0,0,0,0,0,0,0
 Mac,<*>-<*>-<*> <*>:<*>:<*> ksfetch[<*>/<*>] [lvl=<*>] main() Fetcher is exiting.,0,0,0,0,0,0,0,0,0,0
+Mac,"<*>-<*>-<*> <*>:<*>:<*> GoogleSoftwareUpdateAgent[<*>/<*>] [lvl=<*>] -[KSUpdateEngine updateAllExceptProduct:] KSUpdateEngine updating all installed products, except:'com.google.Keystone'.",1,0,0,0,0,0,0,0,0,0
 Mac,"Google Chrome He[<*>] triggered unnest of range <*>-<*> of DYLD shared region in VM map <*>. While not abnormal for debuggers, this increases system memory footprint until the target exits.",3,0,0,0,0,0,0,3,0,0
+Mac,Peripheral manager is not powered on,1,0,0,0,0,0,0,3,0,0
+Mac,WARNING: hibernate_page_list_setall skipped <*> xpmapped pages,0,0,0,0,0,0,0,0,0,0
+Mac,BuildActDeviceEntry enter,0,0,0,0,0,0,0,0,0,0
+Mac,"hibernate_alloc_pages act <*>, inact <*>, anon <*>, throt <*>, spec <*>, wire <*>, wireinit <*>",0,1,0,0,0,0,0,0,0,0
+Mac,ASSERTION FAILED: dvcAddrRef != ((void *)<*>) -[DriverServices getDeviceAddress:] line: <*>,0,0,0,0,0,0,0,0,0,0
 Mac,hibernate_page_list_setall(preflight <*>) start,0,0,0,0,0,0,0,0,0,0
 Mac,hibernate_page_list_setall time: <*> ms,0,0,0,0,0,0,0,0,0,0
 Mac,IOPolledFilePollersOpen(<*>) <*> ms,0,1,0,0,0,0,0,0,0,0
+Mac,"polled file major <*>, minor <*>, blocksize <*>, pollers <*>",0,1,0,0,0,1,0,0,0,0
 Mac,hibernate_teardown completed - discarded <*>,0,0,0,0,0,0,0,0,0,0
 Mac,AppleActuatorDeviceUserClient::stop Entered,1,0,0,0,0,0,0,0,0,0
+Mac,"pages <*>, wire <*>, act <*>, inact <*>, cleaned <*> spec <*>, zf <*>, throt <*>, compr <*>, xpmapped <*>",1,0,0,0,0,0,0,0,0,0
+Mac,"Opened file <*>, size <*>, extents <*>, maxio <*> ssd <*>",0,1,0,0,0,1,0,0,0,0
 Mac,[IOBluetoothHostController::setConfigState] calling registerService,1,0,0,0,0,0,0,0,1,0
+Mac,AppleActuatorHIDEventDriver: stop,1,0,0,0,0,0,0,0,0,0
 Mac,[HID] [MT] AppleMultitouchDevice::start entered,0,0,0,0,0,0,0,0,0,0
 Mac,"[CardDAVPlugin-ERROR] -getPrincipalInfo:[_controller supportsRequestCompressionAtURL:<*>] Error Domain=NSURLErrorDomain Code=<*> ""The Internet connection appears to be offline."" UserInfo={NSUnderlyingError=<*> {Error Domain=kCFErrorDomainCFNetwork Code=<*> ""The Internet connection appears to be offline."" UserInfo={NSErrorFailingURLStringKey=<*>, NSErrorFailingURLKey=<*>, _kCFStreamErrorCodeKey=<*>, _kCFStreamErrorDomainKey=<*>, NSLocalizedDescription=The Internet connection appears to be offline.}}, NSErrorFailingURLStringKey=<*>, NSErrorFailingURLKey=<*>, _kCFStreamErrorDomainKey=<*>, _kCFStreamErrorCodeKey=<*>, NSLocalizedDescription=The Internet connection appears to be offline.}",0,3,0,0,0,0,0,0,0,0
-Mac,Unable to start NetBIOS name service:,0,1,0,0,0,1,0,0,0,0
+Mac,"[Accounts] Failed to update account with identifier <*>-<*>-<*>-<*>-<*>, error: Error Domain=ABAddressBookErrorDomain Code=<*> ""(<*>)""",2,0,0,0,0,0,0,2,0,5
 Mac,Got an XPC error: Connection invalid,0,0,0,0,0,0,0,0,0,0
 Mac,-[SFLListManager(ServiceReplyProtocol) notifyChanges:toListWithIdentifier:] Notified of item changes to list with identifier com.apple.LSSharedFileList.RecentApplications,1,1,0,0,0,0,0,0,2,0
+Mac,<*>-<*>-<*> <*>:<*>:<*> ksfetch[<*>/<*>] [lvl=<*>] main() ksfetch fetching URL (<NSMutableURLRequest: <*> { URL: <*> }) to folder:<*>,1,0,0,0,0,0,0,0,0,0
 Mac,<*>-<*>-<*> <*>:<*>:<*> GoogleSoftwareUpdateAgent[<*>/<*>] [lvl=<*>] -[KSMultiUpdateAction performAction] KSPromptAction had no updates to apply.,0,0,0,0,0,0,0,0,2,0
 Mac,no sleep images for WillPowerOffWithImages,0,0,0,0,0,0,0,0,0,0
-Mac,ChromeExistion main isUndetectWithCommand = <*>,0,0,0,0,0,0,0,0,0,0
 Mac,after trim url = https://www.google.com/_/chrome/newtab?rlz=<*>&espv=<*>&ie=UTF-<*>,0,2,0,0,0,0,0,0,1,0
 Mac,"ChromeExistion main strSendMsg = {""websitekey"":<*>,""commandkey"":<*>,""browserkey"":<*>}",0,0,0,0,0,0,0,0,1,1
+Mac,ChromeExistion main isUndetectWithCommand = <*>,0,1,0,0,0,1,0,0,0,0
 Mac,url host = <*>,0,0,0,0,0,0,0,0,0,0
 Mac,the url = <*>,1,0,0,0,0,0,0,0,0,0
-Mac,[com.apple.calendar.store.log.caldav.queue] [Adding [<CalDAVAccountRefreshQueueableOperation: <*>; Sequence: <*>] to failed operations.],0,0,0,0,0,0,0,0,0,0
+Mac,<*>:<*>:<*> : Purged contact hashes,1,0,0,0,0,0,0,0,0,0
+Mac,network changed: DNS* Proxy,0,0,0,0,0,0,0,0,0,0
+Mac,network changed: <*>(<*>) DNS- Proxy-,0,0,0,0,0,0,0,0,0,0
+Mac,ARPT: <*>: AQM agg results <*> len hi/lo: <*> <*> BAbitmap(<*>-<*>) <*>,0,0,0,0,0,0,0,0,0,0
+Mac,[<*>/<*>:WARNING:dns_config_service_posix.cc(<*>)] Failed to read DnsConfig.,0,3,0,0,0,0,0,0,0,0
+Mac,<*>::<*> - retries = <*>,0,0,0,0,0,1,0,0,0,0
+Mac,tcp_connection_destination_perform_socket_connect <*> connectx to <*>:<*>@<*> failed: [<*>] Network is down,0,1,0,0,0,0,0,2,0,0
 Mac,hibernate_rebuild started,1,0,0,0,0,0,0,0,1,0
-Mac,"Service ""com.apple.xpc.launchd.unmanaged.loginwindow.<*>"" tried to hijack endpoint ""com.apple.tsm.uiserver"" from owner: com.apple.SystemUIServer.agent",0,0,0,0,0,0,0,0,0,0
-Mac,<*>-<*>-<*> <*>:<*>:<*> GoogleSoftwareUpdateAgent[<*>/<*>] [lvl=<*>] -[KSAgentApp(KeystoneDelegate) updateEngineFinishedWithErrors:] Keystone finished: errors=<*>,0,0,0,0,0,0,0,1,0,0
+Mac,INIT -- Host controller is published,1,0,0,0,0,0,0,0,0,0
+Mac,dnssd_clientstub ConnectToServer: connect() failed path:<*> Socket:<*> Err:<*> Errno:<*> Operation not permitted,2,0,0,0,0,0,0,0,0,0
+Mac,"PM response took <*> ms (<*>, powerd)",1,1,0,0,0,0,0,0,0,0
+Mac,"<*>-<*>-<*> <*>:<*>:<*> GoogleSoftwareUpdateAgent[<*>/<*>] [lvl=<*>] -[KSOutOfProcessFetcher(PrivateMethods) helperDidTerminate:] KSOutOfProcessFetcher fetch ended for URL: ""<*>""",0,0,0,0,0,0,0,0,0,0
+Mac,"ARPT: <*>: wl0: MDNS: <*> SRV Recs, <*> TXT Recs",0,1,0,0,0,0,0,1,0,0
+Mac,"ARPT: <*>: IOPMPowerSource Information: onWake, SleepType: Normal Sleep, 'ExternalConnected': No, 'TimeRemaining': <*>,",0,1,0,0,0,1,0,0,0,0
+Mac,<*>:<*>:<*> : Scanning mode Contacts Only,0,1,0,0,0,0,0,0,0,0
 Mac,Sandbox: <*>(<*>) deny(<*>) file-read-data <*>,0,1,0,0,0,0,0,0,0,0
 Mac,<*>-<*>-<*> <*>:<*>:<*> PM [AirPlayUIAgent] BecomingInactive: NSWorkspaceWillSleepNotification,1,0,0,0,0,0,0,0,0,0
 Mac,full wake request (reason <*>) <*> ms,0,0,0,0,0,0,0,0,1,0
+Mac,"ARPT: <*>: wl0: wl_update_tcpkeep_seq: Original Seq: <*>, Ack: <*>, Win size: <*>",0,2,0,0,0,0,0,0,1,0
 Mac,kern_open_file_for_direct_io(<*>),1,0,0,0,0,0,0,0,0,0
+Mac,ARPT: <*>: wl0: setup_keepalive: Remote IP: <*>,0,0,0,0,1,0,0,0,0,0
 Mac,"PM response took <*> ms (<*>, QQ)",1,0,0,0,0,0,0,0,0,0
-Mac,"<*>-<*>-<*> <*>:<*>:<*> GoogleSoftwareUpdateAgent[<*>/<*>] [lvl=<*>] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher start fetch from URL: ""<*>""",0,2,0,0,0,0,0,0,0,0
-Mac,"Page bounds {{<*>, <*>}, {<*>, <*>}}",0,0,0,1,0,0,0,0,0,0
+Mac,<*>:<*>:<*> : BTLE scanner Powered Off,0,1,0,0,0,0,0,0,0,0
+Mac,[com.apple.calendar.store.log.caldav.queue] [Adding [<CalDAVAccountRefreshQueueableOperation: <*>; Sequence: <*>] to failed operations.],0,0,0,0,0,0,0,0,0,0
+Mac,"NETWORK: no response from server, reachability, <*>, queryRetries, <*>",0,0,0,0,0,0,0,0,0,0
 Mac,Failed to connect (titleField) outlet from (MMSessionPickerChoosenRowView) to (NSTextField): missing setter or instance variable,1,0,0,0,0,0,0,0,0,0
 Mac,[com.apple.calendar.store.log.caldav.queue] [Account <*> timed out when executing operation: <CalDAVAccountRefreshQueueableOperation: <*>; Sequence: <*>],0,0,0,0,0,0,0,1,0,0
 Mac,"[com.apple.calendar.store.log.caldav.queue] [Account refresh failed with error: Error Domain=CoreDAVHTTPStatusErrorDomain Code=<*> ""(<*>)"" UserInfo={AccountName=<*>, CalDAVErrFromRefresh=YES, CoreDAVHTTPHeaders=<CFBasicHash <*> [<*>]>{type = immutable dict, count = <*>, entries => <*> : Connection = <CFString <*> [<*>]>{contents = ""keep-alive""} <*> : Content-Type = text/html <*> : Content-Length = <*> <*> : Server = nginx <*> : Date = <CFString <*> [<*>]>{contents = ""<*> <*> <*>:<*>:<*> GMT""} } }]",0,0,0,0,0,0,0,0,0,0
+Mac,"Page bounds {{<*>, <*>}, {<*>, <*>}}",1,0,0,0,0,0,0,0,0,0
+Mac,"CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data",0,1,0,0,0,1,0,0,0,0
 Mac,Sandbox: <*>(<*>) deny(<*>) ipc-posix-shm-read-data CFPBS:<*>:,1,0,0,0,0,0,0,0,0,0
 Mac,"no application identifier provided, can't use provisioning profiles [pid=<*>]",0,0,0,0,0,0,0,0,0,0
 Mac,tcp_connection_destination_handle_tls_close_notify <*> closing socket due to TLS CLOSE_NOTIFY alert,0,0,0,0,0,0,0,0,1,0
 Mac,CFNetwork SSLHandshake failed (<*>),0,0,0,0,0,0,0,0,0,0
-Mac,"Unable to simultaneously satisfy constraints: ( ""<NSLayoutConstraint:<*> H:[NSImageView:<*>(<*>)]>"", ""<NSLayoutConstraint:<*> H:|-(<*>)-[NSImageView:<*>] (Names: PageItemCell:<*>, '|':PageItemCell:<*> )>"", ""<NSLayoutConstraint:<*> 'NSView-Encapsulated-Layout-Width' H:[PageItemCell(<*>)] (Names: PageItemCell:<*> )>"", ""<NSLayoutConstraint:<*> H:[NSImageView:<*>]-(<*>)-[NSTextField:<*>]>"", ""<NSLayoutConstraint:<*> H:[NSTextField:<*>]-(<*>)-| (Names: PageItemCell:<*>, '|':PageItemCell:<*> )>"", ""<NSLayoutConstraint:<*> H:[NSTextField:<*>]-(>=NSSpace(<*>))-[NSTextField:<*>]>"" ) Will attempt to recover by breaking constraint <NSLayoutConstraint:<*> H:[NSImageView:<*>(<*>)]> Set the NSUserDefault NSConstraintBasedLayoutVisualizeMutuallyExclusiveConstraints to YES to have -[NSWindow visualizeConstraints:] automatically called when this happens. And/or, break on objc_exception_throw to catch this in the debugger.",0,0,0,0,0,0,0,0,0,0
+Mac,"Unable to simultaneously satisfy constraints: ( ""<NSLayoutConstraint:<*> H:[NSImageView:<*>(<*>)]>"", ""<NSLayoutConstraint:<*> H:|-(<*>)-[NSImageView:<*>] (Names: PageItemCell:<*>, '|':PageItemCell:<*> )>"", ""<NSLayoutConstraint:<*> 'NSView-Encapsulated-Layout-Width' H:[PageItemCell(<*>)] (Names: PageItemCell:<*> )>"", ""<NSLayoutConstraint:<*> H:[NSImageView:<*>]-(<*>)-[NSTextField:<*>]>"", ""<NSLayoutConstraint:<*> H:[NSTextField:<*>]-(<*>)-| (Names: PageItemCell:<*>, '|':PageItemCell:<*> )>"", ""<NSLayoutConstraint:<*> H:[NSTextField:<*>]-(>=NSSpace(<*>))-[NSTextField:<*>]>"" ) Will attempt to recover by breaking constraint <NSLayoutConstraint:<*> H:[NSImageView:<*>(<*>)]> Set the NSUserDefault NSConstraintBasedLayoutVisualizeMutuallyExclusiveConstraints to YES to have -[NSWindow visualizeConstraints:] automatically called when this happens. And/or, break on objc_exception_throw to catch this in the debugger.",0,1,0,0,0,0,0,1,0,0
 Mac,"Configuration Notice: ASL Module ""com.apple.authkit.osx.asl"" sharing output destination ""<*>"" with ASL Module ""com.apple.Accounts"". Output parameters from ASL Module ""com.apple.Accounts"" override any specified in ASL Module ""com.apple.authkit.osx.asl"".",0,1,0,0,0,0,0,0,0,0
+Mac,Captive: [CNInfoNetworkActive:<*>] en0: SSID 'CalVisitor' making interface primary (cache indicates network not captive),0,0,0,1,0,0,0,0,0,0
 Mac,(DiskStore.Normal:<*>) <*> <*>,0,0,0,0,0,0,0,0,0,0
-Mac,"CCDataTap::profileRemoved, Owner: <*>, Name: <*>",0,0,0,0,0,0,0,0,0,0
-Mac,Unrecognized XSSimpleTypeDefinition: OneOff,1,0,0,0,0,0,0,0,0,0
+Mac,"<*>-<*>-<*> <*>:<*>:<*> GoogleSoftwareUpdateAgent[<*>/<*>] [lvl=<*>] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher start fetch from URL: ""<*>""",0,0,0,0,0,0,0,0,0,0
+Mac,"ARPT: <*>: IOPMPowerSource Information: onSleep, SleepType: Normal Sleep, 'ExternalConnected': Yes, 'TimeRemaining': <*>,",0,1,0,0,0,1,0,0,0,0
+Mac,<*>(<*>) deny mach-lookup com.apple.networking.captivenetworksupport,0,0,0,1,0,0,0,0,0,0
+Mac,AirPort: Link Up on awdl0,1,1,0,0,0,0,0,0,0,0
+Mac,"ARPT: <*>: wl0: setup_keepalive: Seq: <*>, Ack: <*>, Win size: <*>",0,2,0,0,1,0,0,0,0,0
+Mac,"RTC: Maintenance <*>/<*>/<*> <*>:<*>:<*>, sleep <*>/<*>/<*> <*>:<*>:<*>",1,0,0,0,0,0,0,0,0,0
 Mac,DB Path: <*>,0,0,0,0,0,0,0,0,0,0
 Mac,Could not get event name for stream/token: com.apple.xpc.activity/<*>: <*>: Request for stale data,0,0,0,1,0,0,0,0,0,0
+Mac,<*>-<*>-<*> <*>:<*>:<*> ksfetch[<*>/<*>] [lvl=<*>] KSHelperReceiveAllData() KSHelperTool read <*> bytes from stdin.,1,1,0,0,0,0,0,0,0,0
 Mac,<*>-<*>-<*> <*>:<*>:<*> GoogleSoftwareUpdateAgent[<*>/<*>] [lvl=<*>] -[KSUpdateCheckAction performAction] KSUpdateCheckAction starting update check for ticket(s): {( <KSTicket:<*> productID=<*> version=<*> xc=<KSPathExistenceChecker:<*> path=<*> serverType=Omaha url=<*> creationDate=<*>-<*>-<*> <*>:<*>:<*> tagPath=<*> tagKey=KSChannelID brandPath=<*> brandKey=KSBrandID versionPath=<*> versionKey=KSVersion cohort=<*>:<*>: cohortName=Stable ticketVersion=<*> > )} Using server: <KSOmahaServer:<*> engine=<KSUpdateEngine:<*> >,0,0,0,0,0,0,0,0,0,0
 Mac,Error in CoreDragRemoveTrackingHandler: <*>,1,0,0,0,0,0,0,0,0,0
-Mac,Session <*> destroyed,0,0,0,0,0,0,0,0,0,0
+Mac,[<*>:<*>:<*>] FigAgglomeratorSetObjectForKey signalled err=<*> (kFigStringConformerError_ParamErr) (<*> key) at <*> line <*>,2,1,2,0,0,0,0,0,0,0
+Mac,Location icon should now be in state 'Active',0,0,0,0,0,0,0,0,0,0
+Mac,"ARPT: <*>: IOPMPowerSource Information: onWake, SleepType: Normal Sleep, 'ExternalConnected': Yes, 'TimeRemaining': <*>,",0,0,0,0,0,0,0,0,0,0
+Mac,<IMMacNotificationCenterManager: <*>: NC Disabled: NO,1,0,0,0,0,0,0,0,0,0
+Mac,ARPT: <*>: ARPT: Wake Reason: Wake on Scan offload,0,2,0,0,1,0,0,0,0,0
+Mac,<*>::setAwdlAutoMode Resuming AWDL,0,0,0,0,0,0,0,1,0,0
+Mac,CCIOReporterFormatter::addRegistryChildToChannelDictionary streams <*>,0,1,0,0,0,0,0,0,2,0
+Mac,doSaveChannels@<*>: Will write to: <*>,0,0,0,0,0,1,0,6,0,0
+Mac,TBT W (<*>): <*> [x],0,1,0,0,0,1,0,0,0,0
+Mac,network changed: <*>(<*>:<*>) <*>(<*>) DNS! Proxy SMB,0,1,1,0,0,0,0,0,0,0
+Mac,ARPT: <*>: AQM agg params <*> maxlen hi/lo <*> <*> minlen <*> adjlen <*>,0,1,0,0,0,0,0,0,0,0
+Mac,ARPT: <*>: framerdy <*> bmccmd <*> framecnt <*>,0,0,0,0,0,0,0,0,1,0
+Mac,CCFile::captureLog,1,1,0,0,0,0,0,0,0,0
+Mac,-[NETClientConnection effectiveBundleID] using process name CalendarAgent as bundle ID (this is expected for daemons without bundle ID,1,0,0,0,0,0,0,0,0,0
+Mac,<*>::prePCIWake - power up complete - took <*> us,0,0,0,0,0,0,0,1,0,0
+Mac,"SecOSStatusWith error:[<*>] Error Domain=NSOSStatusErrorDomain Code=<*> ""query missing class name"" (paramErr: error in user parameter list) UserInfo={NSDescription=query missing class name}",1,1,0,0,0,0,0,0,0,0
+Mac,"Service ""com.apple.xpc.launchd.unmanaged.loginwindow.<*>"" tried to hijack endpoint ""com.apple.tsm.uiserver"" from owner: com.apple.SystemUIServer.agent",0,0,0,0,0,0,0,0,0,0
+Mac,ARPT: <*>: <*>::platformWoWEnable: WWEN[disable],0,2,0,0,1,0,0,0,0,0
+Mac,<*>(<*>) deny network-outbound <*>,1,0,0,0,0,0,0,0,0,0
+Mac,AirPort: Link Down on awdl0. Reason <*> (Unspecified).,0,0,0,0,0,0,0,0,0,0
+Mac,ASL Sender Statistics,0,0,0,0,0,0,0,0,0,0
+Mac,Unable to start NetBIOS name service:,1,0,0,0,0,0,0,0,0,0
+Mac,en0: BSSID changed to <*>,0,0,0,0,0,0,0,0,0,0
+Mac,"PBRequester failed with Error Error Domain=NSURLErrorDomain Code=<*> ""The Internet connection appears to be offline."" UserInfo={NSUnderlyingError=<*> {Error Domain=kCFErrorDomainCFNetwork Code=<*> ""The Internet connection appears to be offline."" UserInfo={NSErrorFailingURLStringKey=<*>, NSErrorFailingURLKey=<*>, _kCFStreamErrorCodeKey=<*>, _kCFStreamErrorDomainKey=<*>, NSLocalizedDescription=The Internet connection appears to be offline.}}, NSErrorFailingURLStringKey=<*>, NSErrorFailingURLKey=<*>, _kCFStreamErrorDomainKey=<*>, _kCFStreamErrorCodeKey=<*>, NSLocalizedDescription=The Internet connection appears to be offline.}",1,0,0,0,0,0,0,0,0,0
+Mac,Received Capture Event,0,0,0,0,0,0,0,0,0,0
+Mac,-[NETClientConnection effectiveBundleID] using process name apsd as bundle ID (this is expected for daemons without bundle ID,0,0,0,0,0,0,0,0,0,0
+Mac,############################## _getSysMsgList,0,0,0,0,0,0,0,0,0,0
+Mac,CGXDisplayDidWakeNotification [<*>]: posting kCGSDisplayDidWake,1,1,0,0,0,0,0,0,0,0
+Mac,Session <*> destroyed,0,1,0,0,0,1,0,0,0,0
+Mac,[<*>:<*>:<*>] <<<< Boss >>>> figPlaybackBossPrerollCompleted: unexpected preroll-complete notification,0,0,0,0,0,1,0,0,0,0
+Mac,Sandbox: <*>(<*>) deny(<*>) mach-lookup <*>,1,0,0,0,0,0,0,0,0,0
 Mac,"nw_path_evaluator_start_helper_connection net_helper_path_evaluation_start failed, dumping backtrace: [<*>] libnetcore-<*> <*> libsystem_network.dylib <*> __nw_create_backtrace_string + <*> <*> libsystem_network.dylib <*> nw_path_evaluator_start_helper_connection + <*> <*> libdispatch.dylib <*> _dispatch_call_block_and_release + <*> <*> libdispatch.dylib <*> _dispatch_client_callout + <*> <*> libdispatch.dylib <*> _dispatch_queue_drain + <*> <*> libdispatch.dylib <*> _dispatch_queue_invoke + <*> <*> libdispatch.dylib <*> _dispatch_root_queue_drain + <*> <*> libdispatch.dylib <*> <*> + <*> <*> libsystem_pthread.dylib <*> _pthread_wqthread + <*> <*> libsystem_pthread.dylib <*> start_wqthread + <*>",1,0,0,0,0,0,1,0,0,2
 Mac,"CoreAnimation: warning, deleted thread with uncommitted CATransaction; set CA_DEBUG_TRANSACTIONS=<*> in environment to log backtraces.",0,0,0,0,0,0,0,0,0,0
+Mac,RTC: PowerByCalendarDate setting ignored,0,1,0,0,0,0,0,0,0,0
+Mac,Sandbox: <*>(<*>) deny(<*>) network-outbound <*>,1,0,0,0,0,1,0,0,0,0
+Mac,en0: channel changed to <*>,0,0,0,0,0,0,0,0,0,0
+Mac,[HID] [ATC] AppleDeviceManagementHIDEventService::processWakeReason Wake reason: Host (<*>),0,0,0,0,0,0,0,0,0,0
+Mac,Saw change in network reachability (isReachable=<*>),0,0,0,0,0,0,0,0,0,0
+Mac,"<*>::setAwdlSuspendedMode() Suspending AWDL, enterQuietMode(<*>)",1,0,0,0,0,0,0,0,0,0
+Mac,-[SOAPParser:<*> parser:didStartElement:namespaceURI:qualifiedName:attributes:] Type not found in EWSItemType for ExchangePersonIdGuid (t:ExchangePersonIdGuid),1,0,0,0,0,0,0,0,0,0
+Mac,"ARPT: <*>: wl0: wl_update_tcpkeep_seq: Updated seq/ack/win from UserClient Seq <*>, Ack <*>, Win size <*>",0,0,0,0,0,0,0,0,0,0
+Mac,"com.apple.<*>: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for <*> seconds. Ignoring.",0,1,0,0,0,0,0,0,2,0
+Mac,dnssd_clientstub ConnectToServer: connect()-> No of tries: <*>,0,0,0,0,0,0,0,0,0,0
+Mac,AppleCamIn::handleWakeEvent_gated,1,1,0,0,0,0,0,0,0,0
 Mac,full wake promotion (reason <*>) <*> ms,0,1,0,0,0,1,0,0,0,0
+Mac,-[ISGenerateImageOp generateImageWithCompletion:] Failed to composit image for descriptor <ISBindingImageDescriptor: <*>.,0,0,0,1,0,0,0,0,0,0
+Mac,"NETWORK: requery, <*>, <*>, <*>, <*>, <*>, items, fQueryRetries, <*>, fLastRetryTimestamp, <*>",0,1,0,0,0,0,0,0,0,0
 Mac,"NSURLSession/NSURLConnection HTTP load failed (kCFStreamErrorDomainSSL, <*>)",0,1,0,0,0,0,0,0,0,0
 Mac,"[QL] No sandbox token for request <QLThumbnailRequest vmware-usbarb-<*>.log>, it will probably fail",1,1,0,0,0,0,0,0,0,0
 Mac,"schedule invalidation <DYTransport <*>, error: lost transport connection (<*>)>",1,0,0,0,0,0,0,0,0,0
+Mac,Thermal pressure state: <*> Memory pressure state: <*>,1,0,0,0,0,0,0,0,1,0
+Mac,KeychainGetICDPStatus: status: off,1,0,0,0,0,0,0,0,0,0
+Mac,Error returned from iconservicesagent: (<*>),0,1,0,0,0,1,0,0,0,0
 Mac,[<*>:<*>:<*>] mv_LowLevelCheckIfVideoPlayableUsingDecoder signalled err=<*> (kFigMediaValidatorError_VideoCodecNotSupported) (video codec <*>) at line <*>,0,0,0,0,0,0,0,0,0,0
 Mac,<<<< MediaValidator >>>> mv_LookupCodecSupport: Unrecognized codec <*>,0,0,0,1,0,0,0,0,0,0
 Mac,<<<< MediaValidator >>>> <*>: Unrecognized codec <*>.(<*>). Failed codec specific check.,1,0,0,1,0,3,0,1,0,0
 Mac,CoreAnimation: timed out fence <*>,0,0,0,0,0,0,0,0,1,0
+Mac,tcp_connection_tls_session_error_callback_imp <*> __tcp_connection_tls_session_callback_write_block_invoke.<*> error <*>,0,1,0,0,0,0,0,0,0,0
+Mac,KeychainGetICDPStatus: keychain: <*>,2,0,0,0,0,0,0,0,0,0
 Mac,Failed to connect (view) outlet from (NSApplication) to (NSColorPickerGridView): missing setter or instance variable,0,1,0,0,0,1,0,0,0,0
+Mac,<*>/<*>/<*> <*>:<*>:<*> | I | VoipWrapper | DAVEngineImpl.cpp:<*>:Close | close video chat. llFriendUIN = <*>.,1,1,0,0,0,0,0,0,0,0
+Mac,"IOPMrootDomain: idle cancel, state <*>",1,0,0,0,0,0,0,0,1,0
 Mac,<*>:<*>:<*> ERROR: <*>: timed out after <*> (<*> <*>); mMajorChangePending=<*>,1,0,0,0,0,0,0,0,0,0
-Mac,efi pagecount <*>,0,0,0,0,0,0,0,0,0,0
+Mac,ARPT: <*>: <*>::powerChange: System Wake - Full Wake/ Dark Wake / Maintenance wake,0,0,1,0,0,0,0,0,0,0
+Mac,<*>:<*>:<*> : BTLE scanner Powered On,0,0,0,0,0,0,0,0,0,0
+Mac,"ARPT: <*>: wl0: setup_keepalive: interval <*>, retry_interval <*>, retry_count <*>",1,1,0,0,0,0,0,0,0,0
+Mac,"ARPT: <*>: wl0: setup_keepalive: Local port: <*>, Remote port: <*>",0,0,0,0,0,1,0,6,0,0
+Mac,"ARPT: <*>: IOPMPowerSource Information: onSleep, SleepType: Normal Sleep, 'ExternalConnected': No, 'TimeRemaining': <*>,",0,0,0,0,0,0,0,0,0,0
+Mac,-[NETClientConnection evaluateCrazyIvan46] CI46 - Perform CrazyIvan46! <*> <*> <*>:<*>,0,0,0,0,0,1,0,6,0,0
+Mac,<*>-[NetworkAnalyticsEngine observeValueForKeyPath:ofObject:change:context:]_block_invoke unexpected switch value <*>,4,0,0,0,0,0,0,1,0,0
+Mac,ARPT: <*>: <*>::platformWoWEnable: WWEN[enable],1,1,0,0,0,0,0,0,0,0
+Mac,<*>::<*> - intel_rp = <*> dlla_reporting_supported = <*>,0,0,0,1,0,0,0,0,0,0
+Mac,mDNS_RegisterInterface: Frequent transitions for interface en0 (<*>),0,1,0,0,0,0,0,1,0,0
+Mac,ARPT: <*>: wlc_dump_aggfifo:,1,0,0,0,0,0,0,2,0,0
+Mac,CCFile::captureLogRun() Exiting CCFile::captureLogRun,0,2,0,0,0,0,0,0,0,0
+Mac,CCIOReporterFormatter::refreshSubscriptionsFromStreamRegistry clearing out any previous subscriptions,0,3,0,0,0,0,0,0,0,0
+Mac,Previous sleep cause: <*>,1,0,0,0,0,1,0,0,0,0
+Mac,en0: Supported channels <*>,1,1,0,0,0,0,0,0,0,0
+Mac,<*> successfully changed NAT64 ifstate from <*> to <*>,1,0,0,0,0,0,0,0,0,0
+Mac,"CCFile::captureLog Received Capture notice id: <*>, reason = AuthFail:sts:<NUM>_rsn:<NUM>",1,0,0,0,0,0,1,0,0,2
+Mac,"CCFile::captureLogRun Skipping current file Dir file [<*>-<*>-<*>,<*>,<*>]-<*>, Current File [<*>-<*>-<*>,<*>,<*>]-<*>",0,0,0,0,0,0,0,2,0,0
 Mac,did discard act <*> inact <*> purgeable <*> spec <*> cleaned <*>,1,0,0,0,0,0,0,0,0,0
+Mac,<*>::<*>::postMessage bssid changed,3,0,0,0,0,0,0,3,0,0
+Mac,"CCDataTap::profileRemoved, Owner: <*>, Name: <*>",0,3,0,0,0,0,0,0,1,0
+Mac,"ARPT: <*>: wl0: Roamed or switched channel, reason #<*>, bssid <*>:<*>:<*>:<*>, last RSSI <*>",0,0,0,0,0,0,0,0,0,0
+Mac,"DB Error: <*> ""no such table: <*>""",0,1,0,0,0,1,0,0,0,0
+Mac,AirPort: Link Down on en0. Reason <*> (Disassociated because station leaving).,0,1,0,0,0,1,0,0,0,0
+Mac,<*>(<*>)::listenerCallback - Thunderbolt HPD packet for route = <*> port = <*> unplug = <*>,1,1,0,0,0,0,0,0,0,0
+Mac,**** [BroadcomBluetoothHostControllerUSBTransport][start] -- Completed (matched on Device) -- <*> ****,1,0,0,0,0,0,0,0,0,0
+Mac,-[NetworkAnalyticsEngine _writeJournalRecord:fromCellFingerprint:key:atLOI:ofKind:lqm:isFaulty:] Hashing of the primary key failed. Dropping the journal record.,1,1,0,0,0,0,0,0,0,0
+Mac,sigio_handler: sigio_handler_active != <*>,0,0,0,0,0,0,0,4,0,0
+Mac,Wake reason: ARPT (Network),2,0,0,0,0,0,0,0,1,1
 Mac,Host controller terminated,0,1,0,0,0,1,0,0,0,0
 Mac,[HID] [MT] AppleActuatorHIDEventDriver::start entered,0,0,0,0,0,0,0,0,0,0
-Mac,[BluetoothHIDDeviceController]ERROR: Could not find the disconnected object,1,0,0,0,0,0,0,0,0,0
+Mac,Captive: CNPluginHandler en0: Evaluating,0,0,0,0,0,0,0,0,0,0
+Mac,hibernate_setup(<*>) took <*> ms,0,0,0,1,0,0,0,0,0,0
+Mac,<*>: IPv6 address <*> has no prefix,1,0,0,0,0,0,1,0,0,2
+Mac,<*>-[NETClientConnection <*>]_block_invoke CI46 - Hit by torpedo! <*> <*> <*>:<*>,1,0,0,0,0,0,0,1,0,0
+Mac,"Setting BTCoex Config: <*>:<*>, <*>:<*>, <*>:<*>, <*>:<*>",1,0,0,0,0,0,0,1,0,0
+Mac,button report: <*>,1,0,0,0,0,0,0,0,0,0
+Mac,FA||Url||taskID[<*>] dealloc,0,3,0,0,0,0,0,0,1,0
+Mac,Captive: CNPluginHandler en0: Inactive,1,0,0,0,0,0,1,0,0,0
+Mac,<*>::setAwdlOperatingMode Setting the AWDL operation mode from SUSPENDED to AUTO,0,1,0,0,0,0,0,1,0,0
+Mac,**** [IOBluetoothHostControllerUSBTransport][start] -- completed -- result = <*> -- <*> ****,1,0,0,0,0,0,0,0,0,0
+Mac,tcp_connection_handle_connect_conditions_bad <*> failed: <*> - No network route,1,1,0,0,0,0,0,0,0,0
+Mac,ARPT: <*>: <*>::syncPowerState: WWEN[enabled],0,0,0,1,0,0,0,0,0,0
+Mac,hibernate_machine_init reading,0,1,0,0,0,0,0,0,0,0
+Mac,AppleThunderboltGenericHAL::earlyWake - complete - took <*> milliseconds,0,3,0,0,0,0,0,0,0,0
+Mac,[BluetoothHIDDeviceController]ERROR: Could not find the disconnected object,1,0,0,0,0,0,1,0,0,2
+Mac,"setting hostname to ""<*>""",0,0,0,0,0,1,0,0,0,0
+Mac,hibernate image path: <*>,0,0,0,0,0,0,0,0,0,0
+Mac,efi pagecount <*>,0,0,0,0,0,0,0,0,0,0
+Mac,hibernate_teardown_pmap_structs done: last_valid_compact_indx <*>,0,0,0,0,0,0,0,0,1,0
+Mac,Unrecognized XSSimpleTypeDefinition: OneOff,1,0,0,0,0,0,0,0,0,0
 Mac,vm_compressor_fastwake_warmup completed - took <*> msecs,0,0,0,0,0,0,0,0,0,0
+Mac,"CCFile::captureLog Received Capture notice id: <*>, reason = AssocFail:sts:<NUM>_rsn:<NUM>",0,0,0,0,0,0,0,0,0,0
+Mac,"CCFile::copyFile fileName is [<*>-<*>-<*>,<*>,<*>]-<*>, source path:<*>, dest path:<*>",0,2,0,0,0,0,0,0,0,0
+Mac,Captive: CNPluginHandler en0: Authenticated,1,0,0,0,0,0,0,0,0,0
+Mac,jemmytest,1,0,0,0,0,0,0,0,0,0
+Mac,"[Accounts] Current connection, <NSXPCConnection: <*> connection from pid <*>, doesn't have account access.",1,1,0,0,0,0,0,0,0,0
+Mac,"securityd_xpc_dictionary_handler cloudd[<*>] copy_matching Error Domain=NSOSStatusErrorDomain Code=<*> ""query missing class name"" (paramErr: error in user parameter list) UserInfo={NSDescription=query missing class name}",0,0,0,0,0,0,0,0,0,0
+Mac,send_datagram_available_ping: pid <*> failed to act on a ping it dequeued before timing out.,1,0,0,0,0,0,0,0,0,0
 Mac,"Unable to simultaneously satisfy constraints: ( ""<NSAutoresizingMaskLayoutConstraint:<*> h=-&- v=-&- V:[NSScrollView:<*>]-(<*>)-| (Names: '|':NSView:<*> )>"", ""<NSAutoresizingMaskLayoutConstraint:<*> h=-&- v=-&- V:|-(<*>)-[NSScrollView:<*>] (Names: '|':NSView:<*> )>"", ""<NSAutoresizingMaskLayoutConstraint:<*> h=-&- v=--& V:[NSView:<*>(<*>)]>"", ""<NSAutoresizingMaskLayoutConstraint:<*> h=-&- v=-&- V:|-(<*>)-[NSView:<*>] (Names: '|':NSView:<*> )>"", ""<NSAutoresizingMaskLayoutConstraint:<*> h=-&- v=-&- V:[NSView:<*>]-(<*>)-| (Names: '|':NSView:<*> )>"" ) Will attempt to recover by breaking constraint <NSAutoresizingMaskLayoutConstraint:<*> h=-&- v=-&- V:|-(<*>)-[NSScrollView:<*>] (Names: '|':NSView:<*> )> Set the NSUserDefault NSConstraintBasedLayoutVisualizeMutuallyExclusiveConstraints to YES to have -[NSWindow visualizeConstraints:] automatically called when this happens. And/or, break on objc_exception_throw to catch this in the debugger.",0,0,0,0,0,0,0,4,0,0
+Mac,"Path not allowed in target domain: type = pid, path = <*> error = <*>: The specified service did not ship in the requestor's bundle, origin = <*>",1,0,0,0,0,0,0,0,0,0
+Mac,<*>-<*>-<*> <*>:<*>:<*> GoogleSoftwareUpdateAgent[<*>/<*>] [lvl=<*>] -[KSAgentApp(KeystoneDelegate) updateEngineFinishedWithErrors:] Keystone finished: errors=<*>,4,0,0,0,0,0,0,1,0,0
 Mac,<*>-<*>-<*> <*>:<*>:<*> GoogleSoftwareUpdateAgent[<*>/<*>] [lvl=<*>] -[KSAgentApp(KeystoneThread) runKeystonesInThreadWithArg:] About to run checks for any other apps.,1,2,0,0,0,0,0,0,0,0
+Mac,ARPT: <*>: wl0: leaveModulePoweredForOffloads: Wi-Fi will stay on.,0,1,0,0,0,1,0,0,0,0
 Mac,"Arranged view frame: {{<*>, <*>}, {<*>, <*>}}",2,0,0,0,0,0,0,0,0,2
+Mac,[com.apple.calendar.store.log.caldav.coredav] [Refusing to parse response to PROPPATCH because of content-type: [text/html; charset=UTF-<*>].],0,2,0,0,0,0,0,0,0,0
+Mac,<*>::setAwdlOperatingMode Setting the AWDL operation mode from AUTO to SUSPENDED,1,0,0,0,0,0,0,0,0,0
 Mac,CCProfileMonitor::setStreamEventHandler,2,0,0,0,0,0,0,0,0,2
+Mac,Location icon should now be in state 'Inactive',1,0,0,0,0,0,0,0,0,0
 Mac,Telling CSI to go low power.,1,0,0,0,0,0,0,0,0,0
-HealthApp,onStandStepChanged <*>,0,0,0,0,0,0,0,1,0,0
-HealthApp,onExtend:<*> <*> <*> <*>,0,0,0,0,0,0,0,1,0,0
-HealthApp,onReceive action: android.intent.action.SCREEN_ON,0,0,1,0,0,0,0,0,0,0
-HealthApp,processHandleBroadcastAction action:android.intent.action.SCREEN_ON,1,0,0,0,0,0,0,0,0,0
-HealthApp,flush sensor data,0,0,0,0,0,0,0,1,0,0
-HealthApp,getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*>,0,0,0,0,0,0,0,4,0,0
-HealthApp,setTodayTotalDetailSteps=<*>,0,0,0,0,0,0,0,1,0,0
-HealthApp,calculateCaloriesWithCache totalCalories=<*>,0,0,0,0,0,0,0,1,0,0
-HealthApp,calculateAltitudeWithCache totalAltitude=<*>,0,0,0,0,0,0,0,1,0,0
-HealthApp,REPORT : <*> <*> <*> <*>,1,0,0,0,0,0,0,0,0,0
-HealthApp,onReceive action: android.intent.action.SCREEN_OFF,0,0,0,0,0,0,0,4,0,0
+Mac,ARPT: <*>: <*>::powerChange: System Sleep,1,1,0,0,0,0,0,0,0,0
+Mac,-[UABestAppSuggestionManager notifyBestAppChanged:type:options:bundleIdentifier:activityType:dynamicIdentifier:when:confidence:deviceName:deviceIdentifier:deviceType:] (<*>) UASuggestedActionType=<*> (<*>)/(<*>) opts=(<*>) when=<*>,1,0,0,0,0,0,0,0,1,0
+Mac,"SOSAccountThisDeviceCanSyncWithCircle sync with device failure: Error Domain=com.apple.security.sos.error Code=<*> ""Account identity not set"" UserInfo={NSDescription=Account identity not set}",1,0,0,0,0,0,0,0,0,0
+Mac,Bluetooth -- LE is supported - Disable LE meta event,0,1,0,0,0,0,0,0,0,0
+Mac,ARPT: <*>: wl0: MDNS: IPV6 Addr: <*>,0,0,0,0,0,0,0,0,2,0
+Mac,USBMSC Identifier (non-unique): <*>,1,0,0,0,0,0,0,0,0,0
+Mac,AppleCamIn::systemWakeCall - messageType = <*>,1,1,0,0,0,0,0,0,0,0
+Mac,Wake reason: RTC (Alarm),0,1,0,0,0,1,0,0,0,0
+Mac,AppleCamIn::wakeEventHandlerThread,0,1,0,1,0,0,0,0,0,0
 HealthApp,isScreenOn <*>,0,0,1,0,0,0,0,0,0,0
 HealthApp,"screen status unknown,think screen on",0,0,0,0,0,0,0,1,0,0
-HealthApp,processHandleBroadcastAction action:android.intent.action.TIME_TICK,0,0,1,0,0,0,0,0,0,0
 HealthApp,flushTempCacheToDB by stand,1,0,0,0,0,0,0,0,0,0
 HealthApp,Alarm uploadStaticsToDB totalSteps=<*>:<*>:<*>:<*>,1,0,0,0,0,0,0,0,0,0
 HealthApp,writeDataToDB size <*>,0,0,0,0,0,0,0,0,1,0
-HealthApp,"upLoadOneMinuteDataToEngine time=<*>,<*>,<*>,<*>,<*>",0,0,0,0,0,0,0,3,0,0
-HealthApp,getBinderPackageName packageName = com.huawei.health,1,0,0,0,0,0,0,0,0,0
-HealthApp,"getAppContext() isAppValid health or wear, packageName = <*>",0,0,0,0,0,0,0,3,0,0
-HealthApp,insertHiHealthData() checkAppType <*> appID = <*>,0,0,0,0,0,0,0,1,0,0
-HealthApp,"insertHiHealthData() size = <*>,app = <*>,One Data Type = <*>,packageName = <*>,writeStatType = <*>",0,0,0,0,0,0,0,0,0,0
-HealthApp,"saveHealthDetailData() deviceID = <*>,clientID=<*>,id=<*>",8,0,0,0,0,0,0,0,0,0
-HealthApp,"saveStatData() type =<*>,time = <*>,statClient = <*>,who is <*>",0,0,0,0,0,0,0,1,0,0
-HealthApp,"new date =<*>, type=<*>,<*>,old=<*>",0,0,0,0,0,0,0,0,0,0
+HealthApp,"upLoadOneMinuteDataToEngine time=<*>,<*>,<*>,<*>,<*>",0,0,1,0,0,0,0,0,0,0
 HealthApp,"saveHealthDetailData() saveOneDetailData fail hiHealthData = <*>,type = <*>",0,0,0,0,0,0,0,1,0,0
-HealthApp,"bulkSaveDetailHiHealthData() size = <*>,totalTime = <*>",0,0,0,0,0,0,0,3,0,0
-HealthApp,startListenerChange subscribeList = [<*>],0,0,0,0,0,0,0,3,0,0
+HealthApp,"saveStatData() type =<*>,time = <*>,statClient = <*>,who is <*>",0,0,0,0,0,0,0,0,1,0
 HealthApp,"insertHiHealthData() bulkSaveDetailHiHealthData fail errorCode = <*>,errorMessage = ERR_DATA_INSERT",0,0,0,0,0,0,0,1,0,0
-HealthApp,insertHiHealthData() end totalTime = <*>,0,0,0,0,0,0,0,0,1,0
 HealthApp,uploadStaticsToDB() onResult type = <*> obj=<*>,0,0,0,0,0,0,0,0,0,0
 HealthApp,uploadStaticsToDB failed message=<*>,0,0,0,0,0,0,0,0,1,0
-HealthApp,checkInsertStatus stepSum or calorieSum is enough,1,0,0,0,0,0,0,0,0,0
-HealthApp,checkInsertStatus stepStatSum or calorieStatSum is enough,0,0,0,0,0,0,0,0,1,0
-HealthApp,"stepSyncOrNot appSynTimes is <*>, statsyncTimes is <*>",0,0,0,0,0,0,0,3,0,0
-HealthApp,"startInsertSportSync start auto sync,app is <*>",0,0,0,0,0,0,0,3,0,0
-HealthApp,"checkFirstSyncByType no such data in db ,type is <*> deviceCode is <*>",0,0,0,0,0,0,0,1,0,0
-HealthApp,"startInsertSportSync first <*> steps sync,do all sync",0,0,0,0,0,0,0,1,0,0
-HealthApp,"startSync hiSyncOption = HiSyncOption{syncAction=<*>, syncMethod=<*>, syncScope=<*>, syncDataType=<*>, syncModel=<*>, pushAction=<*>},app = <*> who = <*>",0,0,0,0,0,0,0,3,0,0
-HealthApp,needAutoSync autoSyncSwitch is open,0,0,0,0,0,0,0,0,0,0
-HealthApp,"initDataPrivacy the dataPrivacy switch is open, start push health data!",0,0,0,0,0,0,0,0,1,0
-HealthApp,initDataPrivacy the dataPrivacy is <*>,0,0,0,0,0,0,0,0,0,0
-HealthApp,"initUserPrivacy the userPrivacy switch is open, start push user data!",0,0,1,0,0,0,0,0,0,0
-HealthApp,initUserPrivacy the userPrivacy is <*>,0,0,0,0,0,0,0,3,0,0
-HealthApp,ifCanSync not! no cloud version,0,0,0,0,0,0,0,3,0,0
-HealthApp,sendSyncFailedBroadcast,0,0,0,0,0,0,0,1,0,0
+HealthApp,"getAppContext() isAppValid health or wear, packageName = <*>",0,0,0,0,0,0,0,1,0,0
+HealthApp,getBinderPackageName packageName = com.huawei.health,0,0,0,0,0,0,0,0,1,0
+HealthApp,insertHiHealthData() checkAppType <*> appID = <*>,0,0,0,0,0,0,0,0,0,0
+HealthApp,"insertHiHealthData() size = <*>,app = <*>,One Data Type = <*>,packageName = <*>,writeStatType = <*>",0,0,0,0,0,0,0,3,0,0
+HealthApp,"saveHealthDetailData() deviceID = <*>,clientID=<*>,id=<*>",0,0,0,0,0,0,0,1,0,0
+HealthApp,"bulkSaveDetailHiHealthData() size = <*>,totalTime = <*>",0,0,0,0,0,0,0,0,0,0
+HealthApp,"new date =<*>, type=<*>,<*>,old=<*>",0,0,0,0,0,0,0,0,0,0
 HealthApp,"saveRealTimeHealthDatasStat() size = <*>,totalTime = <*>",0,0,0,0,0,0,0,0,1,0
+HealthApp,startListenerChange subscribeList = [<*>],0,0,0,0,0,0,0,1,0,0
+HealthApp,insertHiHealthData() end totalTime = <*>,3,0,1,0,0,0,1,0,0,0
 HealthApp,InsertCallBack() onSuccess type = <*> data=<*>,0,0,0,0,0,0,0,0,0,0
 HealthApp,InsertEvent success begin:<*> end:<*>,0,0,0,0,0,0,0,1,0,0
 HealthApp,setWriteDBLastDataMinute=<*>,0,0,0,0,0,0,0,3,0,0
 HealthApp,setWriteDBLastDataMinute success,0,0,0,0,0,0,0,0,1,0
 HealthApp,flush2DB result success,0,0,0,0,0,0,0,0,0,0
-HealthApp,"timeStamp back,extendReportTimeStamp=<*>",0,0,0,0,0,0,0,0,1,0
-HealthApp,startTimer start autoSync,0,0,1,0,0,0,0,0,0,0
-HealthApp,stepSyncOrNot appSynTimes is <*>,0,0,0,0,0,0,0,3,0,0
+HealthApp,checkInsertStatus stepSum or calorieSum is enough,0,0,1,0,0,0,0,0,0,0
+HealthApp,checkInsertStatus stepStatSum or calorieStatSum is enough,0,0,0,0,0,0,0,1,0,0
+HealthApp,"stepSyncOrNot appSynTimes is <*>, statsyncTimes is <*>",1,0,0,0,0,1,0,0,0,0
+HealthApp,"startInsertSportSync start auto sync,app is <*>",0,0,0,0,0,0,0,0,1,0
+HealthApp,"checkFirstSyncByType no such data in db ,type is <*> deviceCode is <*>",0,0,0,0,0,0,0,0,1,0
+HealthApp,"startInsertSportSync first <*> steps sync,do all sync",0,0,1,0,0,0,0,0,0,0
 HealthApp,getTodaySportData mStepsRecordManager=<*>,0,0,0,0,0,0,0,3,0,0
+HealthApp,"timeStamp back,extendReportTimeStamp=<*>",0,0,0,0,0,0,0,0,0,0
+HealthApp,onReceive action: android.intent.action.SCREEN_ON,0,0,1,0,0,0,0,0,0,0
+HealthApp,processHandleBroadcastAction action:android.intent.action.SCREEN_ON,0,0,0,0,0,0,0,3,0,0
+HealthApp,flush sensor data,0,0,0,0,0,0,0,0,0,0
 HealthApp,theDayChanged <*>,0,0,0,0,0,0,0,0,1,0
 HealthApp,initEnviroument,0,0,1,0,0,0,0,0,0,0
 HealthApp,getStepCounterStatus,0,0,0,0,0,0,0,0,0,0
@@ -865,48 +846,67 @@ HealthApp,getStepCounterStatus= <*>,0,0,0,0,0,0,0,0,0,0
 HealthApp,reStartStepCounter,0,0,0,0,0,0,0,0,1,0
 HealthApp,registersensorsuccess: <*>,0,0,0,0,0,0,0,0,1,0
 HealthApp,clear(),0,0,0,0,0,0,0,4,0,0
-HealthApp,getTodayBasicStandardSteps= <*>##<*>##<*>,1,0,0,0,0,0,0,0,0,0
 HealthApp,tryToRecordAsBasicStepData bWrite <*>,0,0,0,0,0,0,0,3,0,0
-HealthApp,getDiffTotalSteps= <*>##<*>,0,0,0,0,0,0,0,0,1,0
 HealthApp,setBasicStandardSteps basicStandardStep=<*> restartSteps=<*>,0,0,0,0,0,0,0,1,0,0
 HealthApp,setDiffTotalSteps=<*>,0,0,0,0,0,0,0,3,0,0
+HealthApp,getTodayBasicStandardSteps= <*>##<*>##<*>,1,0,0,0,0,0,0,0,0,0
+HealthApp,getDiffTotalSteps= <*>##<*>,0,0,0,0,0,0,0,0,0,0
 HealthApp,<*>|<*>|<*>|<*>,0,0,0,0,0,0,0,0,1,0
 HealthApp,reload : <*> restar <*>,1,0,0,0,0,0,0,0,0,0
+HealthApp,REPORT : <*> <*> <*> <*>,0,0,0,0,0,0,0,1,0,0
 HealthApp,next day:<*>,1,0,0,0,0,0,0,0,0,0
 HealthApp,setGoalNotifiShownRecord <*> <*>,0,0,1,0,0,0,0,0,0,0
 HealthApp,closeNotification...,0,0,0,0,0,0,0,0,0,0
 HealthApp,deleteHealthNotification(),0,0,0,0,0,0,0,3,0,0
+HealthApp,onStandStepChanged <*>,0,0,0,0,0,0,0,1,0,0
+HealthApp,onExtend:<*> <*> <*> <*>,0,0,0,0,0,0,0,3,0,0
+HealthApp,getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*>,0,0,0,0,0,0,0,0,0,0
+HealthApp,setTodayTotalDetailSteps=<*>,0,0,0,0,0,0,0,3,0,0
+HealthApp,calculateCaloriesWithCache totalCalories=<*>,0,0,0,0,0,0,0,3,0,0
+HealthApp,calculateAltitudeWithCache totalAltitude=<*>,0,0,0,0,0,0,0,0,0,0
+HealthApp,onReceive action: android.intent.action.SCREEN_OFF,0,0,0,0,0,0,0,3,0,0
+HealthApp,startTimer start autoSync,0,0,0,0,0,0,0,0,1,0
+HealthApp,"startSync hiSyncOption = HiSyncOption{syncAction=<*>, syncMethod=<*>, syncScope=<*>, syncDataType=<*>, syncModel=<*>, pushAction=<*>},app = <*> who = <*>",1,0,0,0,0,0,0,0,0,0
 HealthApp,"checkCurrentDay a new day comes , reset basicSyncCondition, currentDay is <*> oldDay is <*>",0,0,0,0,0,0,0,1,0,0
-OpenSSH,reverse mapping checking getaddrinfo for <*> [<*>] failed - POSSIBLE BREAK-IN ATTEMPT!,0,2,0,0,0,0,0,0,0,0
-OpenSSH,Invalid user <*> from <*>,0,2,0,0,0,0,0,0,0,0
-OpenSSH,input_userauth_request: invalid user <*> [preauth],0,2,1,0,0,0,0,0,0,0
-OpenSSH,pam_unix(sshd:auth): check pass; user unknown,2,1,1,0,0,0,0,0,0,0
-OpenSSH,pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>,2,1,0,0,0,0,0,0,0,0
-OpenSSH,Failed password for invalid user <*> from <*> port <*> ssh2,0,2,0,0,0,0,0,0,0,0
-OpenSSH,Connection closed by <*> [preauth],0,1,1,0,0,0,0,0,0,0
-OpenSSH,Received disconnect from <*>: <*>: Bye Bye [preauth],0,2,1,0,0,0,0,0,0,0
-OpenSSH,pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*> user=<*>,0,0,1,0,0,0,0,0,0,0
-OpenSSH,Failed password for <*> from <*> port <*> ssh2,0,2,1,0,0,0,0,0,0,0
-OpenSSH,message repeated <*> times: [ Failed password for <*> from <*> port <*>],0,2,0,0,0,0,0,0,0,0
-OpenSSH,Disconnecting: Too many authentication failures for <*> [preauth],0,2,1,0,0,0,0,0,0,0
-OpenSSH,PAM <*> more authentication failures; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*> user=<*>,0,2,0,0,0,0,0,0,0,0
-OpenSSH,PAM service(sshd) ignoring max retries; <*> > <*>,0,2,0,0,0,0,0,0,0,0
-OpenSSH,Did not receive identification string from <*>,0,0,1,0,0,0,0,0,0,0
+HealthApp,stepSyncOrNot appSynTimes is <*>,0,0,0,0,0,0,0,0,1,0
+HealthApp,needAutoSync autoSyncSwitch is open,1,0,0,0,0,0,0,0,0,0
+HealthApp,"initDataPrivacy the dataPrivacy switch is open, start push health data!",0,0,1,0,0,0,0,0,0,0
+HealthApp,initDataPrivacy the dataPrivacy is <*>,0,0,0,0,0,0,0,0,1,0
+HealthApp,"initUserPrivacy the userPrivacy switch is open, start push user data!",0,0,0,0,0,0,0,4,0,0
+HealthApp,initUserPrivacy the userPrivacy is <*>,0,0,0,0,0,0,0,0,1,0
+HealthApp,ifCanSync not! no cloud version,0,0,0,0,0,0,0,0,1,0
+HealthApp,sendSyncFailedBroadcast,0,0,0,0,0,0,0,3,0,0
+HealthApp,processHandleBroadcastAction action:android.intent.action.TIME_TICK,1,0,0,0,0,0,0,0,0,0
 OpenSSH,error: Received disconnect from <*>: <*>: com.jcraft.jsch.JSchException: Auth fail [preauth],0,2,1,0,0,0,0,0,0,0
-OpenSSH,Received disconnect from <*>: <*>: Closed due to user request. [preauth],0,1,1,0,0,0,0,0,0,0
-OpenSSH,Failed none for invalid user <*> from <*> port <*> ssh2,0,0,0,0,0,0,0,0,0,0
-OpenSSH,PAM <*> more authentication failures; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>,0,2,0,0,0,0,0,0,0,0
-OpenSSH,PAM <*> more authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>,0,2,1,0,0,0,0,0,0,0
-OpenSSH,error: Received disconnect from <*>: <*>: No more user authentication methods available. [preauth],2,1,1,0,0,0,0,0,0,0
+OpenSSH,message repeated <*> times: [ Failed password for <*> from <*> port <*>],0,2,1,0,0,0,0,0,0,0
+OpenSSH,PAM <*> more authentication failures; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*> user=<*>,0,1,1,0,0,0,0,0,0,0
+OpenSSH,PAM <*> more authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>,0,0,0,0,0,0,0,0,0,0
+OpenSSH,Received disconnect from <*>: <*>: Closed due to user request. [preauth],0,2,1,0,0,0,0,0,0,0
+OpenSSH,reverse mapping checking getaddrinfo for <*> [<*>] failed - POSSIBLE BREAK-IN ATTEMPT!,2,1,1,0,0,0,0,0,0,0
 OpenSSH,Accepted password for <*> from <*> port <*> ssh2,0,2,1,0,0,0,0,0,0,0
 OpenSSH,pam_unix(sshd:session): session opened for user <*> by (uid=<*>),0,2,1,0,0,0,0,0,0,0
 OpenSSH,Received disconnect from <*>: <*>: disconnected by user,2,1,0,0,0,0,0,0,0,0
 OpenSSH,pam_unix(sshd:session): session closed for user <*>,2,1,0,0,0,0,0,0,0,0
+OpenSSH,Failed none for invalid user <*> from <*> port <*> ssh2,0,1,0,0,0,0,0,0,0,0
+OpenSSH,Did not receive identification string from <*>,2,1,1,0,0,0,0,0,0,0
+OpenSSH,Disconnecting: Too many authentication failures for <*> [preauth],0,2,1,0,0,0,0,0,0,0
+OpenSSH,PAM <*> more authentication failures; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>,0,2,1,0,0,0,0,0,0,0
+OpenSSH,PAM service(sshd) ignoring max retries; <*> > <*>,0,1,1,0,0,0,0,0,0,0
+OpenSSH,Connection closed by <*> [preauth],2,1,0,0,0,0,0,0,0,0
 OpenSSH,fatal: Write failed: Connection reset by peer [preauth],0,2,1,0,0,0,0,0,0,0
+OpenSSH,error: Received disconnect from <*>: <*>: No more user authentication methods available. [preauth],0,0,0,0,0,0,0,0,0,0
+OpenSSH,Invalid user <*> from <*>,0,2,0,0,0,0,0,0,0,0
+OpenSSH,input_userauth_request: invalid user <*> [preauth],0,1,0,0,0,0,0,0,0,0
+OpenSSH,pam_unix(sshd:auth): check pass; user unknown,2,1,1,0,0,0,0,0,0,0
+OpenSSH,pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>,0,2,0,0,0,0,0,0,0,0
+OpenSSH,Failed password for <*> from <*> port <*> ssh2,0,2,0,0,0,0,0,0,0,0
+OpenSSH,Received disconnect from <*>: <*>: Bye Bye [preauth],0,0,0,0,0,0,0,0,0,0
+OpenSSH,pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*> user=<*>,2,1,1,0,0,0,0,0,0,0
+OpenSSH,Failed password for invalid user <*> from <*> port <*> ssh2,0,2,0,0,0,0,0,0,0,0
 Spark,"Registered signal handlers for [TERM, HUP, INT]",1,0,0,0,0,0,0,2,0,0
-Spark,Changing view acls to: <*>,0,0,1,0,0,0,0,0,0,0
-Spark,Changing modify acls to: <*>,1,0,0,0,0,0,0,0,0,0
-Spark,"SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)",0,0,0,0,0,4,0,0,0,0
+Spark,Changing view acls to: <*>,1,0,0,0,0,0,0,0,0,0
+Spark,Changing modify acls to: <*>,0,0,0,0,0,4,0,0,0,0
+Spark,"SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)",1,0,0,0,0,0,0,2,0,0
 Spark,Slf4jLogger started,0,0,0,0,0,4,0,0,0,0
 Spark,Starting remoting,1,0,0,0,0,0,2,0,0,0
 Spark,Remoting started; listening on addresses :[akka.tcp://<*>],1,0,0,0,0,0,0,2,0,0
@@ -920,136 +920,124 @@ Spark,Successfully started service 'org.apache.spark.network.netty.NettyBlockTra
 Spark,Server created on <*>,1,0,0,0,0,0,0,0,0,0
 Spark,Trying to register BlockManager,0,0,0,0,0,4,0,0,0,0
 Spark,Registered BlockManager,1,0,0,0,0,0,2,0,0,0
-Spark,Got assigned task <*>,1,0,0,0,0,0,0,2,0,0
-Spark,Running task <*> in stage <*> (TID <*>),1,0,0,0,0,0,0,0,0,0
-Spark,Started reading broadcast variable <*>,1,0,0,0,0,0,2,0,0,0
-Spark,"Block <*> stored as bytes in memory (estimated size <*>, free <*>)",0,0,0,0,0,0,1,0,0,0
-Spark,Reading broadcast variable <*> took <*> ms,0,0,0,0,0,4,0,0,0,0
-Spark,"Block <*> stored as values in memory (estimated size <*>, free <*>)",1,0,0,0,0,1,0,0,0,0
-Spark,"Partition <*> not found, computing it",0,0,0,0,0,4,0,0,0,0
-Spark,Input split: hdfs://<*>,1,0,0,0,0,0,0,2,0,0
 Spark,"mapred.tip.id is deprecated. Instead, use mapreduce.task.id",1,0,0,0,0,0,0,0,0,0
 Spark,"mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id",0,0,0,0,0,4,0,0,0,0
 Spark,"mapred.task.is.map is deprecated. Instead, use mapreduce.task.ismap",0,0,0,0,0,4,0,0,0,0
 Spark,"mapred.job.id is deprecated. Instead, use mapreduce.job.id",1,0,0,0,0,0,2,0,0,0
 Spark,"mapred.task.partition is deprecated. Instead, use mapreduce.task.partition",1,0,0,0,0,0,1,2,0,0
-Spark,"Times: total = <*>, boot = <*>, init = <*>, finish = <*>",1,0,0,0,0,0,0,0,0,0
-Spark,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,1,0,0,0,0,0,0,2,0,0
-Spark,Found block <*> locally,1,0,0,0,0,0,0,2,0,0
-Spark,File Output Committer Algorithm version is <*>,1,0,0,0,0,0,2,0,0,0
-Spark,Saved output of task '<*>' to hdfs://<*>,0,0,0,0,0,4,0,0,0,0
+Spark,File Output Committer Algorithm version is <*>,0,0,0,0,0,4,0,0,0,0
+Spark,Saved output of task '<*>' to hdfs://<*>,1,0,0,0,0,0,1,2,0,0
 Spark,<*>: Committed,1,0,0,0,0,0,0,0,0,0
-HDFS,PacketResponder <*> for block <*> terminating,1,1,0,0,0,0,0,0,0,0
-HDFS,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*>:<*> is added to <*> size <*>,1,1,0,0,0,0,1,0,0,0
-HDFS,Received block <*> of size <*> from <*>,1,1,0,0,0,0,1,0,0,0
-HDFS,Receiving block <*> src: <*>:<*> dest: <*>:<*>,2,0,0,0,0,0,0,0,0,0
-HDFS,BLOCK* NameSystem.allocateBlock: <*> <*>,2,0,0,0,0,0,0,0,0,0
-HDFS,Verification succeeded for <*>,1,1,0,0,0,0,1,0,0,0
-HDFS,Deleting block <*> file <*>,1,1,0,0,0,0,1,0,0,0
-HDFS,<*>:<*> Served block <*> to <*>,2,0,0,0,0,0,0,0,0,0
-HDFS,<*>:<*>:Got exception while serving <*> to <*>:,1,1,0,0,0,0,1,0,0,0
-HDFS,BLOCK* NameSystem.delete: <*> is added to invalidSet of <*>:<*>,2,0,0,0,0,0,0,0,0,0
+Spark,"Partition <*> not found, computing it",1,0,0,0,0,0,0,0,0,0
+Spark,Input split: hdfs://<*>,0,0,0,0,0,4,0,0,0,0
+Spark,Started reading broadcast variable <*>,1,0,0,0,0,0,0,0,0,0
+Spark,"Block <*> stored as bytes in memory (estimated size <*>, free <*>)",0,1,0,0,0,0,0,0,0,0
+Spark,Reading broadcast variable <*> took <*> ms,1,0,0,0,0,0,0,2,0,0
+Spark,"Block <*> stored as values in memory (estimated size <*>, free <*>)",0,0,0,0,0,4,0,0,0,0
+Spark,"Times: total = <*>, boot = <*>, init = <*>, finish = <*>",1,0,0,0,0,0,0,0,0,0
+Spark,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,1,0,0,0,0,0,0,0,0,0
+Spark,Got assigned task <*>,0,0,0,0,0,4,0,0,0,0
+Spark,Running task <*> in stage <*> (TID <*>),1,0,0,0,0,0,0,0,0,0
+Spark,Found block <*> locally,1,0,0,0,0,0,2,0,0,0
 HDFS,<*>:<*> Starting thread to transfer block <*> to <*>:<*>,1,1,0,0,0,0,0,0,0,0
-HDFS,BLOCK* ask <*>:<*> to delete <*>,1,1,0,0,0,0,1,0,0,0
-HDFS,Received block <*> src: <*>:<*> dest: <*>:<*> of size <*>,1,1,0,0,0,0,1,0,0,0
+HDFS,<*>:<*>:Got exception while serving <*> to <*>:,1,1,0,0,0,0,1,0,0,0
+HDFS,<*>:<*> Served block <*> to <*>,1,1,0,0,0,0,0,0,0,0
 HDFS,BLOCK* ask <*>:<*> to replicate <*> to datanode(s) <*>:<*>,1,2,0,0,0,0,0,0,0,0
-OpenStack,"<*> ""GET <*>"" status: <*> len: <*> time: <*>",1,0,0,0,0,0,0,0,0,0
-OpenStack,[instance: <*>] VM Started (Lifecycle Event),0,0,0,0,0,0,2,0,0,0
-OpenStack,[instance: <*>] VM Paused (Lifecycle Event),0,2,1,0,0,1,0,1,1,0
-OpenStack,[instance: <*>] During sync_power_state the instance has a pending task (spawning). Skip.,2,0,0,0,0,0,0,0,0,0
-OpenStack,image <*> at (<*>): checking,0,2,1,0,0,1,0,1,1,0
-OpenStack,"image <*> at (<*>): in use: on this node <*> local, <*> on other nodes sharing this instance storage",1,0,0,0,0,0,2,0,0,0
-OpenStack,Active base files: <*>,0,2,1,0,0,1,0,1,1,0
-OpenStack,Creating event network-vif-plugged:<*>-<*>-<*>-<*>-<*> for instance <*>,0,2,1,0,0,1,0,1,1,0
-OpenStack,"<*> ""POST <*>"" status: <*> len: <*> time: <*>",0,2,1,0,0,1,0,1,1,0
-OpenStack,[instance: <*>] VM Resumed (Lifecycle Event),0,2,1,0,0,1,0,1,1,0
-OpenStack,[instance: <*>] Instance spawned successfully.,0,2,1,0,0,1,0,1,1,0
-OpenStack,[instance: <*>] Took <*> seconds to spawn the instance on the hypervisor.,0,2,1,0,0,1,0,1,1,0
-OpenStack,[instance: <*>] Took <*> seconds to build instance.,0,2,1,0,0,1,0,1,1,0
-OpenStack,Auditing locally available compute resources for node <*>,1,0,0,0,0,1,0,0,0,0
-OpenStack,"Total usable vcpus: <*>, total allocated vcpus: <*>",1,0,0,0,0,0,3,0,0,0
-OpenStack,Final resource view: name=<*> phys_ram=<*> used_ram=<*> phys_disk=<*> used_disk=<*> total_vcpus=<*> used_vcpus=<*> pci_stats=[],1,0,0,0,0,0,0,0,0,0
-OpenStack,Compute_service record updated for <*>,0,2,1,0,0,1,0,1,1,0
-OpenStack,"<*> ""DELETE <*>"" status: <*> len: <*> time: <*>",0,1,0,0,0,0,0,0,0,0
-OpenStack,[instance: <*>] Terminating instance,0,0,0,0,0,0,0,0,0,0
-OpenStack,[instance: <*>] Instance destroyed successfully.,1,0,0,0,0,0,0,0,0,0
-OpenStack,[instance: <*>] Deleting instance files <*>,1,1,0,0,0,0,0,2,0,0
+HDFS,Received block <*> src: <*>:<*> dest: <*>:<*> of size <*>,1,2,0,0,0,0,0,0,0,0
+HDFS,BLOCK* NameSystem.delete: <*> is added to invalidSet of <*>:<*>,2,0,0,0,0,0,0,0,0,0
+HDFS,BLOCK* ask <*>:<*> to delete <*>,1,1,0,0,0,0,1,0,0,0
+HDFS,Verification succeeded for <*>,2,0,0,0,0,0,0,0,0,0
+HDFS,Deleting block <*> file <*>,1,1,0,0,0,0,0,0,0,0
+HDFS,BLOCK* NameSystem.allocateBlock: <*> <*>,1,2,0,0,0,0,0,0,0,0
+HDFS,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*>:<*> is added to <*> size <*>,1,1,0,0,0,0,1,0,0,0
+HDFS,Received block <*> of size <*> from <*>,1,1,0,0,0,0,0,0,0,0
+HDFS,PacketResponder <*> for block <*> terminating,1,1,0,0,0,0,1,0,0,0
+HDFS,Receiving block <*> src: <*>:<*> dest: <*>:<*>,1,1,0,0,0,0,0,0,0,0
+OpenStack,Running instance usage audit for host <*> from <*>-<*>-<*> <*>:<*>:<*> to <*>-<*>-<*> <*>:<*>:<*>. <*> instances.,0,1,0,0,0,0,0,0,0,0
+OpenStack,Successfully synced instances from host '<*>'.,0,2,1,0,0,1,0,1,1,0
+OpenStack,"While synchronizing instance power states, found <*> instances in the database and <*> instances on the hypervisor.",0,2,1,0,0,1,0,1,1,0
+OpenStack,The instance sync for host '<*>' did not match. Re-created its InstanceList.,0,1,0,0,0,0,0,0,0,0
+OpenStack,[instance: <*>] Deleting instance files <*>,0,2,1,0,0,1,0,1,1,0
 OpenStack,[instance: <*>] Deletion of <*> complete,0,2,1,0,0,1,0,1,1,0
 OpenStack,[instance: <*>] Took <*> seconds to destroy the instance on the hypervisor.,1,0,0,0,0,0,0,0,0,0
-OpenStack,[instance: <*>] Took <*> seconds to deallocate network for instance.,1,0,0,0,0,0,2,0,0,0
-OpenStack,Unknown base file: <*>,0,1,0,0,0,0,0,0,0,0
-OpenStack,Removable base files: <*>,0,2,1,0,0,1,0,1,1,0
-OpenStack,Removing base or swap file: <*>,0,2,1,0,0,1,0,1,1,0
-OpenStack,HTTP exception thrown: No instances found for any event,0,2,1,0,0,1,0,1,1,0
+OpenStack,[instance: <*>] Took <*> seconds to deallocate network for instance.,0,1,0,0,0,0,0,0,0,0
+OpenStack,HTTP exception thrown: No instances found for any event,1,1,0,0,0,0,0,0,0,0
+OpenStack,Base or swap file too young to remove: <*>,0,2,1,0,0,1,0,1,1,0
+OpenStack,Unknown base file: <*>,0,2,1,0,0,1,0,1,1,0
+OpenStack,Removable base files: <*>,1,0,0,0,0,0,0,0,0,0
+OpenStack,Removing base or swap file: <*>,2,0,0,0,0,0,0,0,0,0
 OpenStack,"[instance: <*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",0,2,1,0,0,1,0,1,1,0
 OpenStack,"[instance: <*>] Total memory: <*> MB, used: <*> MB",0,2,1,0,0,1,0,1,1,0
-OpenStack,"[instance: <*>] memory limit: <*> MB, free: <*> MB",0,0,0,0,0,0,2,0,0,0
-OpenStack,"[instance: <*>] Total disk: <*> GB, used: <*> GB",0,1,0,0,0,0,0,0,0,0
-OpenStack,"[instance: <*>] disk limit not specified, defaulting to unlimited",1,1,0,0,0,0,0,2,0,0
-OpenStack,"[instance: <*>] Total vcpu: <*> VCPU, used: <*> VCPU",0,0,0,0,0,0,2,0,0,0
+OpenStack,"[instance: <*>] memory limit: <*> MB, free: <*> MB",0,2,1,0,0,1,0,1,1,0
+OpenStack,"[instance: <*>] Total disk: <*> GB, used: <*> GB",0,2,1,0,0,1,0,1,1,0
+OpenStack,"[instance: <*>] disk limit not specified, defaulting to unlimited",0,2,1,0,0,1,0,1,1,0
+OpenStack,"[instance: <*>] Total vcpu: <*> VCPU, used: <*> VCPU",0,2,1,0,0,1,0,1,1,0
 OpenStack,"[instance: <*>] vcpu limit not specified, defaulting to unlimited",0,2,1,0,0,1,0,1,1,0
-OpenStack,[instance: <*>] Claim successful,0,1,0,0,0,0,0,0,0,0
+OpenStack,[instance: <*>] Claim successful,1,1,0,0,0,0,0,2,0,0
 OpenStack,[instance: <*>] Creating image,0,2,1,0,0,1,0,1,1,0
-OpenStack,[instance: <*>] VM Stopped (Lifecycle Event),1,0,0,0,0,0,0,0,0,0
-OpenStack,Successfully synced instances from host '<*>'.,0,2,1,0,0,1,0,1,1,0
-OpenStack,Running instance usage audit for host <*> from <*>-<*>-<*> <*>:<*>:<*> to <*>-<*>-<*> <*>:<*>:<*>. <*> instances.,0,1,0,0,0,0,0,0,0,0
-OpenStack,Base or swap file too young to remove: <*>,1,0,0,0,0,0,0,0,0,0
-OpenStack,The instance sync for host '<*>' did not match. Re-created its InstanceList.,0,2,1,0,0,1,0,1,1,0
-OpenStack,"While synchronizing instance power states, found <*> instances in the database and <*> instances on the hypervisor.",0,2,1,0,0,1,0,1,1,0
-Thunderbird,session closed for user <*>,0,1,0,0,0,0,0,1,0,0
-Thunderbird,session opened for user <*> by (uid=<*>),1,0,0,0,0,0,0,0,0,0
-Thunderbird,(<*>) CMD (run-parts <*>),0,0,0,0,0,0,0,0,0,0
-Thunderbird,data_thread() got not answer from any [<*>] datasource,0,0,0,0,0,0,0,0,0,0
-Thunderbird,"synchronized to <*>, stratum <*>",1,0,0,0,0,0,0,0,0,0
-Thunderbird,[ib_sm_sweep.c:<*>]: ********************** NEW SWEEP ********************,2,1,0,1,0,0,1,1,0,0
-Thunderbird,[ib_sm_sweep.c:<*>]: No topology change,1,0,0,0,0,0,0,0,0,0
-Thunderbird,[ib_sm_sweep.c:<*>]: No configuration change required,0,0,0,0,0,0,0,0,0,0
-Thunderbird,Local disconnected: Connection closed.,0,1,0,0,0,0,0,1,0,0
-Thunderbird,connection lost: 'Connection closed.',0,0,115,0,0,0,0,0,0,0
-Thunderbird,unable to qualify my own domain name (<*>) -- using short name,0,1,0,0,0,0,0,1,0,0
-Thunderbird,"<*>: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>, relay=#<*>#@localhost",0,1,0,0,0,0,0,1,0,0
-Thunderbird,"<*>: to=<*>, ctladdr=<*> (0/0), delay=<*>:<*>:<*>, xdelay=<*>:<*>:<*>, mailer=relay, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=Deferred: Connection refused by [<*>]",0,1,0,0,0,0,0,1,0,0
-Thunderbird,DHCPDISCOVER from <*> via eth1,0,0,1,0,0,0,0,0,0,0
-Thunderbird,DHCPOFFER on <*> to <*> via eth1,1,0,0,0,0,0,0,0,0,0
-Thunderbird,DHCPDISCOVER from <*> via eth1: network A_net: no free leases,1,0,0,0,0,0,0,0,0,0
-Thunderbird,DHCPACK on <*> to <*> via eth1,0,0,0,0,0,0,0,0,0,0
-Thunderbird,DHCPREQUEST for <*> (<*>) from <*> via eth1,0,1,0,0,0,0,0,1,0,0
+OpenStack,[instance: <*>] VM Stopped (Lifecycle Event),0,1,0,0,0,0,0,0,0,0
+OpenStack,Auditing locally available compute resources for node <*>,0,2,1,0,0,1,0,1,1,0
+OpenStack,"Total usable vcpus: <*>, total allocated vcpus: <*>",0,2,1,0,0,1,0,1,1,0
+OpenStack,Final resource view: name=<*> phys_ram=<*> used_ram=<*> phys_disk=<*> used_disk=<*> total_vcpus=<*> used_vcpus=<*> pci_stats=[],1,0,0,0,0,0,0,0,0,0
+OpenStack,Compute_service record updated for <*>,0,2,1,0,0,1,0,1,1,0
+OpenStack,[instance: <*>] VM Started (Lifecycle Event),0,1,0,0,0,0,0,0,0,0
+OpenStack,[instance: <*>] VM Paused (Lifecycle Event),0,2,1,0,0,1,0,1,1,0
+OpenStack,Creating event network-vif-plugged:<*>-<*>-<*>-<*>-<*> for instance <*>,0,2,1,0,0,1,0,1,1,0
+OpenStack,"<*> ""POST <*>"" status: <*> len: <*> time: <*>",0,2,1,0,0,1,0,1,1,0
+OpenStack,[instance: <*>] Instance spawned successfully.,1,0,0,0,0,0,0,0,0,0
+OpenStack,[instance: <*>] Took <*> seconds to spawn the instance on the hypervisor.,0,1,0,0,0,0,0,0,0,0
+OpenStack,[instance: <*>] During sync_power_state the instance has a pending task (spawning). Skip.,1,0,0,0,0,0,0,0,0,0
+OpenStack,[instance: <*>] VM Resumed (Lifecycle Event),0,2,1,0,0,1,0,1,1,0
+OpenStack,[instance: <*>] Took <*> seconds to build instance.,0,1,0,0,0,0,0,0,0,0
+OpenStack,image <*> at (<*>): checking,0,2,1,0,0,1,0,1,1,0
+OpenStack,"image <*> at (<*>): in use: on this node <*> local, <*> on other nodes sharing this instance storage",1,0,0,0,0,0,0,0,0,0
+OpenStack,Active base files: <*>,1,0,0,0,0,0,0,0,0,0
+OpenStack,"<*> ""DELETE <*>"" status: <*> len: <*> time: <*>",1,0,0,0,0,0,2,0,0,0
+OpenStack,[instance: <*>] Terminating instance,0,2,1,0,0,1,0,1,1,0
+OpenStack,[instance: <*>] Instance destroyed successfully.,0,1,0,0,0,0,0,0,0,0
+OpenStack,"<*> ""GET <*>"" status: <*> len: <*> time: <*>",0,2,1,0,0,1,0,1,1,0
+Thunderbird,(<*>) CMD (run-parts <*>),1,0,0,0,0,0,0,0,0,0
 Thunderbird,START: tftp pid=<*> from=<*>,0,1,0,0,0,0,0,1,0,0
-Thunderbird,DHCPREQUEST for <*> (<*>) from <*> via eth1: unknown lease <*>.,0,1,0,0,0,0,0,0,0,0
-Thunderbird,RRD_update (<*>): illegal attempt to update using time <*> when last update time is <*> (minimum one second step),1,0,0,0,0,0,0,0,0,0
+Thunderbird,DHCPACK on <*> to <*> via eth1,0,1,0,0,0,0,0,1,0,0
+Thunderbird,DHCPDISCOVER from <*> via eth1,0,1,0,0,0,0,0,1,0,0
+Thunderbird,DHCPOFFER on <*> to <*> via eth1,0,0,115,0,0,0,0,0,0,0
+Thunderbird,DHCPREQUEST for <*> (<*>) from <*> via eth1,1,0,0,0,0,0,0,0,0,0
+Thunderbird,DHCPDISCOVER from <*> via eth1: network A_net: no free leases,1,0,0,0,0,0,0,0,0,0
+Thunderbird,DHCPREQUEST for <*> (<*>) from <*> via eth1: unknown lease <*>.,0,1,0,0,0,0,0,1,0,0
 Thunderbird,kernel time sync disabled <*>,1,0,0,0,0,0,0,0,0,0
 Thunderbird,time reset +<*> s,1,0,0,0,0,0,0,0,0,0
 Thunderbird,Received SNMP packet(s) from #<*>#,0,0,0,0,0,0,0,0,0,0
 Thunderbird,kernel time sync enabled <*>,1,0,0,0,0,0,0,0,0,0
-Thunderbird,(<*>) CMD (<*> <*>),0,1,0,0,0,0,0,1,0,0
+Thunderbird,session opened for user <*> by (uid=<*>),1,0,0,0,0,0,0,0,0,0
+Thunderbird,(<*>) CMD (<*> <*>),1,0,0,0,0,0,0,0,0,0
 Thunderbird,My unqualified host name (<*>) unknown; sleeping for retry,0,1,0,0,0,0,0,1,0,0
 Thunderbird,CentOS-<*> (Kernel Module GPG key),0,0,0,0,0,0,0,0,0,0
 Thunderbird,(supports <*>),0,1,0,0,0,0,0,1,0,0
-Thunderbird,<*> (v001 DELL PE BKC <*> MSFT <*>) @ <*>,0,0,1,0,0,0,0,0,0,0
 Thunderbird,HPET id: <*> base: <*>,0,0,0,0,0,0,0,0,0,0
 Thunderbird,INT_SRC_OVR (bus <*> bus_irq <*> global_irq <*> dfl dfl),0,0,0,0,0,0,0,0,0,0
 Thunderbird,INT_SRC_OVR (bus <*> bus_irq <*> global_irq <*> high level),1,0,0,0,0,0,0,0,0,0
 Thunderbird,IOAPIC (id[<*>] address[<*>] gsi_base[<*>]),1,0,0,0,0,0,0,0,0,0
 Thunderbird,<*> used by override.,1,0,0,0,0,0,0,0,0,0
 Thunderbird,Interpreter enabled,0,1,0,0,0,0,0,1,0,0
-Thunderbird,LAPIC (acpi_id[<*>] lapic_id[<*>] enabled),0,3,0,0,0,0,0,0,0,0
-Thunderbird,LAPIC_NMI (acpi_id[<*>] high edge lint[<*>]),0,0,0,0,0,0,0,9,0,0
+Thunderbird,LAPIC (acpi_id[<*>] lapic_id[<*>] enabled),0,1,0,0,0,0,0,1,0,0
+Thunderbird,LAPIC_NMI (acpi_id[<*>] high edge lint[<*>]),1,0,0,0,0,0,0,0,0,0
 Thunderbird,Local APIC address <*>,0,1,0,0,0,0,0,1,0,0
-Thunderbird,PCI Interrupt Link [<*>] (IRQs <*> <*> <*> <*> <*> <*> <*> <*>) <*>,1,0,0,0,0,0,0,0,0,0
 Thunderbird,PCI Interrupt Link [<*>] (IRQs <*> <*> <*> <*> <*> <*> <*> <*>),1,0,0,0,0,0,0,0,0,0
-Thunderbird,"PCI Interrupt Link [<*>] (IRQs <*> <*> <*> <*> <*> <*> <*> <*>) <*>, disabled.",0,1,0,0,0,0,0,1,0,0
-Thunderbird,PCI Interrupt Routing Table [<*>],0,1,0,0,0,0,0,1,0,0
+Thunderbird,PCI Interrupt Link [<*>] (IRQs <*> <*> <*> <*> <*> <*> <*> <*>) <*>,1,0,0,0,0,0,0,0,0,0
+Thunderbird,"PCI Interrupt Link [<*>] (IRQs <*> <*> <*> <*> <*> <*> <*> <*>) <*>, disabled.",0,0,0,0,0,0,0,0,0,0
+Thunderbird,PCI Interrupt Routing Table [<*>],0,0,0,0,0,0,0,0,0,0
 Thunderbird,PCI <*> Bridge [PCI0] (<*>:<*>),0,0,0,0,0,0,0,0,0,0
 Thunderbird,"PCI interrupt <*> -> GSI <*> (level, low) -> IRQ <*>",1,0,0,0,0,0,0,0,0,0
 Thunderbird,Power Button (FF) [PWRF],0,1,0,0,0,0,0,1,0,0
-Thunderbird,Processor [<*>] (supports C1),1,0,0,0,0,0,0,0,0,0
+Thunderbird,Processor [<*>] (supports C1),0,0,1,0,0,0,0,0,0,0
 Thunderbird,RSDP (<*> DELL ) @ <*>,0,0,0,0,0,0,0,0,0,0
+Thunderbird,<*> (v001 DELL PE BKC <*> MSFT <*>) @ <*>,0,1,0,0,0,0,0,1,0,0
 Thunderbird,Subsystem revision <*>,0,1,0,0,0,0,0,1,0,0
 Thunderbird,Using IOAPIC for interrupt routing,1,0,0,0,0,0,0,0,0,0
 Thunderbird,Intel(R) Xeon(TM) CPU <*> stepping <*>,1,0,0,0,0,0,0,0,0,0
 Thunderbird,L2 cache: <*>,1,0,0,0,0,0,0,0,0,0
-Thunderbird,Physical Processor ID: <*>,1,0,0,0,0,0,0,0,0,0
-Thunderbird,"Trace cache: <*> uops, L1 D cache: <*>",0,1,0,0,0,0,0,1,0,0
+Thunderbird,Physical Processor ID: <*>,0,1,0,0,0,0,0,1,0,0
+Thunderbird,"Trace cache: <*> uops, L1 D cache: <*>",1,0,0,0,0,0,0,0,0,0
 Thunderbird,colour VGA+ <*>,1,0,0,0,0,0,0,0,0,0
 Thunderbird,mounted filesystem with ordered data mode.,1,0,0,0,0,0,0,0,0,0
 Thunderbird,<*> <*> <*>/<*>/<*> <*>:<*>:<*> ak Exp $,1,0,0,0,0,0,0,0,0,0
@@ -1057,7 +1045,6 @@ Thunderbird,"apic_id <*>, version <*>, address <*>, GSI <*>",0,0,0,0,0,0,0,0,0,0
 Thunderbird,"routing cache hash table of <*> buckets, <*>",1,0,0,0,0,0,0,0,0,0
 Thunderbird,PCI Hot Plug PCI Core version: <*>,0,0,115,0,0,0,0,0,0,0
 Thunderbird,"<*>=LABEL=/ initrd=<*> console=<*> console=<*>,<*> fastboot BOOT_IMAGE=<*>",0,0,0,0,0,0,0,0,0,0
-Thunderbird,Registered protocol family <*>,1,0,0,0,0,0,0,0,0,0
 Thunderbird,Using software bounce buffering for IO (SWIOTLB),0,0,0,0,0,0,0,0,0,0
 Thunderbird,Probing PCI hardware (bus <*>),0,0,0,0,0,0,0,0,0,0
 Thunderbird,Transparent bridge - <*>,0,1,0,0,0,0,0,1,0,0
@@ -1081,23 +1068,22 @@ Thunderbird,initialized,0,0,0,0,0,0,0,0,0,1
 Thunderbird,initializing netlink socket (disabled),1,0,0,0,0,0,0,0,0,0
 Thunderbird,passed.,1,0,0,0,0,0,0,0,0,0
 Thunderbird,<*>-ioctl (<*>) initialised: #<*>#@#<*>#,0,1,0,0,0,0,0,1,0,0
-Thunderbird,allocating divert_blk for <*>,0,0,0,0,0,0,0,0,0,0
-Thunderbird,not allocating divert_blk for non-ethernet device <*>,0,1,0,0,0,0,0,1,0,0
+Thunderbird,allocating divert_blk for <*>,1,0,0,0,0,0,0,0,0,0
 Thunderbird,<*>:USB HID core driver,1,0,0,0,0,0,0,0,0,0
-Thunderbird,<*>: <*>: Intel(R) PRO/<*> Network Connection,0,0,0,0,0,0,0,0,0,0
 Thunderbird,eth0: <*>: NIC Link is Up <*> Mbps Full Duplex,1,0,0,0,0,0,0,0,0,0
+Thunderbird,<*>: <*>: Intel(R) PRO/<*> Network Connection,0,0,0,0,0,0,0,0,0,0
 Thunderbird,no floppy controllers found,1,0,0,0,0,0,0,0,0,0
 Thunderbird,RNG not detected,0,1,0,0,0,0,0,1,0,0
-Thunderbird,Wait for ready failed before probe !,0,1,0,0,0,0,0,1,0,0
+Thunderbird,Wait for ready failed before probe !,1,0,0,0,0,0,0,0,0,0
 Thunderbird,Assuming <*> system bus speed for PIO modes; override with idebus=xx,1,0,0,0,0,0,0,0,0,0
 Thunderbird,Unknown cmd fd(<*>) cmd(<*>){<*>} arg(<*>) on <*>,1,0,0,0,0,0,0,0,0,0
-Thunderbird,(C) <*>-<*> Netfilter core team,1,0,0,0,0,0,0,0,0,0
+Thunderbird,(C) <*>-<*> Netfilter core team,0,0,0,0,0,0,0,0,0,0
 Thunderbird,Installing public key data,1,0,0,0,0,0,0,0,0,0
 Thunderbird,... autorun DONE.,1,0,0,0,0,0,0,0,0,0
 Thunderbird,Autodetecting RAID arrays.,0,1,0,0,0,0,0,1,0,0
-Thunderbird,autorun ...,0,1,0,0,0,0,0,1,0,0
+Thunderbird,autorun ...,0,1,0,0,0,0,0,2,0,0
 Thunderbird,"md driver <*> MAX_MD_DEVS=<*>, MD_SB_DISKS=<*>",0,1,0,0,0,0,0,1,0,0
-Thunderbird,<*> (Release Date: <*> <*>),1,0,0,0,0,0,0,0,0,0
+Thunderbird,<*> (Release Date: <*> <*>),0,0,0,0,0,0,0,0,0,0
 Thunderbird,fw version:[<*>] bios version:[<*>],1,0,0,0,0,0,0,0,0,0
 Thunderbird,probe new device <*>:<*>:<*>:<*>: bus <*>:slot <*>:func <*>,1,0,0,0,0,0,0,0,0,0
 Thunderbird,PS/<*> mouse device common for all mice,0,1,0,0,0,0,0,1,0,0
@@ -1126,22 +1112,36 @@ Thunderbird,registered new driver hub,1,0,0,0,0,0,0,0,0,0
 Thunderbird,registered new driver usbfs,0,1,0,0,0,0,0,1,0,0
 Thunderbird,registered new driver usbhid,0,0,0,0,0,0,0,0,0,0
 Thunderbird,probe of vesafb0 failed with error <*>,0,0,0,0,0,0,0,0,0,0
-Thunderbird,"connection from ""#<*>#""",0,1,0,0,0,0,0,1,0,0
-Thunderbird,"User #<*>#, coming from #<*>#, authenticated.",1,0,0,0,0,0,0,0,0,0
-Thunderbird,Now running on #<*>#'s privileges.,0,0,0,0,0,0,0,0,0,0
 Thunderbird,Mounting NFS filesystems: succeeded,0,1,0,0,0,0,0,1,0,0
 Thunderbird,Mounting other filesystems: failed,1,0,0,0,0,0,0,0,0,0
-Thunderbird,Warning: we failed to resolve data source name <*>,0,0,0,0,0,0,0,0,0,0
+Thunderbird,"connection from ""#<*>#""",0,1,0,0,0,0,0,1,0,0
+Thunderbird,Warning: we failed to resolve data source name <*>,0,1,0,0,0,0,0,1,0,0
 Thunderbird,Warning: we failed to resolve trusted host name <*>,1,0,0,0,0,0,0,0,0,0
 Thunderbird,gmetad startup succeeded,1,0,0,0,0,0,0,0,0,0
-Thunderbird,succeeded,0,1,0,0,0,0,0,1,0,0
+Thunderbird,Now running on #<*>#'s privileges.,0,0,0,0,0,0,0,1,0,0
+Thunderbird,"User #<*>#, coming from #<*>#, authenticated.",0,0,0,0,0,0,0,0,0,0
+Thunderbird,Registered protocol family <*>,1,0,0,0,0,0,0,0,0,0
+Thunderbird,not allocating divert_blk for non-ethernet device <*>,0,1,0,0,0,0,0,1,0,0
 Thunderbird,Server listening on :: port <*>.,1,0,0,0,0,0,0,0,0,0
 Thunderbird,error: Bind to port <*> on <*> failed: Address already in use.,0,1,0,0,0,0,0,2,0,0
 Thunderbird,Cannot open file <*> for writing (No such file or directory),1,0,0,0,0,0,0,0,0,0
 Thunderbird,Changing permissions on special file <*>,1,0,0,0,0,0,0,0,0,0
+Thunderbird,succeeded,0,1,0,0,0,0,0,1,0,0
 Thunderbird,xinetd startup succeeded,0,1,0,0,0,0,0,1,0,0
 Thunderbird,Reading included configuration file: <*> [file=<*>] [line=<*>],0,1,0,0,0,0,0,1,0,0
 Thunderbird,Started working: <*> available service,1,0,0,0,0,0,0,0,0,0
-Thunderbird,removing <*>,0,1,0,0,0,0,0,1,0,0
+Thunderbird,removing <*>,0,0,0,0,0,0,0,0,0,0
 Thunderbird,xinetd Version <*> started with libwrap loadavg options compiled in.,1,0,0,0,0,0,0,0,0,0
+Thunderbird,RRD_update (<*>): illegal attempt to update using time <*> when last update time is <*> (minimum one second step),1,0,0,0,0,0,0,0,0,0
+Thunderbird,unable to qualify my own domain name (<*>) -- using short name,1,0,0,0,0,0,0,0,0,0
+Thunderbird,session closed for user <*>,1,0,0,0,0,0,0,0,0,0
+Thunderbird,"<*>: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>, relay=#<*>#@localhost",0,1,0,0,0,0,0,1,0,0
+Thunderbird,"<*>: to=<*>, ctladdr=<*> (0/0), delay=<*>:<*>:<*>, xdelay=<*>:<*>:<*>, mailer=relay, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=Deferred: Connection refused by [<*>]",1,0,0,0,0,0,0,0,0,0
+Thunderbird,Local disconnected: Connection closed.,0,0,0,0,0,0,0,0,1,0
+Thunderbird,connection lost: 'Connection closed.',0,1,0,0,0,0,0,1,0,0
 Thunderbird,"Device: <*>, Temperature changed <*> Celsius to <*> Celsius since last report",0,1,0,0,0,0,0,1,0,0
+Thunderbird,[ib_sm_sweep.c:<*>]: ********************** NEW SWEEP ********************,1,0,0,0,0,0,0,0,0,0
+Thunderbird,[ib_sm_sweep.c:<*>]: No topology change,1,0,0,0,0,0,0,0,0,0
+Thunderbird,[ib_sm_sweep.c:<*>]: No configuration change required,0,1,0,0,0,0,0,1,0,0
+Thunderbird,data_thread() got not answer from any [<*>] datasource,0,1,0,0,0,0,0,1,0,0
+Thunderbird,"synchronized to <*>, stratum <*>",0,1,0,0,0,0,0,1,0,0

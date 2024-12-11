@@ -68,8 +68,12 @@ class Format_output:
 
         # Write the processed output to a new file
         with open(processed_output_file_path, 'w') as processed_file:
-            processed_file.writelines([line + '\n' for line in processed_lines])
-        print(f"Processed output saved to: {processed_output_file_path}")    
+            for line in processed_lines:
+                if line.strip() and len(line)>0:  # Check if the line is not empty after stripping whitespace
+                    processed_file.write(line.strip() + '\n')
+        print(f"Processed output saved to: {processed_output_file_path}")
+
+  
 
 
     @staticmethod

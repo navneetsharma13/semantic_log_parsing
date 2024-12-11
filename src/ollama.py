@@ -10,10 +10,10 @@ client = OpenAI(
 )
 
 
-# Model options - deepseek-coder-v2, deepseek-v2:16b, codegemma:7b, qwen2.5-coder:7b, codellama:7b
+
 
 @retry(wait=wait_random_exponential(min=1, max=60), stop=stop_after_attempt(6), before_sleep=before_sleep_log(logging.getLogger(__name__), logging.DEBUG))
-def get_completion_from_ollama(prompt, model="codellama:7b"):
+def get_completion_from_ollama(prompt, model):
     logging.info(f"Querying Qwen with model = {model} and prompt = {prompt}")
     messages = [
         {"role": "system", "content": "You are a helpful assistant."},
