@@ -1,0 +1,1146 @@
+jk2_init() Can't find child <*> in scoreboard
+mod_jk child init <*> <*>
+Directory index forbidden by rule: /var/www/html/
+[jk2_init() Found child <*> in scoreboard slot <*>]
+workerEnv.init() ok <*>/workers2.properties
+mod_jk child workerEnv in error state <*>
+Component State Change: Component <*> is in the unavailable state (HWID=*)
+node-124 action start <*> <*> clusterAddMember  (command <*>)
+node-28 action start <*> <*> risBoot  (command <*>)
+node-<*> action start <*> <*> halt  (command <*>)
+node-<*> action start <*> <*> bootGenvmunix  (command <*>)
+node-* action start <*> <*> boot (command <*>)
+node-116 action start <*> <*> wait (command <*>)
+boot_cmd success <*> <*> Command has completed successfully
+boot_cmd new <*> <*> Targeting domains:node-<*> and nodes:node-[<*>] child of command <*>
+boot_cmd new <*> <*> Targeting domains:node-D* and nodes:node-*
+node psu <*> 1 psu failure\ ambient=31
+Interconnect-0N00 switch_module temphigh <*> <*> Temperature (<*>) exceeds warning threshold
+ClusterFileSystem: There is no server for ServerFileSystem domain <*>
+NIFF: node node-162 detected a failed network connection on network <*> via interface <*>
+An ServerFileSystem domain panic has occurred on storage442
+441407 Interconnect-0N00 switch_module fan <*> 1 Fan speeds ( <*> <*> <*> <*> <*> <*>)
+Interconnect-0N00 switch_module fan <*> <*> Fan speeds ( <*> <*> <*> **** <*> <*> )
+boot_cmd abort <*> <*> Command has been aborted
+Interconnect-0N02 switch_module control <*> <*> power/control problem
+Link error on broadcast tree Interconnect-1T00:<*>:<*>:<*>
+ServerFileSystem: ServerFileSystem domain <*> is full
+ServerFileSystem domain root28_domain is no longer served by node node-*
+node--tc6 tserver status <*> <*> not-responding
+full partition status <*> <*> starting
+full partition status <*> <*> closing
+node-44 node status <*> 1 active
+node-D0 domain status <*> inconsistent nodesets node-31 <*> <ok> node-0 <*> <ok> node-1 <*> <ok> node-2 <*> <ok> node-30 <*> <ok>
+full partition status <*> <*> blocked
+node status <*> <*> not responding
+node status <*> <*> configured out
+node status <*> <*> running
+<*> gige3 gige temperature <*> <*> normal
+node temperature <*> <*> ambient=*
+gige temperature <*> <*> critical
+<*> gige temperature <*> <*> warning
+Interconnect-1T02 switch_module error <*> <*> Link error
+<*> switch_module error <*> <*> Link ok
+Interconnect-1N01 switch_module error <*> <*> Link in reset
+node-5 action error <*> <*> risBoot (command <*>) Error: Timed out while waiting for SRM prompt: <ABORT code completed>
+node-55 action error <*> <*> boot (command <*>) Error: HALT asserted\  cannot continue
+boot_cmd error <*> <*> Failed subcommands <*>
+Interconnect-1N00 switch_module error <*> <*> Linkerror event interval expired
+<*> switch_module error <*> <*> link errors remain current
+NIFF: node node-144 has detected an available network connection on network <*> via interface <*>
+NIFF: node node-73 has detected an available network connection on network <*> via interface alt0
+NIFF: node node-171 has detected an available network connection on network <*> via interface <*>
+User <*> timed out after <*> seconds at <*> <*> <*> <*> <*> <*>
+Received SNMP packet(s) from <*>.
+authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=209.152.168.249  user=guest
+Authentication failed from <*> (<*>): Permission denied in replay cache code
+Authentication failed from <*>: Software caused connection abort
+Kerberos authentication failed
+*** info [mice.c(*):
+imps2: Auto-detected intellimouse PS/2
+session opened for user <*> by LOGIN(uid=*)
+ROOT LOGIN ON tty<*>
+removing device node '/*/'
+creating device node '/*/'
+authentication failure; logname= uid= <*> euid= <*> tty=NODEVssh ruser= rhost=212.0.132.20  user=*
+authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=
+Couldn't authenticate user
+check pass; user <*>
+authentication failure; logname= <*> uid= <*> euid= <*> tty=NODEVssh ruser= rhost=218.55.234.102
+ANONYMOUS FTP LOGIN FROM <*> (<*>)
+cupsd shutdown succeeded
+cupsd startup succeeded
+notify question section contains no SOA
+warning: can't get client address: Connection reset by peer
+getpeername (ftpd): Transport endpoint is not connected
+authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost= <*>  user=*
+ALERT exited abnormally with [*]
+session opened for user <*> by (uid=*)
+session closed for user <*>
+connection from <*> () at <*>
+combo syslogd <*>: restart.
+syslogd startup succeeded
+klogd <*>, log source = <*>
+Linux version <*> (<*>) (gcc version <*> <*>) #1 <*>
+BIOS-provided physical RAM map:
+BIOS-e820: <*> - <*> (usable)
+BIOS-e820: 0xffb00000 - 0x100000000 (reserved)
+<*> HIGHMEM available.
+<*> LOWMEM available.
+zapping low mappings.
+klogd startup succeeded
+On node <*> totalpages: <*>
+DMA zone: <*> pages, LIFO batch:<*>
+Normal zone: <*> pages, LIFO batch:<*>
+irqbalance startup succeeded
+HighMem zone: <*> pages, LIFO batch:<*>
+DMI <*> present.
+ACPI disabled because your bios is from <*> and too old
+You can enable it with <*>=<*>
+Built <*> zonelists
+Kernel command line: ro root=LABEL=/ rhgb quiet
+mapped 4G/4G trampoline to <*>
+Initializing CPU#<*>>
+CPU <*> irqstacks, hard=<*> soft=<*>
+portmap startup succeeded
+PID hash table entries: <*> (order <*>: <*>)
+Detected <*> MHz processor.
+Version <*> Starting
+Using <*> for high-res timesource
+nfslock: rpc.statd startup succeeded
+Console: colour VGA+ 80x25
+Memory: <*>/<*> available (<*> kernel code, <*> reserved, <*> data, <*> init, <*> highmem)
+Calibrating delay loop... <*>
+Security Scaffold v<*> initialized
+SELinux:  Initializing.
+SELinux:  Starting in <*> mode
+There is already a security framework initialized, register_security failed.
+Failure registering capabilities with the kernel
+selinux_register_security:  Registering secondary module capability
+Capability LSM initialized
+<*> rpcidmapd: rpc.idmapd startup succeeded
+Dentry cache hash table entries: <*> (order: *, * bytes)
+Inode-cache hash table entries: 8192 (order: *, * bytes)
+Mount-cache hash table entries: <*> (order: *, <* bytes)
+CPU: L1 I cache: <*>, L1 D cache: <*>
+CPU: L2 cache: <*>(K)
+Intel machine check architecture supported.
+Intel machine check reporting enabled on CPU#<*>.
+CPU: Intel Pentium III (Coppermine) stepping <*>
+Enabling fast FPU save and restore... done.
+Enabling unmasked SIMD FPU exception support... done.
+Checking '<*>' instruction... OK.
+Initializing random number generator:  succeeded
+POSIX conformance testing by UNIFIX
+NET: Registered protocol family <*>
+PCI: PCI BIOS revision <*> entry at <*>, last bus=1
+PCI: Using configuration type <*>
+mtrr: v<*> (200<*>)
+ACPI: Subsystem revision <*>
+ACPI: Interpreter disabled.
+Linux Plug and Play Support v<*> (c) Adam Belay
+Starting pcmcia: <*> succeeded
+usbcore: registered new driver <*>
+usbcore: registered new driver hub
+ACPI: ACPI tables contain no PCI IRQ routing entries
+PCI: Invalid ACPI-PCI IRQ routing table
+PCI: Probing PCI hardware
+PCI: Probing PCI hardware (bus <*>)
+Transparent bridge - <*>:00:<*>
+PCI: Using IRQ router PIIX/ICH [8086/2410] at 0000:00:1f.0
+apm: BIOS version <*> Flags <*> (Driver version <*>)
+audit: initializing netlink socket (<*>)
+kernel.core_uses_pid = <*>
+HCI daemon ver <*> started
+<*> bluetooth: hcid startup succeeded
+audit(*.*:*): initialized
+Setting network parameters:  succeeded
+bluetooth: sdpd startup succeeded
+sdpd v<*> started
+Total HugeTLB memory allocated, <*>
+Bringing up loopback interface:  succeeded
+VFS: Disk quotas <*>
+Dquot-cache hash table entries: <*> (order *, <*>)
+SELinux:  Registering netfilter hooks
+Initializing Cryptographic API
+pci_hotplug: PCI Hot Plug PCI Core version: <*>
+isapnp: Scanning for PnP cards...
+No Plug & Play device found
+Real Time Clock Driver v<*>.*
+Linux agpgart interface v<*> (c) Dave Jones
+MobaXterm.exe - <*>:<*> open through proxy socks.cse.cuhk.edu.hk:<*>
+SGTool.exe - <*> error : Could not connect through proxy <*> - Proxy closed the connection unexpectedly.
+Dropbox.exe - client.dropbox.com:<*> error : Could not connect to proxy <*> - Could not resolve <*> error <*>
+A connection request to client-cf.dropbox.com:<*> was canceled before completion.
+Could not connect to proxy <*>:<*> - connection attempt failed with error <*>
+QQProtectUpd.exe - <*> error : Could not connect through proxy <*> - Proxy server cannot establish a connection with the target, status code <*>
+chrome.exe *64 - q1.cnzz.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS
+chrome.exe <*> - t12.baidu.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>:17
+ERROR [CommitProcessor:<*>:NIOServerCnxn@<*><*>
+My election bind port: <*>:<*>
+Have smaller server identifier, so dropping the connection: (<*>, <*>)
+New election. My id = <*>, proposed zxid=0x<*>
+Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LEADING (n.state), <*> (n.sid), <*> (n.peerEPoch), LOOKING (my state)
+FOLLOWING - LEADER ELECTION TOOK - <*>
+autopurge.snapRetainCount set to <*>
+Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), FOLLOWING (my state)
+tickTime set to <*>
+Notification time out: <*>
+******* GOODBYE <*>:<*> ********
+Unexpected exception causing shutdown while sock still open
+Got user-level KeeperException when processing sessionid:<*> type:create cxid:<*> zxid:<*> txntype:<*> reqpath:n/a Error Path:<*> Error:KeeperErrorCode = NodeExists for <*/>
+Starting quorum peer
+Snapshotting: 0x<*> to <*>
+Follower sid: <*> : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@<*>
+Revalidating client: <*>
+maxSessionTimeout set to <*>
+QuorumPeer[myid=<>]/<>:<>:<>:<>:<>:<>:<>:<>:<>:QuorumPeer@<>
+Client attempting to renew session <*> at /*:*
+Have quorum of supporters; starting up and setting last processed zxid: <0x*>
+Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), <*> (n.state), <*> (n.sid), <*> (n.peerEPoch), <*> (my state)
+shutdown of request processor complete
+Exception causing close of session <*> due to java.io.IOException: ZooKeeperServer not running
+First is 0x0
+Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), LEADING (my state)
+autopurge.purgeInterval set to <*>
+Reading snapshot /var/lib/zookeeper/version-2/snapshot.b00000084
+Sending DIFF
+Cannot open channel to <*> at election address <*>
+WARN  [*]: Send worker leaving thread
+Interrupted while waiting for message on queue
+Interrupting SendWorker
+Closed socket connection for client /<*>:<*> (no session established for client)
+Connection broken for id <*>, my id = <*>, error =
+[QuorumPeer[myid=*]/<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:QuorumPeer@*] - LOOKING
+Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), FOLLOWING (n.state), <*> (n.sid), <*> (n.peerEPoch), FOLLOWING (my state)
+caught end of stream exception
+Connection request from old client /<*>:<*>; will be dropped if server is in r-o mode
+Received connection request /<*>:<*>
+minSessionTimeout set to <*>
+Server environment:java.home=*
+Getting a snapshot from leader
+Accepted socket connection from /*:*>
+Established session <*> with negotiated timeout <*> for client /<*>:<*>
+Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), LOOKING (my state)
+Client attempting to establish new session at /<*>:<*>
+Closed socket connection for client /*:* which had sessionid <*>
+Expiring session <*>, timeout of <*>ms exceeded
+Processed session termination for sessionid: <*>
+ciod: cpu <*> at treeaddr <*> sent unrecognized message <*>xffffffff
+KERNEL FATAL data TLB error interrupt
+ciod: Message code <*> is not <*> or <*>
+FATAL data storage interrupt
+RAS KERNEL FATAL data address: 0x<*>.
+FATAL machine check: i-fetch
+FATAL program interrupt: trap instruction
+FATAL store operation.............................1
+RAS KERNEL FATAL machine check enable..............<*>
+RAS KERNEL FATAL debug interrupt enable............<*>
+FATAL byte ordering exception.....................0
+RAS KERNEL FATAL program interrupt: <*> <*> update.............0
+RAS KERNEL FATAL guaranteed instruction cache block touch.
+FATAL guaranteed data cache block touch........1
+RAS KERNEL FATAL program interrupt: fp cr field .............0
+FATAL force load/store alignment...............0
+icache prefetch depth....................<*>
+FATAL icache prefetch threshold................<*>>
+RAS KERNEL FATAL machine state register: 0x<*>>
+FATAL wait state enable.................0
+critical input interrupt enable...
+FATAL problem state (<*>=sup,<*>=usr)
+RAS KERNEL FATAL floating point instr. enabled.....1
+FATAL special purpose registers:
+FATAL lr:<*> cr:<*> xer:<*> ctr:<*>
+FATAL rts internal error
+FATAL floating pt ex mode <*> enable......*
+FATAL instruction address space.........<*>0
+FATAL data address space................*
+RAS KERNEL FATAL core configuration register: 0x<*>000
+FATAL disable store gathering..................0
+APP FATAL ciod: failed to read message prefix on control stream (CioStream socket to <*>:<*>
+APP FATAL ciod: Error creating node map from file <*>
+data store interrupt caused by icbi.........0
+program interrupt: unimplemented operation..*
+program interrupt: imprecise exception......0
+program interrupt
+instruction address: 0x0062fe04
+exception syndrome register: 0x08000000
+program interrupt: illegal instruction......1
+data store interrupt caused by <*>
+auxiliary processor.........................<*>
+Error creating node map from file <*>: Bad file descriptor
+ciod: duplicate canonical-rank <*> to logical-rank <*> mapping at line <*> of node map file <*>
+Error creating node map from file <*>: Block device required
+RAS KERNEL FATAL rts panic! - stopping execution
+Error creating node map from file <*>: Permission denied
+ciod: Z coordinate <*> exceeds physical dimension <*> at line <*> of node map file <*>
+KERNTERM rts: kernel terminated for reason <*>rts: bad message header: invalid cpu, type=*, cpu=*, index=*, total=*
+FATAL debug wait enable.................0
+generating core.<*>
+NodeCard is not fully functional
+Node card status: ALERT <*>, ALERT <*>, ALERT <*>, ALERT <*> is (are) active. Clock Mode is <*>. Clock Select is <*>. Phy JTAG Reset is <*>. ASIC JTAG Reset is not <*>. Temperature Mask is not <*>. No temperature error. Temperature Limit Error Latch is clear. PGOOD is <*>. PGOOD error latch is clear. MPGOOD is <*>. MPGOOD error latch is clear. The 2.5 volt rail is <*>. The 1.5 volt rail is <*>.
+New ido chip inserted into the database: <*> ip=<*> v=<*> t=*
+PrepareForService shutting down NodeCard(mLctn(*), mCardSernum(*), mLp(*), mIp(*), mType(*)) as part of Service Action <*>
+Can not get assembly information for node <*>
+rts tree/torus link training failed: wanted: <*> <*> <*> <*> <*> <*> <*> <*> <*> got: <*> <*> <*> <*> <*> <*> <*> <*>
+ciod: Missing or invalid fields on line <*> of node map file <*>
+32888202 double-hummer alignment exceptions
+NFS Mount failed on <*> slept <*> seconds, retrying (<*>)
+1 torus receiver <*> input pipe error(s) (dcr <*>) detected and corrected
+ciod: In packet from node <*> (R62-M1-Nf-C:J03-U11), message code <*> is not <*> or 4294967295 (softheader=003b005b 00030000 00000001 00000000)
+1 torus receiver <*> input pipe error(s) (dcr <*>) detected and corrected
+KERNMNTF <*> <*> <*> <*> <*> <*> <*> RAS KERNEL FATAL Lustre mount FAILED : <*> : point <*>
+Ido chip status changed: <*> ip=<*> v=<*> t=<*> status=*
+Node card status: no ALERTs are active. Clock Mode is <*>. Clock Select is <*>. Phy JTAG Reset is <*>. ASIC JTAG Reset is <*>. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The 2.5 volt rail is OK. The 1.5 volt rail is OK.
+idoproxydb hit ASSERT condition: ASSERT expression=<*> Source file=<*> Source line=<*> Function=int IdoTransportMgr::SendPacket(IdoUdpMgr*, BglCtlPavTrace*)
+RAS KERNEL FATAL rts: bad message header: expecting type <*> instead of type <*> (softheader= <*> <*> <*> <*>) PSR0= <*> PSR1= <*> PRXF= <*> PIXF= <*>
+critical input interrupt (unit=0x0b bit=0x06): warning for torus y+ wire
+suppressing further interrupts of same type
+Error reading message prefix after LOAD_MESSAGE on CioStream socket to <*>:<*>: Link has been severed
+data cache search parity error detected. attempting to correct
+shutdown complete
+Error loading <*>: invalid or missing program image, Exec format error
+total of <*> ddr error(s) detected and corrected
+critical input interrupt (unit=0x<*b> bit=0x<*b>): warning for torus z- wire
+16 tree receiver <*> in re-synch state event(s) (*) detected
+FATAL program interrupt: privileged instruction...
+5 torus receiver z+ input pipe error(s) detected and corrected
+EDRAM error(s) (*) detected and corrected
+iar <*> dear <*>
+RAS KERNEL INFO <*> floating point alignment exceptions
+1 ddr errors(s) detected and corrected on rank <*>, symbol <*>, bit <*>
+rts: kernel terminated for reason <*>
+KERNREC <*> <*> <*>:<*> <*>:<*> RAS KERNEL FATAL Error receiving packet on tree network, expecting type <*> instead of type <*> (softheader=<*><*><*><*>) PSR0=<*> PSR1=<*> PRXF=<*> PIXF=<*>
+torus sender z- retransmission error(s) detected and corrected over <*> seconds
+MACHINE CHECK DCR read timeout (mc=*, iar *, lr *)
+APP FATAL ciod: Error reading message prefix on CioStream socket to <*>:<*>, Connection timed out
+APP FATAL ciod: Error reading message prefix on CioStream socket to <*>:<*>, Connection reset by peer
+RAS KERNEL FATAL dbcr0=0x<*>, dbsr=0x<*>, ccr0=0x<*>
+RAS KERNEL FATAL r24=0x<*>, r25=0x<*>, r26=0x<*>, r27=0x<*>
+Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*>, found <*>
+ciod: Received signal <*>, code=<*>, errno=<*>, address=<*>
+RAS APP FATAL ciod: LOGIN chdir(<*>) failed: No such file or directory
+0 microseconds spent in the rbs signal handler during 0 calls. <*> microseconds was the maximum time for a single instance of a correctable ddr.
+RAS KERNEL INFO <*> total interrupts. <*> critical input interrupts. <*> microseconds total spent on critical input interrupts, <*> microseconds max time in a critical input interrupt.
+PrepareForService shutting down Node card(mLctn(*), mCardSernum(*), mLp(*), mIp(*), mType(*)) as part of Service Action <*>
+1 tree receiver 1 in re-synch state event(s) (dcr 0x0185) detected over <*> seconds
+RAS KERNEL INFO CE sym <*>, at <*>, mask <*>
+FATAL minus normalized number..................*
+KERNMNTF <*> <*> <*>:J18-U11 <*> <*>:J18-U11 RAS KERNEL FATAL Lustre mount FAILED : <*> : block_id : location
+FATAL fraction rounded.........................<*>
+Node card is not fully functional
+critical input interrupt (unit=0x<*b bit=0x<*7): warning for tree <*> wire, suppressing further interrupts of same type
+size of scratchpad portion of L3.........0 (0M)
+Kernel detected <*> integer alignment exceptions (<*>) iar <*>, dear <*>
+Error loading /bgl/apps/SWL/stability/HPL/WORK/1501./hpl_DD: invalid or missing program image, No such file or directory
+APPOUT <*> <*> <*> <*> <*> <*> <*> RAS APP FATAL ciod: LOGIN chdir(<*>) failed: Input/output error
+Error loading <*>: invalid or missing program image, Permission denied
+critical input interrupt (unit=0x<*b bit=0x*a): warning for torus z+ wire, suppressing further interrupts of same type
+5 ddr error(s) detected and corrected on rank <*>, symbol <*> over <*> seconds
+Error reading message prefix on CioStream socket to <*>:<*>, Link has been severed
+EDRAM error(s) detected and corrected over <*> seconds
+total of <*> ddr error(s) detected and corrected over <*> seconds
+ciod: pollControlDescriptors: Detected the debugger died.
+Error loading <*>: program image too big, <*> > <*>
+RAS KERNEL FATAL fpr29=0xffffffff ffffffff ffffffff ffffffff
+RAS KERNEL FATAL Machine State Register: 0x<*>>
+instruction cache parity error corrected
+ciod: generated <*> core files for program <*>
+Created MRAppMaster for application <*>_000001
+Executing with tokens:
+Kind: YARN_AM_RM_TOKEN, Service: , Ident: (appAttemptId { application_id { id: <*> cluster_timestamp: <*> } attemptId: <*> } keyId: <*>)
+Using mapred <*>.
+OutputCommitter set in config <*>
+OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+Default file system [hdfs://<*>:<*>]
+Emitting job history data to the timeline server is not enabled
+Registering class <*> for class <*>$<*>.
+loaded properties from hadoop-metrics2.properties
+Scheduled snapshot period at <*> second(s).
+MRAppMaster metrics system started
+Adding job token for job_<*>_<*> to jobTokenSecretManager
+Not uberizing job_<*> because: not enabled; too many maps; too much input;
+Input size for job job_<*> = <*>. Number of splits = <*>
+Number of reduces for job <*> = <*>
+job_1445144423722_0020Job Transitioned from NEW to INITED
+MRAppMaster launching normal, non-uberized, multi-container job job_<*>
+Adding protocol org.apache.hadoop.mapreduce.v2.api.MRClientProtocolPB to the server
+Instantiated MRClientService at <*>:<*>
+Logging to <*> via <*>
+Http request log for <*> is not defined
+Added global filter '<*>' (class=org.apache.hadoop.http.HttpServer2$QuotingInputFilter)
+Added filter AM_PROXY_FILTER (class=org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter) to context mapreduce
+Added filter AM_PROXY_FILTER (class=org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter) to context static
+adding path spec: /ws/*
+Jetty bound to port <*>
+jetty-6.1.26
+Extract jar:file:<*>!/webapps/mapreduce to C:\Users\msrabi\AppData\Local\Temp\Jetty_0_0_0_0_62267_mapreduce____.8n7xum\webapp
+Started HttpServer2$SelectChannelConnectorWithSafeStartup@<*>:<*>
+Web app /mapreduce started at <*>
+Registered webapp guice modules
+Using callQueue class java.util.concurrent.LinkedBlockingQueue
+JOB_CREATE job_<*>_<*>
+nodeBlacklistingEnabled:<*>
+maxTaskFailuresPerNode is <*>
+blacklistDisablePercent is <*>
+Starting Socket Reader #1 for port <*>
+IPC Server listener on <*>: starting
+IPC Server Responder: starting
+Connecting to ResourceManager at <*>:<*>
+maxContainerCapability: <memory:*>, vCores:*>
+queue: <*>
+Upper limit on the thread pool size is <*>
+yarn.client.max-cached-nodemanagers-proxies : <*>
+Job Transitioned from <*> to <*>
+Processing the event EventType: JOB_SETUP
+job_1445144423722_0020Job Transitioned from <*> to <*>
+task_* Task Transitioned from <*> to <*>
+mapResourceRequest:<memory:*, vCores:*>
+Event Writer setup for JobId: job_1445144423722_0020, File: hdfs://msra-sa-41:9000/tmp/hadoop-yarn/staging/msrabi/.staging/job_1445144423722_0020/job_1445144423722_0020_1.jhist
+reduceResourceRequest:<memory:<*>, vCores:<*>>
+The job-jar file on the remote FS is hdfs://<*>:<*>/tmp/hadoop-yarn/staging/msrabi/.staging/job_<*>_<*>/job.jar
+The job-conf file on the remote FS is <*>
+Adding #0 tokens and #1 secret keys for NM use for launching container
+Size of <*> is <*>
+Putting shuffle token in serviceData
+Assigned container container_<*>_<*>_<*>_<*> to attempt_<*>_<*>_<*>_<*>_<*>
+TaskAttempt Transitioned from UNASSIGNED to ASSIGNED
+Launching attempt_*_*_*_*_*_*_*_*_*
+Shuffle port returned by ContainerManager for attempt_<*>_<*>_<*>_<*> : <*>
+TaskAttempt: [attempt_<*>] using containerId: [container_<*> on NM: [*]
+TaskAttempt Transitioned from ASSIGNED to RUNNING
+ATTEMPT_START task_<*>_<*>_<*>_<*>
+task_* Task Transitioned from SCHEDULED to RUNNING
+Got allocated containers <*>
+Cannot assign container Container: [ContainerId: container_*, NodeId: *:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*:*
+Container complete event for unknown container id container_<*>
+Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Auth successful for job_<*> (<*>)
+JVM with ID : <*> asked for a task
+JVM with ID: <*> given task: attempt_<*>
+Done acknowledgement from attempt_<*>_<*>_<*>_<*>
+attempt_<*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*
+attempt_<*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*
+Task succeeded with attempt <*>_0
+task_*_*_*_* Task Transitioned from <*> to <*> status.
+Num completed Tasks: <*>
+Recalculating schedule, headroom=<memory:*, vCores:*>
+Reduce slow start threshold reached. Scheduling reduces.
+All maps assigned. Ramping up all remaining reduces:<*>
+DefaultSpeculator.addSpeculativeAttempt -- we are speculating task_<*>_<*>_<*>_<*>
+We launched <*> speculations.  Sleeping <*> milliseconds.
+Scheduling a redundant attempt for task task_<*>_<*>_<*>
+getResources() for application_<*>: ask=5 release= 0 newContainers=0 finishedContainers=1 resourcelimit=<memory:0, vCores:-27> knownNMs=4
+Received completed container container_<*>
+After Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>
+Container killed by the ApplicationMaster.
+Slow ReadProcessor read fields took <*>ms (threshold=30000ms); ack: seqno: <*> status: SUCCESS status: ERROR downstreamAckTimeNanos: <*>, targets: [*]
+WARN [ResponseProcessor for block <*>:<*>] org.apache.hadoop.hdfs.DFSClient: DFSOutputStream ResponseProcessor exception  for block <*>:<*>
+Error Recovery for block BP-*-*-*:blk_*_* in pipeline <*>:<*>, <*>:<*>: bad datanode <*>:<*>
+DataStreamer Exception
+Error writing History Event: org.apache.hadoop.mapreduce.jobhistory.TaskAttemptUnsuccessfulCompletionEvent@<*>
+ERROR [*] [eventHandlingThread] org.apache.hadoop.yarn.YarnUncaughtExceptionHandler: Thread Thread[eventHandlingThread,*,main] threw an Exception.
+Progress of TaskAttempt <*> is : <*>
+Task: attempt_<*>, exited : java.net.NoRouteToHostException: No Route to Host from  MININT-FNANLI5/<*> to msra-sa-41:9000 failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see:  http://wiki.apache.org/hadoop/NoRouteToHost
+Error: java.net.NoRouteToHostException: No Route to Host from <*> to <*> failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information
+TaskAttempt Transitioned from <*> to <*>
+Processing the event EventType: <*> for container <*> taskAttempt <*>
+KILLING attempt_<*>_<*>_<*>_<*>
+Opening proxy : <*>:<*>
+TaskAttempt Transitioned from <*> to <*>
+Processing the event EventType: TASK_ABORT
+Task cleanup failed for attempt attempt_<*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><
+TaskAttempt Transitioned from <*> to FAILED
+Resolved <*> to <*>
+TaskAttempt Transitioned from <*> to <*>
+2 failures on node <*>
+Added <*> to list of failed maps
+Before Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>
+Failed to renew lease for [DFSClient_NONMAPREDUCE_<*>] for <*> seconds.  Will retry shortly ...
+Retrying connect to server: <*>. Already tried <*> time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=*, sleepTime=1000 MILLISECONDS)
+ERROR IN CONTACTING RM.
+Address change detected. Old: <*>:<*> New: <*>:<*>
+network_reachability_changed : network is not reachable, netbiosd is shutting down
+mDNS_DeregisterInterface: Frequent transitions for interface <*> (<*>)
+BTLE discovered device with hash <*>
+Finished generating hashes
+[BluetoothHIDDeviceController] EventServiceDisconnectedCallback
+PMStats: Hibernate read took <*> ms
+Found a camera (<*>) , but was not able to start it up (<*>) -- (<*>)
+handle_will_sleep_auth_and_shield_windows: Reordering authw <*> (<*>) (lock state: <*>)
+Checking with local engine: <KSUpdateEngine:0x100259c60 ticketStore=<KSPersistentTicketStore:0x100253770 store=<KSKeyedPersistentStore:0x100254d10 path="*"> processor=<KSActionProcessor:0x100259e70 delegate=<KSUpdateEngine:0x100259c60> isProcessing=NO actionsCompleted=0 progress=0.00 errors=0 currentActionErrors=0 events=0 currentActionEvents=0 actionQueue=( ) > delegate=(null) serverInfoStore=<KSServerPrivateInfoStore:0x1002594d0 path="*"> errors=0 >
+WARNING: Type1 font data isn't in the correct format required by the Adobe Type 1 Font Format specification.
+[IOBluetoothFamily][staticBluetoothTransportShowsUp] -- Received Bluetooth Controller register service notification -- 0x<*>
+Checking for updates for "com.google.Keystone" using engine <*>
+mDNS_RegisterInterface: Frequent transitions for interface <*>
+KSOutOfProcessFetcher launched '/Users/xpc/Library/Google/GoogleSoftwareUpdate/GoogleSoftwareUpdate.bundle/Contents/MacOS/ksfetch' with process id: <*>
+host connection <*> connection from pid <*> invalidated
+Error in CoreDragRemoveReceiveHandler: <*>
+CCXPCService::setStreamEventHandler Registered for notification callback.
+Calling MTActuatorOpen() outside of MTTrackpadHIDManager.
+B<*> scanning stopped
+Discoverable mode changed to Off
+enabling pid=<*> for plug-in com.apple.ncplugin.weather(<*>) <*> <*>
+Checking for self update with Engine: <*>:0x<*> ticketStore=<*> store=<*> path="<*>" lockFile=<*> path="<*>" locked=NO > processor=<*> delegate=<*> isProcessing=NO actionsCompleted=0 progress=0.00 errors=0 currentActionErrors=0 events=0 currentActionEvents=0 actionQueue=( ) > delegate=(null) serverInfoStore=<*> path="<*>" errors=0 >
+Response passed CUP validation.
+piqca_setUsePreQueue: (*) rejecting report of layer being serviced - IQ has not yet begun to update
+[itemasync_CopyProperty signalled err=-12785 (kFigBaseObjectError_Invalidated) (invalidated) at <*>
+[itemasync_SetProperty signalled err=<*> (kFigBaseObjectError_Invalidated) (invalidated) at /Library/Caches/com.apple.xbs/Sources/CoreMedia/CoreMedia-<*>/Prototypes/Player/FigPlayer_Async.c line <*>
+wake time set <*> s
+Internal name did not resolve to internal address!
+Service exited with abnormal code: <*>
+Central manager is not powered on
+<IMMacNotificationCenterManager: 0x7ff1b2e00ba0>:   DND Enabled: YES
+network changed: v4(en0:<*>) v6(en0!:<*>) DNS Proxy SMB
+Wake reason: <*>
+tcp_connection_destination_perform_socket_connect <*> connectx to <*>@0 failed: [51] Network is unreachable
+[_controller supportsRequestCompressionAtURL:https://<*>@p28-contacts.icloud.com/<*>/principal/] Error Domain=NSURLErrorDomain Code=-1001 "The request timed out." UserInfo={NSUnderlyingError=0x7f9af3646900 {Error Domain=kCFErrorDomainCFNetwork Code=-1001 "The request timed out." UserInfo={NSErrorFailingURLStringKey=https://<*>@p28-contacts.icloud.com/<*>/principal/, NSErrorFailingURLKey=https://<*>@p28-contacts.icloud.com/<*>/principal/, _kCFStreamErrorCodeKey=-2102, _kCFStreamErrorDomainKey=4, NSLocalizedDescription=The request timed out.}}, NSErrorFailingURLStringKey=https://<*>@p28-contacts.icloud.com/<*>/principal/, NSErrorFailingURLKey=https://<*>@p28-contacts.icloud.com/<*>/principal/, _kCFStreamErrorDomainKey=4, _kCFStreamErrorCodeKey=-2102, NSLocalizedDescription=The request timed out.}
+hibernate_flush_memory: buffer_cache_gc freed up <*> wired pages
+**** [IOBluetoothFamily][ProcessBluetoothTransportShowsUpActionWL] -- Connected to the transport successfully -- <*> -- <*> -- <*> ****
+hciControllerOnline; HID devices? <*>
+mDNS_DeregisterInterface: Frequent transitions for interface <*> (<*>)
+ARPT: <*>: IOPMPowerSource Information: onSleep,  SleepType: Standby,  'ExternalConnected': <*>, 'TimeRemaining': <*>,
+AppleActuatorHIDEventDriver: message service is terminated
+crabsFlumeHostUnavailable: [0x7f961cf08cf0] Byte flume reports host unavailable.
+CCFile::captureLog Received Capture notice id: <*>, reason = DeauthInd:sts:<*>_rsn:<*>
+payload Data <*> <*>
+[HID] [ATC] [Error] AppleDeviceManagementHIDEventService::start Could not make a string from out connection notification key
+hibernate_teardown: wired_pages <*>, free_pages <*>, active_pages <*>, inactive_pages <*>, speculative_pages <*>, cleaned_pages <*>, compressor_pages <*>
+**** [IOBluetoothFamily][ProcessBluetoothTransportShowsUpActionWL] -- calling IOBluetoothFamily's registerService() -- <*> -- <*> -- <*> ****
+hibernate_rebuild_pmap_structs done: last_valid_compact_indx <*>
+Asked to exit for Diskarb
+KSUpdateCheckAction starting update check for ticket(s): {( <*> productID=<*> version=*> xc=<*> url=*> creationDate=*> ticketVersion=*> )} Using server: <*> engine=<*> >
+tcp_connection_tls_session_error_callback_imp <*> tcp_connection_tls_session_handle_read_error.<*> error <*>
+Checking iCDP status for DSID <*>
+ARPT: Wake Reason: Wake on TCP Timeout
+network changed: DNS*
+KSCodeSigningVerification verifying code signing for '<*>' with the requirement '<*>'
+ksfetch done fetching.
+network changed: v4(en0!:<*> ) DNS+ Proxy+ SMB
+UserEventAgent triggered an extension related to the WorldClock plugin.
+Session <*> created
+kern_open_file_for_direct_io took <*> ms
+Starting AirDrop server for user <*> on wake
+PM response took <*> ms (<*>, <*>)
+Cocoa scripting error for '<*>' four character codes must be four characters long.
+.sdef warning for argument <*> of command 'can continue previous list' in suite 'Microsoft Word Suite': <*> is not a valid type name.
+objc[*]: Class TSUAtomicLRUCache is implemented in both <*> and <*. One of the two will be used. Which one is undefined.
+Invalidating watch set.
+objc[*]: Class TSUCustomFormatData is implemented in both <*> and <*. One of the two will be used. Which one is undefined.
+Started generating hashes
+BTLE scanning started
+<<< FigByteStream >>>> FigByteStreamStatsLogOneRead: ByteStream read of <*> bytes @ <*> took <*> sec. to complete, <*> reads >= <*> sec.
+AirPort: Link Up on <*>
+Unrecognized attribute value: t:<*>
+-_continuousScroll is deprecated for NSScrollWheel. Please use -hasPreciseScrollingDeltas.
+-deviceDeltaY is deprecated for NSScrollWheel. Please use -scrollingDeltaY.
+(Fig) signalled err=-<*>>
+crabsWaitForLoad: [*] Wait time out - -1001 (msRequestTimeout -1)
+Configuration Notice: ASL Module "com.apple.corecdp.osx.asl" claims selected messages. Those messages may not appear in standard system log files or in the ASL database.
+PBRequester failed with Error Error Domain=NSURLErrorDomain Code=-1001 "The request timed out." UserInfo={NSUnderlyingError=0x7fb7ed616c80 {Error Domain=kCFErrorDomainCFNetwork Code=-1001 "The request timed out." UserInfo={NSErrorFailingURLStringKey=https://gs-loc.apple.com/clls/wloc, NSErrorFailingURLKey=https://gs-loc.apple.com/clls/wloc, _kCFStreamErrorCodeKey=-2102, _kCFStreamErrorDomainKey=4, NSLocalizedDescription=The request timed out.}}, NSErrorFailingURLStringKey=https://gs-loc.apple.com/clls/wloc, NSErrorFailingURLKey=https://gs-loc.apple.com/clls/wloc, _kCFStreamErrorDomainKey=4, _kCFStreamErrorCodeKey=-2102, NSLocalizedDescription=The request timed out.}
+Failed to stop a scan - central is not powered on: <*>
+device_generate_desktop_screenshot: authw <*>, shield <*>
+Wake reason: EC.(*)(*)(*)(*)(*)(*)(*)(*).(*)(*)(*)(*)(*)(*)(*).(*)(*)(*)(*)(*)(*)(*)(*).(*)(*)(*)(*)(*)(*)(*).(*)(*)(*)(*)(*)(*)(*).(*)(*)(*)(*)(*)(*)(*).(*)(*)(*)(*)(*)(*).(*)(*)(*)(*)(*)(*).(*)(*)(*)(*).(*)(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*)(*).(*
+hibernate_machine_init pagesDone <*> sum2 <*>, time: <*> ms, disk(0x<*>) <*> Mb/s, comp bytes: <*> time: <*> ms <*> Mb/s, crypt bytes: <*> time: <*> ms <*> Mb/s
+vm_compressor_fastwake_warmup (<*> - <*>) - starting
+BuildActDeviceEntry exit
+<IMMacNotificationCenterManager: 0x7ff1b2e00ba0>: Updating enabled: YES (Topics: ( <*>, <*>, <*>, <*>, <*>, <*>, <*>, <*>, <*>, <*>, <*>, <*>, <*>, <*>, <*>, <*>, <*>, <*>, <*>, <*>, <*>, <*>, <*> ))
+Fetcher received a request: <*>
+KSPrefetchAction no updates to prefetch.
+<IMMacNotificationCenterManager: <*>: notification observer: com.apple.FaceTime   notification: __CFNotification <*>
+CCProfileMonitor::freeResources done
+<IMMacNotificationCenterManager: <*>>: DND Enabled: <*>>
+Daemon connection invalidated!
+hibernate_machine_init: state <*>, image pages <*>, sum was <*>, imageSize <*>, image1Size <*>, conflictCount <*>, nextFree <*>
+hibernate_rebuild completed - took <*> msecs
+AppleActuatorDevice::stop Entered
+AppleActuatorDevice::start Entered
+hibernate_page_list_setall found pageCount <*>
+[HID] [MT] AppleMultitouchDevice::willTerminate entered
+CCFile::captureLog Received Capture notice id: <*>, reason = RoamFail:sts:<*>_rsn:<*>
+en0: manual intervention required!
+GoogleSoftwareUpdateAgent[36128]: <*> GoogleSoftwareUpdateAgent[36128/0x7000002a0000] [lvl=2] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher fetching from URL: "<*>"
+CCLogTap::profileRemoved, Owner: com.apple.iokit.IO80211Family, Name: IO80211AWDLPeerManager
+<IMMacNotificationCenterManager: <*>>: Updating enabled: <*>   (Topics: ( ))
+device_generate_lock_screen_screenshot: authw <*>, dev <*>
+ARPT: <*>: wl0: setup_keepalive: Local IP: <*>
+ARPT: <*>: wl0: MDNS: IPV4 Addr: <*>.38
+crabsFlumeHostAvailable: [*] Byte flume reports host available again.
+Unexpected payload found for message <*>, dataLen <*>
+arp_client_transmit(<*>) failed, Network is down (<*>)
+en0: 802.11d country code set to '<*>'.
+booter start at <*> ms smc <*> ms, [*], total <*> ms, dsply *, * ms, tramp <*> ms
+hostControllerOnline - Number of Paired devices = <*>, List of Paired devices = ( <*>)
+hibernate_newruntime_map time: <*> ms, IOPolledFilePollersOpen(), ml_get_interrupts_enabled <*>
+[BluetoothHIDDeviceController] <*> EventServiceConnectedCallback
+could discard act <*> inact <*> purgeable <*> spec <*> cleaned <*>
+bitmap_size 0x<*> previewSize 0x<*> writing <*> pages @ 0x<*>
+**** [BroadcomBluetoothHostController][SetupController] -- Delay HCI Reset by <*>ms ****
+AppleActuatorDeviceUserClient::<*> Entered
+IOHibernatePollerOpen(<*>)
+assertion failed: <*>: com.apple.telemetry + <*> [*]: <*>
+main() Fetcher is exiting.
+GoogleSoftwareUpdateAgent[36436]: <*> GoogleSoftwareUpdateAgent[36436/0x7000002a0000] [lvl=2] -[KSUpdateEngine updateAllExceptProduct:] KSUpdateEngine updating all installed products, except:'com.google.Keystone'.
+Google Chrome He[*] triggered unnest of range <*>-><*> of DYLD shared region in VM map <*>. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Peripheral manager is not powered on
+WARNING: hibernate_page_list_setall skipped <*> xpmapped pages
+BuildActDeviceEntry enter
+hibernate_alloc_pages act <*>, inact <*>, anon <*>, throt <*>, spec <*>, wire <*>, wireinit <*>
+ASSERTION FAILED: <*> != ((void *)0) -[DriverServices getDeviceAddress:] line: <*>
+hibernate_page_list_setall(preflight <*>) start
+hibernate_page_list_setall time: <*> ms
+IOPolledFilePollersOpen(<*>ms)
+polled file major <*>, minor <*>, blocksize <*>, pollers <*>
+hibernate_teardown completed - discarded <*>
+AppleActuatorDeviceUserClient::stop Entered
+pages <*>, wire <*>, act <*>, inact <*>, cleaned <*>, spec <*>, zf <*>, throt <*>, compr <*>, xpmapped <*>
+Opened file <*>, size <*>, extents <*>, maxio <*>, ssd <*>
+[IOBluetoothHostController::setConfigState] calling registerService
+AppleActuatorHIDEventDriver: <*>
+[HID] [MT] AppleMultitouchDevice::* entered
+[_controller supportsRequestCompressionAtURL:https://<*>@p28-contacts.icloud.com/<*>/principal/] Error Domain=NSURLErrorDomain Code=-1009 "The Internet connection appears to be offline." UserInfo={NSUnderlyingError=0x7f8de0c0dc70 {Error Domain=kCFErrorDomainCFNetwork Code=-1009 "The Internet connection appears to be offline." UserInfo={NSErrorFailingURLStringKey=https://<*>@p28-contacts.icloud.com/<*>/principal/, NSErrorFailingURLKey=https://<*>@p28-contacts.icloud.com/<*>/principal/, _kCFStreamErrorCodeKey=8, _kCFStreamErrorDomainKey=12, NSLocalizedDescription=The Internet connection appears to be offline.}}, NSErrorFailingURLStringKey=https://<*>@p28-contacts.icloud.com/<*>/principal/, NSErrorFailingURLKey=https://<*>@p28-contacts.icloud.com/<*>/principal/, _kCFStreamErrorDomainKey=12, _kCFStreamErrorCodeKey=8, NSLocalizedDescription=The Internet connection appears to be offline.}
+Failed to update account with identifier <*>, error: Error Domain=ABAddressBookErrorDomain Code=1002 "(null)"
+Got an XPC error: Connection <*>
+Notified of item changes to list with identifier <*>
+ksfetch fetching URL (<*>) to folder:<*>
+KSPromptAction had no updates to apply.
+no sleep images for WillPowerOffWithImages
+after trim url = https://www.google.com/_/chrome/newtab?rlz=1C5CHFA_enHK732HK732&espv=2&ie=UTF-8
+ChromeExistion main strSendMsg = {"websitekey":<*>, "commandkey":<*>, "browserkey":<*>}
+ChromeExistion main isUndetectWithCommand = <*>
+ChromeExistion[*]: url host = <*>
+the url = http://baike.baidu.com/item/%E8%93%9D%E9%87%87%E5%92%8C/462624?fr=aladdin
+Purged contact hashes
+network changed: <*> Proxy
+network changed: v6(*-:<*>) DNS- Proxy-
+ARPT: <*>: AQM agg results 0x8001 len hi/lo: 0x0 0x26 BAbitmap(0-3) <*> <*> <*> <*>
+Failed to read DnsConfig.
+AppleThunderboltNHIType2::waitForOk2Go2Sx - retries = <*>
+tcp_connection_destination_perform_socket_connect <*> connectx to <*>@0 failed: [*] Network is down
+hibernate_rebuild started
+INIT -- Host controller is <*>d
+dnssd_clientstub ConnectToServer: connect() failed path:<*> Socket:<*> Err:<*> Errno:<*> Operation not permitted
+PM response took <*> ms (*, powerd)
+KSOutOfProcessFetcher fetch ended for URL: "https://tools.google.com/service/update2?cup2hreq=37fbcb7ab6829be04567976e3212d7a67627aef11546f8b7013d4cffaf51f739&cup2key=7:4200177539"
+ARPT: <*>: wl0: MDNS: <*> SRV Recs, <*> TXT Recs
+ARPT: <*>: IOPMPowerSource Information: onWake,  SleepType: Normal Sleep,  'ExternalConnected': <*>, 'TimeRemaining': <*>,
+Scanning mode <*>
+Sandbox: com.apple.WebKit(<*>) deny(<*>) file-read-data /private/etc/hosts
+[AirPlayUIAgent] BecomingInactive: NSWorkspaceWillSleepNotification
+full wake request (reason <*>) <*> ms
+ARPT: <*>: wl0: wl_update_tcpkeep_seq: Original Seq: <*>, Ack: <*>, Win size: <*>
+kern_open_file_for_direct_io(*)
+ARPT: <*>: wl0: setup_keepalive: Remote IP: <*>
+PM response took <*> ms (<*>, <*>)
+BTLE scanner Powered Off
+[Adding [<*>; Sequence: <*>] to failed operations.]
+NETWORK: no response from server, reachability, <*>, queryRetries, <*>
+Failed to connect (*) outlet from (*) to (*): missing setter or instance variable
+[Account <*>@<*> timed out when executing operation: <*>
+[Account refresh failed with error: Error Domain=CoreDAVHTTPStatusErrorDomain Code=502 "(null)" UserInfo={AccountName=*, CalDAVErrFromRefresh=*, CoreDAVHTTPHeaders=<CFBasicHash 0x7fa11fe7a810 [0x7fff7abc1440]>{type = immutable dict, count = *, entries => * : Connection = <CFString 0x7fff7ab1aea0 [0x7fff7abc1440]>{contents = "keep-alive"} * : Content-Type = text/html * : Content-Length = * * : Server = nginx * : Date = <CFString 0x7fa11ac2ab80 [0x7fff7abc1440]>{contents = "Fri, 07 Jul 2017 05:32:43 GMT"} } }]
+Page bounds {{<*>}, {<*>}}
+CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data
+Sandbox: SpotlightNetHelp(<*>) deny(<*>) ipc-posix-shm-read-data CFPBS:<*>
+no application identifier provided, can't use provisioning profiles [pid=37563]
+tcp_connection_destination_handle_tls_close_notify <*> closing socket due to TLS CLOSE_NOTIFY alert
+CFNetwork SSLHandshake failed (<*>)
+Unable to simultaneously satisfy constraints: ( "<NSLayoutConstraint:0x7f8efb89e920 H:[NSImageView:0x7f8efb89d5d0(38)]>", "<NSLayoutConstraint:0x7f8efb89aac0 H:|-(14)-[NSImageView:0x7f8efb89d5d0]   (Names: PageItemCell:0x7f8efb898930, '|':PageItemCell:0x7f8efb898930 )>", "<NSLayoutConstraint:0x7f8f071a6c20 'NSView-Encapsulated-Layout-Width' H:[PageItemCell(73)]   (Names: PageItemCell:0x7f8efb898930 )>", "<NSLayoutConstraint:0x7f8efb89d8a0 H:[NSImageView:0x7f8efb89d5d0]-(10)-[NSTextField:0x7f8efb89d250]>", "<NSLayoutConstraint:0x7f8efb8980e0 H:[NSTextField:0x7f8efb89e7a0]-(14)-|   (Names: PageItemCell:0x7f8efb898930, '|':PageItemCell:0x7f8efb898930 )>", "<NSLayoutConstraint:0x7f8efb89ba20 H:[NSTextField:0x7f8efb89d250]-(>=NSSpace(8))-[NSTextField:0x7f8efb89e7a0]>" )
+Configuration Notice: ASL Module "<*>" sharing output destination "<*>" with ASL Module "<*>". Output parameters from ASL Module "<*>" override any specified in ASL Module "<*>".
+Captive: [CNInfoNetworkActive:1748] <*>: SSID '<*>' making interface primary (cache indicates network not captive)
+(DiskStore.Normal:<*>) <*>
+GoogleSoftwareUpdateAgent[*]: [*] [*] [*] [*] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher start fetch from URL: "<*>"
+ARPT: <*>: IOPMPowerSource Information: onSleep,  SleepType: Normal Sleep,  'ExternalConnected': <*>, 'TimeRemaining': <*>,
+QQ(<*>) deny mach-lookup <*>
+AirPort: Link Up on <*>
+ARPT: <*>: wl0: setup_keepalive: Seq: <*>, Ack: <*>, Win size: <*>
+RTC: Maintenance 2017/7/7 <*>:<*>, sleep 2017/7/7 <*>:<*>
+DB Path: <*>
+Could not get event name for stream/token: <*>: <*>: Request for stale data
+KSHelperTool read <*> bytes from stdin.
+GoogleSoftwareUpdateAgent[*]: <*> [*] GoogleSoftwareUpdateAgent[*/*] [*] -[* performAction] KSUpdateCheckAction starting update check for ticket(s): {( <*> productID=com.google.Chrome version=59.0.3071.115 xc=<*> path=*> serverType=Omaha url=*> creationDate=*> tagPath=*> tagKey=KSChannelID brandPath=*> brandKey=KSBrandID versionPath=*> versionKey=KSVersion cohort=*> cohortName=Stable ticketVersion=1 > )} Using server: <KSOmahaServer:0x*> engine=<KSUpdateEngine:0x*> >
+Error in CoreDragRemoveTrackingHandler: <*>
+[FigAgglomeratorSetObjectForKey signalled err=<*> (kFigStringConformerError_ParamErr) (<*>) at <*>
+Location icon should now be in state 'Active'
+IOPMPowerSource Information: onWake,  SleepType: Normal Sleep,  'ExternalConnected': <*>, 'TimeRemaining': <*>,
+<IMMacNotificationCenterManager: <*>>:    NC Disabled: <*>>
+ARPT: <*>: ARPT: Wake Reason: Wake on Scan offload
+IO80211AWDLPeerManager::setAwdlAutoMode Resuming AWDL
+CCIOReporterFormatter::addRegistryChildToChannelDictionary streams <*>
+Will write to: <*> - AuthFail:sts:<*>_rsn:<*>.xml
+TBT W (*): 0x0040 [*]
+network changed: v4(en0+:<*> v6(en0:<*>) DNS! Proxy SMB
+ARPT: <*>: AQM agg params <*> maxlen hi/lo <*> <*> minlen <*> adjlen <*>
+ARPT: <*>: framerdy <*> bmccmd <*> framecnt <*>
+CCFile::captureLog
+-[NETClientConnection effectiveBundleID] using process name <*> as bundle ID (this is expected for daemons without bundle ID
+AppleThunderboltNHIType2::prePCIWake - power up complete - took <*> us
+SecOSStatusWith error:[-50] Error Domain=NSOSStatusErrorDomain Code=-50 "query missing class name" (paramErr: error in user parameter list) UserInfo={NSDescription=query missing class name}
+Service "<*>" tried to hijack endpoint "<*>" from owner: <*>
+ARPT: <*>::platformWoWEnable: WWEN[*]
+com.apple.Addres(<*>) deny network-outbound <*>
+AirPort: Link Down on <*>. Reason <*> (Unspecified).
+ASL Sender Statistics
+Unable to start NetBIOS name service:
+en0: BSSID changed to <*>:<*>
+The Internet connection appears to be offline.
+Received Capture Event
+-[NETClientConnection effectiveBundleID] using process name <*> as bundle ID (this is expected for daemons without bundle ID
+############################## _getSysMsgList
+CGXDisplayDidWakeNotification [*]: posting kCGSDisplayDidWake
+Session <*> destroyed
+[<<<< Boss >>>> figPlaybackBossPrerollCompleted: unexpected preroll-complete notification]
+Sandbox: QuickLookSatelli(<*>) deny(<*>) mach-lookup <*>
+nw_path_evaluator_start_helper_connection net_helper_path_evaluation_start failed, dumping backtrace: [*] libnetcore-[*] [*]   libsystem_network.dylib             [*] __nw_create_backtrace_string + [*] [*]   libsystem_network.dylib             [*] nw_path_evaluator_start_helper_connection + [*] [*]   libdispatch.dylib                   [*] _dispatch_call_block_and_release + [*] [*]   libdispatch.dylib                   [*] _dispatch_client_callout + [*] [*]   libdispatch.dylib                   [*] _dispatch_queue_drain + [*] [*]   libdispatch.dylib                   [*] _dispatch_queue_invoke + [*] [*]   libdispatch.dylib                   [*] _dispatch_root_queue_drain + [*] [*]   libdispatch.dylib                   [*] _dispatch_worker_thread3 + [*] [*]   libsystem_pthread.dylib             [*] _pthread_wqthread + [*] [*]   libsystem_pthread.dylib             [*] start_wqthread + [*]
+CoreAnimation: warning, deleted thread with uncommitted CATransaction; set CA_DEBUG_TRANSACTIONS=1 in environment to log backtraces.
+RTC: PowerByCalendarDate setting ignored
+Sandbox: com.apple.Addres(<*>) deny(<*>) network-outbound <*>
+en0: channel changed to <*>
+[HID] [ATC] AppleDeviceManagementHIDEventService::processWakeReason Wake reason: Host (<*>)
+Saw change in network reachability (isReachable=*)
+IO80211AWDLPeerManager::setAwdlSuspendedMode() Suspending AWDL, enterQuietMode(<*>)
+Type not found in EWSItemType for <*>
+ARPT: <*>: wl0: wl_update_tcpkeep_seq: Updated seq/ack/win from UserClient Seq <*>, Ack <*>, Win size <*>
+com.apple.CacheDelete.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for <*> seconds.  Ignoring.
+dnssd_clientstub ConnectToServer: connect()-> No of tries: <*>
+AppleCamIn::handleWakeEvent_gated
+full wake promotion (reason <*>) <*> ms
+Failed to composit image for descriptor <*>
+NETWORK: requery, *, *, *, *, *, items, fQueryRetries, *, fLastRetryTimestamp, *
+NSURLSession/NSURLConnection HTTP load failed (kCFStreamErrorDomainSSL, <*>)
+[QL] No sandbox token for request <*>, it will probably fail
+schedule invalidation <DYTransport <*>
+Thermal pressure state: <*> Memory pressure state: <*>
+KeychainGetICDPStatus: status: <*>
+Error returned from iconservicesagent: (<*>)
+mv_LowLevelCheckIfVideoPlayableUsingDecoder signalled err=(kFigMediaValidatorError_VideoCodecNotSupported) (video codec *) at line *
+mv_LookupCodecSupport: Unrecognized codec <*>
+mv_ValidateRFC4281CodecId: Unrecognized codec <*>.(<*>). Failed codec specific check.
+CoreAnimation: timed out fence <*>
+tcp_connection_tls_session_error_callback_imp <*> __tcp_connection_tls_session_callback_write_block_invoke.434 error <*>
+KeychainGetICDPStatus: keychain: <*>
+Failed to connect (view) outlet from (NSApplication) to (NSColorPickerGridView): missing setter or instance variable
+close video chat. llFriendUIN = <*>.
+IOPMrootDomain: idle cancel, state <*>
+timed out after <*>s (0 0); mMajorChangePending=*
+ARPT: <*>::powerChange: System Wake - Full Wake/ Dark Wake / Maintenance wake
+BTLE scanner Powered On
+ARPT: <*>: wl0: setup_keepalive: interval <*>, retry_interval <*>, retry_count <*>
+ARPT: <*>: wl0: setup_keepalive: Local port: <*>, Remote port: <*>
+ARPT: <*>: IOPMPowerSource Information: onSleep,  SleepType: Normal Sleep,  'ExternalConnected': <*>, 'TimeRemaining': <*>,
+-[NETClientConnection evaluateCrazyIvan46] CI46 - Perform CrazyIvan46! QQ.10018 tc25805 <*>:<*>
+__73-[NetworkAnalyticsEngine observeValueForKeyPath:ofObject:change:context:]_block_invoke unexpected switch value <*>
+AirPort_Brcm43xx::platformWoWEnable: WWEN[<*>]
+AppleThunderboltNHIType2::waitForOk2Go2Sx - intel_rp = <*> dlla_reporting_supported = <*>
+mDNS_RegisterInterface: Frequent transitions for interface <*>
+ARPT: <*>: wlc_dump_aggfifo:
+CCFile::captureLogRun() Exiting CCFile::captureLogRun
+CCIOReporterFormatter::refreshSubscriptionsFromStreamRegistry clearing out any previous subscriptions
+Previous sleep cause: <*>
+en0: Supported channels <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>
+nw_nat64_post_new_ifstate successfully changed NAT64 ifstate from <*> to <*>
+CCFile::captureLog Received Capture notice id: <*>, reason = AuthFail:sts:<*>_rsn:<*>
+Skipping current file Dir file [*]-AirPortBrcm4360_Logs-004.txt, Current File [*]-AirPortBrcm4360_Logs-004.txt
+did discard act <*> inact <*> purgeable <*> spec <*> cleaned <*>
+en0::IO80211Interface::postMessage bssid changed
+CCDataTap::profileRemoved, Owner: *, Name: AssociationEventHistory
+ARPT: <*>: wl0: Roamed or switched channel, reason #<*>, bssid <*>, last RSSI <*>
+DB Error: <*> "no such table: tb_c2cMsg_<*>"
+AirPort: Link Down on en0. Reason <*> (Disassociated because station leaving).
+IOThunderboltSwitch<*>::listenerCallback - Thunderbolt HPD packet for route = <*> port = <*> unplug = <*>
+**** [*][*] -- Completed (matched on Device) -- 0x*
+Hashing of the primary key failed. Dropping the journal record.
+sigio_handler: sigio_handler_active != <*>
+Wake reason: ARPT (Network)
+Host controller terminated
+[HID] [MT] AppleActuatorHIDEventDriver::* entered
+Captive: CNPluginHandler <*>: Evaluating
+hibernate_setup(<*>) took <*> ms
+in6_unlink_ifa: IPv6 address <*> has no prefix
+__[NETClientConnection evaluate*]_block_invoke CI46 - Hit by torpedo! QQ.10018 tc25995 <*>:443
+Setting BTCoex Config: enable_2G:<*>, profile_2g:<*>, enable_5G:<*>, profile_5G:<*>
+button report: 0x<*>
+FA||Url||taskID[*] dealloc
+Captive: CNPluginHandler <*>: Inactive
+IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from SUSPENDED to AUTO
+**** [IOBluetoothHostControllerUSBTransport][start] -- completed -- result = TRUE -- 0x2800 ****
+tcp_connection_handle_connect_conditions_bad <*> failed: <*> - No network route
+ARPT: <*>: AirPort_Brcm43xx::syncPowerState: WWEN[*]
+hibernate_machine_init reading
+AppleThunderboltGenericHAL::earlyWake - complete - took <*> milliseconds
+[BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+setting hostname to "<*>"
+hibernate image path: <*>
+efi pagecount <*>
+hibernate_teardown_pmap_structs done: last_valid_compact_indx <*>
+Unrecognized XSSimpleTypeDefinition: <*>
+vm_compressor_fastwake_warmup completed - took <*> msecs
+CCFile::captureLog Received Capture notice id: <*>, reason = AssocFail:sts:<*>_rsn:<*>
+CCFile::copyFile fileName is [*], source path:*, dest path:*
+Captive: CNPluginHandler <*>: Authenticated
+<*> WeChat[*]: <*>
+[Accounts] Current connection, <*> connection from pid <*>, doesn't have account access.
+securityd_xpc_dictionary_handler cloudd copy_matching Error Domain=NSOSStatusErrorDomain Code=-50 "query missing class name" (paramErr: error in user parameter list) UserInfo={NSDescription=query missing class name}
+send_datagram_available_ping: pid <*> failed to act on a ping it dequeued before timing out.
+Unable to simultaneously satisfy constraints: ( "<NSAutoresizingMaskLayoutConstraint:0x7f9d574e5370 h=-&- v=-&- V:[NSScrollView:0x7f9d64abe480]-(11)-|   (Names: '|':NSView:0x7f9d6a9cc340 )>", "<NSAutoresizingMaskLayoutConstraint:0x7f9d7561a270 h=-&- v=-&- V:|-(45)-[NSScrollView:0x7f9d64abe480]   (Names: '|':NSView:0x7f9d6a9cc340 )>", "<NSAutoresizingMaskLayoutConstraint:0x7f9d6aa2cf10 h=-&- v=--& V:[NSView:0x7f9d53160e30(0)]>", "<NSAutoresizingMaskLayoutConstraint:0x7f9d75652870 h=-&- v=-&- V:|-(0)-[NSView:0x7f9d6a9cc340]   (Names: '|':NSView:0x7f9d53160e30 )>", "<NSAutoresizingMaskLayoutConstraint:0x7f9d77ef8f50 h=-&- v=-&- V:[NSView:0x7f9d6a9cc340]-(0)-|   (Names: '|':NSView:0x7f9d53160e30 )>" )  Will attempt to recover by breaking constraint <NSAutoresizingMaskLayoutConstraint:0x7f9d7561a270 h=-&- v=-&- V:|-(45)-[NSScrollView:0x7f9d64abe480]   (Names: '|':NSView:0x7f9d6a9cc340 )>
+Path not allowed in target domain: type = <*>, path = <*>, error = <*>, origin = <*>
+Keystone finished: errors=0
+About to run checks for any other apps.
+ARPT: <*>: wl0: leaveModulePoweredForOffloads: Wi-Fi will stay on.
+Arranged view frame: {{*, *}, {*, *}}
+[Refusing to parse response to PROPPATCH because of content-type: [*].]
+IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from <*> to <*>
+CCProfileMonitor::setStreamEventHandler
+Location icon should now be in state 'Inactive'
+Telling CSI to go low power.
+ARPT: <*>: AirPort_Brcm43xx::powerChange: System Sleep
+-[UABestAppSuggestionManager notifyBestAppChanged:type:options:bundleIdentifier:activityType:dynamicIdentifier:when:confidence:deviceName:deviceIdentifier:deviceType:] (null) UASuggestedActionType=0 (null)/(null) opts=(null) when=2017-07-08 14:29:50 +0000 confidence=1 from=(null)/(null)
+SOSAccountThisDeviceCanSyncWithCircle sync with device failure: Error Domain=com.apple.security.sos.error Code=1035 "Account identity not set" UserInfo={NSDescription=Account identity not set}
+Bluetooth -- LE is supported - Disable LE meta event
+ARPT: <*>: wl0: MDNS: IPV6 Addr: <*>
+USBMSC Identifier (non-unique): <*> 0x<*> 0x<*> 0x<*>, <*>
+AppleCamIn::systemWakeCall - messageType = <*>
+Wake reason: RTC (Alarm)
+AppleCamIn::wakeEventHandlerThread
+<*>|<*>|<*>|isScreenOn <*>>
+screen status unknown,think screen <*>
+flushTempCacheToDB by stand
+Alarm uploadStaticsToDB totalSteps=<*>Calories:<*>Floor:<*>Distance:<*>
+writeDataToDB size <*>
+upLoadOneMinuteDataToEngine time=*,*,*,*,*
+saveHealthDetailData() saveOneDetailData fail hiHealthData = <*>,type = <*>
+saveStatData() type = <*>,time = <*>,statClient = <*>,who is <*>
+insertHiHealthData() bulkSaveDetailHiHealthData fail errorCode = <*>,errorMessage = <*>
+uploadStaticsToDB() onResult  type = <*> obj=*
+uploadStaticsToDB failed message=*
+getAppContext() isAppValid health or wear, packageName = <*>
+getBinderPackageName packageName = <*>
+insertHiHealthData() checkAppType <*> appID = <*>
+insertHiHealthData() size = <*>,app = <*>,One Data Type = <*>,packageName = <*>,writeStatType = <*>
+saveHealthDetailData() deviceID = <*>,clientID=*,id=*
+bulkSaveDetailHiHealthData() size = <*>,totalTime = <*>
+new date =<*> type=<*>,<*>,old=
+saveRealTimeHealthDatasStat() size = <*>,totalTime = <*>
+HiH_ListenerManager|30002312|startListenerChange subscribeList = [*]
+insertHiHealthData() end totalTime = <*>
+InsertCallBack() onSuccess  type = <*> data=*
+InsertEvent success begin:<*> end:<*>
+setWriteDBLastDataMinute=25233979
+Step_SPUtils|<*>|setWriteDBLastDataMinute success
+<*>|<*>|<*>|flush2DB result success
+checkInsertStatus stepSum or calorieSum is enough
+checkInsertStatus stepStatSum or calorieStatSum is enough
+<*>|<*>|<*>|stepSyncOrNot appSynTimes is <*>, statsyncTimes is <*>
+startInsertSportSync start auto sync,app is <*>
+checkFirstSyncByType no such data in db ,type is <*> deviceCode is <*>
+startInsertSportSync first <*> steps sync,do all sync
+getTodaySportData mStepsRecordManager=*
+timeStamp back,extendReportTimeStamp=1514042265000
+onReceive action: android.intent.action.SCREEN_ON
+processHandleBroadcastAction action:<*>
+flush sensor data
+theDayChanged <*> <*>|Step_StandStepDataManager|<*>|theDayChanged <*>
+<*>|Step_StandStepDataManager|<*>|<*>>
+<*>|<*>|<*>|<*>
+getStepCounterStatus= <*>
+reStartStepCounter
+Step_StandStepCounter|<*>|registersensorsuccess: <*>
+Step_DataCache|30002312|clear()
+tryToRecordAsBasicStepData bWrite true
+setBasicStandardSteps basicStandardStep=3786 restartSteps=0
+setDiffTotalSteps=0
+getTodayBasicStandardSteps= <*>##<*>##<*
+getDiffTotalSteps= <*>
+<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<*>|<
+Step_StandStepDataManager|<*>|reload : <*> restar <*>
+REPORT : <*> <*> <*> <*>
+<*>|<*>|<*>|next day:steps<*>mLastReport<*>>
+setGoalNotifiShownRecord <*> false
+closeNotification...
+<*>|Step_NotificationUtil|<*>|deleteHealthNotification()
+onStandStepChanged <*>
+onExtend:<*> <*> <*> <*>
+getTodayTotalDetailSteps = <*>##*##*##*##*##*
+setTodayTotalDetailSteps=1514046420000##0##549659##8661##16256##35149773
+calculateCaloriesWithCache totalCalories=*
+calculateAltitudeWithCache totalAltitude=*
+onReceive action: android.intent.action.SCREEN_OFF
+<*>|<*>|<*>|startTimer start autoSync
+startSync hiSyncOption = HiSyncOption{syncAction=*, syncMethod=*, syncScope=*, syncDataType=*, syncModel=*, pushAction=*},app = * who = *
+checkCurrentDay a new day comes , reset basicSyncCondition, currentDay is <*> oldDay is <*>
+<*>|<*>|<*>|stepSyncOrNot appSynTimes is <*>
+needAutoSync autoSyncSwitch is open
+initDataPrivacy the dataPrivacy switch is open, start push health data!
+initDataPrivacy the dataPrivacy is <*>
+initUserPrivacy the userPrivacy switch is open, start push user data!
+initUserPrivacy the userPrivacy is true
+ifCanSync not! no cloud version
+<*>|<*>|<*>|<*>|
+processHandleBroadcastAction action:android.intent.action.TIME_TICK
+error: Received disconnect from <*>: <*>: com.jcraft.jsch.JSchException: Auth fail [*]
+Failed password for root from <*> port <*> ssh2
+PAM <*> more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=106.5.5.195  user=root
+PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.190.58.151
+Received disconnect from <*>: <*>: Closed due to user request. [*]
+reverse mapping checking getaddrinfo for <*> [<*>] failed - POSSIBLE BREAK-IN ATTEMPT!
+Accepted password for <*> from <*> port <*> ssh2
+pam_unix(sshd:session): session opened for user <*> by (uid=*)
+Received disconnect from <*>:<*>: disconnected by user
+pam_unix(sshd:session): session closed for user <*>
+Failed none for invalid user <*> from <*> port <*> ssh2
+Did not receive identification string from <*>
+Disconnecting: Too many authentication failures for admin [*]
+PAM <*> more authentication failures; logname= uid= <*> euid= <*> tty=ssh ruser= rhost=119.4.203.64
+PAM service(sshd) ignoring max retries; <*> > <*>
+Connection closed by <*> [*]
+fatal: Write failed: Connection reset by peer [*]
+error: Received disconnect from <*>:<*>: No more user authentication methods available. [*]
+Invalid user <*> from <*>.*
+input_userauth_request: invalid user user [*]
+pam_unix(sshd:auth): check pass; user <*>
+pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122
+Failed password for root from <*> port <*> ssh2
+Received disconnect from <*>: <*> Bye Bye [*]
+pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost= <*>  user=*
+Failed password for invalid user <*> from <*> port <*> ssh2
+Registered signal handlers for [*]
+Changing view access control lists (acls) for security manager to include users <*>,<*>.
+Changing modify acls to: <*>,<*>
+SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(*, *); users with modify permissions: Set(*, *)
+Slf4jLogger started
+Starting remoting
+Remoting started; listening on addresses :[akka.tcp://sparkExecutorActorSystem@mesos-slave-07:<*>]
+Successfully started service <*> on port <*>
+Created local directory at <*>/blockmgr-<*>-<*>-<*>-<*>
+MemoryStore started with capacity <*> GB
+Connecting to driver: spark://<*>:<*>
+Successfully registered with driver
+Starting executor ID <*> on host <*>
+Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port <*>.
+Server created on <*>
+Trying to register BlockManager
+Registered BlockManager
+Configuration.deprecation: mapred.tip.id is deprecated. Instead, use mapreduce.task.id
+Configuration.deprecation: mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id
+mapred.task.is.map is deprecated. Instead, use mapreduce.task.ismap
+Configuration.deprecation: mapred.job.id is deprecated. Instead, use mapreduce.job.id
+Configuration.deprecation: <*> is deprecated. Instead, use <*>
+File Output Committer Algorithm version is <*>
+Saved output of task 'attempt_<*>' to hdfs://<*>:<*>/<*>/_temporary/<*>/task_<*>
+attempt_<*>: Committed
+Partition rdd_<*>_<*> not found, computing it
+Input split: hdfs://<*>:<*>/pjhe/logs/2kSOSP.log:<*>+<*>
+Started reading broadcast variable <*>
+Block broadcast_40_piece0 stored as bytes in memory (estimated size <*> KB, free <*> KB)
+Reading broadcast variable <*> took <*> ms
+Block broadcast_40 stored as values in memory (estimated size <*> KB, free <*> KB)
+Times: total = <*>, boot = <*>, init = <*>, finish = <*>
+Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
+Got assigned task <*>
+Running task <*> in stage <*> (TID <*>)
+Found block rdd_<*> locally
+Starting thread to transfer block <*> to <*>:<*>
+Got exception while serving blk_* to <*>
+Served block blk_* to /*
+BLOCK* ask <*>:<*> to replicate blk_* to datanode(s) <*>:<*>
+Received block blk_<*> src: /<*>:<*> dest: /<*>:<*> of size <*>
+BLOCK* NameSystem.delete: <*> is added to invalidSet of <*>:<*>
+BLOCK* ask <*>:<*> to delete <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>
+Verification succeeded for blk_<*>
+Deleting block blk_* file <*>
+BLOCK* NameSystem.allocateBlock: /user/root/randtxt9/_temporary/_task_200811101024_0016_m_000347_0/part-00347. blk_<*>
+BLOCK* NameSystem.addStoredBlock: blockMap updated: <*>:<*> is added to <*> size <*>
+Received block blk_* of size <*> from /*
+PacketResponder <*> for block blk_<*><*><*><*><*><*><*><*> terminating
+Receiving block blk_<*> src: /<*>:<*> dest: /<*>:<*>
+Running instance usage audit for host <*> from <*> to <*>. <*> instances.
+Successfully synced instances from host '<*>'.
+While synchronizing instance power states, found <*> instances in the database and <*> instances on the hypervisor.
+The instance sync for host <*> did not match. Re-created its InstanceList.
+nova.virt.libvirt.driver [*] Deleting instance files /var/lib/nova/instances/<*>
+nova-compute.log.1.2017-05-16_13:55:31 2017-05-16 00:14:06.455 2931 INFO nova.virt.libvirt.driver [req-08d50ea8-a6d0-474a-aaea-560407ef2dec 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] [instance: <*>] Deletion of /var/lib/nova/instances/<*>_del complete
+nova.compute.manager [*] Took <*> seconds to destroy the instance on the hypervisor.
+nova-compute.log.1.<*> <*> <*> INFO nova.compute.manager [req-<*> <*> <*> <*> <*> <*> <*>] [instance: <*>] Took <*> seconds to deallocate network for instance.
+HTTP exception thrown: No instances found for any event
+Base or swap file too young to remove: <*>: <*>: <*> <*> <*> <*> <*> <*> <*> <*> <*>: <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>
+Unknown base file: <*>
+Removable base files: <*>:<*>
+Removing base or swap file: <*>/instances/_base/<*>
+nova.compute.claims [*] [*] [*] [instance: *] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU
+nova.compute.claims [req-* * * * * *] [instance: *] Total memory: <*> MB, used: <*> MB
+nova.compute.claims [*] [*] [*] [*] [*] [*] [instance: *] memory limit: <*> MB, free: <*> MB
+nova.compute.claims [req-* * * * * * *] [instance: <*>] Total disk: <*> GB, used: <*> GB
+nova.compute.claims [*] disk limit not specified, defaulting to unlimited
+nova.compute.claims [*] [*] [instance: *] Total vcpu: <*> VCPU, used: <*> VCPU
+vcpu limit not specified, defaulting to unlimited
+nova-compute.log.1.<*> <*> <*> INFO nova.compute.claims [req-<*> <*> <*> <*> <*> <*>] [instance: <*>] Claim successful
+nova.virt.libvirt.driver [*] Creating image
+VM Stopped (Lifecycle Event)
+Auditing locally available compute resources for node <*>
+nova.compute.resource_tracker [req-* - - - - -] Total usable vcpus: *, total allocated vcpus: *
+Final resource view: name= <*> phys_ram= <*>MB used_ram= <*>MB phys_disk= <*>GB used_disk= <*>GB total_vcpus= <*> used_vcpus= <*> pci_stats=[]
+Compute_service record updated for <*>:<*>
+nova.compute.manager [*] [instance: <*>] VM Started (Lifecycle Event)
+nova.compute.manager [*] [instance: *] VM Paused (Lifecycle Event)
+Creating event network-vif-plugged:<*> for instance <*>
+nova-api.log.1.<*>_<*>:53:08 <*> <*> <*> nova.osapi_compute.wsgi.server [req-<*>-<*> <*> <*> <*> <*> <*>] <*> "<*> /v2/<*>/<*> HTTP/1.1" status: <*> len: <*> time: <*>
+nova-compute.log.1.<*>_<*>:<> <> <> INFO nova.virt.libvirt.driver [-] [instance: <*>] Instance spawned successfully.
+nova.compute.manager [*] Took <*> seconds to spawn the instance on the hypervisor.
+nova.compute.manager [*] [instance: <*>] During sync_power_state the instance has a pending task (spawning). Skip.
+nova.compute.manager [*] [instance: *] VM Resumed (Lifecycle Event)
+nova-compute.log.1.<*> <*> <*> INFO nova.compute.manager [req-<*> <*> <*> <*> <*> <*>] [instance: <*>] Took <*> seconds to build instance.
+image <*> at (<*>)
+image <*> at (<*>): in use: on this node <*> local, <*> on other nodes sharing this instance storage
+Active base files: /var/lib/nova/instances/_base/<*>
+nova-api.log.1.<*> <*> <*> INFO nova.osapi_compute.wsgi.server [req-<*> <*> <*> <*> <*> <*> <*>] <*> "DELETE /v2/<*>/servers/<*>" status: <*> len: <*> time: <*>
+Terminating instance
+nova.virt.libvirt.driver [-] [instance: <*>] Instance destroyed successfully.
+nova-api.log.1.<*>_<*> <*> nova.osapi_compute.wsgi.server [req-<*>-<*> <*> <*> <*> <*>] <*> "GET /v2/<*>/<*>/servers/detail HTTP/1.1" status: <*> len: <*> time: <*>
+(root) CMD (run-parts /etc/cron.hourly)
+START: tftp pid=<*> from=10.100.4.251
+DHCPACK on <*> to <*> via <*>
+DHCPDISCOVER from <*> via <*>
+DHCPOFFER on <*> to <*> via <*>
+DHCPREQUEST for <*> (10.100.0.250) from <*> via <*>
+DHCPDISCOVER from <*> via <*>: network <*>: no free leases
+DHCPREQUEST for <*> (<*>) from <*> via <*>: unknown lease <*>
+kernel time sync disabled <*> <*>:04:25 local@tbird-admin1 ntpd[*]: kernel time sync disabled <*>
+time reset +<*> s
+Received SNMP packet(s) from <*>
+kernel time sync enabled <*>0001
+session opened for user root by (uid=0)
+(root) CMD (/projects/tbird/temps/get_temps e)
+My unqualified host name (<*>) unknown; sleeping for retry
+User ID: <*> (Kernel Module GPG key)
+ACPI: (supports S0 S4 S5)
+ACPI: HPET id: <*> base: <*>
+ACPI: INT_SRC_OVR (bus <*> bus_irq <*> global_irq <*>)
+ACPI: INT_SRC_OVR (bus <*> bus_irq <*> global_irq <*> high level)
+ACPI: IOAPIC (id[*] address[*] gsi_base[*])
+ACPI: IRQ9 used by override.
+ACPI: Interpreter enabled
+ACPI: LAPIC (acpi_id[*] lapic_id[*] enabled)
+ACPI: LAPIC_NMI (acpi_id[*] high edge lint[*])
+ACPI: Local APIC address <*>
+ACPI: PCI Interrupt Link [LNKB] (IRQs <*> <*> <*> <*> <*> <*> <*> <*>)
+ACPI: PCI Interrupt Link [LNKC] (IRQs <*> <*> <*> <*> <*> <*> <*> <*> <*>) <*>
+ACPI: PCI Interrupt Link [LNKH] (IRQs <*> <*> <*> <*> <*> <*> <*> <*>), disabled.
+ACPI: PCI Interrupt Routing Table [*.*.*]
+ACPI: PCI Root Bridge [*] (*:*)
+ACPI: PCI interrupt <*>[*] -> GSI <*> (level, low) -> IRQ <*>
+ACPI: Power Button (<*>) [*]
+ACPI: Processor [*] (supports C1)
+ACPI: RSDP (v000 DELL ) @ 0x00000000000fd650
+ACPI: SPCR (v001 DELL PE BKC 0x<*> MSFT 0x<*>) @ 0x<*>000000<*>
+ACPI: Subsystem revision <*>
+ACPI: Using IOAPIC for interrupt routing
+CPU0: Intel(R) Xeon(TM) CPU <*> stepping <*>
+CPU: L2 cache: <*>K
+CPU: Physical Processor ID: <*>
+CPU: Trace cache: <*>, L1 D cache: <*> uops
+Console: colour <*>+ <*>
+mounted filesystem with ordered data mode.
+IA32 emulation $Id: sys_ia32.c,v <*> <*> ak Exp $
+IOAPIC[<*>]: apic_id <*>, version <*>, address <*>, GSI <*>-<*>
+IP: routing cache hash table of <*> buckets, <*>Kbytes
+Intel E7520/7320/7525 detected.
+Kernel command line: root=LABEL=<*> initrd=<*> console=<*> console=<*>,<*> fastboot BOOT_IMAGE=<*>
+PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+PCI: Probing PCI hardware (bus <*>)
+PCI: Transparent bridge - <*>:00:<*>
+PCI: Using ACPI for IRQ routing
+PCI: Using MMCONFIG at <*>
+PCI: Using configuration type <*>
+RAMDISK: Compressed image found at block <*>
+SELinux: Disabled at runtime.
+SELinux: Initializing.
+- <*> <*> <*> <*> <*> SELinux: Registering netfilter hooks
+SELinux: Starting in permissive mode
+- <*> <*> <*> <*> <*>:<*> local@<*> SELinux: Unregistering netfilter hooks
+TCP: Hash tables configured (established <*> bind <*>)
+Type: Direct-Access ANSI SCSI revision: <*>
+- <*> 2005.11.09 tbird-admin1 Nov 9 12:10:43 local@tbird-admin1 Type: Processor ANSI SCSI revision: <*>
+VFS: Disk quotas <*>
+VFS: Mounted root (*)
+Vendor: <*> Model: LD <*> RAID1 <*> Rev: <*>
+Vendor: <*> Model: <*> Rev: <*>
+audit(*.*:*) initialized
+initializing netlink socket (<*>)
+checking TSC synchronization across <*> CPUs: passed.
+device-mapper: <*> (2003-12-10) initialised: <*>@#37#
+allocating divert_blk for eth1
+v2.0:USB HID core driver
+NIC Link is Up <*> Mbps Full Duplex
+e1000_probe: Intel(R) PRO/1000 Network Connection
+no floppy controllers found
+RNG not detected
+Wait for ready failed before probe !
+Assuming <*> system bus speed for PIO modes; override with idebus=xx
+ioctl32(fdisk:515): Unknown cmd fd(*) cmd(*)(*)(*{*}) arg(*)(*{*}) on /dev/sda
+ip_tables: (C) <*> Netfilter core team
+Installing public key data
+... autorun DONE.
+Autodetecting RAID arrays.
+autorun ...
+md driver <*> MAX_MD_DEVS=<*>, MD_SB_DISKS=
+megaraid: #39# (Release Date: Mon Sep 27 22:15:07 EDT 2004)
+fw version:[*] bios version:[*]
+probe new device 0x<*>:0x<*>:0x<*>:0x<*>: bus <*>:slot <*>:func <*>
+PS/2 mouse device common for all mice
+mtrr: v<*> (200<*>)
+rpc.statd startup succeeded
+portmap startup succeeded
+Starting ts_fixup: <*>
+rpc.statd[*]: Version <*> Starting
+scsi0 : LSI Logic MegaRAID driver
+scanning scsi channel <*> [Phy *] for non-raid devices
+scanning scsi channel <*> for logical drives
+asking for cache data failed
+assuming drive cache: write through
+sda: <*> <*> <*> <*>
+selinux_register_security: Registering secondary module capability
+serio: i8042 AUX port at 0x<*>,0x<*> irq <*>
+serio: i8042 KBD port at 0x*,0x* irq *
+syslog-ng startup succeeded
+syslog-ng version <*> starting
+Detected <*> MHz processor.
+Using <*> MHz HPET timer.
+Using HPET based timekeeping.
+Creating Topspin /dev entries:
+registered new driver <*>hiddev
+registered new driver hub
+registered new driver usbfs
+registered new driver usbhid
+probe of <*> failed with error <*>
+Mounting NFS filesystems: succeeded
+Mounting other filesystems: failed
+connection from "#*#"
+Warning: we failed to resolve data source name <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>
+Warning: we failed to resolve trusted host name <*> <*>
+gmetad startup succeeded
+Now running on <*>'s privileges.
+User <*>, coming from <*>, authenticated.
+NET: Registered protocol family <*>
+divert: not allocating divert_blk for non-ethernet device <*>
+Server listening on <*> port <*>
+error: Bind to port <*> on <*> failed: Address already in use.
+Cannot open file <*> for writing (No such file or directory)
+Changing permissions on special file <*>
+succeeded
+xinetd startup succeeded
+Reading included configuration file: <*> [file=*
+Started working: <*> available service
+removing <*>
+xinetd Version <*> started with <*> <*> <*> <*> <*> <*> in.
+RRD_update (<*>): illegal attempt to update using time <*> when last update time is <*> (minimum one second step)
+unable to qualify my own domain name (*) -- using short name
+session closed for user <*>
+from=*, size=*, class=*, nrcpts=*, msgid=*, relay=*@*
+Deferred: Connection refused by [*]
+Local disconnected: Connection closed.
+connection lost: 'Connection closed.'
+Device: /dev/sda, Temperature changed <*> Celsius to <*> Celsius since last report
+********************** NEW SWEEP ********************
+No topology change
+No configuration change required
+data_thread() got not answer from any [*] datasource
+synchronized to <*>, stratum <*>
